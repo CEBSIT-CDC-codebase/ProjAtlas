@@ -1,0 +1,21 @@
+ProjAtlas
+Copyright 2026 CEBSIT-CDC
+
+This product includes software developed by CEBSIT-CDC
+(Center for Excellence in Brain Science and Intelligence Technology,
+Chinese Academy of Sciences).
+
+This product includes software from the following third-party projects:
+
+- HippoRAG (MIT License)
+  https://github.com/OSU-NLP-Group/HippoRAG
+
+- LLaMA-Factory (Apache License 2.0)
+  https://github.com/hiyouga/LLaMA-Factory
+
+The fine-tuned function-calling model weights distributed alongside this
+repository are derived from Salesforce/Llama-xLAM-2-8b-fc-r and are licensed
+under CC-BY-NC-4.0, subject to the Meta Llama Community License, for
+non-commercial research use only. These weights are NOT covered by the
+Apache License 2.0 that applies to the source code in this repository.
+See the function-calling/ directory for details.
