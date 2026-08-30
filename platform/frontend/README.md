@@ -6,6 +6,25 @@ release supports **mouse** and **macaque** (code name `monkey`) species.
 > Note: the `fish` (zebrafish) environment and the mouse `rbm` / `trimodal`
 > sub-variants are **not** part of this public release.
 
+## Neuron Data
+
+This repository contains the frontend/backend **code** only — it does not include the
+SWC neuron morphology data itself, nor the gRPC-based streaming service (mentioned in the
+paper's Methods) that serves neuron/region data to the 3D viewport at runtime.
+
+By default, the interactive 3D viewport connects to the ProjAtlas platform's own public
+data service via `VUE_APP_NEUROVIZ` / `VUE_APP_NEUROVIZ_SRV` in `.env.<mode>` (see
+`.env.example`) — no separate data backend setup is required to browse the existing
+platform. That service is not part of this repository.
+
+If you want to work with the raw SWC data directly (e.g. for offline analysis or to build
+your own data service), the full mouse and macaque single-neuron projectome datasets
+(45,754 mouse + 2,231 macaque neurons, standard SWC format with metadata) are publicly
+available for download from the ProjAtlas web portals:
+
+- Mouse: https://mouse.digital-brain.cn/projectome/download
+- Macaque: https://macaque.digital-brain.cn/projectome/download
+
 ## Project setup
 
 ```bash

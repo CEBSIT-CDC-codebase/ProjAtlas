@@ -30,6 +30,12 @@ cp .env.example .env
 # Edit .env with your OpenAI-compatible endpoint, API key, and model names
 ```
 
+`FUNCTION_CALLING_MODEL` in `.env` points to the fine-tuned model used by the neuron
+selection and brain visualization agents. This model must be deployed separately (e.g.
+via vLLM) and reachable at the endpoint configured by `BASE_URL`/`API_KEY`. The model
+weights and deployment instructions are in
+[`../function-calling/README.md`](../function-calling/README.md#fine-tuned-model-weights).
+
 ## Data
 
 The paper interpretation agent's RAG knowledge base is built from:
