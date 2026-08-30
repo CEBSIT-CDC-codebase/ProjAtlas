@@ -13,8 +13,7 @@ and quantitative analysis through natural-language interaction.
 ProjAtlas/
 ├── platform/                  # ProjAtlas web platform
 │   ├── frontend/              # Web client (interactive 3D visualization, data querying)
-│   ├── backend/               # Backend services (user/session/message management, LLM assistant)
-│   └── neuroviz-client/       # 3D brain visualization engine (if released)
+│   └── backend/               # Backend services (user/session/message management, LLM assistant)
 ├── multi-agent-framework/     # Multi-agent framework (paper-interpretation, neuron-selection,
 │                               # brain-visualization, and textual-summarization agents)
 ├── rag-evaluation/            # RAG benchmark and evaluation (paper interpretation agent)
