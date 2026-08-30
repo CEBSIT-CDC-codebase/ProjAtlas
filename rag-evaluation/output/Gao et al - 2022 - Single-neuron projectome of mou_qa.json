@@ -1,0 +1,458 @@
+[
+  {
+    "question": "How many PFC projection neurons were reconstructed in this project?",
+    "answer": "6,357 neurons were reconstructed.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Using FNT, a total of 6,357 PFC projection neurons were reconstructed\""
+    ]
+  },
+  {
+    "question": "What is the total length of all reconstructed axons from these PFC neurons?",
+    "answer": "The total axon length is 783.27 meters.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The total length of all reconstructed axons is 783.27 m.\""
+    ]
+  },
+  {
+    "question": "How many computer programs does the Fast Neurite Tracer (FNT) software package include?",
+    "answer": "FNT includes 16 computer programs.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"We developed an integrated software package (FNT) that includes a total of 16 computer programs\""
+    ]
+  },
+  {
+    "question": "How many projectome subtypes were identified among the PFC projection neurons?",
+    "answer": "64 subtypes were identified: 44 intratelencephalic (IT), 12 pyramidal tract (PT), and 8 corticothalamic (CT).",
+    "type": "single-evidence",
+    "evidences": [
+      "\"we further classified IT, PT and CT neurons into a total of 64 subtypes (44 for IT, 12 for PT and 8 for CT)\""
+    ]
+  },
+  {
+    "question": "Which PFC subregions were included in the analysis?",
+    "answer": "The subregions are prelimbic (PL), infralimbic (ILA), frontal pole (FRP), orbito-frontal (ORB), dorsal and ventral agranular insular (AId/v), anterior cingulate (ACA), and secondary motor (MOs) areas.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Here, we considered PFC regions including prelimbic (PL), infralimbic (ILA), frontal pole (FRP), orbito-frontal (ORB), dorsal and ventral agranular insular (AId/v), anterior cingulate (ACA) and secondary motor (MOs) areas\""
+    ]
+  },
+  {
+    "question": "What are the three main classes of long-range projection neurons in the neocortex?",
+    "answer": "The three classes are intratelencephalic (IT), pyramidal tract (PT), and corticothalamic (CT) neurons.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"In the neocortex, long-range projection neurons are broadly divided into three classes: intratelencephalic (IT) neurons, pyramidal tract (PT) neurons and corticothalamic (CT) neurons\""
+    ]
+  },
+  {
+    "question": "How many transcriptome subtypes were identified from PFC projection neurons using scRNA-seq?",
+    "answer": "Nine transcriptome subtypes were identified.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"We identified nine transcriptome subtypes with their respective gene markers\""
+    ]
+  },
+  {
+    "question": "Which CT neuron subtype lacks projection to the mediodorsal thalamus (MD) and where does it project instead?",
+    "answer": "Subtype 46 lacks MD projection and instead projects to the submedial nucleus of the thalamus (SMT).",
+    "type": "single-evidence",
+    "evidences": [
+      "\"the CT neurons of subtype 46 located in ventro-lateral (ORBvl) and lateral orbito-frontal (ORBl) areas clearly lack MD projection but project to submedial nucleus of the thalamus (SMT) instead\""
+    ]
+  },
+  {
+    "question": "How many subdomains were identified in the striatum based on PFC IT neuron terminal arbors?",
+    "answer": "Nine striatal subdomains were identified.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"We found that these cubes can be clustered into nine striatal subdomains\""
+    ]
+  },
+  {
+    "question": "What algorithm was used to calculate the pairwise dissimilarity of axon morphology among PFC neurons?",
+    "answer": "FNT-dist, a dynamic programming algorithm.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"We next aligned the axons of all PFC projection neurons and calculated the pairwise dissimilarity score of their axon morphology using a rigorous dynamic programming algorithm, FNT-dist\""
+    ]
+  },
+  {
+    "question": "How do PFC IT neurons organize their projections to the four cortical subnetworks?",
+    "answer": "IT subtypes are organized into four groups, each preferentially projecting to one of the four subnetworks (prefrontal, lateral, central, medial). The first-order axon collaterals of IT neurons are sorted into four distinct clusters, each also targeting a specific subnetwork, enabling coordinated information routing across areas within that subnetwork.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"We found that all four subnetworks receive ipsilateral projections from PFC IT neurons, and projectome-defined IT subtypes could, thus, be organized into four groups, with group 1 IT subtypes projecting only within PFC, and group 2, 3, and 4 IT subtypes projecting also to lateral, central and medial subnetworks, respectively\"",
+      "\"We found that the first-order axon collaterals of all IT neurons in the ipsilateral cortex are sorted into four distinct clusters by FNT-dist algorithm, each preferentially projecting to one of the four subnetworks within the ipsilateral cortex\""
+    ]
+  },
+  {
+    "question": "What are the three major classes of projection neurons and how many of each were reconstructed in this dataset?",
+    "answer": "The three classes are intratelencephalic (IT), pyramidal tract (PT), and corticothalamic (CT) neurons. The dataset includes 3,744 IT, 1,528 PT, and 1,085 CT neurons.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Among all PFC neurons we analyzed, IT neurons are the most abundant (3,744) and can be divided into ipsilaterally projecting only (IT-ipsi) and contralaterally projecting (IT-contra) neurons, followed by PT (1,528) and CT neurons (1,085).\""
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "How was hierarchical organization within PFC established and what evidence supports it?",
+    "answer": "Hierarchical scores were assigned to 60 PFC units by classifying the laminar patterns of intra-PFC axon terminals as feed-forward (FF) or feed-back (FB) projections. The global hierarchical score was significantly higher than that of a randomly connected network, confirming genuine hierarchical ordering.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"We, thus, assigned the six patterns as FF and FB projections (three FF and three FB) accordingly and computed the hierarchical scores for each of the 60 PFC units\" \"we found that there was indeed a hierarchical ordering within PFC, because the global hierarchical score, defined as the measure of self-consistency of hierarchy across all PFC units, is significantly higher than that of randomly connected network\""
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "How does the soma location of PFC CT neurons relate to their thalamic projection targets?",
+    "answer": "The medio-lateral soma position in PFC is preserved in the primary axon tract and converts into an anterior-posterior order in the thalamus, which determines the distribution of terminal arbors. For instance, CT neurons in ORBm/vl project to anterior MD, while those in AId project to ventral MD.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The primary axons within the CT tract exhibited a medio-lateral order that preserved the soma location in the PFC, and this medio-lateral order turned into anterior-posterior order as the CT axon tract turned sharply before arriving at the thalamus.\""
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "What are the three intra-PFC connectivity modules and their functional associations?",
+    "answer": "Module 1 includes parts of MOs and AId and is involved in somatosensory, motor, and gustatory functions. Module 2 includes parts of ORBvl, ORBl, ACA, and posterior MOs and is involved in visual and auditory functions. Module 3 includes PL, IL, ORBm, and AIv and is involved in memory.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"module 1 included some units of anterior secondary motor cortex (MOs) and dorsal agranular insular cortex (AId); module 2 included some units of ORBvl, ORBl, ACA and posterior MOs; and module 3 included some units of PL, IL, ORBm and AIv\"",
+      "\"We found that module 1 is mainly involved in somatosensory, motor and gustatory function; module 2 is involved in visual and auditory function; and module 3 is involved in memory function\""
+    ]
+  },
+  {
+    "question": "How do transcriptome markers Nnat and Tpbg correspond to CT neuron projectome subtypes in PL/ORB?",
+    "answer": "Nnat and Tpbg are markers for CT transcriptome subtypes. In PL/ORB, MD-projecting CT subtypes (51 and 52) are predominantly Nnat+, while SMT-projecting subtypes (47 and 50) are predominantly Tpbg+.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Similarly, for CT neurons, we found that more MD-projecting (subtypes 51 and 52) CT neurons were Nnat+, whereas more SMT-projecting (subtypes 47 and 50) CT neurons were Tpbg+.\""
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "How do PFC IT neuron soma locations relate to their striatal projection targets?",
+    "answer": "IT subtypes located in different PFC subregions project to distinct striatal subdomains: AId neurons primarily project to ventro-lateral striatum, ORBm/ILA neurons to anterior striatum, and ACAd/ORBvl neurons to central striatum.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"IT neurons in AId preferentially project to STRvl, and those in ORBm and ILA preferentially project to STRa, whereas those in ACAd and ORBvl preferentially project to STRc\""
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "What is the relationship between the transcriptome marker Lypd1 and PT neuron projectome subtypes in PL/ORB?",
+    "answer": "Lypd1 marks a PT transcriptome subtype. In PL/ORB, PAG-projecting PT neurons (subtypes 57 and 62) contain a significantly higher proportion of Lypd1+ cells than PCG-projecting PT neurons (subtype 61).",
+    "type": "single-evidence",
+    "evidences": [
+      "\"For PT neurons, we found that PAG-projecting PT neurons (subtypes 57 and 62) contained a significantly higher proportion of Lypd1+ neurons than PCG-projecting PT neurons (subtype 61)\""
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "What is the temperature range for the housing conditions of the mice?",
+    "answer": "The mice were housed at 22 to 25 degrees Celsius.",
+    "type": "single-evidence",
+    "evidences": [
+      "Mice were raised under standard conditions (12-hour light/dark cycle, $22 - 25^{\\circ}\\mathrm{C}$ and $30 - 70\\%$ humidity) with access to food and water ad libitum."
+    ]
+  },
+  {
+    "question": "What was the median quality score of the 600 sampled traced neurons?",
+    "answer": "The median score was 94.",
+    "type": "single-evidence",
+    "evidences": [
+      "Among our traced neurons, we sampled 600 neurons for further evaluations by an independent team of tracers and found a median score of 94 for the tracing results of sampled neurons (Extended Data Fig. 1f)."
+    ]
+  },
+  {
+    "question": "How many neuron subtypes were identified based on the C-index?",
+    "answer": "64 neuron subtypes were chosen.",
+    "type": "single-evidence",
+    "evidences": [
+      "We chose 64 neuron subtypes where the C-index was a local minimum."
+    ]
+  },
+  {
+    "question": "What compression method was applied to the data cubes from fMOST imaging?",
+    "answer": "The data cubes were compressed using high-efficiency video coding (HEVC).",
+    "type": "single-evidence",
+    "evidences": [
+      "The data cubes were then compressed with the high-efficiency video coding (HEVC) method."
+    ]
+  },
+  {
+    "question": "What microsyringe pump was used for virus injections?",
+    "answer": "A MO-10 microsyringe pump from Narashige was used.",
+    "type": "single-evidence",
+    "evidences": [
+      "Injections were performed using a microsyringe pump (MO-10, Narashige, 13012)."
+    ]
+  },
+  {
+    "question": "How many units was the PFC divided into for unbiased analysis?",
+    "answer": "The PFC was divided into 60 units.",
+    "type": "single-evidence",
+    "evidences": [
+      "To unbiasedly divide PFC into a series of units $(n = 60)$, we first partitioned the surface of PFC into patches $(n = 60)$ with a similar area using a k-means style method."
+    ]
+  },
+  {
+    "question": "What was the inside diameter of the pipette tip used for virus injection?",
+    "answer": "The pipette tip had an inside diameter of 20 to 25 micrometers.",
+    "type": "single-evidence",
+    "evidences": [
+      "Virus was injected by using a pulled-glass pipette of $20\\sim 25 - \\mu \\mathrm{m}$ inside diameter at the tip."
+    ]
+  },
+  {
+    "question": "What software was used for manual segmentation of brain regions during image registration?",
+    "answer": "ITK-SNAP was used.",
+    "type": "single-evidence",
+    "evidences": [
+      "We then manually segmented isocortex, hippocampal region, dorsal striatum, thalamus and hypothalamus in our data image using ITK-SNAP<sup>47</sup>."
+    ]
+  },
+  {
+    "question": "How many non-PFC cortical regions were included in the bulk tracing analysis?",
+    "answer": "Seven cortical regions were included.",
+    "type": "single-evidence",
+    "evidences": [
+      "We downloaded 14 bulk tracing experiments (resolution: $100\\mu \\mathrm{m}$ ) from the Allen Mouse Brain Connectivity Atlas ( with injection sites in seven cortical regions: MOp, SSp, SSs, VISC, ENT, AUD and VIS."
+    ]
+  },
+  {
+    "question": "How many clusters were identified in the integrated scRNA-seq analysis and how many were assigned to cortical neuron types?",
+    "answer": "27 clusters were identified, and 9 of them were manually assigned to neuron types such as L2/3 IT, L5/6 IT, PT, and CT.",
+    "type": "single-evidence",
+    "evidences": [
+      "Finally, 27 clusters were identified, and nine of them were manually assigned as L2/3 IT ( $Penk^{+}$ and $Lypd1^{+}$ ), L5/6 IT ( $Rorb^{+}$ , $Deptor^{+}$ and $Nnat^{+}$ ), PT ( $Npnt^{+}$ and $Lypd1^{+}$ ) and CT ( $Tpbg^{+}$ and $Nnat^{+}$ ) neurons according to the expression of specific markers (Fig. 7a)."
+    ]
+  },
+  {
+    "question": "How does the FNT software ensure correct tracing in real time and what additional validation step is performed after tracing?",
+    "answer": "During real-time tracing, users confirm each step to ensure correctness; afterwards, each neuron is independently traced by two human tracers to validate the result.",
+    "type": "multi-evidence",
+    "evidences": [
+      "In FNT, users' confirmation at each step ensures the correctness of tracing.",
+      "To ensure the validity of tracing result, every neuron was traced by two independent human tracers."
+    ]
+  },
+  {
+    "question": "What is the typical size of a raw EGFP image and how does FNT make this data manageable on a personal computer?",
+    "answer": "A typical EGFP channel consists of about 10,000 images of 30,000 × 20,000 pixels; FNT uses a program called slice2cube to split the data into smaller three-dimensional (3D) cubes that can be loaded into memory.",
+    "type": "multi-evidence",
+    "evidences": [
+      "A typical EGFP channel consists of around 10,000 16-bit images in TIFF format of $30,000 \\times 20,000$ pixels in size.",
+      "In brief, to allow data loading into the memory of a personal computer, original image data are split to smaller three-dimensional (3D) data cubes by a program called 'slice2cube' in FNT."
+    ]
+  },
+  {
+    "question": "What volume of virus mixture was injected for sparse labeling and what volume was injected in the anterograde tracing experiment?",
+    "answer": "For sparse labeling, 20 to 50 nanoliters of virus mixture were injected per site; for anterograde tracing, approximately 60 nanoliters were injected over 10 minutes.",
+    "type": "multi-evidence",
+    "evidences": [
+      "For each injection site, $20 - 50\\mathrm{nl}$ of virus mixture was injected.",
+      "We injected AAV2/9-hSyn-EGFP-WPRE-pA (titer: $\\sim 10^{13}$ genomes per milliliter; Shanghai Taitool Bioscience) into L2/3 of orbital area, ventrolateral part (ORBvl) and AAV2/9-hSyn-mCherry-WPRE-pA (titer: $\\sim 10^{13}$ genomes per milliliter; Shanghai Taitool Bioscience) into L2/3 of anterior cingulate area (ACA) slowly ( $\\sim 60\\mathrm{nl}$ over $\\sim 10$ minutes)."
+    ]
+  },
+  {
+    "question": "What clustering method was used to identify neuron subtypes and what algorithm was used to find modules in the intra-PFC connectivity network?",
+    "answer": "Neuron subtypes were identified using hierarchical clustering with Ward's linkage; intra-PFC modules were found with the Louvain algorithm.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Then, hierarchical clustering using Ward's linkage was applied to the dissimilarity matrix to identify neuron subtypes.",
+      "To investigate the modular structure of connectivity, we used the Louvain algorithm from the Brain Connectivity Toolbox ( $^{46,58}$."
+    ]
+  },
+  {
+    "question": "How are PFC input-based striatal subdomains defined and which cortical areas outside PFC were analyzed for their projections to these subdomains?",
+    "answer": "Striatal subdomains are defined by unsupervised hierarchical clustering of cubes that receive similar PFC inputs; the non-PFC areas analyzed include MOp, SSp, SSs, VISC, ENT, AUD, and VIS.",
+    "type": "multi-evidence",
+    "evidences": [
+      "After obtaining the projection matrix, we conducted unsupervised hierarchical clustering, using Spearman's rank correlation coefficient as distance measure and Ward's linkage to obtain clustered cubes receiving similar PFC inputs.",
+      "We downloaded 14 bulk tracing experiments (resolution: $100\\mu \\mathrm{m}$ ) from the Allen Mouse Brain Connectivity Atlas ( with injection sites in seven cortical regions: MOp, SSp, SSs, VISC, ENT, AUD and VIS."
+    ]
+  },
+  {
+    "question": "What structure defines the primary axon of PT neurons and what metric is used to summarize branch-point asymmetry across a neuron?",
+    "answer": "The primary axon of a PT neuron is the axon path from the soma to the most ventral branch point or endpoint within or near the medulla; overall branch-point asymmetry is quantified by the mean partition asymmetry.",
+    "type": "multi-evidence",
+    "evidences": [
+      "We, thus, designated the axon path from the soma to the most ventral branch point or axon endpoint within or near the medulla as the primary axon of PT neurons.",
+      "The mean partition asymmetry of a neuron was calculated by averaging the partition asymmetry of all its branch points."
+    ]
+  },
+  {
+    "question": "What method creates the flattened PFC map for soma visualization and how many units were used to partition the PFC for connectivity analysis?",
+    "answer": "The flatmap is created by choosing an anchor vertex on the PFC surface, computing geodesic distances to other vertices, and projecting to 2D coordinates; the PFC was partitioned into 60 units using a k-means approach.",
+    "type": "multi-evidence",
+    "evidences": [
+      "We first chose a vertex on the surface of PFC as the anchor vertex and calculated the geodesic distance between all other vertices on the surface of PFC and an anchor vertex.",
+      "To unbiasedly divide PFC into a series of units $(n = 60)$, we first partitioned the surface of PFC into patches $(n = 60)$ with a similar area using a k-means style method."
+    ]
+  },
+  {
+    "question": "How many samples contributed neurite tracings and what was the median quality score of the evaluated traced neurons?",
+    "answer": "Neurite tracings were collected from 161 samples, and the median quality score of the evaluated neurons was 94.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Neurite tracings were collected from 161 samples, and neuron subtypes that we identified contained neurons from multiple samples.",
+      "Among our traced neurons, we sampled 600 neurons for further evaluations by an independent team of tracers and found a median score of 94 for the tracing results of sampled neurons (Extended Data Fig. 1f)."
+    ]
+  },
+  {
+    "question": "What software was used for image processing and reconstruction of axon morphologies?",
+    "answer": "Fast Neurite Tracer (FNT v0.99.1) was used.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Customized software, Fast Neurite Tracer (FNT v0.99.1), was used for image processing and reconstruction of axon morphologies.\""
+    ]
+  },
+  {
+    "question": "How many samples were utilized for neurite tracing collection?",
+    "answer": "161 samples were used.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Neurite tracings were collected from 161 samples.\""
+    ]
+  },
+  {
+    "question": "What objective guided the choice of sample size in the study?",
+    "answer": "To ensure full coverage of the three main neuron classes (IT, PT, and CT neurons) in all PFC subregions.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Sample size was chosen to ensure the full coverage of three main neuron class (IT, PT, and CT neurons) in all PFC subregions.\""
+    ]
+  },
+  {
+    "question": "Were investigators aware of which projection neuron types would be labeled at the injection sites?",
+    "answer": "No, they were blind to the types of projection neurons that could be labeled.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Investigators were blind to the types of projection neurons that can be labeled in the injection sites across all PFC subregions.\""
+    ]
+  },
+  {
+    "question": "How is soma distance computed?",
+    "answer": "As the Euclidean distance between two somata.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Soma distance was computed as the Euclidean distance between two somata.\""
+    ]
+  },
+  {
+    "question": "How many target brain regions were included in the retro-seq data from Tasic et al. in the anterolateral motor area?",
+    "answer": "21 target brain regions were included.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"This data consists of results from 21 target brain regions.\""
+    ]
+  },
+  {
+    "question": "What did the smFISH experiment reveal about Npnt+ neurons in SCm-projecting cells?",
+    "answer": "They were enriched in SCm-projecting neurons (P = 3.5 × 10^-4, Fisher's exact test).",
+    "type": "single-evidence",
+    "evidences": [
+      "\"smFISH experiment showed enriched Npnt+ neurons in SCm-projecting neurons (***P = 3.5 × 10^-4, Fisher's exact test).\""
+    ]
+  },
+  {
+    "question": "Which IT subtypes exhibit highly symmetric projections to bilateral agranular insular areas?",
+    "answer": "Subtypes 23 and 34.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Projection patterns of IT subtypes 23 and 34 are highly symmetry that project to bilateral agranular insular areas (AI)\""
+    ]
+  },
+  {
+    "question": "What does the red arrow indicate in the comparison figures between single-neuron projectomes and bulk labeling experiments?",
+    "answer": "The number of sampled neurons that can largely recapitulate the bulk labeling experiment.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The red arrow denotes the number of sampled neurons that can largely recapitulate the bulk labeling experiment.\""
+    ]
+  },
+  {
+    "question": "How many times were retrograde labeling experiments in SCm and PCG repeated for validation?",
+    "answer": "Three times.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"For validation of mutually exclusive projections in ACA, retrograde labeling experiments in SCm and PCG were repeated three times.\""
+    ]
+  },
+  {
+    "question": "What process ensures the quality of traced neurons before they are used in the analysis?",
+    "answer": "Each neuron is traced by two independent annotators and then merged by a third annotator; only tracings that pass the quality control are included in the analysis.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Each neuron was first traced by two independent annotators and then merged by a third annotator (see Methods for detailed information).\"",
+      "\"All neurite tracings passed the quality control (described in the Extended Data Fig. 1) were used for analysis.\""
+    ]
+  },
+  {
+    "question": "How many neuron subtypes were identified, and what was the sampling goal regarding neuron classes?",
+    "answer": "64 neuron subtypes were identified, and the sample size was chosen to ensure full coverage of IT, PT, and CT neurons in all PFC subregions.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"The number of neurons in each of 64 neuron subtypes can be found in Supplementary Table 4.\"",
+      "\"Sample size was chosen to ensure the full coverage of three main neuron class (IT, PT, and CT neurons) in all PFC subregions.\""
+    ]
+  },
+  {
+    "question": "How were the mutually exclusive projections in ACA validated, and how many times were the experiments repeated?",
+    "answer": "Dual-color retrograde labeling in PCG and SCm validated the single-neuron projectome results, and these experiments were repeated three times.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Dual-color retrograde labeling in PCG and SCm validated our single-neuron projectome results.\"",
+      "\"For validation of mutually exclusive projections in ACA, retrograde labeling experiments in SCm and PCG were repeated three times.\""
+    ]
+  },
+  {
+    "question": "What measures were taken to reduce bias in data collection?",
+    "answer": "Investigators were blind to the types of projection neurons that could be labeled, and projection neurons were randomly labeled during the virus injection process.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Investigators were blind to the types of projection neurons that can be labeled in the injection sites across all PFC subregions.\"",
+      "\"In data collection, projection neurons were randomly labeled during the virus injection process.\""
+    ]
+  },
+  {
+    "question": "How is the consensus neuron model generated for each neuron subtype, and what is the pattern of axon conservation?",
+    "answer": "The consensus neuron model is generated using FNT-dist and FNT-merge; the primary axon is largely conserved within a subtype, whereas higher-order axons are less conserved.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"For each neuron subtype, the consensus neuron model was generated using FNT-dist and FNT-merge (see also Supplementary Methods 2).\"",
+      "\"The primary axon (zero-order) is largely conserved for neurons in the same neuron subtype, whereas axons in high order are less conserved, as exemplified by neurons (n = 27) in subtype 60 in f.\""
+    ]
+  },
+  {
+    "question": "What are the two steps of image registration, and how was the registration validated?",
+    "answer": "The two steps are affine registration and non-rigid registration; validation was performed by measuring the distance of mass centers of four brain structures across different fMOST samples.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Step 1 involves affine registration and step 2 involves non-rigid registration (see also Methods).\"",
+      "\"Distance of mass center between 4 brain structures (fr, fasciculus; mtt, mammillothalamic tract; IPN, interpeduncular nucleus; AQ, cerebral aqueduct) from different fMOST samples (n = 5) were examined.\""
+    ]
+  },
+  {
+    "question": "Were there significant morphological differences among IT, PT, and CT neurons, and what are their power law exponents for axon length versus branch points?",
+    "answer": "Yes, morphological features showed significant differences (P < 1×10^-12, two-sided Wilcoxon signed-rank test); the fitted power law exponents were 0.9 for IT, 0.3 for CT, and 0.5 for PT with R^2 values of 0.8, 0.4, and 0.6 respectively.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"As calculated by the method illustrated by the schematic diagram (top, see also Methods), morphological features of CT, IT and PT neurons showed significant difference (****P < 1×10^-12, two-sided Wilcoxon signed-rank test).\"",
+      "\"The fitted power by linear regression is 0.9, 0.3 and 0.5, and R^2 is 0.8, 0.4 and 0.6 for IT, CT, and PT respectively.\""
+    ]
+  },
+  {
+    "question": "What software was used for axon morphology reconstruction, and what specific tools were used to build the consensus neuron model?",
+    "answer": "Fast Neurite Tracer (FNT v0.99.1) was used for reconstruction; the consensus neuron model for each subtype was generated using FNT-dist and FNT-merge.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Customized software, Fast Neurite Tracer (FNT v0.99.1), was used for image processing and reconstruction of axon morphologies.\"",
+      "\"For each neuron subtype, the consensus neuron model was generated using FNT-dist and FNT-merge (see also Supplementary Methods 2).\""
+    ]
+  }
+]

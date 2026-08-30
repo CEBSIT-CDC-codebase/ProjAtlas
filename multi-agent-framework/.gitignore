@@ -1,0 +1,19 @@
+.env
+*.log
+__pycache__/
+*.pyc
+
+# HippoRAG2 offline indices and llm cache are large generated artifacts, not tracked here.
+# Re-generate them locally from data/RAG-md-mouse/ and data/RAG-md-macaque/
+# (see data/RAG-md-mouse/README.md and data/RAG-md-macaque/README.md).
+data/rag-mouse/
+data/rag-macaque/
+data/RAG-md-mouse/*
+data/RAG-md-macaque/*
+!data/RAG-md-mouse/README.md
+!data/RAG-md-macaque/README.md
+data/llm_cache/
+
+# Local IDE config
+.claude/
+.vscode/

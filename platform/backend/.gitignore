@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+*.log
+.idea/
+.vscode/
+data/
+# WorkBuddy 工具内部数据 (非项目文件)
+.workbuddy/
+
+# 临时扫描/诊断文件
+_*.txt

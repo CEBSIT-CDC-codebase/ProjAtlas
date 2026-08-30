@@ -1,0 +1,61 @@
+// Custom scrollbar mixins
+@mixin custom-scrollbar {
+    // Firefox
+    scrollbar-width: thin;
+    scrollbar-color: #686870 #1f283e;
+
+    // Webkit (Chrome/Safari/Edge)
+    &::-webkit-scrollbar {
+        width: 2px;
+        height: 2px;
+        background-color: #1f283e;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #1f283e;
+        border-radius: 3px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #1f283e;
+        border-radius: 3px;
+    }
+
+    &:hover {
+        // Firefox - hover state
+        scrollbar-color: #686870 #1f283e;
+
+        // Webkit
+        &::-webkit-scrollbar-track {
+            background: #1f283e;
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #686870;
+            border-radius: 3px;
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+
+@mixin hide-scrollbar {
+    // Firefox
+    scrollbar-width: none;
+
+    // Webkit
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    // IE
+    -ms-overflow-style: none;
+}
+
+@mixin one-row-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

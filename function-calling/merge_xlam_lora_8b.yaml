@@ -1,0 +1,12 @@
+### model
+# Update model_name_or_path to your local cache path if using ModelScope
+# e.g. /home/user/.cache/modelscope/hub/models/Salesforce/Llama-xLAM-2-8b-fc-r
+model_name_or_path: Salesforce/Llama-xLAM-2-8b-fc-r
+adapter_name_or_path: saves/xlam-8b/lora/sft
+trust_remote_code: true
+
+### export
+export_dir: output/merged_Llama-xLAM-2-8b-fc-r
+export_size: 5
+export_device: cpu
+export_legacy_format: false

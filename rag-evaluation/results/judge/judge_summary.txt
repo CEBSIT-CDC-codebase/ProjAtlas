@@ -1,0 +1,114 @@
+
+============================================================
+RAG / macaque
+============================================================
+Total items: 288
+Models: gpt, claude, gemini
+Avg Correctness: 81.1% (288 scored)
+Hallucination Rate: 18.1% (52/288)
+  single-evidence (168): correctness=89.3%, hallucination=7.1%
+  multi-evidence (120): correctness=69.6%, hallucination=33.3%
+
+============================================================
+RAG / mouse
+============================================================
+Total items: 486
+Models: gpt, claude, gemini
+Avg Correctness: 77.4% (486 scored)
+Hallucination Rate: 19.5% (95/486)
+  single-evidence (310): correctness=83.7%, hallucination=9.4%
+  multi-evidence (176): correctness=66.2%, hallucination=37.5%
+
+============================================================
+WITHOUT RAG MISTRAL / macaque
+============================================================
+Total items: 288
+Models: gpt, claude, gemini
+Avg Correctness: 12.2% (288 scored)
+Hallucination Rate: 64.9% (187/288)
+  single-evidence (168): correctness=14.3%, hallucination=59.5%
+  multi-evidence (120): correctness=9.2%, hallucination=72.5%
+
+============================================================
+WITHOUT RAG MISTRAL / mouse
+============================================================
+Total items: 486
+Models: gpt, claude, gemini
+Avg Correctness: 15.5% (486 scored)
+Hallucination Rate: 72.8% (354/486)
+  single-evidence (310): correctness=17.3%, hallucination=67.7%
+  multi-evidence (176): correctness=12.5%, hallucination=81.8%
+
+============================================================
+WITHOUT RAG DEEPSEEK / macaque
+============================================================
+Total items: 288
+Models: gpt, claude, gemini
+Avg Correctness: 22.2% (288 scored)
+Hallucination Rate: 73.3% (211/288)
+  single-evidence (168): correctness=24.7%, hallucination=64.3%
+  multi-evidence (120): correctness=18.8%, hallucination=85.8%
+
+============================================================
+WITHOUT RAG DEEPSEEK / mouse
+============================================================
+Total items: 486
+Models: gpt, claude, gemini
+Avg Correctness: 23.0% (486 scored)
+Hallucination Rate: 80.2% (390/486)
+  single-evidence (310): correctness=25.0%, hallucination=74.5%
+  multi-evidence (176): correctness=19.6%, hallucination=90.3%
+
+============================================================
+WITHOUT RAG QWEN2.5 / macaque
+============================================================
+Total items: 288
+Models: gpt, claude, gemini
+Avg Correctness: 12.8% (288 scored)
+Hallucination Rate: 64.2% (185/288)
+  single-evidence (168): correctness=14.3%, hallucination=61.9%
+  multi-evidence (120): correctness=10.8%, hallucination=67.5%
+
+============================================================
+WITHOUT RAG QWEN2.5 / mouse
+============================================================
+Total items: 486
+Models: gpt, claude, gemini
+Avg Correctness: 17.8% (486 scored)
+Hallucination Rate: 67.5% (328/486)
+  single-evidence (310): correctness=19.2%, hallucination=62.6%
+  multi-evidence (176): correctness=15.3%, hallucination=76.1%
+
+============================================================
+WITHOUT RAG LLAMA3.3 / macaque
+============================================================
+Total items: 288
+Models: gpt, claude, gemini
+Avg Correctness: 13.7% (288 scored)
+Hallucination Rate: 74.7% (215/288)
+  single-evidence (168): correctness=16.1%, hallucination=71.4%
+  multi-evidence (120): correctness=10.4%, hallucination=79.2%
+
+============================================================
+WITHOUT RAG LLAMA3.3 / mouse
+============================================================
+Total items: 486
+Models: gpt, claude, gemini
+Avg Correctness: 18.1% (486 scored)
+Hallucination Rate: 82.9% (403/486)
+  single-evidence (310): correctness=19.0%, hallucination=78.4%
+  multi-evidence (176): correctness=16.5%, hallucination=90.9%
+
+============================================================
+PIVOT TABLE
+============================================================
+                               |      RAG(Mistral)       |         Mistral         |        DeepSeek         |         Qwen2.5         |        Llama3.3        
+                               | Items   Corr    Hall | Items   Corr    Hall | Items   Corr    Hall | Items   Corr    Hall | Items   Corr    Hall
+-------------------------------+-------------------------+-------------------------+-------------------------+-------------------------+------------------------
+     macaque / single-evidence |   168  89.3%    7.1% |   168  14.3%   59.5% |   168  24.7%   64.3% |   168  14.3%   61.9% |   168  16.1%   71.4%
+      macaque / multi-evidence |   120  69.6%   33.3% |   120   9.2%   72.5% |   120  18.8%   85.8% |   120  10.8%   67.5% |   120  10.4%   79.2%
+                 macaque / ALL |   288  81.1%   18.1% |   288  12.2%   64.9% |   288  22.2%   73.3% |   288  12.8%   64.2% |   288  13.7%   74.7%
+       mouse / single-evidence |   310  83.7%    9.4% |   310  17.3%   67.7% |   310  25.0%   74.5% |   310  19.2%   62.6% |   310  19.0%   78.4%
+        mouse / multi-evidence |   176  66.2%   37.5% |   176  12.5%   81.8% |   176  19.6%   90.3% |   176  15.3%   76.1% |   176  16.5%   90.9%
+                   mouse / ALL |   486  77.4%   19.5% |   486  15.5%   72.8% |   486  23.0%   80.2% |   486  17.8%   67.5% |   486  18.1%   82.9%
+                           ALL |   774  78.7%   19.0% |   774  14.3%   69.9% |   774  22.7%   77.6% |   774  16.0%   66.3% |   774  16.5%   79.8%

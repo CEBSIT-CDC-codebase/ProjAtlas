@@ -1,0 +1,89 @@
+{
+  "name": "projectome-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev_prod": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve --mode production_mouse",
+    "prod_macaque": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve --mode production_macaque",
+    "serve": "vue-cli-service serve --mode development_mouse",
+    "analyze": "cross-env ANALYZE=true vue-cli-service serve",
+    "build": "vue-cli-service build --mode staging_mouse",
+    "serve-macaque": "vue-cli-service serve --mode staging_macaque",
+    "build-macaque": "vue-cli-service build --mode staging_macaque",
+    "build-macaque-production": "vue-cli-service build --mode production_macaque",
+    "build-mouse-production": "vue-cli-service build --mode production_mouse",
+    "lint": "vue-cli-service lint",
+    "lint-fix": "vue-cli-service lint --fix",
+    "prepare": "husky install",
+    "commit": "cz",
+    "precommit": "lint-staged"
+  },
+  "dependencies": {
+    "@fontsource/open-sans": "^5.0.9",
+    "axios": "^1.5.0",
+    "cbor-x": "^1.6.4",
+    "copy-to-clipboard": "^3.3.3",
+    "core-js": "^3.6.4",
+    "eventemitter2": "^6.4.9",
+    "fastq": "^1.17.0",
+    "fflate": "^0.8.2",
+    "file-saver": "^2.0.5",
+    "interactjs": "^1.10.27",
+    "js-md5": "^0.8.3",
+    "jszip": "^3.10.1",
+    "marked": "^16.3.0",
+    "uuid": "^9.0.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5",
+    "vuedraggable": "^2.24.3",
+    "vuetify": "^2.6.0",
+    "vuex": "^3.1.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.1.0",
+    "@commitlint/lint": "^17.1.0",
+    "@mdi/font": "^6.9.96",
+    "@vue/cli-plugin-babel": "~4.2.3",
+    "@vue/cli-plugin-eslint": "~4.2.3",
+    "@vue/cli-plugin-router": "~4.2.3",
+    "@vue/cli-plugin-vuex": "~4.2.3",
+    "@vue/cli-service": "~4.2.3",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "apexcharts": "^3.45.1",
+    "babel-eslint": "^10.0.3",
+    "commitizen": "^4.2.5",
+    "cross-env": "^7.0.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^11.2.3",
+    "prettier": "^1.19.1",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-apexcharts": "^1.6.2",
+    "vue-cli-plugin-vuetify": "^2.5.8",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "worker-loader": "^3.0.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,vue}": [
+      "npm run lint",
+      "git add"
+    ]
+  }
+}

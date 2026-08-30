@@ -1,0 +1,4057 @@
+[
+  {
+    "name": "GREY Basic cell groups and regions",
+    "leftLength": 362149203.2825012,
+    "rightLength": 332467973.27499944
+  },
+  {
+    "name": "BS Brain stem",
+    "leftLength": 93588246.82870013,
+    "rightLength": 84772251.3819999
+  },
+  {
+    "name": "IB Interbrain",
+    "leftLength": 47787758.54630007,
+    "rightLength": 43841739.44590008
+  },
+  {
+    "name": "HY Hypothalamus",
+    "leftLength": 14575947.84189998,
+    "rightLength": 13494894.47759999
+  },
+  {
+    "name": "MEZ Hypothalamic medial zone",
+    "leftLength": 3259529.1988000027,
+    "rightLength": 3224502.933199999
+  },
+  {
+    "name": "MBO Mammillary body",
+    "leftLength": 1055519.2491999995,
+    "rightLength": 1017904.0492000008
+  },
+  {
+    "name": "TM Tuberomammillary nucleus",
+    "leftLength": 35668.7293,
+    "rightLength": 34276.911
+  },
+  {
+    "name": "TMV Tuberomammillary nucleus, ventral part",
+    "leftLength": 33264.5915,
+    "rightLength": 30780.11920000001
+  },
+  {
+    "name": "TMD Tuberomammillary nucleus, dorsal part",
+    "leftLength": 2404.1377,
+    "rightLength": 3496.7920000000004
+  },
+  {
+    "name": "LM Lateral mammillary nucleus",
+    "leftLength": 76130.9507,
+    "rightLength": 61341.38899999998
+  },
+  {
+    "name": "MM Medial mammillary nucleus",
+    "leftLength": 438213.73490000033,
+    "rightLength": 455626.86659999983
+  },
+  {
+    "name": "MML Medial mammillary nucleus, lateral part",
+    "leftLength": 134690.70539999995,
+    "rightLength": 126815.96629999999
+  },
+  {
+    "name": "MMM Medial mammillary nucleus, medial part",
+    "leftLength": 131489.42789999992,
+    "rightLength": 147839.76529999997
+  },
+  {
+    "name": "MMP Medial mammillary nucleus, posterior part",
+    "leftLength": 17855.4658,
+    "rightLength": 22444.798999999995
+  },
+  {
+    "name": "MMD Medial mammillary nucleus, dorsal part",
+    "leftLength": 29995.265899999995,
+    "rightLength": 27090.241899999997
+  },
+  {
+    "name": "MMME Medial mammillary nucleus, median part",
+    "leftLength": 124182.8681,
+    "rightLength": 131436.09330000012
+  },
+  {
+    "name": "SUM Supramammillary nucleus",
+    "leftLength": 505505.8343999998,
+    "rightLength": 466658.8829000003
+  },
+  {
+    "name": "PMV Ventral premammillary nucleus",
+    "leftLength": 31812.50500000001,
+    "rightLength": 41370.90740000001
+  },
+  {
+    "name": "MPN Medial preoptic nucleus",
+    "leftLength": 10388.5058,
+    "rightLength": 21988.212699999996
+  },
+  {
+    "name": "PVHD Paraventricular hypothalamic nucleus, descending division",
+    "leftLength": 162236.84910000005,
+    "rightLength": 172131.90870000003
+  },
+  {
+    "name": "VMH Ventromedial hypothalamic nucleus",
+    "leftLength": 20695.498200000005,
+    "rightLength": 20911.196999999996
+  },
+  {
+    "name": "AHN Anterior hypothalamic nucleus",
+    "leftLength": 324959.7124000002,
+    "rightLength": 253979.23399999994
+  },
+  {
+    "name": "PH Posterior hypothalamic nucleus",
+    "leftLength": 1505462.1125999982,
+    "rightLength": 1526227.9801
+  },
+  {
+    "name": "PMD Dorsal premammillary nucleus",
+    "leftLength": 148454.76539999992,
+    "rightLength": 169989.44550000003
+  },
+  {
+    "name": "PVR Periventricular region",
+    "leftLength": 432568.04410000046,
+    "rightLength": 605532.5574999998
+  },
+  {
+    "name": "PS Parastrial nucleus",
+    "leftLength": 23493.047800000004,
+    "rightLength": 50098.731700000026
+  },
+  {
+    "name": "PVP Periventricular hypothalamic nucleus, posterior part",
+    "leftLength": 33.8971,
+    "rightLength": 212.1566
+  },
+  {
+    "name": "PVPO Periventricular hypothalamic nucleus, preoptic part",
+    "leftLength": 575.7109,
+    "rightLength": 0
+  },
+  {
+    "name": "AVP Anteroventral preoptic nucleus",
+    "leftLength": 34534.8089,
+    "rightLength": 68480.05390000003
+  },
+  {
+    "name": "AVPV Anteroventral periventricular nucleus",
+    "leftLength": 9378.145500000002,
+    "rightLength": 12814.4925
+  },
+  {
+    "name": "SCH Suprachiasmatic nucleus",
+    "leftLength": 670.2501,
+    "rightLength": 805.4593
+  },
+  {
+    "name": "SBPV Subparaventricular zone",
+    "leftLength": 1950.1701000000005,
+    "rightLength": 1661.6407
+  },
+  {
+    "name": "MEPO Median preoptic nucleus",
+    "leftLength": 748.2352,
+    "rightLength": 836.8538
+  },
+  {
+    "name": "MPO Medial preoptic area",
+    "leftLength": 142005.3528999999,
+    "rightLength": 219982.5976
+  },
+  {
+    "name": "VMPO Ventromedial preoptic nucleus",
+    "leftLength": 2406.6953,
+    "rightLength": 4383.6953
+  },
+  {
+    "name": "VLPO Ventrolateral preoptic nucleus",
+    "leftLength": 32632.924100000015,
+    "rightLength": 27772.030899999994
+  },
+  {
+    "name": "ADP Anterodorsal preoptic nucleus",
+    "leftLength": 5772.7824,
+    "rightLength": 7963.667200000002
+  },
+  {
+    "name": "DMH Dorsomedial nucleus of the hypothalamus",
+    "leftLength": 178214.67529999992,
+    "rightLength": 210253.5891000002
+  },
+  {
+    "name": "PD Posterodorsal preoptic nucleus",
+    "leftLength": 151.347,
+    "rightLength": 267.5888
+  },
+  {
+    "name": "PVZ Periventricular zone",
+    "leftLength": 115253.08509999991,
+    "rightLength": 100333.21500000003
+  },
+  {
+    "name": "PVI Periventricular hypothalamic nucleus, intermediate part",
+    "leftLength": 48200.90060000002,
+    "rightLength": 44035.191199999965
+  },
+  {
+    "name": "ARH Arcuate hypothalamic nucleus",
+    "leftLength": 1605.7288,
+    "rightLength": 814.2829
+  },
+  {
+    "name": "PVA Periventricular hypothalamic nucleus, anterior part",
+    "leftLength": 427.15149999999994,
+    "rightLength": 318.99
+  },
+  {
+    "name": "ASO Accessory supraoptic group",
+    "leftLength": 1964.914,
+    "rightLength": 1240.0638999999999
+  },
+  {
+    "name": "PVH Paraventricular hypothalamic nucleus",
+    "leftLength": 42174.265300000035,
+    "rightLength": 45231.3131
+  },
+  {
+    "name": "SO Supraoptic nucleus",
+    "leftLength": 20880.1246,
+    "rightLength": 8693.373600000003
+  },
+  {
+    "name": "LZ Hypothalamic lateral zone",
+    "leftLength": 8211366.386499993,
+    "rightLength": 7153601.289300006
+  },
+  {
+    "name": "RCH Retrochiasmatic area",
+    "leftLength": 17356.071699999997,
+    "rightLength": 15950.905900000005
+  },
+  {
+    "name": "LHA Lateral hypothalamic area",
+    "leftLength": 3230343.3701999933,
+    "rightLength": 2886304.2914000005
+  },
+  {
+    "name": "LPO Lateral preoptic area",
+    "leftLength": 551796.2389999998,
+    "rightLength": 750567.1028999996
+  },
+  {
+    "name": "PST Preparasubthalamic nucleus",
+    "leftLength": 20414.345600000004,
+    "rightLength": 20961.307200000003
+  },
+  {
+    "name": "PSTN Parasubthalamic nucleus",
+    "leftLength": 281714.27530000015,
+    "rightLength": 258038.6830000001
+  },
+  {
+    "name": "STN Subthalamic nucleus",
+    "leftLength": 318314.9889999999,
+    "rightLength": 240725.04559999984
+  },
+  {
+    "name": "PEF Perifornical nucleus",
+    "leftLength": 234667.02259999997,
+    "rightLength": 215211.42940000005
+  },
+  {
+    "name": "TU Tuberal nucleus",
+    "leftLength": 130435.56310000006,
+    "rightLength": 130719.99680000002
+  },
+  {
+    "name": "ZI Zona incerta",
+    "leftLength": 3426324.507000003,
+    "rightLength": 2635122.525599995
+  },
+  {
+    "name": "FF Fields of Forel",
+    "leftLength": 237751.10369999992,
+    "rightLength": 219387.0757
+  },
+  {
+    "name": "TH Thalamus",
+    "leftLength": 33211810.709300008,
+    "rightLength": 30346844.967100035
+  },
+  {
+    "name": "DORSM Thalamus, sensory-motor cortex related",
+    "leftLength": 4961011.161600012,
+    "rightLength": 4862178.9526999965
+  },
+  {
+    "name": "GEND Geniculate group, dorsal thalamus",
+    "leftLength": 22215.741799999996,
+    "rightLength": 13015.9968
+  },
+  {
+    "name": "MG Medial geniculate complex",
+    "leftLength": 15889.374000000002,
+    "rightLength": 10081.218499999997
+  },
+  {
+    "name": "MGD Medial geniculate complex, dorsal part",
+    "leftLength": 2179.4409,
+    "rightLength": 122.9861
+  },
+  {
+    "name": "MGV Medial geniculate complex, ventral part",
+    "leftLength": 3384.4596000000006,
+    "rightLength": 1122.8759
+  },
+  {
+    "name": "MGM Medial geniculate complex, medial part",
+    "leftLength": 10325.4734,
+    "rightLength": 8835.356399999997
+  },
+  {
+    "name": "LGD Dorsal part of the lateral geniculate complex",
+    "leftLength": 6326.367899999998,
+    "rightLength": 2934.7783
+  },
+  {
+    "name": "LGD-CO Dorsal part of the lateral geniculate complex, core",
+    "leftLength": 6326.367899999998,
+    "rightLength": 2934.7783
+  },
+  {
+    "name": "PP Peripeduncular nucleus",
+    "leftLength": 5949.7802,
+    "rightLength": 6625.789999999999
+  },
+  {
+    "name": "SPF Subparafascicular nucleus",
+    "leftLength": 296115.7545000001,
+    "rightLength": 254940.9380000001
+  },
+  {
+    "name": "SPFM Subparafascicular nucleus, magnocellular part",
+    "leftLength": 145892.73610000004,
+    "rightLength": 139194.1548999999
+  },
+  {
+    "name": "SPFP Subparafascicular nucleus, parvicellular part",
+    "leftLength": 150223.0191,
+    "rightLength": 115746.78340000006
+  },
+  {
+    "name": "VENT Ventral group of the dorsal thalamus",
+    "leftLength": 4149300.707399999,
+    "rightLength": 4129281.6234999946
+  },
+  {
+    "name": "POT Posterior triangular thalamic nucleus",
+    "leftLength": 57786.4585,
+    "rightLength": 48705.72939999999
+  },
+  {
+    "name": "VAL Ventral anterior-lateral complex of the thalamus",
+    "leftLength": 595736.7065,
+    "rightLength": 957761.0396999993
+  },
+  {
+    "name": "VM Ventral medial nucleus of the thalamus",
+    "leftLength": 3072483.4998999964,
+    "rightLength": 2746620.5714000002
+  },
+  {
+    "name": "VP Ventral posterior complex of the thalamus",
+    "leftLength": 423294.0424000001,
+    "rightLength": 376194.2821
+  },
+  {
+    "name": "VPL Ventral posterolateral nucleus of the thalamus",
+    "leftLength": 109662.99750000003,
+    "rightLength": 103355.08039999996
+  },
+  {
+    "name": "VPLPC Ventral posterolateral nucleus of the thalamus, parvicellular part",
+    "leftLength": 9320.2314,
+    "rightLength": 8974.3211
+  },
+  {
+    "name": "VPM Ventral posteromedial nucleus of the thalamus",
+    "leftLength": 37150.77759999998,
+    "rightLength": 49411.00279999999
+  },
+  {
+    "name": "VPMPC Ventral posteromedial nucleus of the thalamus, parvicellular part",
+    "leftLength": 267160.03510000004,
+    "rightLength": 214453.87770000013
+  },
+  {
+    "name": "SPA Subparafascicular area",
+    "leftLength": 487429.17479999945,
+    "rightLength": 458314.60299999925
+  },
+  {
+    "name": "DORPM Thalamus, polymodal association cortex related",
+    "leftLength": 26744999.309600003,
+    "rightLength": 24305755.378200017
+  },
+  {
+    "name": "GENV Geniculate group, ventral thalamus",
+    "leftLength": 131037.15670000002,
+    "rightLength": 62105.064799999986
+  },
+  {
+    "name": "LGV Ventral part of the lateral geniculate complex",
+    "leftLength": 112582.48250000004,
+    "rightLength": 49941.26629999999
+  },
+  {
+    "name": "IGL Intergeniculate leaflet of the lateral geniculate complex",
+    "leftLength": 9731.7263,
+    "rightLength": 3916.1798
+  },
+  {
+    "name": "SUBG Subgeniculate nucleus",
+    "leftLength": 1975.8793999999998,
+    "rightLength": 2809.7012000000004
+  },
+  {
+    "name": "INTG Intermediate geniculate nucleus",
+    "leftLength": 6747.068399999999,
+    "rightLength": 5437.9174
+  },
+  {
+    "name": "LAT Lateral group of the dorsal thalamus",
+    "leftLength": 920022.1912999995,
+    "rightLength": 1076202.8790000004
+  },
+  {
+    "name": "PO Posterior complex of the thalamus",
+    "leftLength": 232459.02640000006,
+    "rightLength": 342874.62460000033
+  },
+  {
+    "name": "POL Posterior limiting nucleus of the thalamus",
+    "leftLength": 26225.76899999999,
+    "rightLength": 34398.7916
+  },
+  {
+    "name": "LP Lateral posterior nucleus of the thalamus",
+    "leftLength": 573239.3671000003,
+    "rightLength": 511958.70119999995
+  },
+  {
+    "name": "SGN Suprageniculate nucleus",
+    "leftLength": 1889.2559,
+    "rightLength": 1783.5973
+  },
+  {
+    "name": "ETH Ethmoid nucleus of the thalamus",
+    "leftLength": 86208.77280000004,
+    "rightLength": 185187.164
+  },
+  {
+    "name": "MED Medial group of the dorsal thalamus",
+    "leftLength": 11275358.917799994,
+    "rightLength": 10318428.818699993
+  },
+  {
+    "name": "PR Perireunensis nucleus",
+    "leftLength": 959087.2192000004,
+    "rightLength": 742400.6938000004
+  },
+  {
+    "name": "MD Mediodorsal nucleus of thalamus",
+    "leftLength": 7685373.5821,
+    "rightLength": 7458834.8083
+  },
+  {
+    "name": "SMT Submedial nucleus of the thalamus",
+    "leftLength": 1769579.8809999968,
+    "rightLength": 1318963.423099999
+  },
+  {
+    "name": "IMD Intermediodorsal nucleus of the thalamus",
+    "leftLength": 861318.2343999989,
+    "rightLength": 798229.8933000001
+  },
+  {
+    "name": "ATN Anterior group of the dorsal thalamus",
+    "leftLength": 4732694.281999988,
+    "rightLength": 3945747.0009000003
+  },
+  {
+    "name": "AM Anteromedial nucleus",
+    "leftLength": 1927537.8878,
+    "rightLength": 1643818.3295999977
+  },
+  {
+    "name": "AMD Anteromedial nucleus, dorsal part",
+    "leftLength": 1063377.0673999994,
+    "rightLength": 828685.8446999994
+  },
+  {
+    "name": "AMV Anteromedial nucleus, ventral part",
+    "leftLength": 864160.821,
+    "rightLength": 815132.4838999999
+  },
+  {
+    "name": "IAD Interanterodorsal nucleus of the thalamus",
+    "leftLength": 483371.5293,
+    "rightLength": 519966.6519
+  },
+  {
+    "name": "IAM Interanteromedial nucleus of the thalamus",
+    "leftLength": 175554.91069999998,
+    "rightLength": 158383.3888
+  },
+  {
+    "name": "LD Lateral dorsal nucleus of thalamus",
+    "leftLength": 1124637.9384,
+    "rightLength": 829328.9877
+  },
+  {
+    "name": "AV Anteroventral nucleus of thalamus",
+    "leftLength": 709240.8131999988,
+    "rightLength": 580609.4330000005
+  },
+  {
+    "name": "AD Anterodorsal nucleus",
+    "leftLength": 312351.20360000007,
+    "rightLength": 213640.21000000005
+  },
+  {
+    "name": "MTN Midline group of the dorsal thalamus",
+    "leftLength": 4082045.0558000016,
+    "rightLength": 3534140.8297000057
+  },
+  {
+    "name": "PVT Paraventricular nucleus of the thalamus",
+    "leftLength": 914963.0129999992,
+    "rightLength": 853271.1243000003
+  },
+  {
+    "name": "PT Parataenial nucleus",
+    "leftLength": 1172170.1233999997,
+    "rightLength": 920976.1136
+  },
+  {
+    "name": "RE Nucleus of reuniens",
+    "leftLength": 1632075.3366999968,
+    "rightLength": 1406676.2264999975
+  },
+  {
+    "name": "XI Xiphoid thalamic nucleus",
+    "leftLength": 362836.58319999994,
+    "rightLength": 353217.3648000001
+  },
+  {
+    "name": "EPI Epithalamus",
+    "leftLength": 353106.1929999998,
+    "rightLength": 296029.9034000001
+  },
+  {
+    "name": "LH Lateral habenula",
+    "leftLength": 349861.8312999997,
+    "rightLength": 292468.01480000006
+  },
+  {
+    "name": "MH Medial habenula",
+    "leftLength": 3244.3619,
+    "rightLength": 3561.8885999999993
+  },
+  {
+    "name": "ILM Intralaminar nuclei of the dorsal thalamus",
+    "leftLength": 3204469.7836000007,
+    "rightLength": 3396404.018599995
+  },
+  {
+    "name": "RH Rhomboid nucleus",
+    "leftLength": 371379.64100000024,
+    "rightLength": 328465.13060000015
+  },
+  {
+    "name": "PIL Posterior intralaminar thalamic nucleus",
+    "leftLength": 30317.922900000005,
+    "rightLength": 20293.986600000007
+  },
+  {
+    "name": "CL Central lateral nucleus of the thalamus",
+    "leftLength": 670764.2540000007,
+    "rightLength": 968051.7530000008
+  },
+  {
+    "name": "CM Central medial nucleus of the thalamus",
+    "leftLength": 872606.8445000018,
+    "rightLength": 863016.5154000013
+  },
+  {
+    "name": "PCN Paracentral nucleus",
+    "leftLength": 400510.4950000004,
+    "rightLength": 366617.1336999999
+  },
+  {
+    "name": "PF Parafascicular nucleus",
+    "leftLength": 858890.6273000002,
+    "rightLength": 849959.5000999998
+  },
+  {
+    "name": "RT Reticular nucleus of the thalamus",
+    "leftLength": 2046265.7264000007,
+    "rightLength": 1676696.8696000003
+  },
+  {
+    "name": "MB Midbrain",
+    "leftLength": 30336184.118299972,
+    "rightLength": 25560945.10449995
+  },
+  {
+    "name": "MBMOT Midbrain, motor related",
+    "leftLength": 20663876.490200005,
+    "rightLength": 17181846.126199972
+  },
+  {
+    "name": "SCM Superior colliculus, motor related",
+    "leftLength": 4296094.911199999,
+    "rightLength": 3045449.2052999986
+  },
+  {
+    "name": "SCIG Superior colliculus, motor related, intermediate gray layer",
+    "leftLength": 1078285.433400001,
+    "rightLength": 798895.7326
+  },
+  {
+    "name": "SCIW Superior colliculus, motor related, intermediate white layer",
+    "leftLength": 1780357.2764000006,
+    "rightLength": 1278192.8893000009
+  },
+  {
+    "name": "SCDG Superior colliculus, motor related, deep gray layer",
+    "leftLength": 1097286.8063999992,
+    "rightLength": 730675.7999999998
+  },
+  {
+    "name": "SCDW Superior colliculus, motor related, deep white layer",
+    "leftLength": 340165.3956999998,
+    "rightLength": 237684.78189999997
+  },
+  {
+    "name": "PRT Pretectal region",
+    "leftLength": 1029624.3830999997,
+    "rightLength": 827282.6388999996
+  },
+  {
+    "name": "PPT Posterior pretectal nucleus",
+    "leftLength": 14282.746800000003,
+    "rightLength": 5665.9408
+  },
+  {
+    "name": "APN Anterior pretectal nucleus",
+    "leftLength": 315668.3525999997,
+    "rightLength": 300062.7674
+  },
+  {
+    "name": "MPT Medial pretectal area",
+    "leftLength": 1391.9433999999999,
+    "rightLength": 1249.1653
+  },
+  {
+    "name": "RPF Retroparafascicular nucleus",
+    "leftLength": 202038.61520000006,
+    "rightLength": 157626.53120000006
+  },
+  {
+    "name": "NOT Nucleus of the optic tract",
+    "leftLength": 2043.04,
+    "rightLength": 516.6369000000001
+  },
+  {
+    "name": "NPC Nucleus of the posterior commissure",
+    "leftLength": 493430.8809999998,
+    "rightLength": 362019.86720000015
+  },
+  {
+    "name": "OP Olivary pretectal nucleus",
+    "leftLength": 768.8043,
+    "rightLength": 141.7279
+  },
+  {
+    "name": "IV Trochlear nucleus",
+    "leftLength": 471.9325,
+    "rightLength": 170.7509
+  },
+  {
+    "name": "MRN Midbrain reticular nucleus",
+    "leftLength": 5016619.981199998,
+    "rightLength": 4290245.795599998
+  },
+  {
+    "name": "RN Red nucleus",
+    "leftLength": 255319.96329999986,
+    "rightLength": 195738.4632
+  },
+  {
+    "name": "AT Anterior tegmental nucleus",
+    "leftLength": 35925.52490000001,
+    "rightLength": 35096.923
+  },
+  {
+    "name": "RR Midbrain reticular nucleus, retrorubral area",
+    "leftLength": 114999.69140000005,
+    "rightLength": 114385.05970000007
+  },
+  {
+    "name": "III Oculomotor nucleus",
+    "leftLength": 10699.821300000003,
+    "rightLength": 17428.8333
+  },
+  {
+    "name": "SNR Substantia nigra, reticular part",
+    "leftLength": 889573.6185000002,
+    "rightLength": 675758.106
+  },
+  {
+    "name": "PAG Periaqueductal gray",
+    "leftLength": 7358578.604500008,
+    "rightLength": 6837438.747299999
+  },
+  {
+    "name": "PRC Precommissural nucleus",
+    "leftLength": 305870.83629999985,
+    "rightLength": 256828.5398
+  },
+  {
+    "name": "ND Nucleus of Darkschewitsch",
+    "leftLength": 99633.66270000002,
+    "rightLength": 95867.93280000001
+  },
+  {
+    "name": "SU3 Supraoculomotor periaqueductal gray",
+    "leftLength": 108261.61520000004,
+    "rightLength": 94353.19109999997
+  },
+  {
+    "name": "INC Interstitial nucleus of Cajal",
+    "leftLength": 27328.385799999996,
+    "rightLength": 32957.65719999999
+  },
+  {
+    "name": "MA3 Medial accesory oculomotor nucleus",
+    "leftLength": 29275.15670000001,
+    "rightLength": 24857.979700000014
+  },
+  {
+    "name": "MT Medial terminal nucleus of the accessory optic tract",
+    "leftLength": 125842.8092,
+    "rightLength": 82935.72939999994
+  },
+  {
+    "name": "PA4 Paratrochlear nucleus",
+    "leftLength": 5342.4935,
+    "rightLength": 5914.313300000001
+  },
+  {
+    "name": "PN Paranigral nucleus",
+    "leftLength": 36028.63970000001,
+    "rightLength": 28460.002000000004
+  },
+  {
+    "name": "CUN Cuneiform nucleus",
+    "leftLength": 232134.90169999996,
+    "rightLength": 260765.22639999987
+  },
+  {
+    "name": "LT Lateral terminal nucleus of the accessory optic tract",
+    "leftLength": 2781.2689000000005,
+    "rightLength": 1551.3074
+  },
+  {
+    "name": "VTA Ventral tegmental area",
+    "leftLength": 1125870.2044999995,
+    "rightLength": 637988.3401000003
+  },
+  {
+    "name": "DT Dorsal terminal nucleus of the accessory optic tract",
+    "leftLength": 397.0382,
+    "rightLength": 10.7368
+  },
+  {
+    "name": "VTN Ventral tegmental nucleus",
+    "leftLength": 34572.61099999998,
+    "rightLength": 38844.75610000003
+  },
+  {
+    "name": "EW Edinger-Westphal nucleus",
+    "leftLength": 63722.934099999984,
+    "rightLength": 61523.21079999999
+  },
+  {
+    "name": "MBSTA Midbrain, behavioral state related",
+    "leftLength": 1994303.0039999988,
+    "rightLength": 1823245.8945999988
+  },
+  {
+    "name": "RAMB Midbrain raphe nuclei",
+    "leftLength": 913137.0646000004,
+    "rightLength": 879356.0454000001
+  },
+  {
+    "name": "IPN Interpeduncular nucleus",
+    "leftLength": 250670.61690000014,
+    "rightLength": 217496.4065000001
+  },
+  {
+    "name": "IPR Interpeduncular nucleus, rostral",
+    "leftLength": 23100.001599999996,
+    "rightLength": 23368.7078
+  },
+  {
+    "name": "IPC Interpeduncular nucleus, caudal",
+    "leftLength": 30318.4684,
+    "rightLength": 26414.59329999999
+  },
+  {
+    "name": "IPA Interpeduncular nucleus, apical",
+    "leftLength": 18008.322900000006,
+    "rightLength": 15498.0285
+  },
+  {
+    "name": "IPL Interpeduncular nucleus, lateral",
+    "leftLength": 45243.198699999986,
+    "rightLength": 42366.86779999999
+  },
+  {
+    "name": "IPI Interpeduncular nucleus, intermediate",
+    "leftLength": 11919.280399999994,
+    "rightLength": 13784.5985
+  },
+  {
+    "name": "IPDM Interpeduncular nucleus, dorsomedial",
+    "leftLength": 18721.100599999998,
+    "rightLength": 20593.424499999997
+  },
+  {
+    "name": "IPDL Interpeduncular nucleus, dorsolateral",
+    "leftLength": 48474.343099999984,
+    "rightLength": 32593.812399999995
+  },
+  {
+    "name": "IPRL Interpeduncular nucleus, rostrolateral",
+    "leftLength": 32711.997599999995,
+    "rightLength": 25083.821199999995
+  },
+  {
+    "name": "IF Interfascicular nucleus raphe",
+    "leftLength": 160513.31769999999,
+    "rightLength": 143925.47379999995
+  },
+  {
+    "name": "RL Rostral linear nucleus raphe",
+    "leftLength": 125609.52560000007,
+    "rightLength": 130325.31810000005
+  },
+  {
+    "name": "CLI Central linear nucleus raphe",
+    "leftLength": 65727.2859,
+    "rightLength": 67939.8754
+  },
+  {
+    "name": "DR Dorsal nucleus raphe",
+    "leftLength": 310616.3176000001,
+    "rightLength": 319668.9726999999
+  },
+  {
+    "name": "PPN Pedunculopontine nucleus",
+    "leftLength": 781173.4818000003,
+    "rightLength": 755237.1966999997
+  },
+  {
+    "name": "SNC Substantia nigra, compact part",
+    "leftLength": 299992.4541000001,
+    "rightLength": 188652.65059999996
+  },
+  {
+    "name": "MBSEN Midbrain, sensory related",
+    "leftLength": 409742.1228000002,
+    "rightLength": 540557.6555000005
+  },
+  {
+    "name": "SAG Nucleus sagulum",
+    "leftLength": 53621.1071,
+    "rightLength": 45392.23960000001
+  },
+  {
+    "name": "SCS Superior colliculus, sensory related",
+    "leftLength": 62305.43809999998,
+    "rightLength": 76624.51489999997
+  },
+  {
+    "name": "SCZO Superior colliculus, zonal layer",
+    "leftLength": 6849.099400000001,
+    "rightLength": 8404.504499999997
+  },
+  {
+    "name": "SCSG Superior colliculus, superficial gray layer",
+    "leftLength": 13052.963,
+    "rightLength": 18071.406100000004
+  },
+  {
+    "name": "SCOP Superior colliculus, optic layer",
+    "leftLength": 42403.3756,
+    "rightLength": 50148.6044
+  },
+  {
+    "name": "IC Inferior colliculus",
+    "leftLength": 272922.07279999997,
+    "rightLength": 394685.3614000001
+  },
+  {
+    "name": "ICC Inferior colliculus, central nucleus",
+    "leftLength": 78065.03519999995,
+    "rightLength": 100078.03949999997
+  },
+  {
+    "name": "ICD Inferior colliculus, dorsal nucleus",
+    "leftLength": 150648.4096,
+    "rightLength": 246624.87209999998
+  },
+  {
+    "name": "ICE Inferior colliculus, external nucleus",
+    "leftLength": 44208.628400000016,
+    "rightLength": 47982.44960000001
+  },
+  {
+    "name": "MEV Midbrain trigeminal nucleus",
+    "leftLength": 12379.724899999996,
+    "rightLength": 15292.447899999996
+  },
+  {
+    "name": "NB Nucleus of the brachium of the inferior colliculus",
+    "leftLength": 3317.7729,
+    "rightLength": 4334.965099999999
+  },
+  {
+    "name": "SCO Subcommissural organ",
+    "leftLength": 529.3283,
+    "rightLength": 285.3638
+  },
+  {
+    "name": "PBG Parabigeminal nucleus",
+    "leftLength": 4666.679099999999,
+    "rightLength": 3942.7628
+  },
+  {
+    "name": "HB Hindbrain",
+    "leftLength": 15464304.1599,
+    "rightLength": 15369566.8361
+  },
+  {
+    "name": "MY Medulla",
+    "leftLength": 2253078.602200002,
+    "rightLength": 2473463.2904000008
+  },
+  {
+    "name": "MY-SEN Medulla, sensory related",
+    "leftLength": 97816.75920000004,
+    "rightLength": 100392.54590000003
+  },
+  {
+    "name": "CN Cochlear nuclei",
+    "leftLength": 250.6134,
+    "rightLength": 354.6717
+  },
+  {
+    "name": "VCO Ventral cochlear nucleus",
+    "leftLength": 250.6134,
+    "rightLength": 354.6717
+  },
+  {
+    "name": "DCN Dorsal column nuclei",
+    "leftLength": 1990.9967000000001,
+    "rightLength": 641.281
+  },
+  {
+    "name": "CU Cuneate nucleus",
+    "leftLength": 1990.9967000000001,
+    "rightLength": 641.281
+  },
+  {
+    "name": "SPVC Spinal nucleus of the trigeminal, caudal part",
+    "leftLength": 10310.4043,
+    "rightLength": 15450.537400000001
+  },
+  {
+    "name": "SPVI Spinal nucleus of the trigeminal, interpolar part",
+    "leftLength": 12571.228799999999,
+    "rightLength": 16591.879300000004
+  },
+  {
+    "name": "SPVO Spinal nucleus of the trigeminal, oral part",
+    "leftLength": 21149.0884,
+    "rightLength": 20426.4644
+  },
+  {
+    "name": "PA5 Paratrigeminal nucleus",
+    "leftLength": 147.9937,
+    "rightLength": 0
+  },
+  {
+    "name": "NTB Nucleus of the trapezoid body",
+    "leftLength": 8905.8974,
+    "rightLength": 14123.2662
+  },
+  {
+    "name": "NTS Nucleus of the solitary tract",
+    "leftLength": 42490.53599999999,
+    "rightLength": 32804.4456
+  },
+  {
+    "name": "MY-MOT Medulla, motor related",
+    "leftLength": 1556636.9928000006,
+    "rightLength": 1709228.1371000016
+  },
+  {
+    "name": "GRN Gigantocellular reticular nucleus",
+    "leftLength": 252754.57099999994,
+    "rightLength": 266423.0944000002
+  },
+  {
+    "name": "ISN Inferior salivatory nucleus",
+    "leftLength": 27.6263,
+    "rightLength": 549.7977
+  },
+  {
+    "name": "PPY Parapyramidal nucleus",
+    "leftLength": 4582.856199999999,
+    "rightLength": 6931.596399999999
+  },
+  {
+    "name": "MDRN Medullary reticular nucleus",
+    "leftLength": 119982.9003,
+    "rightLength": 143404.82999999996
+  },
+  {
+    "name": "MDRND Medullary reticular nucleus, dorsal part",
+    "leftLength": 59821.67970000001,
+    "rightLength": 96139.61580000001
+  },
+  {
+    "name": "MDRNV Medullary reticular nucleus, ventral part",
+    "leftLength": 60161.22069999999,
+    "rightLength": 47265.214199999995
+  },
+  {
+    "name": "AMB Nucleus ambiguus",
+    "leftLength": 3752.6493000000005,
+    "rightLength": 1896.5064000000002
+  },
+  {
+    "name": "AMBV Nucleus ambiguus, ventral division",
+    "leftLength": 842.8647000000001,
+    "rightLength": 532.2573
+  },
+  {
+    "name": "AMBD Nucleus ambiguus, dorsal division",
+    "leftLength": 2909.7845,
+    "rightLength": 1364.2491
+  },
+  {
+    "name": "IRN Intermediate reticular nucleus",
+    "leftLength": 179660.6290999999,
+    "rightLength": 183472.03009999995
+  },
+  {
+    "name": "PHY Perihypoglossal nuclei",
+    "leftLength": 68974.04070000001,
+    "rightLength": 63660.66190000001
+  },
+  {
+    "name": "PRP Nucleus prepositus",
+    "leftLength": 68279.86069999999,
+    "rightLength": 63289.23000000001
+  },
+  {
+    "name": "NR Nucleus of Roller",
+    "leftLength": 694.18,
+    "rightLength": 371.4319
+  },
+  {
+    "name": "VNC Vestibular nuclei",
+    "leftLength": 344869.2515,
+    "rightLength": 367871.6831999997
+  },
+  {
+    "name": "MV Medial vestibular nucleus",
+    "leftLength": 329421.20930000005,
+    "rightLength": 353409.7395999997
+  },
+  {
+    "name": "LAV Lateral vestibular nucleus",
+    "leftLength": 685.1994,
+    "rightLength": 835.4908
+  },
+  {
+    "name": "SUV Superior vestibular nucleus",
+    "leftLength": 14678.224700000002,
+    "rightLength": 10927.8361
+  },
+  {
+    "name": "SPIV Spinal vestibular nucleus",
+    "leftLength": 84.6179,
+    "rightLength": 2698.6166
+  },
+  {
+    "name": "LIN Linear nucleus of the medulla",
+    "leftLength": 7004.952300000001,
+    "rightLength": 5458.1123
+  },
+  {
+    "name": "LRN Lateral reticular nucleus",
+    "leftLength": 16511.2763,
+    "rightLength": 14679.806099999998
+  },
+  {
+    "name": "LRNM Lateral reticular nucleus, magnocellular part",
+    "leftLength": 16186.752500000002,
+    "rightLength": 14679.806099999998
+  },
+  {
+    "name": "LRNP Lateral reticular nucleus, parvicellular part",
+    "leftLength": 324.5238,
+    "rightLength": 0
+  },
+  {
+    "name": "MARN Magnocellular reticular nucleus",
+    "leftLength": 127991.3825,
+    "rightLength": 164206.01159999994
+  },
+  {
+    "name": "ICB Infracerebellar nucleus",
+    "leftLength": 599.7259,
+    "rightLength": 268.5139
+  },
+  {
+    "name": "ACVII Accessory facial motor nucleus",
+    "leftLength": 1044.5061,
+    "rightLength": 679.3002
+  },
+  {
+    "name": "VI Abducens nucleus",
+    "leftLength": 31626.6051,
+    "rightLength": 34588.94080000001
+  },
+  {
+    "name": "VII Facial motor nucleus",
+    "leftLength": 32042.098900000005,
+    "rightLength": 40607.221999999994
+  },
+  {
+    "name": "X Nucleus x",
+    "leftLength": 0,
+    "rightLength": 535.1457
+  },
+  {
+    "name": "XII Hypoglossal nucleus",
+    "leftLength": 10126.083499999999,
+    "rightLength": 9676.421199999999
+  },
+  {
+    "name": "IO Inferior olivary complex",
+    "leftLength": 99688.35549999999,
+    "rightLength": 105833.10709999998
+  },
+  {
+    "name": "DMX Dorsal motor nucleus of the vagus nerve",
+    "leftLength": 8584.8972,
+    "rightLength": 4978.273900000001
+  },
+  {
+    "name": "PARN Parvicellular reticular nucleus",
+    "leftLength": 173634.19500000004,
+    "rightLength": 216578.03120000003
+  },
+  {
+    "name": "PGRN Paragigantocellular reticular nucleus",
+    "leftLength": 73178.3879,
+    "rightLength": 76929.05270000004
+  },
+  {
+    "name": "PGRND Paragigantocellular reticular nucleus, dorsal part",
+    "leftLength": 35342.97079999998,
+    "rightLength": 33205.75699999999
+  },
+  {
+    "name": "PGRNL Paragigantocellular reticular nucleus, lateral part",
+    "leftLength": 37835.41689999998,
+    "rightLength": 43723.29579999999
+  },
+  {
+    "name": "MY-SAT Medulla, behavioral state related",
+    "leftLength": 159385.2439999999,
+    "rightLength": 169965.9501
+  },
+  {
+    "name": "RM Nucleus raphe magnus",
+    "leftLength": 110724.90139999989,
+    "rightLength": 118860.29240000002
+  },
+  {
+    "name": "RO Nucleus raphe obscurus",
+    "leftLength": 10114.104499999998,
+    "rightLength": 9401.386500000004
+  },
+  {
+    "name": "RPA Nucleus raphe pallidus",
+    "leftLength": 38546.23800000001,
+    "rightLength": 41704.271
+  },
+  {
+    "name": "P Pons",
+    "leftLength": 13211225.558400013,
+    "rightLength": 12896103.544199996
+  },
+  {
+    "name": "P-SEN Pons, sensory related",
+    "leftLength": 745375.6057,
+    "rightLength": 799381.8164000004
+  },
+  {
+    "name": "SOC Superior olivary complex",
+    "leftLength": 12916.802200000002,
+    "rightLength": 16858.926899999995
+  },
+  {
+    "name": "SOCM Superior olivary complex, medial part",
+    "leftLength": 2274.3068,
+    "rightLength": 3565.2482000000005
+  },
+  {
+    "name": "SOCL Superior olivary complex, lateral part",
+    "leftLength": 8676.547700000001,
+    "rightLength": 8128.104900000001
+  },
+  {
+    "name": "POR Superior olivary complex, periolivary region",
+    "leftLength": 1965.9478000000001,
+    "rightLength": 5165.5740000000005
+  },
+  {
+    "name": "PB Parabrachial nucleus",
+    "leftLength": 694133.2394,
+    "rightLength": 750709.4451000002
+  },
+  {
+    "name": "KF Koelliker-Fuse subnucleus",
+    "leftLength": 27606.201499999996,
+    "rightLength": 20812.594
+  },
+  {
+    "name": "NLL Nucleus of the lateral lemniscus",
+    "leftLength": 8951.1078,
+    "rightLength": 10097.407699999998
+  },
+  {
+    "name": "PSV Principal sensory nucleus of the trigeminal",
+    "leftLength": 29374.455299999998,
+    "rightLength": 21716.036200000002
+  },
+  {
+    "name": "P-MOT Pons, motor related",
+    "leftLength": 4840478.946599998,
+    "rightLength": 4787927.263299998
+  },
+  {
+    "name": "PRNC Pontine reticular nucleus, caudal part",
+    "leftLength": 715462.8239000001,
+    "rightLength": 836334.0028000004
+  },
+  {
+    "name": "B Barrington's nucleus",
+    "leftLength": 44191.20639999998,
+    "rightLength": 44570.59310000001
+  },
+  {
+    "name": "SG Supragenual nucleus",
+    "leftLength": 29711.142799999987,
+    "rightLength": 28443.97700000001
+  },
+  {
+    "name": "SUT Supratrigeminal nucleus",
+    "leftLength": 101900.58939999997,
+    "rightLength": 100516.6388
+  },
+  {
+    "name": "P5 Peritrigeminal zone",
+    "leftLength": 60345.649399999995,
+    "rightLength": 66528.9229
+  },
+  {
+    "name": "ACS5 Accessory trigeminal nucleus",
+    "leftLength": 1121.5087,
+    "rightLength": 2574.8629000000005
+  },
+  {
+    "name": "PC5 Parvicellular motor 5 nucleus",
+    "leftLength": 4701.0173,
+    "rightLength": 3341.4221000000002
+  },
+  {
+    "name": "I5 Intertrigeminal nucleus",
+    "leftLength": 617.1444,
+    "rightLength": 260.2146
+  },
+  {
+    "name": "TRN Tegmental reticular nucleus",
+    "leftLength": 747840.4965999998,
+    "rightLength": 747484.8586
+  },
+  {
+    "name": "PDTG Posterodorsal tegmental nucleus",
+    "leftLength": 78208.90699999999,
+    "rightLength": 68714.109
+  },
+  {
+    "name": "V Motor nucleus of trigeminal",
+    "leftLength": 12184.736200000001,
+    "rightLength": 10022.9865
+  },
+  {
+    "name": "DTN Dorsal tegmental nucleus",
+    "leftLength": 351861.7281999999,
+    "rightLength": 346950.62110000005
+  },
+  {
+    "name": "PCG Pontine central gray",
+    "leftLength": 1622180.8781000017,
+    "rightLength": 1583287.2989000003
+  },
+  {
+    "name": "PG Pontine gray",
+    "leftLength": 1070151.1170000006,
+    "rightLength": 948896.7553999999
+  },
+  {
+    "name": "P-SAT Pons, behavioral state related",
+    "leftLength": 5519940.9090000065,
+    "rightLength": 5248874.136399997
+  },
+  {
+    "name": "PRNR Pontine reticular nucleus",
+    "leftLength": 2226510.7788000023,
+    "rightLength": 2142139.0524000004
+  },
+  {
+    "name": "LC Locus ceruleus",
+    "leftLength": 20731.245300000002,
+    "rightLength": 19051.999500000005
+  },
+  {
+    "name": "LDT Laterodorsal tegmental nucleus",
+    "leftLength": 733873.2652999995,
+    "rightLength": 696801.3881
+  },
+  {
+    "name": "RPO Nucleus raphe pontis",
+    "leftLength": 247694.39650000018,
+    "rightLength": 253434.3123999998
+  },
+  {
+    "name": "SLC Subceruleus nucleus",
+    "leftLength": 23992.882800000014,
+    "rightLength": 23552.143399999986
+  },
+  {
+    "name": "SLD Sublaterodorsal nucleus",
+    "leftLength": 101050.24789999999,
+    "rightLength": 109388.68700000006
+  },
+  {
+    "name": "NI Nucleus incertus",
+    "leftLength": 289322.1354000001,
+    "rightLength": 291579.0167
+  },
+  {
+    "name": "CS Superior central nucleus raphe",
+    "leftLength": 1876765.9584,
+    "rightLength": 1712927.5364000008
+  },
+  {
+    "name": "CH Cerebrum",
+    "leftLength": 267678680.67310068,
+    "rightLength": 246712126.73250017
+  },
+  {
+    "name": "CTX Cerebral cortex",
+    "leftLength": 148716476.92799982,
+    "rightLength": 140042785.34109977
+  },
+  {
+    "name": "CTXPL Cortical plate",
+    "leftLength": 137937484.9132999,
+    "rightLength": 132275691.12549984
+  },
+  {
+    "name": "ISOCORTEX Isocortex",
+    "leftLength": 125061841.13760008,
+    "rightLength": 122648313.8995997
+  },
+  {
+    "name": "AUD Auditory areas",
+    "leftLength": 619437.9614000004,
+    "rightLength": 567792.7823000003
+  },
+  {
+    "name": "AUDP Primary auditory area",
+    "leftLength": 151586.61009999996,
+    "rightLength": 133893.496
+  },
+  {
+    "name": "AUDP6B Primary auditory area, layer 6b",
+    "leftLength": 3985.4232999999995,
+    "rightLength": 2550.1445000000003
+  },
+  {
+    "name": "AUDP2/3 Primary auditory area, layer 2/3",
+    "leftLength": 11558.4404,
+    "rightLength": 8493.7776
+  },
+  {
+    "name": "AUDP1 Primary auditory area, layer 1",
+    "leftLength": 64849.25729999999,
+    "rightLength": 70897.23599999998
+  },
+  {
+    "name": "AUDP4 Primary auditory area, layer 4",
+    "leftLength": 3227.2517000000003,
+    "rightLength": 2491.033
+  },
+  {
+    "name": "AUDP5 Primary auditory area, layer 5",
+    "leftLength": 32242.812700000002,
+    "rightLength": 20966.271300000004
+  },
+  {
+    "name": "AUDP6A Primary auditory area, layer 6a",
+    "leftLength": 35723.424199999994,
+    "rightLength": 28495.034300000007
+  },
+  {
+    "name": "AUDD Dorsal auditory area",
+    "leftLength": 160870.38889999996,
+    "rightLength": 158102.16129999998
+  },
+  {
+    "name": "AUDD6A Dorsal auditory area, layer 6a",
+    "leftLength": 41383.373900000006,
+    "rightLength": 38040.4603
+  },
+  {
+    "name": "AUDD6B Dorsal auditory area, layer 6b",
+    "leftLength": 5282.154,
+    "rightLength": 1831.1547000000003
+  },
+  {
+    "name": "AUDD5 Dorsal auditory area, layer 5",
+    "leftLength": 34761.45580000001,
+    "rightLength": 30365.406400000003
+  },
+  {
+    "name": "AUDD1 Dorsal auditory area, layer 1",
+    "leftLength": 55339.6569,
+    "rightLength": 72119.87410000003
+  },
+  {
+    "name": "AUDD2/3 Dorsal auditory area, layer 2/3",
+    "leftLength": 20309.6743,
+    "rightLength": 11565.770200000003
+  },
+  {
+    "name": "AUDD4 Dorsal auditory area, layer 4",
+    "leftLength": 3794.073700000001,
+    "rightLength": 4179.4954
+  },
+  {
+    "name": "AUDV Ventral auditory area",
+    "leftLength": 249808.0097999999,
+    "rightLength": 192616.99349999998
+  },
+  {
+    "name": "AUDV5 Ventral auditory area, layer 5",
+    "leftLength": 36404.86819999998,
+    "rightLength": 31307.302700000004
+  },
+  {
+    "name": "AUDV6A Ventral auditory area, layer 6a",
+    "leftLength": 46071.1594,
+    "rightLength": 32499.33109999999
+  },
+  {
+    "name": "AUDV6B Ventral auditory area, layer 6b",
+    "leftLength": 6358.5939,
+    "rightLength": 3933.7975000000006
+  },
+  {
+    "name": "AUDV2/3 Ventral auditory area, layer 2/3",
+    "leftLength": 58855.537900000025,
+    "rightLength": 27502.865199999997
+  },
+  {
+    "name": "AUDV1 Ventral auditory area, layer 1",
+    "leftLength": 94427.19000000002,
+    "rightLength": 90667.47850000004
+  },
+  {
+    "name": "AUDV4 Ventral auditory area, layer 4",
+    "leftLength": 7690.6612,
+    "rightLength": 6706.218
+  },
+  {
+    "name": "AUDPO Posterior auditory area",
+    "leftLength": 57172.95179999998,
+    "rightLength": 83180.13160000002
+  },
+  {
+    "name": "AUDPO6A Posterior auditory area, layer 6a",
+    "leftLength": 14017.741099999996,
+    "rightLength": 16771.0326
+  },
+  {
+    "name": "AUDPO6B Posterior auditory area, layer 6b",
+    "leftLength": 1625.1507000000004,
+    "rightLength": 1622.3644000000004
+  },
+  {
+    "name": "AUDPO2/3 Posterior auditory area, layer 2/3",
+    "leftLength": 7504.495900000002,
+    "rightLength": 12148.693
+  },
+  {
+    "name": "AUDPO1 Posterior auditory area, layer 1",
+    "leftLength": 17003.8647,
+    "rightLength": 31781.616099999996
+  },
+  {
+    "name": "AUDPO4 Posterior auditory area, layer 4",
+    "leftLength": 2750.1852,
+    "rightLength": 2910.9018000000005
+  },
+  {
+    "name": "AUDPO5 Posterior auditory area, layer 5",
+    "leftLength": 14271.514799999999,
+    "rightLength": 17945.5229
+  },
+  {
+    "name": "SS Somatosensory areas",
+    "leftLength": 4943496.379399998,
+    "rightLength": 4948002.265899997
+  },
+  {
+    "name": "SSP Primary somatosensory area",
+    "leftLength": 3288092.655799999,
+    "rightLength": 3717730.1290999986
+  },
+  {
+    "name": "SSP-TR Primary somatosensory area, trunk",
+    "leftLength": 254012.03659999993,
+    "rightLength": 483820.3699999996
+  },
+  {
+    "name": "SSP-TR1 Primary somatosensory area, trunk, layer 1",
+    "leftLength": 45895.76779999999,
+    "rightLength": 146911.17250000002
+  },
+  {
+    "name": "SSP-TR4 Primary somatosensory area, trunk, layer 4",
+    "leftLength": 3995.9251999999997,
+    "rightLength": 14735.991899999999
+  },
+  {
+    "name": "SSP-TR5 Primary somatosensory area, trunk, layer 5",
+    "leftLength": 33725.324400000005,
+    "rightLength": 58005.513
+  },
+  {
+    "name": "SSP-TR6B Primary somatosensory area, trunk, layer 6b",
+    "leftLength": 12672.3563,
+    "rightLength": 17745.77440000001
+  },
+  {
+    "name": "SSP-TR2/3 Primary somatosensory area, trunk, layer 2/3",
+    "leftLength": 12821.388399999998,
+    "rightLength": 49433.51260000001
+  },
+  {
+    "name": "SSP-TR6A Primary somatosensory area, trunk, layer 6a",
+    "leftLength": 144901.2743,
+    "rightLength": 196988.40470000007
+  },
+  {
+    "name": "SSP-UL Primary somatosensory area, upper limb",
+    "leftLength": 506665.6115000002,
+    "rightLength": 660697.6381999999
+  },
+  {
+    "name": "SSP-UL6B Primary somatosensory area, upper limb, layer 6b",
+    "leftLength": 24390.3328,
+    "rightLength": 25312.329500000007
+  },
+  {
+    "name": "SSP-UL1 Primary somatosensory area, upper limb, layer 1",
+    "leftLength": 126353.47529999999,
+    "rightLength": 221565.377
+  },
+  {
+    "name": "SSP-UL4 Primary somatosensory area, upper limb, layer 4",
+    "leftLength": 13423.484799999998,
+    "rightLength": 18442.199199999995
+  },
+  {
+    "name": "SSP-UL5 Primary somatosensory area, upper limb, layer 5",
+    "leftLength": 53687.285499999976,
+    "rightLength": 67942.16610000003
+  },
+  {
+    "name": "SSP-UL2/3 Primary somatosensory area, upper limb, layer 2/3",
+    "leftLength": 32048.350400000007,
+    "rightLength": 28121.307699999998
+  },
+  {
+    "name": "SSP-UL6A Primary somatosensory area, upper limb, layer 6a",
+    "leftLength": 256762.68289999993,
+    "rightLength": 299314.257
+  },
+  {
+    "name": "SSP-LL Primary somatosensory area, lower limb",
+    "leftLength": 366301.8480000001,
+    "rightLength": 461031.2552000002
+  },
+  {
+    "name": "SSP-LL1 Primary somatosensory area, lower limb, layer 1",
+    "leftLength": 93624.8221,
+    "rightLength": 124831.7267
+  },
+  {
+    "name": "SSP-LL4 Primary somatosensory area, lower limb, layer 4",
+    "leftLength": 8499.069899999999,
+    "rightLength": 8210.645
+  },
+  {
+    "name": "SSP-LL5 Primary somatosensory area, lower limb, layer 5",
+    "leftLength": 33954.119399999996,
+    "rightLength": 32920.510500000004
+  },
+  {
+    "name": "SSP-LL2/3 Primary somatosensory area, lower limb, layer 2/3",
+    "leftLength": 24142.099400000003,
+    "rightLength": 22308.171699999995
+  },
+  {
+    "name": "SSP-LL6A Primary somatosensory area, lower limb, layer 6a",
+    "leftLength": 194657.2645,
+    "rightLength": 253946.7000999998
+  },
+  {
+    "name": "SSP-LL6B Primary somatosensory area, lower limb, layer 6b",
+    "leftLength": 11424.472400000006,
+    "rightLength": 18813.5018
+  },
+  {
+    "name": "SSP-BFD Primary somatosensory area, barrel field",
+    "leftLength": 823392.3959999998,
+    "rightLength": 1195293.730999999
+  },
+  {
+    "name": "SSP-BFD6A Primary somatosensory area, barrel field, layer 6a",
+    "leftLength": 408290.31809999986,
+    "rightLength": 445494.41429999983
+  },
+  {
+    "name": "SSP-BFD4 Primary somatosensory area, barrel field, layer 4",
+    "leftLength": 32135.980800000005,
+    "rightLength": 41358.7038
+  },
+  {
+    "name": "SSP-BFD6B Primary somatosensory area, barrel field, layer 6b",
+    "leftLength": 33247.06780000001,
+    "rightLength": 39255.56020000001
+  },
+  {
+    "name": "SSP-BFD5 Primary somatosensory area, barrel field, layer 5",
+    "leftLength": 99928.19489999996,
+    "rightLength": 123239.73819999999
+  },
+  {
+    "name": "SSP-BFD2/3 Primary somatosensory area, barrel field, layer 2/3",
+    "leftLength": 44137.242200000015,
+    "rightLength": 84523.67839999999
+  },
+  {
+    "name": "SSP-BFD1 Primary somatosensory area, barrel field, layer 1",
+    "leftLength": 205653.59159999996,
+    "rightLength": 461421.63539999997
+  },
+  {
+    "name": "SSP-M Primary somatosensory area, mouth",
+    "leftLength": 883332.4484,
+    "rightLength": 527525.8446000003
+  },
+  {
+    "name": "SSP-M6A Primary somatosensory area, mouth, layer 6a",
+    "leftLength": 471068.6438000001,
+    "rightLength": 284630.6305999999
+  },
+  {
+    "name": "SSP-M6B Primary somatosensory area, mouth, layer 6b",
+    "leftLength": 47131.48909999998,
+    "rightLength": 30235.615700000002
+  },
+  {
+    "name": "SSP-M2/3 Primary somatosensory area, mouth, layer 2/3",
+    "leftLength": 68997.42940000002,
+    "rightLength": 29021.997399999986
+  },
+  {
+    "name": "SSP-M1 Primary somatosensory area, mouth, layer 1",
+    "leftLength": 179542.51270000008,
+    "rightLength": 119511.33710000009
+  },
+  {
+    "name": "SSP-M4 Primary somatosensory area, mouth, layer 4",
+    "leftLength": 33895.3185,
+    "rightLength": 12060.586499999998
+  },
+  {
+    "name": "SSP-M5 Primary somatosensory area, mouth, layer 5",
+    "leftLength": 82697.05520000003,
+    "rightLength": 52065.67659999999
+  },
+  {
+    "name": "SSP-UN Primary somatosensory area, unassigned",
+    "leftLength": 171862.32190000004,
+    "rightLength": 207475.19840000002
+  },
+  {
+    "name": "SSP-UN1 Primary somatosensory area, unassigned, layer 1",
+    "leftLength": 45843.330799999996,
+    "rightLength": 76874.68859999998
+  },
+  {
+    "name": "SSP-UN2/3 Primary somatosensory area, unassigned, layer 2/3",
+    "leftLength": 6852.596200000001,
+    "rightLength": 13212.868
+  },
+  {
+    "name": "SSP-UN4 Primary somatosensory area, unassigned, layer 4",
+    "leftLength": 3601.794000000001,
+    "rightLength": 5254.106899999999
+  },
+  {
+    "name": "SSP-UN5 Primary somatosensory area, unassigned, layer 5",
+    "leftLength": 19084.22649999999,
+    "rightLength": 18931.7475
+  },
+  {
+    "name": "SSP-UN6A Primary somatosensory area, unassigned, layer 6a",
+    "leftLength": 89281.76859999998,
+    "rightLength": 85022.58550000003
+  },
+  {
+    "name": "SSP-UN6B Primary somatosensory area, unassigned, layer 6b",
+    "leftLength": 7198.606599999998,
+    "rightLength": 8179.202600000002
+  },
+  {
+    "name": "SSP-N Primary somatosensory area, nose",
+    "leftLength": 282525.9940000001,
+    "rightLength": 181886.0908000001
+  },
+  {
+    "name": "SSP-N1 Primary somatosensory area, nose, layer 1",
+    "leftLength": 45803.0518,
+    "rightLength": 37348.975399999996
+  },
+  {
+    "name": "SSP-N4 Primary somatosensory area, nose, layer 4",
+    "leftLength": 8776.562300000001,
+    "rightLength": 3055.4874000000004
+  },
+  {
+    "name": "SSP-N5 Primary somatosensory area, nose, layer 5",
+    "leftLength": 24650.836199999998,
+    "rightLength": 8869.1131
+  },
+  {
+    "name": "SSP-N2/3 Primary somatosensory area, nose, layer 2/3",
+    "leftLength": 19374.8146,
+    "rightLength": 2814.3773
+  },
+  {
+    "name": "SSP-N6A Primary somatosensory area, nose, layer 6a",
+    "leftLength": 174180.52809999994,
+    "rightLength": 122855.17770000004
+  },
+  {
+    "name": "SSP-N6B Primary somatosensory area, nose, layer 6b",
+    "leftLength": 9740.2008,
+    "rightLength": 6942.960300000001
+  },
+  {
+    "name": "SSS Supplemental somatosensory area",
+    "leftLength": 1655403.724199999,
+    "rightLength": 1230272.1376
+  },
+  {
+    "name": "SSS4 Supplemental somatosensory area, layer 4",
+    "leftLength": 61713.521499999995,
+    "rightLength": 41967.9811
+  },
+  {
+    "name": "SSS5 Supplemental somatosensory area, layer 5",
+    "leftLength": 251562.88319999978,
+    "rightLength": 191674.7666
+  },
+  {
+    "name": "SSS2/3 Supplemental somatosensory area, layer 2/3",
+    "leftLength": 201965.20479999998,
+    "rightLength": 109315.755
+  },
+  {
+    "name": "SSS6A Supplemental somatosensory area, layer 6a",
+    "leftLength": 623848.9999999999,
+    "rightLength": 438626.9541999997
+  },
+  {
+    "name": "SSS1 Supplemental somatosensory area, layer 1",
+    "leftLength": 433121.0285999998,
+    "rightLength": 397613.0531000001
+  },
+  {
+    "name": "SSS6B Supplemental somatosensory area, layer 6b",
+    "leftLength": 83192.08620000003,
+    "rightLength": 51073.6265
+  },
+  {
+    "name": "VISC Visceral area",
+    "leftLength": 890055.6450999998,
+    "rightLength": 513055.33449999994
+  },
+  {
+    "name": "VISC4 Visceral area, layer 4",
+    "leftLength": 24744.0176,
+    "rightLength": 10870.3494
+  },
+  {
+    "name": "VISC5 Visceral area, layer 5",
+    "leftLength": 194881.51189999992,
+    "rightLength": 103805.49170000003
+  },
+  {
+    "name": "VISC2/3 Visceral area, layer 2/3",
+    "leftLength": 191024.17830000003,
+    "rightLength": 87273.81329999997
+  },
+  {
+    "name": "VISC6B Visceral area, layer 6b",
+    "leftLength": 26689.43560000001,
+    "rightLength": 25168.929399999994
+  },
+  {
+    "name": "VISC6A Visceral area, layer 6a",
+    "leftLength": 259086.1352,
+    "rightLength": 149368.2095000001
+  },
+  {
+    "name": "VISC1 Visceral area, layer 1",
+    "leftLength": 193630.3646000001,
+    "rightLength": 136568.5413
+  },
+  {
+    "name": "ACA Anterior cingulate area",
+    "leftLength": 17876772.01529999,
+    "rightLength": 18966829.48149999
+  },
+  {
+    "name": "ACAD Anterior cingulate area, dorsal part",
+    "leftLength": 10817413.789799996,
+    "rightLength": 12615688.27949998
+  },
+  {
+    "name": "ACAD5 Anterior cingulate area, dorsal part, layer 5",
+    "leftLength": 3753981.2357999994,
+    "rightLength": 5702127.771899993
+  },
+  {
+    "name": "ACAD2/3 Anterior cingulate area, dorsal part, layer 2/3",
+    "leftLength": 1889293.3138999974,
+    "rightLength": 1811305.2417999988
+  },
+  {
+    "name": "ACAD6A Anterior cingulate area, dorsal part, layer 6a",
+    "leftLength": 2696650.0334,
+    "rightLength": 2987380.6467
+  },
+  {
+    "name": "ACAD6B Anterior cingulate area, dorsal part, layer 6b",
+    "leftLength": 55744.351399999934,
+    "rightLength": 57381.899999999994
+  },
+  {
+    "name": "ACAD1 Anterior cingulate area, dorsal part, layer 1",
+    "leftLength": 2421744.8567999993,
+    "rightLength": 2057492.7183
+  },
+  {
+    "name": "ACAV Anterior cingulate area, ventral part",
+    "leftLength": 7059358.226300008,
+    "rightLength": 6351141.204299999
+  },
+  {
+    "name": "ACAV2/3 Anterior cingulate area, ventral part, layer 2/3",
+    "leftLength": 926907.5889000001,
+    "rightLength": 1308110.3576000002
+  },
+  {
+    "name": "ACAV1 Anterior cingulate area, ventral part, layer 1",
+    "leftLength": 1033335.3618999998,
+    "rightLength": 1099692.8652999995
+  },
+  {
+    "name": "ACAV5 Anterior cingulate area, ventral part, layer 5",
+    "leftLength": 3369654.4005999938,
+    "rightLength": 2786574.3112000027
+  },
+  {
+    "name": "ACAV6A Anterior cingulate area, ventral part, 6a",
+    "leftLength": 1535523.8369999984,
+    "rightLength": 1029938.9517999984
+  },
+  {
+    "name": "ACAV6B Anterior cingulate area, ventral part, 6b",
+    "leftLength": 193937.03850000046,
+    "rightLength": 126824.72200000005
+  },
+  {
+    "name": "MO Somatomotor areas",
+    "leftLength": 26613147.274899956,
+    "rightLength": 28814492.256100077
+  },
+  {
+    "name": "MOS Secondary motor area",
+    "leftLength": 21888404.297199976,
+    "rightLength": 23849684.50140001
+  },
+  {
+    "name": "MOS6A Secondary motor area, layer 6a",
+    "leftLength": 4303078.375600004,
+    "rightLength": 4727366.825300008
+  },
+  {
+    "name": "MOS6B Secondary motor area, layer 6b",
+    "leftLength": 93955.18500000006,
+    "rightLength": 111166.56889999998
+  },
+  {
+    "name": "MOS1 Secondary motor area, layer 1",
+    "leftLength": 4085044.6716000033,
+    "rightLength": 4333195.282499996
+  },
+  {
+    "name": "MOS5 Secondary motor area, layer 5",
+    "leftLength": 7869524.363099997,
+    "rightLength": 8753810.5944
+  },
+  {
+    "name": "MOS2/3 Secondary motor area, layer 2/3",
+    "leftLength": 5536801.701099993,
+    "rightLength": 5924145.236099995
+  },
+  {
+    "name": "MOP Primary motor area",
+    "leftLength": 4724742.978800006,
+    "rightLength": 4964807.7526
+  },
+  {
+    "name": "MOP1 Primary motor area, Layer 1",
+    "leftLength": 816140.2777999995,
+    "rightLength": 969060.2369000006
+  },
+  {
+    "name": "MOP5 Primary motor area, Layer 5",
+    "leftLength": 1081480.586000001,
+    "rightLength": 1155989.3410000005
+  },
+  {
+    "name": "MOP6A Primary motor area, Layer 6a",
+    "leftLength": 1595644.0444999991,
+    "rightLength": 1677004.167000001
+  },
+  {
+    "name": "MOP6B Primary motor area, Layer 6b",
+    "leftLength": 120923.08889999997,
+    "rightLength": 121439.86710000002
+  },
+  {
+    "name": "MOP2/3 Primary motor area, Layer 2/3",
+    "leftLength": 1110554.9808000003,
+    "rightLength": 1041314.1411000002
+  },
+  {
+    "name": "AI Agranular insular area",
+    "leftLength": 20943629.86780001,
+    "rightLength": 17496775.196299985
+  },
+  {
+    "name": "AID Agranular insular area, dorsal part",
+    "leftLength": 12009066.157600006,
+    "rightLength": 10334801.287999991
+  },
+  {
+    "name": "AID5 Agranular insular area, dorsal part, layer 5",
+    "leftLength": 5366656.287699997,
+    "rightLength": 3277942.6666000034
+  },
+  {
+    "name": "AID2/3 Agranular insular area, dorsal part, layer 2/3",
+    "leftLength": 2998385.8915000027,
+    "rightLength": 3426653.748500004
+  },
+  {
+    "name": "AID6A Agranular insular area, dorsal part, layer 6a",
+    "leftLength": 2404742.7763000014,
+    "rightLength": 1768442.4286999998
+  },
+  {
+    "name": "AID6B Agranular insular area, dorsal part, layer 6b",
+    "leftLength": 207672.25939999978,
+    "rightLength": 154556.0819
+  },
+  {
+    "name": "AID1 Agranular insular area, dorsal part, layer 1",
+    "leftLength": 1031608.9412999995,
+    "rightLength": 1707206.3620000004
+  },
+  {
+    "name": "AIP Agranular insular area, posterior part",
+    "leftLength": 2104603.9227000005,
+    "rightLength": 1358273.0399000002
+  },
+  {
+    "name": "AIP1 Agranular insular area, posterior part, layer 1",
+    "leftLength": 197797.8283,
+    "rightLength": 166308.6861
+  },
+  {
+    "name": "AIP2/3 Agranular insular area, posterior part, layer 2/3",
+    "leftLength": 542862.9890999997,
+    "rightLength": 346805.1984999999
+  },
+  {
+    "name": "AIP6A Agranular insular area, posterior part, layer 6a",
+    "leftLength": 671200.4218000005,
+    "rightLength": 458678.64819999965
+  },
+  {
+    "name": "AIP5 Agranular insular area, posterior part, layer 5",
+    "leftLength": 670704.3406999992,
+    "rightLength": 368280.70840000024
+  },
+  {
+    "name": "AIP6B Agranular insular area, posterior part, layer 6b",
+    "leftLength": 22038.34210000001,
+    "rightLength": 18199.795400000006
+  },
+  {
+    "name": "AIV Agranular insular area, ventral part",
+    "leftLength": 6829959.790200008,
+    "rightLength": 5803700.8696
+  },
+  {
+    "name": "AIV6A Agranular insular area, ventral part, layer 6a",
+    "leftLength": 913912.7399000007,
+    "rightLength": 672629.5200999997
+  },
+  {
+    "name": "AIV2/3 Agranular insular area, ventral part, layer 2/3",
+    "leftLength": 2462426.028300003,
+    "rightLength": 2389199.208600001
+  },
+  {
+    "name": "AIV6B Agranular insular area, ventral part, layer 6b",
+    "leftLength": 24979.386899999998,
+    "rightLength": 12039.695600000006
+  },
+  {
+    "name": "AIV1 Agranular insular area, ventral part, layer 1",
+    "leftLength": 439470.11080000014,
+    "rightLength": 564968.7494000002
+  },
+  {
+    "name": "AIV5 Agranular insular area, ventral part, layer 5",
+    "leftLength": 2989171.519699996,
+    "rightLength": 2164863.696800001
+  },
+  {
+    "name": "ECT Ectorhinal area",
+    "leftLength": 983313.8010000003,
+    "rightLength": 760480.1492999997
+  },
+  {
+    "name": "ECT6B Ectorhinal area/Layer 6b",
+    "leftLength": 11075.959200000001,
+    "rightLength": 10562.452100000002
+  },
+  {
+    "name": "ECT2/3 Ectorhinal area/Layer 2/3",
+    "leftLength": 290173.00709999993,
+    "rightLength": 204449.84590000001
+  },
+  {
+    "name": "ECT1 Ectorhinal area/Layer 1",
+    "leftLength": 146970.86429999996,
+    "rightLength": 155584.4398
+  },
+  {
+    "name": "ECT6A Ectorhinal area/Layer 6a",
+    "leftLength": 245599.19249999998,
+    "rightLength": 178670.00770000007
+  },
+  {
+    "name": "ECT5 Ectorhinal area/Layer 5",
+    "leftLength": 289494.7789999998,
+    "rightLength": 211213.40370000002
+  },
+  {
+    "name": "VIS Visual areas",
+    "leftLength": 1922872.2569,
+    "rightLength": 2611075.8605999993
+  },
+  {
+    "name": "VISAM Anteromedial visual area",
+    "leftLength": 412088.6918,
+    "rightLength": 824133.7693999998
+  },
+  {
+    "name": "VISAM6A Anteromedial visual area, layer 6a",
+    "leftLength": 122980.52439999994,
+    "rightLength": 206267.70150000014
+  },
+  {
+    "name": "VISAM2/3 Anteromedial visual area, layer 2/3",
+    "leftLength": 71237.83110000001,
+    "rightLength": 126505.5094
+  },
+  {
+    "name": "VISAM1 Anteromedial visual area, layer 1",
+    "leftLength": 83236.67609999995,
+    "rightLength": 282790.4244999999
+  },
+  {
+    "name": "VISAM4 Anteromedial visual area, layer 4",
+    "leftLength": 17290.4836,
+    "rightLength": 36588.379400000005
+  },
+  {
+    "name": "VISAM5 Anteromedial visual area, layer 5",
+    "leftLength": 100907.23949999997,
+    "rightLength": 143684.01429999995
+  },
+  {
+    "name": "VISAM6B Anteromedial visual area, layer 6b",
+    "leftLength": 16435.937399999995,
+    "rightLength": 28297.7401
+  },
+  {
+    "name": "VISAL Anterolateral visual area",
+    "leftLength": 135297.29710000003,
+    "rightLength": 171259.2898999999
+  },
+  {
+    "name": "VISAL1 Anterolateral visual area, layer 1",
+    "leftLength": 29192.9103,
+    "rightLength": 68190.34089999998
+  },
+  {
+    "name": "VISAL4 Anterolateral visual area, layer 4",
+    "leftLength": 3276.5214,
+    "rightLength": 6358.4904
+  },
+  {
+    "name": "VISAL5 Anterolateral visual area, layer 5",
+    "leftLength": 44497.310800000014,
+    "rightLength": 32221.003899999996
+  },
+  {
+    "name": "VISAL6A Anterolateral visual area, layer 6a",
+    "leftLength": 38836.847499999996,
+    "rightLength": 42222.9315
+  },
+  {
+    "name": "VISAL6B Anterolateral visual area, layer 6b",
+    "leftLength": 6050.3270999999995,
+    "rightLength": 6148.961799999999
+  },
+  {
+    "name": "VISAL2/3 Anterolateral visual area, layer 2/3",
+    "leftLength": 13443.3804,
+    "rightLength": 16117.562000000005
+  },
+  {
+    "name": "VISL Lateral visual area",
+    "leftLength": 108767.72309999999,
+    "rightLength": 134836.42229999998
+  },
+  {
+    "name": "VISL6B Lateral visual area, layer 6b",
+    "leftLength": 1740.1726999999998,
+    "rightLength": 4388.9169999999995
+  },
+  {
+    "name": "VISL1 Lateral visual area, layer 1",
+    "leftLength": 26283.494499999997,
+    "rightLength": 54623.9641
+  },
+  {
+    "name": "VISL4 Lateral visual area, layer 4",
+    "leftLength": 3642.3921,
+    "rightLength": 5145.1912999999995
+  },
+  {
+    "name": "VISL5 Lateral visual area, layer 5",
+    "leftLength": 26581.7963,
+    "rightLength": 20898.3459
+  },
+  {
+    "name": "VISL6A Lateral visual area, layer 6a",
+    "leftLength": 33663.225699999995,
+    "rightLength": 28105.26320000001
+  },
+  {
+    "name": "VISL2/3 Lateral visual area, layer 2/3",
+    "leftLength": 16856.6418,
+    "rightLength": 21674.7411
+  },
+  {
+    "name": "VISPM posteromedial visual area",
+    "leftLength": 242470.15799999997,
+    "rightLength": 237665.21110000001
+  },
+  {
+    "name": "VISPM6A posteromedial visual area, layer 6a",
+    "leftLength": 69415.98159999998,
+    "rightLength": 74741.70620000002
+  },
+  {
+    "name": "VISPM2/3 posteromedial visual area, layer 2/3",
+    "leftLength": 47673.54060000001,
+    "rightLength": 19829.207599999994
+  },
+  {
+    "name": "VISPM6B posteromedial visual area, layer 6b",
+    "leftLength": 9576.9513,
+    "rightLength": 15215.640300000003
+  },
+  {
+    "name": "VISPM4 posteromedial visual area, layer 4",
+    "leftLength": 6511.685600000002,
+    "rightLength": 4009.8354999999997
+  },
+  {
+    "name": "VISPM5 posteromedial visual area, layer 5",
+    "leftLength": 48847.03199999998,
+    "rightLength": 23606.711
+  },
+  {
+    "name": "VISPM1 posteromedial visual area, layer 1",
+    "leftLength": 60444.96659999999,
+    "rightLength": 100262.11089999996
+  },
+  {
+    "name": "VISPL Posterolateral visual area",
+    "leftLength": 112867.80210000002,
+    "rightLength": 100574.2341
+  },
+  {
+    "name": "VISPL2/3 Posterolateral visual area, layer 2/3",
+    "leftLength": 29783.752300000007,
+    "rightLength": 20313.3575
+  },
+  {
+    "name": "VISPL6A Posterolateral visual area, layer 6a",
+    "leftLength": 5225.266700000001,
+    "rightLength": 14516.4871
+  },
+  {
+    "name": "VISPL6B Posterolateral visual area, layer 6b",
+    "leftLength": 210.9526,
+    "rightLength": 439.02419999999995
+  },
+  {
+    "name": "VISPL1 Posterolateral visual area, layer 1",
+    "leftLength": 29164.150599999997,
+    "rightLength": 24184.6342
+  },
+  {
+    "name": "VISPL4 Posterolateral visual area, layer 4",
+    "leftLength": 5326.874500000001,
+    "rightLength": 4815.228999999999
+  },
+  {
+    "name": "VISPL5 Posterolateral visual area, layer 5",
+    "leftLength": 43156.8048,
+    "rightLength": 36305.50240000001
+  },
+  {
+    "name": "VISP Primary visual area",
+    "leftLength": 613063.4979999999,
+    "rightLength": 756327.6460000001
+  },
+  {
+    "name": "VISP6B Primary visual area, layer 6b",
+    "leftLength": 26502.1337,
+    "rightLength": 33829.544599999994
+  },
+  {
+    "name": "VISP6A Primary visual area, layer 6a",
+    "leftLength": 179459.80210000003,
+    "rightLength": 197978.09009999994
+  },
+  {
+    "name": "VISP1 Primary visual area, layer 1",
+    "leftLength": 196834.75299999997,
+    "rightLength": 353017.6341
+  },
+  {
+    "name": "VISP4 Primary visual area, layer 4",
+    "leftLength": 24571.24229999999,
+    "rightLength": 20845.147299999993
+  },
+  {
+    "name": "VISP5 Primary visual area, layer 5",
+    "leftLength": 138007.13079999998,
+    "rightLength": 93954.26
+  },
+  {
+    "name": "VISP2/3 Primary visual area, layer 2/3",
+    "leftLength": 47688.43690000001,
+    "rightLength": 56702.96910000002
+  },
+  {
+    "name": "VISLI Laterointermediate area",
+    "leftLength": 59757.922000000006,
+    "rightLength": 57781.5788
+  },
+  {
+    "name": "VISLI1 Laterointermediate area, layer 1",
+    "leftLength": 14826.218500000003,
+    "rightLength": 17504.455599999998
+  },
+  {
+    "name": "VISLI2/3 Laterointermediate area, layer 2/3",
+    "leftLength": 6888.669500000001,
+    "rightLength": 7114.4385999999995
+  },
+  {
+    "name": "VISLI4 Laterointermediate area, layer 4",
+    "leftLength": 2130.1391000000003,
+    "rightLength": 2430.3949
+  },
+  {
+    "name": "VISLI5 Laterointermediate area, layer 5",
+    "leftLength": 17052.516499999998,
+    "rightLength": 9755.7409
+  },
+  {
+    "name": "VISLI6A Laterointermediate area, layer 6a",
+    "leftLength": 18291.671000000002,
+    "rightLength": 20003.7366
+  },
+  {
+    "name": "VISLI6B Laterointermediate area, layer 6b",
+    "leftLength": 568.7074,
+    "rightLength": 972.8117000000001
+  },
+  {
+    "name": "VISPOR Postrhinal area",
+    "leftLength": 238559.1655000001,
+    "rightLength": 328497.71010000014
+  },
+  {
+    "name": "VISPOR1 Postrhinal area, layer 1",
+    "leftLength": 61642.848300000005,
+    "rightLength": 114907.77559999996
+  },
+  {
+    "name": "VISPOR2/3 Postrhinal area, layer 2/3",
+    "leftLength": 63222.5891,
+    "rightLength": 83914.8465
+  },
+  {
+    "name": "VISPOR4 Postrhinal area, layer 4",
+    "leftLength": 4449.624899999999,
+    "rightLength": 2907.223200000001
+  },
+  {
+    "name": "VISPOR5 Postrhinal area, layer 5",
+    "leftLength": 79935.6949,
+    "rightLength": 95008.75549999997
+  },
+  {
+    "name": "VISPOR6A Postrhinal area, layer 6a",
+    "leftLength": 28772.084200000005,
+    "rightLength": 30268.0891
+  },
+  {
+    "name": "VISPOR6B Postrhinal area, layer 6b",
+    "leftLength": 536.3239,
+    "rightLength": 1491.0187999999998
+  },
+  {
+    "name": "ILA Infralimbic area",
+    "leftLength": 2013356.4495000024,
+    "rightLength": 2052922.626499998
+  },
+  {
+    "name": "ILA6A Infralimbic area, layer 6a",
+    "leftLength": 692962.9186999995,
+    "rightLength": 675132.3177
+  },
+  {
+    "name": "ILA6B Infralimbic area, layer 6b",
+    "leftLength": 73103.41249999999,
+    "rightLength": 87183.8436000001
+  },
+  {
+    "name": "ILA2/3 Infralimbic area, layer 2/3",
+    "leftLength": 259032.37859999994,
+    "rightLength": 301462.50810000015
+  },
+  {
+    "name": "ILA1 Infralimbic area, layer 1",
+    "leftLength": 188669.36590000003,
+    "rightLength": 277788.6318000001
+  },
+  {
+    "name": "ILA5 Infralimbic area, layer 5",
+    "leftLength": 799588.3712999998,
+    "rightLength": 711355.3278
+  },
+  {
+    "name": "GU Gustatory areas",
+    "leftLength": 984239.4762999997,
+    "rightLength": 690061.6129999997
+  },
+  {
+    "name": "GU4 Gustatory areas, layer 4",
+    "leftLength": 29538.7301,
+    "rightLength": 16371.65309999999
+  },
+  {
+    "name": "GU2/3 Gustatory areas, layer 2/3",
+    "leftLength": 189148.4924,
+    "rightLength": 120134.8737
+  },
+  {
+    "name": "GU5 Gustatory areas, layer 5",
+    "leftLength": 196939.16270000002,
+    "rightLength": 135477.43279999992
+  },
+  {
+    "name": "GU1 Gustatory areas, layer 1",
+    "leftLength": 138149.8824,
+    "rightLength": 97211.86460000004
+  },
+  {
+    "name": "GU6A Gustatory areas, layer 6a",
+    "leftLength": 368070.56219999987,
+    "rightLength": 275835.67850000004
+  },
+  {
+    "name": "GU6B Gustatory areas, layer 6b",
+    "leftLength": 62392.64480000003,
+    "rightLength": 45030.111099999995
+  },
+  {
+    "name": "ORB Orbital area",
+    "leftLength": 23648085.7111,
+    "rightLength": 22412369.4161
+  },
+  {
+    "name": "ORBVL Orbital area, ventrolateral part",
+    "leftLength": 7241517.936400004,
+    "rightLength": 6900158.820200004
+  },
+  {
+    "name": "ORBVL5 Orbital area, ventrolateral part, layer 5",
+    "leftLength": 3143719.3035000046,
+    "rightLength": 2341257.2049999987
+  },
+  {
+    "name": "ORBVL2/3 Orbital area, ventrolateral part, layer 2/3",
+    "leftLength": 1759061.595500001,
+    "rightLength": 1832817.2600000005
+  },
+  {
+    "name": "ORBVL6A Orbital area, ventrolateral part, layer 6a",
+    "leftLength": 1198618.7114999995,
+    "rightLength": 944392.0434999994
+  },
+  {
+    "name": "ORBVL6B Orbital area, ventrolateral part, layer 6b",
+    "leftLength": 50025.0593,
+    "rightLength": 37009.15440000002
+  },
+  {
+    "name": "ORBVL1 Orbital area, ventrolateral part, layer 1",
+    "leftLength": 1090093.2672000006,
+    "rightLength": 1744683.1565999999
+  },
+  {
+    "name": "ORBL Orbital area, lateral part",
+    "leftLength": 10463616.983500034,
+    "rightLength": 9563557.981400039
+  },
+  {
+    "name": "ORBL2/3 Orbital area, lateral part, layer 2/3",
+    "leftLength": 1877315.2006000003,
+    "rightLength": 2345721.990199998
+  },
+  {
+    "name": "ORBL6A Orbital area, lateral part, layer 6a",
+    "leftLength": 2117913.221899998,
+    "rightLength": 1661048.6534000002
+  },
+  {
+    "name": "ORBL1 Orbital area, lateral part, layer 1",
+    "leftLength": 1093589.5955000005,
+    "rightLength": 1883729.7836999982
+  },
+  {
+    "name": "ORBL6B Orbital area, lateral part, layer 6b",
+    "leftLength": 298962.1256999999,
+    "rightLength": 213102.8027999999
+  },
+  {
+    "name": "ORBL5 Orbital area, lateral part, layer 5",
+    "leftLength": 5075836.841500007,
+    "rightLength": 3459954.7487000003
+  },
+  {
+    "name": "ORBM Orbital area, medial part",
+    "leftLength": 5942950.789200013,
+    "rightLength": 5948652.614199991
+  },
+  {
+    "name": "ORBM1 Orbital area, medial part, layer 1",
+    "leftLength": 1702823.4078000006,
+    "rightLength": 2295018.176400002
+  },
+  {
+    "name": "ORBM6B Orbital area, medial part, layer 6b",
+    "leftLength": 21448.046000000006,
+    "rightLength": 16962.504899999993
+  },
+  {
+    "name": "ORBM2/3 Orbital area, medial part, layer 2/3",
+    "leftLength": 1076274.3334,
+    "rightLength": 1256721.4297999982
+  },
+  {
+    "name": "ORBM5 Orbital area, medial part, layer 5",
+    "leftLength": 2238830.725599997,
+    "rightLength": 1609181.7275999999
+  },
+  {
+    "name": "ORBM6A Orbital area, medial part, layer 6a",
+    "leftLength": 903574.2731000009,
+    "rightLength": 770768.7765999993
+  },
+  {
+    "name": "TEA Temporal association areas",
+    "leftLength": 900574.4913999996,
+    "rightLength": 735306.0664999998
+  },
+  {
+    "name": "TEA2/3 Temporal association areas, layer 2/3",
+    "leftLength": 275767.0168,
+    "rightLength": 165973.62699999983
+  },
+  {
+    "name": "TEA4 Temporal association areas, layer 4",
+    "leftLength": 50838.77530000001,
+    "rightLength": 36215.35359999999
+  },
+  {
+    "name": "TEA5 Temporal association areas, layer 5",
+    "leftLength": 192172.72989999992,
+    "rightLength": 145504.6666
+  },
+  {
+    "name": "TEA6A Temporal association areas, layer 6a",
+    "leftLength": 148905.53650000002,
+    "rightLength": 119510.46350000001
+  },
+  {
+    "name": "TEA6B Temporal association areas, layer 6b",
+    "leftLength": 11717.377400000001,
+    "rightLength": 12823.806599999998
+  },
+  {
+    "name": "TEA1 Temporal association areas, layer 1",
+    "leftLength": 221173.05570000003,
+    "rightLength": 255278.14970000013
+  },
+  {
+    "name": "PL Prelimbic area",
+    "leftLength": 11353751.273199985,
+    "rightLength": 11342138.686299993
+  },
+  {
+    "name": "PL6B Prelimbic area, layer 6b",
+    "leftLength": 120773.62720000006,
+    "rightLength": 133003.11980000013
+  },
+  {
+    "name": "PL1 Prelimbic area, layer 1",
+    "leftLength": 2441334.215099999,
+    "rightLength": 2129729.450300001
+  },
+  {
+    "name": "PL2/3 Prelimbic area, layer 2/3",
+    "leftLength": 2004173.8056000012,
+    "rightLength": 1719880.939600001
+  },
+  {
+    "name": "PL5 Prelimbic area, layer 5",
+    "leftLength": 4632147.722599998,
+    "rightLength": 4615469.864000004
+  },
+  {
+    "name": "PL6A Prelimbic area, layer 6a",
+    "leftLength": 2155321.9010000015,
+    "rightLength": 2744055.315499997
+  },
+  {
+    "name": "FRP Frontal pole, cerebral cortex",
+    "leftLength": 4027865.291600001,
+    "rightLength": 4119786.2715999954
+  },
+  {
+    "name": "FRP5 Frontal pole, layer 5",
+    "leftLength": 1732160.7843999986,
+    "rightLength": 1353643.6070999978
+  },
+  {
+    "name": "FRP6A Frontal pole, layer 6a",
+    "leftLength": 395102.1978000002,
+    "rightLength": 387579.4261999997
+  },
+  {
+    "name": "FRP6B Frontal pole, layer 6b",
+    "leftLength": 1952.8491999999997,
+    "rightLength": 2828.8432000000007
+  },
+  {
+    "name": "FRP2/3 Frontal pole, layer 2/3",
+    "leftLength": 1080923.8464000006,
+    "rightLength": 1236995.3569999968
+  },
+  {
+    "name": "FRP1 Frontal pole, layer 1",
+    "leftLength": 817725.6128999993,
+    "rightLength": 1138739.0392000007
+  },
+  {
+    "name": "PTLP Posterior parietal association areas",
+    "leftLength": 690865.4059999996,
+    "rightLength": 1385318.1173000012
+  },
+  {
+    "name": "VISA Anterior area",
+    "leftLength": 456078.12399999966,
+    "rightLength": 931978.0706000004
+  },
+  {
+    "name": "VISA1 Anterior area, layer 1",
+    "leftLength": 94761.54099999997,
+    "rightLength": 357362.9939
+  },
+  {
+    "name": "VISA2/3 Anterior area, layer 2/3",
+    "leftLength": 61949.70350000002,
+    "rightLength": 161214.837
+  },
+  {
+    "name": "VISA4 Anterior area, layer 4",
+    "leftLength": 12343.7184,
+    "rightLength": 39205.84490000001
+  },
+  {
+    "name": "VISA5 Anterior area, layer 5",
+    "leftLength": 82934.52779999997,
+    "rightLength": 123973.30579999996
+  },
+  {
+    "name": "VISA6A Anterior area, layer 6a",
+    "leftLength": 183098.26710000008,
+    "rightLength": 221099.5742000001
+  },
+  {
+    "name": "VISA6B Anterior area, layer 6b",
+    "leftLength": 20990.365399999988,
+    "rightLength": 29121.513299999995
+  },
+  {
+    "name": "VISRL Rostrolateral visual area",
+    "leftLength": 234787.28190000003,
+    "rightLength": 453340.0462
+  },
+  {
+    "name": "VISRL1 Rostrolateral area, layer 1",
+    "leftLength": 55063.22059999999,
+    "rightLength": 208864.91560000004
+  },
+  {
+    "name": "VISRL2/3 Rostrolateral area, layer 2/3",
+    "leftLength": 22666.6982,
+    "rightLength": 64412.815500000004
+  },
+  {
+    "name": "VISRL4 Rostrolateral area, layer 4",
+    "leftLength": 8221.695899999997,
+    "rightLength": 18395.1824
+  },
+  {
+    "name": "VISRL5 Rostrolateral area, layer 5",
+    "leftLength": 66539.08739999999,
+    "rightLength": 64758.69470000001
+  },
+  {
+    "name": "VISRL6A Rostrolateral area, layer 6a",
+    "leftLength": 77023.48399999998,
+    "rightLength": 90298.69760000003
+  },
+  {
+    "name": "VISRL6B Rostrolateral area, layer 6b",
+    "leftLength": 5273.096,
+    "rightLength": 6609.741
+  },
+  {
+    "name": "RSP Retrosplenial area",
+    "leftLength": 6233219.258299998,
+    "rightLength": 4862041.774200001
+  },
+  {
+    "name": "RSPD Retrosplenial area, dorsal part",
+    "leftLength": 2717566.3145000036,
+    "rightLength": 2117985.342099999
+  },
+  {
+    "name": "RSPD6A Retrosplenial area, dorsal part, layer 6a",
+    "leftLength": 745270.3695999999,
+    "rightLength": 580634.5890000002
+  },
+  {
+    "name": "RSPD6B Retrosplenial area, dorsal part, layer 6b",
+    "leftLength": 33348.166100000024,
+    "rightLength": 28907.038000000004
+  },
+  {
+    "name": "RSPD2/3 Retrosplenial area, dorsal part, layer 2/3",
+    "leftLength": 566531.6904,
+    "rightLength": 402490.5819999999
+  },
+  {
+    "name": "RSPD1 Retrosplenial area, dorsal part, layer 1",
+    "leftLength": 569516.4598999996,
+    "rightLength": 578579.6259000001
+  },
+  {
+    "name": "RSPD5 Retrosplenial area, dorsal part, layer 5",
+    "leftLength": 802899.6299000004,
+    "rightLength": 527373.5052999997
+  },
+  {
+    "name": "RSPAGL Retrosplenial area, lateral agranular part",
+    "leftLength": 1371545.8100999994,
+    "rightLength": 1463522.937900001
+  },
+  {
+    "name": "RSPAGL6B Retrosplenial area, lateral agranular part, layer 6b",
+    "leftLength": 32324.637600000005,
+    "rightLength": 35229.704000000005
+  },
+  {
+    "name": "RSPAGL1 Retrosplenial area, lateral agranular part, layer 1",
+    "leftLength": 276100.76900000003,
+    "rightLength": 377704.3942999999
+  },
+  {
+    "name": "RSPAGL5 Retrosplenial area, lateral agranular part, layer 5",
+    "leftLength": 375474.46290000016,
+    "rightLength": 287966.56909999996
+  },
+  {
+    "name": "RSPAGL6A Retrosplenial area, lateral agranular part, layer 6a",
+    "leftLength": 390927.0712000003,
+    "rightLength": 473575.51530000014
+  },
+  {
+    "name": "RSPAGL2/3 Retrosplenial area, lateral agranular part, layer 2/3",
+    "leftLength": 296718.86740000005,
+    "rightLength": 289046.75400000013
+  },
+  {
+    "name": "RSPV Retrosplenial area, ventral part",
+    "leftLength": 2144107.135,
+    "rightLength": 1280533.494400001
+  },
+  {
+    "name": "RSPV2/3 Retrosplenial area, ventral part, layer 2/3",
+    "leftLength": 312647.26869999996,
+    "rightLength": 198690.6568999999
+  },
+  {
+    "name": "RSPV1 Retrosplenial area, ventral part, layer 1",
+    "leftLength": 359518.3705000001,
+    "rightLength": 362287.72890000005
+  },
+  {
+    "name": "RSPV6A Retrosplenial area, ventral part, layer 6a",
+    "leftLength": 515694.4084999996,
+    "rightLength": 313988.45570000005
+  },
+  {
+    "name": "RSPV6B Retrosplenial area, ventral part, layer 6b",
+    "leftLength": 35163.202299999975,
+    "rightLength": 22804.650800000003
+  },
+  {
+    "name": "RSPV5 Retrosplenial area, ventral part, layer 5",
+    "leftLength": 921083.8837000002,
+    "rightLength": 382762.00379999983
+  },
+  {
+    "name": "PERI Perirhinal area",
+    "leftLength": 417158.5835,
+    "rightLength": 369865.9975999999
+  },
+  {
+    "name": "PERI6A Perirhinal area, layer 6a",
+    "leftLength": 15939.273100000002,
+    "rightLength": 16286.3829
+  },
+  {
+    "name": "PERI6B Perirhinal area, layer 6b",
+    "leftLength": 1451.7836,
+    "rightLength": 400.03259999999995
+  },
+  {
+    "name": "PERI1 Perirhinal area, layer 1",
+    "leftLength": 62929.3539,
+    "rightLength": 87312.64440000002
+  },
+  {
+    "name": "PERI5 Perirhinal area, layer 5",
+    "leftLength": 109986.27870000008,
+    "rightLength": 102433.03479999995
+  },
+  {
+    "name": "PERI2/3 Perirhinal area, layer 2/3",
+    "leftLength": 226851.89439999984,
+    "rightLength": 163433.9017
+  },
+  {
+    "name": "HPF Hippocampal formation",
+    "leftLength": 2377980.4724000036,
+    "rightLength": 1684358.3994999996
+  },
+  {
+    "name": "RHP Retrohippocampal region",
+    "leftLength": 2148291.6082999995,
+    "rightLength": 1441999.7637000005
+  },
+  {
+    "name": "POST Postsubiculum",
+    "leftLength": 51732.973399999995,
+    "rightLength": 76473.43370000001
+  },
+  {
+    "name": "PRE Presubiculum",
+    "leftLength": 21672.4386,
+    "rightLength": 4368.6292
+  },
+  {
+    "name": "ENT Entorhinal area",
+    "leftLength": 2019645.0012999994,
+    "rightLength": 1311964.9409000003
+  },
+  {
+    "name": "ENTL Entorhinal area, lateral part",
+    "leftLength": 1800711.0218999996,
+    "rightLength": 1218035.9467
+  },
+  {
+    "name": "ENTL1 Entorhinal area, lateral part, layer 1",
+    "leftLength": 28345.5307,
+    "rightLength": 36625.3628
+  },
+  {
+    "name": "ENTL5 Entorhinal area, lateral part, layer 5",
+    "leftLength": 821739.1863999999,
+    "rightLength": 538092.9851
+  },
+  {
+    "name": "ENTL2 Entorhinal area, lateral part, layer 2",
+    "leftLength": 215257.13689999998,
+    "rightLength": 170387.7146
+  },
+  {
+    "name": "ENTL6A Entorhinal area, lateral part, layer 6a",
+    "leftLength": 152434.7495,
+    "rightLength": 86578.05659999998
+  },
+  {
+    "name": "ENTL3 Entorhinal area, lateral part, layer 3",
+    "leftLength": 582934.4188000003,
+    "rightLength": 386351.8282
+  },
+  {
+    "name": "ENTM Entorhinal area, medial part, dorsal zone",
+    "leftLength": 218933.9793,
+    "rightLength": 93928.99409999998
+  },
+  {
+    "name": "ENTM1 Entorhinal area, medial part, dorsal zone, layer 1",
+    "leftLength": 4601.813300000001,
+    "rightLength": 8045.2684
+  },
+  {
+    "name": "ENTM2 Entorhinal area, medial part, dorsal zone, layer 2",
+    "leftLength": 13521.177599999999,
+    "rightLength": 5360.323200000001
+  },
+  {
+    "name": "ENTM3 Entorhinal area, medial part, dorsal zone, layer 3",
+    "leftLength": 32515.988400000002,
+    "rightLength": 13102.863000000001
+  },
+  {
+    "name": "ENTM5 Entorhinal area, medial part, dorsal zone, layer 5",
+    "leftLength": 121723.76169999999,
+    "rightLength": 49916.8282
+  },
+  {
+    "name": "ENTM6 Entorhinal area, medial part, dorsal zone, layer 6",
+    "leftLength": 46571.2384,
+    "rightLength": 17503.7113
+  },
+  {
+    "name": "PROS Prosubiculum",
+    "leftLength": 0,
+    "rightLength": 1720.8627
+  },
+  {
+    "name": "APR Area prostriata",
+    "leftLength": 18896.4346,
+    "rightLength": 14719.414300000002
+  },
+  {
+    "name": "SUB Subiculum",
+    "leftLength": 4121.3796,
+    "rightLength": 7394.474200000001
+  },
+  {
+    "name": "HATA Hippocampo-amygdalar transition area",
+    "leftLength": 1446.2118,
+    "rightLength": 0
+  },
+  {
+    "name": "PAR Parasubiculum",
+    "leftLength": 30777.168900000004,
+    "rightLength": 25358.008899999997
+  },
+  {
+    "name": "HIP Hippocampal region",
+    "leftLength": 224823.04170000015,
+    "rightLength": 237469.2914
+  },
+  {
+    "name": "DG Dentate gyrus",
+    "leftLength": 32988.7302,
+    "rightLength": 23028.5497
+  },
+  {
+    "name": "DG-MO Dentate gyrus, molecular layer",
+    "leftLength": 32766.385100000003,
+    "rightLength": 23028.5497
+  },
+  {
+    "name": "DG-SG Dentate gyrus, granule cell layer",
+    "leftLength": 222.3451,
+    "rightLength": 0
+  },
+  {
+    "name": "IG Induseum griseum",
+    "leftLength": 180984.13359999997,
+    "rightLength": 198922.00289999996
+  },
+  {
+    "name": "CA Ammon's horn",
+    "leftLength": 10850.1777,
+    "rightLength": 15300.625800000002
+  },
+  {
+    "name": "CA1 Field CA1",
+    "leftLength": 7848.9327,
+    "rightLength": 13502.0209
+  },
+  {
+    "name": "CA2 Field CA2",
+    "leftLength": 188.0432,
+    "rightLength": 989.9331
+  },
+  {
+    "name": "CA3 Field CA3",
+    "leftLength": 2813.2018,
+    "rightLength": 808.6718
+  },
+  {
+    "name": "FC Fasciola cinerea",
+    "leftLength": 0,
+    "rightLength": 218.11309999999997
+  },
+  {
+    "name": "OLF Olfactory areas",
+    "leftLength": 10497663.303699981,
+    "rightLength": 7943018.8253000025
+  },
+  {
+    "name": "NLOT Nucleus of the lateral olfactory tract",
+    "leftLength": 282127.7273,
+    "rightLength": 95686.5931
+  },
+  {
+    "name": "NLOT3 Nucleus of the lateral olfactory tract, layer 3",
+    "leftLength": 90501.71709999998,
+    "rightLength": 34178.36430000001
+  },
+  {
+    "name": "NLOT1 Nucleus of the lateral olfactory tract, molecular layer",
+    "leftLength": 44191.1811,
+    "rightLength": 13221.714599999998
+  },
+  {
+    "name": "NLOT2 Nucleus of the lateral olfactory tract, pyramidal layer",
+    "leftLength": 147434.83010000002,
+    "rightLength": 48286.51360000004
+  },
+  {
+    "name": "AOB Accessory olfactory bulb",
+    "leftLength": 151054.7105,
+    "rightLength": 117867.54870000003
+  },
+  {
+    "name": "AOBGL Accessory olfactory bulb, glomerular layer",
+    "leftLength": 140571.10700000005,
+    "rightLength": 111590.9714
+  },
+  {
+    "name": "AOBGR Accessory olfactory bulb, granular layer",
+    "leftLength": 1127.1539,
+    "rightLength": 79.2633
+  },
+  {
+    "name": "AOBMI Accessory olfactory bulb, mitral layer",
+    "leftLength": 9356.4499,
+    "rightLength": 6197.314299999999
+  },
+  {
+    "name": "AON Anterior olfactory nucleus",
+    "leftLength": 1223847.6657999987,
+    "rightLength": 916492.0467000001
+  },
+  {
+    "name": "MOB Main olfactory bulb",
+    "leftLength": 109483.5249999999,
+    "rightLength": 76906.3952
+  },
+  {
+    "name": "TR Postpiriform transition area",
+    "leftLength": 43726.91709999999,
+    "rightLength": 33500.321800000005
+  },
+  {
+    "name": "TT Taenia tecta",
+    "leftLength": 609342.801400001,
+    "rightLength": 506702.14690000005
+  },
+  {
+    "name": "TTD Taenia tecta, dorsal part",
+    "leftLength": 363269.8839,
+    "rightLength": 273788.6468000001
+  },
+  {
+    "name": "TTV Taenia tecta, ventral part",
+    "leftLength": 246072.91759999996,
+    "rightLength": 232913.49980000008
+  },
+  {
+    "name": "COA Cortical amygdalar area",
+    "leftLength": 518723.75560000015,
+    "rightLength": 267080.7705
+  },
+  {
+    "name": "COAA Cortical amygdalar area, anterior part",
+    "leftLength": 253414.56330000004,
+    "rightLength": 141294.8931000001
+  },
+  {
+    "name": "COAP Cortical amygdalar area, posterior part",
+    "leftLength": 265309.19219999993,
+    "rightLength": 125785.87750000005
+  },
+  {
+    "name": "COAPL Cortical amygdalar area, posterior part, lateral zone",
+    "leftLength": 172283.0091,
+    "rightLength": 89183.57270000002
+  },
+  {
+    "name": "COAPM Cortical amygdalar area, posterior part, medial zone",
+    "leftLength": 93026.18280000001,
+    "rightLength": 36602.30469999999
+  },
+  {
+    "name": "PAA Piriform-amygdalar area",
+    "leftLength": 109323.43050000003,
+    "rightLength": 71296.37879999998
+  },
+  {
+    "name": "DP Dorsal peduncular area",
+    "leftLength": 804572.2642000001,
+    "rightLength": 688103.4025000009
+  },
+  {
+    "name": "PIR Piriform area",
+    "leftLength": 2962821.787100001,
+    "rightLength": 2389218.4741
+  },
+  {
+    "name": "CTXSP Cortical subplate",
+    "leftLength": 10778992.013599973,
+    "rightLength": 7767094.214800011
+  },
+  {
+    "name": "LA Lateral amygdalar nucleus",
+    "leftLength": 470329.6621000003,
+    "rightLength": 285830.2234999999
+  },
+  {
+    "name": "BLA Basolateral amygdalar nucleus",
+    "leftLength": 2640342.5834000004,
+    "rightLength": 1902492.5463000007
+  },
+  {
+    "name": "BLAA Basolateral amygdalar nucleus, anterior part",
+    "leftLength": 1505738.5247999993,
+    "rightLength": 1158245.347599999
+  },
+  {
+    "name": "BLAP Basolateral amygdalar nucleus, posterior part",
+    "leftLength": 738087.7116999999,
+    "rightLength": 467452.99499999994
+  },
+  {
+    "name": "BLAV Basolateral amygdalar nucleus, ventral part",
+    "leftLength": 396516.3469,
+    "rightLength": 276794.2046
+  },
+  {
+    "name": "BMA Basomedial amygdalar nucleus",
+    "leftLength": 779691.4619,
+    "rightLength": 543056.0942000002
+  },
+  {
+    "name": "BMAA Basomedial amygdalar nucleus, anterior part",
+    "leftLength": 428267.4290000002,
+    "rightLength": 263007.9481
+  },
+  {
+    "name": "BMAP Basomedial amygdalar nucleus, posterior part",
+    "leftLength": 351424.03189999994,
+    "rightLength": 280048.14609999995
+  },
+  {
+    "name": "CLA Claustrum",
+    "leftLength": 2374637.1628999985,
+    "rightLength": 1703115.2593000007
+  },
+  {
+    "name": "PA Posterior amygdalar nucleus",
+    "leftLength": 55233.59900000001,
+    "rightLength": 21330.665700000005
+  },
+  {
+    "name": "EP Endopiriform nucleus",
+    "leftLength": 4017278.67259999,
+    "rightLength": 2965748.0591999963
+  },
+  {
+    "name": "EPD Endopiriform nucleus, dorsal part",
+    "leftLength": 3112027.7427999955,
+    "rightLength": 2289861.4378000004
+  },
+  {
+    "name": "EPV Endopiriform nucleus, ventral part",
+    "leftLength": 905250.9295000003,
+    "rightLength": 675886.6196999999
+  },
+  {
+    "name": "CNU Cerebral nuclei",
+    "leftLength": 118962203.73840016,
+    "rightLength": 106669341.39069994
+  },
+  {
+    "name": "PAL Pallidum",
+    "leftLength": 12286452.993099997,
+    "rightLength": 8815555.182
+  },
+  {
+    "name": "PALD Pallidum, dorsal region",
+    "leftLength": 1980851.661300002,
+    "rightLength": 1316749.5062000002
+  },
+  {
+    "name": "GPE Globus pallidus, external segment",
+    "leftLength": 1317712.5508000017,
+    "rightLength": 908453.8109999994
+  },
+  {
+    "name": "GPI Globus pallidus, internal segment",
+    "leftLength": 663139.1101000007,
+    "rightLength": 408295.69660000026
+  },
+  {
+    "name": "PALC Pallidum, caudal region",
+    "leftLength": 548553.5166000004,
+    "rightLength": 498109.7466000001
+  },
+  {
+    "name": "BAC Bed nucleus of the anterior commissure",
+    "leftLength": 1465.1421,
+    "rightLength": 1271.4072999999999
+  },
+  {
+    "name": "BST Bed nuclei of the stria terminalis",
+    "leftLength": 547088.3747000005,
+    "rightLength": 496838.3396
+  },
+  {
+    "name": "PALV Pallidum, ventral region",
+    "leftLength": 6093200.054199986,
+    "rightLength": 4662282.9984999895
+  },
+  {
+    "name": "MA Magnocellular nucleus",
+    "leftLength": 563219.4327000005,
+    "rightLength": 264535.9918000002
+  },
+  {
+    "name": "SI Substantia innominata",
+    "leftLength": 5529980.619999994,
+    "rightLength": 4397747.007499993
+  },
+  {
+    "name": "PALM Pallidum, medial region",
+    "leftLength": 889301.8797000002,
+    "rightLength": 507157.31159999996
+  },
+  {
+    "name": "MSC Medial septal complex",
+    "leftLength": 888544.6285,
+    "rightLength": 504418.73489999986
+  },
+  {
+    "name": "MS Medial septal nucleus",
+    "leftLength": 95984.68570000002,
+    "rightLength": 113080.43199999999
+  },
+  {
+    "name": "NDB Diagonal band nucleus",
+    "leftLength": 792559.9426999994,
+    "rightLength": 391338.30279999983
+  },
+  {
+    "name": "TRS Triangular nucleus of septum",
+    "leftLength": 757.2514000000001,
+    "rightLength": 2738.5767
+  },
+  {
+    "name": "STR Striatum",
+    "leftLength": 106675750.75280003,
+    "rightLength": 97853786.21129996
+  },
+  {
+    "name": "SAMY Striatum-like amygdalar nuclei",
+    "leftLength": 2945921.9043999985,
+    "rightLength": 1618027.474300001
+  },
+  {
+    "name": "IA Intercalated amygdalar nucleus",
+    "leftLength": 154388.01420000003,
+    "rightLength": 117881.91659999995
+  },
+  {
+    "name": "AAA Anterior amygdalar area",
+    "leftLength": 553065.3742000002,
+    "rightLength": 201217.85960000014
+  },
+  {
+    "name": "BA Bed nucleus of the accessory olfactory tract",
+    "leftLength": 3054.1106000000004,
+    "rightLength": 2949.3698999999997
+  },
+  {
+    "name": "MEA Medial amygdalar nucleus",
+    "leftLength": 1150378.4509999994,
+    "rightLength": 619608.7917
+  },
+  {
+    "name": "CEA Central amygdalar nucleus",
+    "leftLength": 1085035.9562000006,
+    "rightLength": 676369.5367999998
+  },
+  {
+    "name": "CEAC Central amygdalar nucleus, capsular part",
+    "leftLength": 359827.05539999984,
+    "rightLength": 298507.5052
+  },
+  {
+    "name": "CEAL Central amygdalar nucleus, lateral part",
+    "leftLength": 194583.38290000006,
+    "rightLength": 119272.27320000004
+  },
+  {
+    "name": "CEAM Central amygdalar nucleus, medial part",
+    "leftLength": 530625.5178999999,
+    "rightLength": 258589.7576
+  },
+  {
+    "name": "LSX Lateral septal complex",
+    "leftLength": 580430.7832000004,
+    "rightLength": 364433.59930000006
+  },
+  {
+    "name": "LS Lateral septal nucleus",
+    "leftLength": 495118.3007000001,
+    "rightLength": 276843.6059
+  },
+  {
+    "name": "LSC Lateral septal nucleus, caudal",
+    "leftLength": 11182.9695,
+    "rightLength": 4842.2128999999995
+  },
+  {
+    "name": "LSR Lateral septal nucleus, rostral",
+    "leftLength": 453917.083,
+    "rightLength": 258843.98050000012
+  },
+  {
+    "name": "LSV Lateral septal nucleus, ventral part",
+    "leftLength": 30018.247699999993,
+    "rightLength": 13157.413100000002
+  },
+  {
+    "name": "SF Septofimbrial nucleus",
+    "leftLength": 24720.7424,
+    "rightLength": 44144.08710000002
+  },
+  {
+    "name": "SH Septohippocampal nucleus",
+    "leftLength": 60591.740200000015,
+    "rightLength": 43445.90580000001
+  },
+  {
+    "name": "STRD Striatum dorsal region",
+    "leftLength": 81078351.40019977,
+    "rightLength": 78631875.26389992
+  },
+  {
+    "name": "CP Caudoputamen",
+    "leftLength": 81078351.40019977,
+    "rightLength": 78631875.26389992
+  },
+  {
+    "name": "STRV Striatum ventral region",
+    "leftLength": 18708526.57989999,
+    "rightLength": 14862510.295399986
+  },
+  {
+    "name": "ACB Nucleus accumbens",
+    "leftLength": 14412376.942600008,
+    "rightLength": 11867817.678699994
+  },
+  {
+    "name": "OT Olfactory tubercle",
+    "leftLength": 3313007.701699998,
+    "rightLength": 2343912.7605999988
+  },
+  {
+    "name": "FS Fundus of striatum",
+    "leftLength": 983141.9338999997,
+    "rightLength": 650779.855
+  },
+  {
+    "name": "CB Cerebellum",
+    "leftLength": 882275.7814999997,
+    "rightLength": 983595.1598999997
+  },
+  {
+    "name": "CBX Cerebellar cortex",
+    "leftLength": 807883.536199999,
+    "rightLength": 901180.9612000003
+  },
+  {
+    "name": "HEM Hemispheric regions",
+    "leftLength": 2612.5706999999998,
+    "rightLength": 1416.8336
+  },
+  {
+    "name": "COPY Copula pyramidis",
+    "leftLength": 1984.9940000000001,
+    "rightLength": 1386.2811
+  },
+  {
+    "name": "PFL Paraflocculus",
+    "leftLength": 627.5767,
+    "rightLength": 0
+  },
+  {
+    "name": "FL Flocculus",
+    "leftLength": 0,
+    "rightLength": 30.5525
+  },
+  {
+    "name": "VERM Vermal regions",
+    "leftLength": 805270.9655999991,
+    "rightLength": 899764.1276000002
+  },
+  {
+    "name": "CUL Culmen",
+    "leftLength": 8245.539999999999,
+    "rightLength": 9503.346599999999
+  },
+  {
+    "name": "CUL4, 5 Lobules IV-V",
+    "leftLength": 8245.539999999999,
+    "rightLength": 9503.346599999999
+  },
+  {
+    "name": "LING Lingula",
+    "leftLength": 2065.2540999999997,
+    "rightLength": 4461.4066
+  },
+  {
+    "name": "CENT Central lobule",
+    "leftLength": 792409.296899999,
+    "rightLength": 884608.5255999998
+  },
+  {
+    "name": "CENT2 Lobule II",
+    "leftLength": 661707.0635999994,
+    "rightLength": 735241.3121000002
+  },
+  {
+    "name": "CENT3 Lobule III",
+    "leftLength": 130702.23339999998,
+    "rightLength": 149367.21370000005
+  },
+  {
+    "name": "UVU Uvula",
+    "leftLength": 347.9171,
+    "rightLength": 0
+  },
+  {
+    "name": "NOD Nodulus",
+    "leftLength": 2202.9572999999996,
+    "rightLength": 1190.8485
+  },
+  {
+    "name": "CBN Cerebellar nuclei",
+    "leftLength": 17953.131800000003,
+    "rightLength": 17500.5326
+  },
+  {
+    "name": "VECB Vestibulocerebellar nucleus",
+    "leftLength": 7064.356099999999,
+    "rightLength": 9571.4374
+  },
+  {
+    "name": "DN Dentate nucleus",
+    "leftLength": 2119.0024,
+    "rightLength": 0
+  },
+  {
+    "name": "IP Interposed nucleus",
+    "leftLength": 4628.365100000001,
+    "rightLength": 4902.7145
+  },
+  {
+    "name": "FN Fastigial nucleus",
+    "leftLength": 4141.4078,
+    "rightLength": 3026.3808
+  },
+  {
+    "name": "FIBER TRACTS fiber tracts",
+    "leftLength": 19901123.102700002,
+    "rightLength": 18021084.26139999
+  },
+  {
+    "name": "EPS extrapyramidal fiber systems",
+    "leftLength": 868754.2507999991,
+    "rightLength": 804275.1166
+  },
+  {
+    "name": "EPSC cerebral nuclei related",
+    "leftLength": 320920.2230999997,
+    "rightLength": 285471.47809999983
+  },
+  {
+    "name": "NST nigrostriatal tract",
+    "leftLength": 320920.2230999997,
+    "rightLength": 285471.47809999983
+  },
+  {
+    "name": "TSP tectospinal pathway",
+    "leftLength": 301902.07330000016,
+    "rightLength": 311574.71209999983
+  },
+  {
+    "name": "TSPC crossed tectospinal pathway",
+    "leftLength": 292150.2969000001,
+    "rightLength": 303640.2447999997
+  },
+  {
+    "name": "DTD doral tegmental decussation",
+    "leftLength": 9751.776500000002,
+    "rightLength": 7934.4677
+  },
+  {
+    "name": "RUST rubrospinal tract",
+    "leftLength": 245931.9556,
+    "rightLength": 207228.9276000001
+  },
+  {
+    "name": "VTD ventral tegmental decussation",
+    "leftLength": 72988.70329999998,
+    "rightLength": 71665.6777
+  },
+  {
+    "name": "CM cranial nerves",
+    "leftLength": 3123653.710500001,
+    "rightLength": 2623827.9871000014
+  },
+  {
+    "name": "IN olfactory nerve",
+    "leftLength": 1358099.7432000025,
+    "rightLength": 1068340.3821999996
+  },
+  {
+    "name": "ONL olfactory nerve layer of main olfactory bulb",
+    "leftLength": 146.1577,
+    "rightLength": 0
+  },
+  {
+    "name": "LOTG lateral olfactory tract, general",
+    "leftLength": 2104.9394999999995,
+    "rightLength": 848.1345
+  },
+  {
+    "name": "LOTD dorsal limb",
+    "leftLength": 1874.4456999999998,
+    "rightLength": 647.5712000000001
+  },
+  {
+    "name": "LOT lateral olfactory tract, body",
+    "leftLength": 230.49380000000002,
+    "rightLength": 200.5633
+  },
+  {
+    "name": "ACO anterior commissure, olfactory limb",
+    "leftLength": 1355848.6460000025,
+    "rightLength": 1067492.2476999997
+  },
+  {
+    "name": "VIIN facial nerve",
+    "leftLength": 36781.8402,
+    "rightLength": 38207.39680000002
+  },
+  {
+    "name": "GVIIN genu of the facial nerve",
+    "leftLength": 27973.623999999996,
+    "rightLength": 27400.8935
+  },
+  {
+    "name": "IIN optic nerve",
+    "leftLength": 143399.23679999998,
+    "rightLength": 73587.80189999993
+  },
+  {
+    "name": "OCH optic chiasm",
+    "leftLength": 1446.2915,
+    "rightLength": 2220.2523
+  },
+  {
+    "name": "OPT optic tract",
+    "leftLength": 95256.33279999997,
+    "rightLength": 37410.13630000001
+  },
+  {
+    "name": "CSC superior colliculus commissure",
+    "leftLength": 44479.87600000001,
+    "rightLength": 32357.606
+  },
+  {
+    "name": "BSC brachium of the superior colliculus",
+    "leftLength": 2216.7367000000004,
+    "rightLength": 1599.8076
+  },
+  {
+    "name": "IIIN oculomotor nerve",
+    "leftLength": 143418.2961999998,
+    "rightLength": 141901.20790000012
+  },
+  {
+    "name": "PC posterior commissure",
+    "leftLength": 48735.20730000003,
+    "rightLength": 40512.36189999997
+  },
+  {
+    "name": "MLF medial longitudinal fascicle",
+    "leftLength": 90354.75180000001,
+    "rightLength": 97179.3413000001
+  },
+  {
+    "name": "VN trigeminal nerve",
+    "leftLength": 1674.936,
+    "rightLength": 2274.8303
+  },
+  {
+    "name": "SV sensory root of the trigeminal nerve",
+    "leftLength": 1207.1369,
+    "rightLength": 1769.2203000000002
+  },
+  {
+    "name": "SPTV spinal tract of the trigeminal nerve",
+    "leftLength": 1131.8272,
+    "rightLength": 1182.2451
+  },
+  {
+    "name": "MOV motor root of the trigeminal nerve",
+    "leftLength": 467.79909999999995,
+    "rightLength": 505.61
+  },
+  {
+    "name": "XN vagus nerve",
+    "leftLength": 103.3868,
+    "rightLength": 260.8156
+  },
+  {
+    "name": "TS solitary tract",
+    "leftLength": 103.3868,
+    "rightLength": 260.8156
+  },
+  {
+    "name": "DRT dorsal roots",
+    "leftLength": 1323459.9899000002,
+    "rightLength": 1173094.9145999998
+  },
+  {
+    "name": "CETT cervicothalamic tract",
+    "leftLength": 1323459.9899000002,
+    "rightLength": 1173094.9145999998
+  },
+  {
+    "name": "ML medial lemniscus",
+    "leftLength": 1323459.9899000002,
+    "rightLength": 1173094.9145999998
+  },
+  {
+    "name": "VIIIN vestibulocochlear nerve",
+    "leftLength": 103333.8260999999,
+    "rightLength": 111590.6148999999
+  },
+  {
+    "name": "VVIIIN vestibular nerve",
+    "leftLength": 752.9634,
+    "rightLength": 595.2388000000001
+  },
+  {
+    "name": "CVIIIN cochlear nerve",
+    "leftLength": 102580.86269999991,
+    "rightLength": 110995.3759999999
+  },
+  {
+    "name": "BIC brachium of the inferior colliculus",
+    "leftLength": 1381.0392000000002,
+    "rightLength": 1964.2828
+  },
+  {
+    "name": "CIC inferior colliculus commissure",
+    "leftLength": 10244.5796,
+    "rightLength": 8354.218599999998
+  },
+  {
+    "name": "LL lateral lemniscus",
+    "leftLength": 35867.74389999999,
+    "rightLength": 41904.238300000005
+  },
+  {
+    "name": "TB trapezoid body",
+    "leftLength": 55087.50030000003,
+    "rightLength": 58772.63699999999
+  },
+  {
+    "name": "IVN trochlear nerve",
+    "leftLength": 10289.201,
+    "rightLength": 10703.677500000007
+  },
+  {
+    "name": "VON vomeronasal nerve",
+    "leftLength": 3093.2545,
+    "rightLength": 3866.3465999999994
+  },
+  {
+    "name": "MFBS medial forebrain bundle system",
+    "leftLength": 3852694.042,
+    "rightLength": 3343700.191500013
+  },
+  {
+    "name": "MFSBSHY hypothalamus related",
+    "leftLength": 1612021.218300002,
+    "rightLength": 1369036.4946999985
+  },
+  {
+    "name": "MFBSE epithalamus related",
+    "leftLength": 626092.9078000003,
+    "rightLength": 573954.6204000006
+  },
+  {
+    "name": "FR fasciculus retroflexus",
+    "leftLength": 307623.2938,
+    "rightLength": 324822.06860000046
+  },
+  {
+    "name": "HBC habenular commissure",
+    "leftLength": 408.2316,
+    "rightLength": 1071.6652
+  },
+  {
+    "name": "SM stria medullaris",
+    "leftLength": 318061.38250000007,
+    "rightLength": 248060.88640000013
+  },
+  {
+    "name": "SUP supraoptic commissures",
+    "leftLength": 13909.396100000004,
+    "rightLength": 12097.597600000001
+  },
+  {
+    "name": "MFBSMA mammillary related",
+    "leftLength": 809031.9669000008,
+    "rightLength": 680656.3478999997
+  },
+  {
+    "name": "MP mammillary peduncle",
+    "leftLength": 103067.11680000005,
+    "rightLength": 69917.8693
+  },
+  {
+    "name": "MTG mammillotegmental tract",
+    "leftLength": 96504.14799999994,
+    "rightLength": 79798.9047
+  },
+  {
+    "name": "MTT mammillothalamic tract",
+    "leftLength": 536499.3147000006,
+    "rightLength": 468411.6117000003
+  },
+  {
+    "name": "PM principal mammillary tract",
+    "leftLength": 72961.38739999996,
+    "rightLength": 62527.96280000003
+  },
+  {
+    "name": "MFB medial forebrain bundle",
+    "leftLength": 162986.94910000014,
+    "rightLength": 102327.92780000005
+  },
+  {
+    "name": "MFBC cerebrum related",
+    "leftLength": 2240672.8231000016,
+    "rightLength": 1974663.6991999971
+  },
+  {
+    "name": "FXS fornix system",
+    "leftLength": 160091.61319999993,
+    "rightLength": 185428.46669999996
+  },
+  {
+    "name": "FXPO postcommissural fornix",
+    "leftLength": 148869.54909999992,
+    "rightLength": 171367.49459999986
+  },
+  {
+    "name": "MCT medial corticohypothalamic tract",
+    "leftLength": 7911.278299999998,
+    "rightLength": 11112.678399999999
+  },
+  {
+    "name": "FX columns of the fornix",
+    "leftLength": 140958.2712,
+    "rightLength": 160254.81669999994
+  },
+  {
+    "name": "HC hippocampal commissures",
+    "leftLength": 174.8005,
+    "rightLength": 6166.473399999998
+  },
+  {
+    "name": "DHC dorsal hippocampal commissure",
+    "leftLength": 174.8005,
+    "rightLength": 6166.473399999998
+  },
+  {
+    "name": "ALV alveus",
+    "leftLength": 7694.900100000001,
+    "rightLength": 4458.7393
+  },
+  {
+    "name": "DF dorsal fornix",
+    "leftLength": 897.4435999999998,
+    "rightLength": 2276.0636000000004
+  },
+  {
+    "name": "FI fimbria",
+    "leftLength": 2454.9199000000003,
+    "rightLength": 1159.696
+  },
+  {
+    "name": "ST stria terminalis",
+    "leftLength": 64318.18800000002,
+    "rightLength": 39303.5563
+  },
+  {
+    "name": "STC commissural branch of stria terminalis",
+    "leftLength": 26059.6749,
+    "rightLength": 14835.672799999998
+  },
+  {
+    "name": "AMC amygdalar capsule",
+    "leftLength": 166305.51799999995,
+    "rightLength": 102302.41860000008
+  },
+  {
+    "name": "ACT anterior commissure, temporal limb",
+    "leftLength": 398904.1538000001,
+    "rightLength": 288523.08050000016
+  },
+  {
+    "name": "CING cingulum bundle",
+    "leftLength": 1451053.351500001,
+    "rightLength": 1359106.1755999976
+  },
+  {
+    "name": "LFBS lateral forebrain bundle system",
+    "leftLength": 10516489.132999983,
+    "rightLength": 9958876.037400015
+  },
+  {
+    "name": "LFBST thalamus related",
+    "leftLength": 226777.68579999995,
+    "rightLength": 208830.45139999993
+  },
+  {
+    "name": "EM external medullary lamina of the thalamus",
+    "leftLength": 9962.1304,
+    "rightLength": 26276.74050000001
+  },
+  {
+    "name": "OR optic radiation",
+    "leftLength": 147858.35439999998,
+    "rightLength": 139917.80200000003
+  },
+  {
+    "name": "AR auditory radiation",
+    "leftLength": 68957.2009,
+    "rightLength": 42635.90880000001
+  },
+  {
+    "name": "CC corpus callosum",
+    "leftLength": 7578036.477400023,
+    "rightLength": 7319579.633200008
+  },
+  {
+    "name": "CCG genu of corpus callosum",
+    "leftLength": 1384707.7444,
+    "rightLength": 1390244.0998
+  },
+  {
+    "name": "CCB corpus callosum, body",
+    "leftLength": 1518245.1515000015,
+    "rightLength": 1522403.2454999979
+  },
+  {
+    "name": "FA corpus callosum, anterior forceps",
+    "leftLength": 4470980.525399989,
+    "rightLength": 4271779.784899998
+  },
+  {
+    "name": "EC external capsule",
+    "leftLength": 815395.5474999998,
+    "rightLength": 668476.1887000002
+  },
+  {
+    "name": "EE corpus callosum, extreme capsule",
+    "leftLength": 105665.23459999998,
+    "rightLength": 70606.70030000007
+  },
+  {
+    "name": "FP corpus callosum, posterior forceps",
+    "leftLength": 34834.217899999996,
+    "rightLength": 14059.949800000002
+  },
+  {
+    "name": "CCS corpus callosum, splenium",
+    "leftLength": 63603.6065,
+    "rightLength": 50485.8556
+  },
+  {
+    "name": "CST corticospinal tract",
+    "leftLength": 2711674.9715000032,
+    "rightLength": 2430465.9495999976
+  },
+  {
+    "name": "PY pyramid",
+    "leftLength": 114130.7978,
+    "rightLength": 93991.5122
+  },
+  {
+    "name": "PYD pyramidal decussation",
+    "leftLength": 15377.636800000006,
+    "rightLength": 15582.651000000003
+  },
+  {
+    "name": "INT internal capsule",
+    "leftLength": 2040777.7522000007,
+    "rightLength": 1823768.1792000001
+  },
+  {
+    "name": "CPD cerebal peduncle",
+    "leftLength": 488414.8993999998,
+    "rightLength": 432354.1300000002
+  },
+  {
+    "name": "CBF cerebellum related fiber tracts",
+    "leftLength": 489652.1997000003,
+    "rightLength": 477466.6158
+  },
+  {
+    "name": "CBP cerebellar peduncles",
+    "leftLength": 439162.27499999997,
+    "rightLength": 414619.6391000001
+  },
+  {
+    "name": "ICP inferior cerebellar peduncle",
+    "leftLength": 281.1993,
+    "rightLength": 1861.6413
+  },
+  {
+    "name": "SCTD dorsal spinocerebellar tract",
+    "leftLength": 267.2727,
+    "rightLength": 367.1894
+  },
+  {
+    "name": "SCP superior cerebelar peduncles",
+    "leftLength": 435269.30600000004,
+    "rightLength": 401367.64280000003
+  },
+  {
+    "name": "DSCP superior cerebellar peduncle decussation",
+    "leftLength": 65272.53590000001,
+    "rightLength": 62604.378499999984
+  },
+  {
+    "name": "UF uncinate fascicle",
+    "leftLength": 16251.654499999999,
+    "rightLength": 16004.279300000004
+  },
+  {
+    "name": "SCTV ventral spinocerebellar tract",
+    "leftLength": 22944.493599999994,
+    "rightLength": 22612.146699999998
+  },
+  {
+    "name": "MCP middle cerebellar peduncle",
+    "leftLength": 3611.7698,
+    "rightLength": 11390.355000000001
+  },
+  {
+    "name": "ARB arbor vitae",
+    "leftLength": 50489.92470000002,
+    "rightLength": 62846.97739999996
+  },
+  {
+    "name": "SCWM supra-callosal cerebral white matter",
+    "leftLength": 542090.1098999992,
+    "rightLength": 452857.6157000001
+  },
+  {
+    "name": "VS ventricular systems",
+    "leftLength": 872107.1613999987,
+    "rightLength": 771919.7262999995
+  },
+  {
+    "name": "VL lateral ventricle",
+    "leftLength": 307941.25480000034,
+    "rightLength": 215314.2272
+  },
+  {
+    "name": "CHPL choroid plexus",
+    "leftLength": 997.1995999999999,
+    "rightLength": 2780.7747000000004
+  },
+  {
+    "name": "SEZ subependymal zone",
+    "leftLength": 101306.01830000004,
+    "rightLength": 89008.93759999996
+  },
+  {
+    "name": "V3 third ventricle",
+    "leftLength": 25132.4446,
+    "rightLength": 25977.33709999998
+  },
+  {
+    "name": "AQ cerebral aqueduct",
+    "leftLength": 222575.78529999987,
+    "rightLength": 228854.77819999986
+  },
+  {
+    "name": "V4 fourth ventricle",
+    "leftLength": 316457.67629999993,
+    "rightLength": 301773.38259999995
+  },
+  {
+    "name": "V4R lateral recess",
+    "leftLength": 566.0169000000001,
+    "rightLength": 291.2294
+  }
+]

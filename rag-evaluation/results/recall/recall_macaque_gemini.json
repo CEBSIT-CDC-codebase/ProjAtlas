@@ -1,0 +1,4226 @@
+[
+  {
+    "question": "How many transcriptome-defined cell types were identified in the macaque claustrum through single-nucleus RNA sequencing?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence from the ground truth evidence, stating that single-nucleus RNA sequencing of 227,750 macaque claustral cells identified 48 transcriptome-defined cell types."
+      }
+    ]
+  },
+  {
+    "question": "What percentage of claustral glutamatergic cells resemble deep-layer insular neurons?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement from the ground truth evidence, with only minor formatting differences in the percentage."
+      }
+    ]
+  },
+  {
+    "question": "Where is the macaque claustrum located in relation to the insular cortex?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 9 contains almost the exact text of the ground truth evidence, stating that the claustrum is a thin telencephalic structure situated below the insular cortex and is reciprocally connected to nearly all cortical areas."
+      }
+    ]
+  },
+  {
+    "question": "What type of neurons are NPY-expressing SST GABAergic cells in the claustrum considered to be?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact text of the ground truth evidence, stating that the percentage of NPY-expressing GABA/SST cells is much higher in the claustrum than in all cortical areas, suggesting more substantial inhibitory output."
+      }
+    ]
+  },
+  {
+    "question": "Which genes are mentioned as claustral marker genes that distinguish the macaque claustrum from surrounding structures?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that claustral marker genes like SYNPR, NR4A2, and NTNG2 distinguish the claustrum from surrounding structures."
+      }
+    ]
+  },
+  {
+    "question": "Injections in which five subcortical structures yielded a significant number of labeled claustral neurons?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact text of the ground truth evidence, detailing the injection of retrograde tracers at 15 sites in seven subcortical structures and the resulting labeled claustral neurons."
+      }
+    ]
+  },
+  {
+    "question": "In cross-species comparison, which glutamatergic subclass was predominant in macaque and marmoset but only a minority in mouse?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact factual content of the ground truth evidence, stating that the GNB4 subclass was predominant in macaque and marmoset but a minority (14.7%) in mouse, where the ZFPM2 subclass was more abundant."
+      }
+    ]
+  },
+  {
+    "question": "How many cells were included in the macaque claustrum snRNA-seq analysis after quality control?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact sentence from the ground truth evidence, including the number of cells, average molecular identifiers, and detected genes per cell."
+      }
+    ]
+  },
+  {
+    "question": "What are the names of the four projection-selective zones defined in the macaque claustrum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, stating that labeled cells belonging to the same cluster were pooled to define four overall 'projection-selective zones' (PSZs, 1-4), illustrated in Figure 4D."
+      }
+    ]
+  },
+  {
+    "question": "What developmental origin is suggested for the LAMP5/LHX6 claustral cell types that lack ADARB2 expression?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 1 and 2 contain the exact sentence from the ground truth evidence, stating that primate-specific cell types LAMP5/LHX6/ADARB2/1 and LAMP5/LHX6/ADARB2/4 showed minimal ADARB2 expression, suggesting their MGE origin."
+      }
+    ]
+  },
+  {
+    "question": "How many subclasses and cell types were identified from the macaque claustrum snRNA-seq data?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact text of the ground truth evidence, detailing the UMAP analysis results, cell classes, cell counts, subclasses, and their respective markers."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, detailing the division of the 16 subclasses into 48 cell types (22 glutamatergic, 19 GABAergic, and 7 non-neuronal)."
+      }
+    ]
+  },
+  {
+    "question": "Does the macaque claustrum exhibit a lateralized pattern of connectivity?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact sentence provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What does the predominant glutamatergic subclass in the macaque claustrum correspond to in the insula?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "The retrieved chunks mention the GNB4 and ZFPM2 subclasses and describe a figure showing neuronal subclass proportions across species, but none of the chunks contain the specific findings that GNB4 is predominant in macaque and marmoset but a minority (14.7%) in mouse, or that ZFPM2 is more abundant in mouse."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the re-annotation of the GLUT/GNB4 subclass."
+      }
+    ]
+  },
+  {
+    "question": "Is the macaque claustrum more transcriptomically similar to the insula or the amygdala?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence, stating that claustrum clusters were more similar to insular clusters than to putamen or amygdala clusters."
+      }
+    ]
+  },
+  {
+    "question": "How does the gene expression of the RBC compare to that of the claustrum proper?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, confirming that RBC highly expressed CPLX3, CABP7, and SULF1 but not the claustral marker genes."
+      }
+    ]
+  },
+  {
+    "question": "What experimental methods and marker genes were used to delineate the boundary between the RBC and the claustrum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence, detailing how the boundary between RBC and claustrum was determined using immunostaining for Crym and RNAscope analysis for TTN and CPLX3."
+      }
+    ]
+  },
+  {
+    "question": "Which projection-selective zones contain neurons projecting to the hippocampal-entorhinal cortical circuit versus the motor cortical areas?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that hippocampal-projecting neurons were localized in PSZ3, which also harbored ENTO cortical-projecting neurons."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 explicitly states that PSZ4 neurons mainly projected to frontal motor areas and parietal sensory areas, matching the ground truth evidence exactly."
+      }
+    ]
+  },
+  {
+    "question": "What is the suggested identity of the region bordering ventromedial claustrum (RBC)?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, stating that RBC is analogous to the 'claustrum shell' or 'subplate' in mice but is not a component of the macaque claustrum."
+      }
+    ]
+  },
+  {
+    "question": "Which ipsilateral cortical areas provide only weak inputs to the macaque claustrum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What is the nature of the connectivity between the macaque claustrum and visual areas V1 and area 1?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact text of the ground truth evidence, stating that the connectivity between the macaque claustrum and V1/area 1 is largely unidirectional, supporting a top-down influence."
+      }
+    ]
+  },
+  {
+    "question": "Does the macaque claustrum show a preference for ipsilateral or contralateral cortical inputs?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, confirming the robust ipsilateral bias of cortical inputs to the macaque claustrum."
+      }
+    ]
+  },
+  {
+    "question": "How many ipsilateral subcortical nuclei receive projections from the intra-claustrum injections, and which structures are the most strongly labeled?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence, stating that the five intra-claustrum injections led to labeling in 100 ipsilateral subcortical nuclei, particularly strong in the amygdala and thalamus."
+      }
+    ]
+  },
+  {
+    "question": "From which subcortical structures does the C4 claustral injection site receive inputs?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the C4 site receiving projections only from the thalamus, including the VPLo, VPLc, and VPM nuclei."
+      }
+    ]
+  },
+  {
+    "question": "Which ipsilateral subcortical nuclei are labeled by the C5 injection?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the C5 injection-labeled cells in ipsilateral subcortical nuclei, including the olfactory nucleus and hippocampus."
+      }
+    ]
+  },
+  {
+    "question": "In which projection-specific zone (PSZ) are the claustral neurons labeled by the C4 injection predominantly located?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact same sentence as the ground truth evidence, with only minor formatting differences in the percentage values."
+      }
+    ]
+  },
+  {
+    "question": "Do macaque/mouse-conserved GLUT/GNB4 cell types exhibit preferential projection targets?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that none of the macaque/mouse-conserved GLUT/GNB4 cell types exhibited a target preference, while a substantial portion of the macaque-specific ones did."
+      }
+    ]
+  },
+  {
+    "question": "How do the transcriptomic profiles of the claustrum, RBC, and insula compare?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, stating that the transcriptomic profiles were very different among claustrum, RBC, and insula."
+      }
+    ]
+  },
+  {
+    "question": "To which brain regions do RBC neurons project?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact text of the ground truth evidence, confirming that retrogradely labeled RBC neurons were found in a restricted number of brain regions compared to claustral neurons."
+      }
+    ]
+  },
+  {
+    "question": "How does contralateral cortical input to the claustrum compare between macaques and rodents?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, with only minor differences in citation markers."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence from the ground truth evidence, confirming a robust ipsilateral bias of cortical inputs to the macaque claustrum."
+      }
+    ]
+  },
+  {
+    "question": "What are the cortical and subcortical connection preferences of the C3 claustral injection site?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "The retrieved chunks mention C1, C2, and C3 injections but do not contain the specific information that the C3 injection resulted in a higher density of labeled neurons in higher visual areas and fewer in the prefrontal cortex compared to C1 and C2."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact text of the ground truth evidence verbatim."
+      }
+    ]
+  },
+  {
+    "question": "What are the cortical targets and subcortical inputs of the C4 claustral injection site?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding the C4 injection site at the most dorsal extremity of the claustrum containing cells projecting selectively to motor and somatosensory cortices."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that the C4 site received projections only from the thalamus, including VPLo, VPLc, and VPM, which are connected with the somatosensory cortex."
+      }
+    ]
+  },
+  {
+    "question": "What are the projection targets and subcortical inputs of the C5 claustral injection site?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact sentence from the ground truth evidence regarding the C5 injection site and its projections to the ventral temporal and prefrontal cortices."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence regarding the C5 injection-labeled cells in the olfactory nucleus and hippocampus."
+      }
+    ]
+  },
+  {
+    "question": "What two key features characterize intra-claustrum connectivity in the macaque?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, confirming the extensive rostral-to-caudal connectivity within the claustrum."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that the spatial distribution patterns point to a regional specificity in intra-claustral connections."
+      }
+    ]
+  },
+  {
+    "question": "How do intra-claustrum connectivity patterns relate to the transcriptomically distinct projection-specific zones (PSZs)?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, with only minor formatting differences in the percentage values."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 7 contains the exact sentence from the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "Which macaque-specific cell types are enriched in the dorsal claustrum and what are their projection targets?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, stating that GLUT/GNB4/4 and GLUT/GNB4/5 cell types were enriched in the dorsal claustrum and project to the motor cortex and putamen."
+      }
+    ]
+  },
+  {
+    "question": "Which macaque-specific cell types are enriched in the ventral claustrum and what are their projection targets?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, stating that two macaque-specific GNB4 cell types (GLUT/GNB4/2 and GLUT/GNB4/7) were enriched in the ventral claustrum and project to the ENTO cortex and hippocampus."
+      }
+    ]
+  },
+  {
+    "question": "Who is the lead contact for resources and reagents?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 0,
+    "recall": 0.0,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention Zhiming Shen as the lead contact for resources and reagents; they mention Chengyu Li and Jun Yan instead."
+      }
+    ]
+  },
+  {
+    "question": "Are the materials used for snRNA-seq and Stereo-seq commercially available?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 1 and 2 explicitly state that all materials used for snRNA-seq and Stereo-seq are commercially available, matching the ground truth evidence exactly."
+      }
+    ]
+  },
+  {
+    "question": "What is the accession number for the raw data?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, confirming that all raw data are deposited in the CNGB Nucleotide Sequence Archive with the accession number CNP0005571 and the corresponding URL."
+      }
+    ]
+  },
+  {
+    "question": "What is the URL for the processed data?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence, and Chunk 2 also provides the same DOI link for the processed data."
+      }
+    ]
+  },
+  {
+    "question": "What types of data are available through the macaque digital brain website?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, stating that whole-brain connectivity and single-cell spatial transcriptomic data are available via the specified website."
+      }
+    ]
+  },
+  {
+    "question": "Which public snRNA-seq datasets are listed in the resource availability?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the availability of public snRNA-seq datasets for human hippocampus and macaque cortex."
+      }
+    ]
+  },
+  {
+    "question": "How was the data analysis conducted according to the resource availability?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 0,
+    "recall": 0.0,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks contain the statement that data analysis followed standard methods or refer to the STAR Methods for data analysis."
+      }
+    ]
+  },
+  {
+    "question": "Who are the co-inventors of Stereo-seq technology?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement that L. Liu and X.X. are the co-inventors of Stereo-seq technology."
+      }
+    ]
+  },
+  {
+    "question": "What is the intellectual property status of Stereo-seq?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the chip, procedure, and applications of Stereo-seq being covered in pending patents."
+      }
+    ]
+  },
+  {
+    "question": "Where can the supplemental information be found?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact statement regarding where supplemental information can be found online, including the identical DOI link."
+      }
+    ]
+  },
+  {
+    "question": "How can one access the raw data and who should be contacted for further information?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence stating that all raw data are deposited in the CNGB Nucleotide Sequence Archive with the specified accession number and URL."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks state that Zhiming Shen is the lead contact for resources and reagents; Chunk 1 mentions Jun Yan and Chunk 6 mentions Chengyu Li for this role."
+      }
+    ]
+  },
+  {
+    "question": "What resources are available to enable replication of the experimental procedures?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks state that all materials used for snRNA-seq and Stereo-seq are commercially available. Chunk 10 mentions that recombinant viruses are commercially available, but does not mention snRNA-seq or Stereo-seq materials."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact database name, accession number (CNP0005571), and URL for the deposited raw data (FASTQ for snRNA-seq data) as stated in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "Who invented Stereo-seq and where can the raw data be found?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention L. Liu and X.X. or state that they are the co-inventors of Stereo-seq technology."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact accession number (CNP0005571) and URL for the CNGB database where the raw data (FASTQ) is deposited, matching the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What is the publication date and where can supplemental material be accessed?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact dates for when the paper was received, revised, accepted, and published, matching the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement and DOI link provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "Where can detailed experimental methods and additional supplemental data be found?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks contain the statement that detailed methods are provided in the online version of the paper."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact statement regarding the supplemental information and its corresponding DOI link as provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "Are the experimental materials proprietary, and what analysis methods were employed?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 6 and Chunk 10 explicitly state that all materials used for snRNA-seq and Stereo-seq are commercially available, matching the ground truth evidence exactly."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks contain the statement that data analysis followed standard methods or refer to the STAR Methods for this specific context."
+      }
+    ]
+  },
+  {
+    "question": "Who should be contacted about resources and what is the patent status of Stereo-seq?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention the lead contact, Zhiming Shen, or provide contact information for resources and reagents."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that the chip, procedure, and applications of Stereo-seq are covered in pending patents."
+      }
+    ]
+  },
+  {
+    "question": "What consortium supported the study and what is the accession number for the raw data?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "The retrieved chunks contain an acknowledgment section from a different paper with different grant numbers and funding agencies, but none of the chunks contain the specific funding information and grant numbers listed in the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, confirming that all raw data are deposited in the CNGB Nucleotide Sequence Archive with the specified accession number and URL."
+      }
+    ]
+  },
+  {
+    "question": "What is the approval number for the animal protocol used in this study?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 2 and 4 contain the exact statement regarding the animal protocol approval (ION-2019011) by the Biomedical Research Ethics Committee of CAS Center for Excellence in Brain Science and Intelligence Technology, Chinese Academy of Sciences."
+      }
+    ]
+  },
+  {
+    "question": "How many male cynomolgus monkeys were used for Stereo-seq of the claustrum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact text of the ground truth evidence, detailing the collection of the claustrum from specific cynomolgus monkeys for Stereo-seq and snRNAseq, including their IDs, ages, sexes, and weights."
+      }
+    ]
+  },
+  {
+    "question": "What strain and age are the male mice used for snRNA-seq of the claustrum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence stating that the mouse claustrum was collected for snRNA-seq from 18 male mice (C57/bl, 11 weeks)."
+      }
+    ]
+  },
+  {
+    "question": "How many coronal sections were collected from macaque #1 for Stereo-seq?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the collection of 44 coronal sections from macaque 1#."
+      }
+    ]
+  },
+  {
+    "question": "How long is the methanol fixation step for tissue sections on the Stereo-seq chip at -20°C?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, detailing the fixation of the section in methanol and its incubation conditions."
+      }
+    ]
+  },
+  {
+    "question": "How long is the reverse transcription step in the Stereo-seq protocol?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 explicitly states that 'RNAs were reverse transcribed for 3 hours at 42°C', which perfectly matches the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What enzyme is used for treating cDNA-containing chips in Stereo-seq?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 explicitly states that the cDNA-containing chips were subjected to Exonuclease I (NEB, M0293L) treatment for 16 hours at 55°C, matching the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What amount of cDNA per sample is used for tagmentation in Stereo-seq library preparation?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact same text as the ground truth evidence, detailing the tagmentation process with Tn5 transposases and the subsequent interruption with SDS."
+      }
+    ]
+  },
+  {
+    "question": "What system is used to prepare snRNA-seq libraries?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the use of the DNBelab C Series High-throughput Single-cell System for the preparation of snRNA-seq libraries."
+      }
+    ]
+  },
+  {
+    "question": "What is the p-value threshold for determining preferred cell type distribution in the claustrum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the threshold for integrated p-values to determine a preferred distribution along the ML or DV axis."
+      }
+    ]
+  },
+  {
+    "question": "What temperature is used for the initial tissue incubation on the Stereo-seq chip, and what temperature is used for the tagmentation step in library preparation?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact same sentence as the ground truth evidence, detailing the attachment to the Stereo-seq chip and the incubation conditions."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact text from the ground truth evidence regarding the tagmentation of cDNA with Tn5 transposases and the subsequent interruption of the reaction."
+      }
+    ]
+  },
+  {
+    "question": "How many macaques provided insular cortex for snRNA-seq, and at what depths is the macaque claustrum segmented for snRNA-seq?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention that the insular cortex was collected from four macaques (#1, #2, #3, #6), nor do they contain the specific details about the macaques being 7-year-old, male, and weighing 10.6 kg."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact text from the ground truth evidence regarding the segmentation of the claustrum of macaques and marmosets in the cryostat."
+      }
+    ]
+  },
+  {
+    "question": "How are single cells segmented in Stereo-seq images, and what algorithm assigns cell types to them?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 10 contains the exact sentence from the ground truth evidence regarding the use of mask R-CNN-based deep learning models trained with ConA staining images for segmenting single cells."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 8 contains the exact sentence from the ground truth evidence, stating that Spatial-ID was employed to annotate single cells in the Stereo-seq map."
+      }
+    ]
+  },
+  {
+    "question": "What marker genes identify the RBC subregion, and what antibody is used to mark the RBC loci in immunohistochemistry?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 7 contains the exact sentence from the ground truth evidence regarding the use of specific marker genes for the subregional parcellation of the claustrum."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunks 1 and 2 together contain the exact text and all the core information from the ground truth evidence, split across the two chunks."
+      }
+    ]
+  },
+  {
+    "question": "What survival period is allowed after tracer injection, and what thickness are the sections used for IHC staining?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact text of the ground truth evidence, detailing the survival period, anesthesia protocol, and perfusion solutions."
+      },
+      {
+        "attributed": false,
+        "reason": "The retrieved chunks describe similar immunohistochemical staining protocols but differ in key details such as section thickness (10-um vs 40-um) and the number of washes (3 washes vs 6 washes), meaning the exact factual content of the ground truth is not present."
+      }
+    ]
+  },
+  {
+    "question": "What is the temperature for reverse transcription in Stereo-seq, and what is the hybridization temperature for RNAscope probes?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement that RNAs were reverse transcribed for 3 hours at 42 degrees Celsius."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence, detailing the hybridization of sections with CPLX3 and TTN probes in a HybEZ oven for 2 hours at 40°C."
+      }
+    ]
+  },
+  {
+    "question": "How are the captured mRNAs converted for image registration, and how are spatial positions normalized for distribution analysis?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence, stating that captured mRNAs of each section were converted into a 16-bit image with UMI counts as pixel values."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention calculating normalized layer and column values by solving a partial differential equation known as the heat equation."
+      }
+    ]
+  },
+  {
+    "question": "What tracers were used for retrograde labeling, and what primary antibodies were used for IHC staining?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact factual content and wording of the ground truth evidence, detailing the specific retrograde tracers, their concentrations, the injection method under MRI guidance, and the animal model used."
+      },
+      {
+        "attributed": false,
+        "reason": "The retrieved chunks mention IHC staining with a NeuN antibody (from Sigma-Aldrich, not Abcam) and immunostaining for Crym, but they do not contain the specific details about the Abcam anti-NeuN and Novus Biologicals anti-Crym antibodies mentioned in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What MRI sequence and parameters were used to acquire T1w structural images?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact same information as the ground truth evidence, with only minor formatting differences due to LaTeX symbols."
+      }
+    ]
+  },
+  {
+    "question": "What metric indicates stronger connections in the study?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence 'Higher FLN values indicate stronger connection', which perfectly matches the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What software was used to transform NIfTI-1 data into a smooth 3D model of the claustrum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the use of 3D Slicer81 software to transform NIfTI-1 data into a smooth 3D model of the claustrum."
+      }
+    ]
+  },
+  {
+    "question": "How many clear clusters were identified from the distribution zone similarity matrix?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the use of Seaborn's hierarchical clustering on the similarity matrix to find four clear clusters."
+      }
+    ]
+  },
+  {
+    "question": "What genome reference and alignment software were used for snRNA-seq read mapping?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the alignment of snRNA-seq data to the Macaca fascicularis genome using STAR with the adjusted GTF file."
+      }
+    ]
+  },
+  {
+    "question": "How many high-quality snRNA-seq libraries were retained for analysis?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact information from the ground truth evidence, stating that libraries with a median gene count of ≤500 were excluded and 55 high-quality libraries were retained."
+      }
+    ]
+  },
+  {
+    "question": "What were the eight major cell types identified from the unsupervised clustering of snRNA-seq data?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, with only minor LaTeX formatting differences for 'DRD2+'."
+      }
+    ]
+  },
+  {
+    "question": "How many nuclei were ultimately retained for downstream analysis after quality filtering?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 0,
+    "recall": 0.0,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention the total number of 227,750 nuclei being retained for subsequent analysis."
+      }
+    ]
+  },
+  {
+    "question": "Which normalization function was applied to the snRNA-seq count data during initial processing?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact information about normalizing counts data using the 'SCTransform' function with the specified parameters (variable.features.n = 5000, vars.to.regress = 'percent.mt', and method = 'glmGamPoi'), matching the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What dropout rate was used during training of the Siamese neural network for claustrum registration?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact training hyperparameters and data augmentation details mentioned in the ground truth evidence, with minor OCR and formatting variations."
+      }
+    ]
+  },
+  {
+    "question": "What image resolutions were used for down-sampling in claustrum segmentation and for populating the grid matrix in distribution zone determination?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding down-sampling the images at a resolution of 13 mm/pixel to reduce computational cost."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding the adjustment of grid values based on the number of cells and area size of the claustrum."
+      }
+    ]
+  },
+  {
+    "question": "What normalization methods were used for the initial snRNA-seq processing and for the subsequent iterative clustering of the seven major cell classes?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact information about normalizing the counts data using the 'SCTransform' function with the specified parameters (variable.features.n = 5000, vars.to.regress = 'percent.mt', and method 'glmGamPoi')."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact statement that single-nuclei data for each of the seven classes were normalized using NormalizeData with the specified parameters."
+      }
+    ]
+  },
+  {
+    "question": "How many major cell types were initially categorized, and how many clusters were ultimately identified?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 8 contains the exact sentence from the ground truth evidence, with only minor formatting differences for 'DRD2+'."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 6 and Chunk 10 together provide the exact numbers from the ground truth, stating that the analysis included 227,750 cells (or nuclei) which were divided into 48 cell types (clusters)."
+      }
+    ]
+  },
+  {
+    "question": "What deep learning models were used for claustrum segmentation and for cross-animal registration?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, stating that a model was trained using nnUNet79 to segment the claustrum from coronal sections."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the use of a convolutional Siamese neural network to compute a 16-dimensional embedding of the claustrum."
+      }
+    ]
+  },
+  {
+    "question": "How many training epochs were used for the registration network, and how many trees were set for the random forest model?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement 'We trained for 2000 epochs in total', which perfectly matches the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 explicitly mentions constructing a random forest model using the 'randomForest' function from the 'randomForest' package (v4.7.1.1) with the parameter 'ntree' set to 500, which matches the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What threshold was used to extract contours in distribution zone determination, and what probability threshold was applied to discard nuclei in the random forest classification?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact sentence 'We then extracted contours using a threshold of 0.05.', which matches the ground truth evidence perfectly."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 explicitly states that 'Nuclei with a probability < 0.9 were discarded', which perfectly matches the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "How many manually segmented sections were used for initial claustrum segmentation training, and how many coronal sections were outlined for distribution zone determination?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, with only minor LaTeX formatting differences for the measurement."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact statement from the ground truth evidence, with only minor formatting differences for the measurement."
+      }
+    ]
+  },
+  {
+    "question": "How many channels did the MRI coil and the fluorescence microscope have, respectively?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the MRI scanning equipment."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the fluorescence microscope and its four scanning channels."
+      }
+    ]
+  },
+  {
+    "question": "How many cells were identified from the mouse claustrum in the snRNA-seq analysis?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating the identification of 234,986 cells from the mouse claustrum and 109,093 cells from the marmoset claustrum."
+      }
+    ]
+  },
+  {
+    "question": "Into how many clusters was the marmoset data partitioned?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement that marmoset data were partitioned into 38 clusters, whereas mouse data were divided into 60 clusters."
+      }
+    ]
+  },
+  {
+    "question": "Which package and function were used to select highly variable genes for cross-species integration?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 3 and 4 contain the exact sentence from the ground truth evidence, detailing the use of the select_markers function from the scrattch.hicat package to identify highly variable genes and their use as anchor points for cell integration using Seurat."
+      }
+    ]
+  },
+  {
+    "question": "What resolution was used in the FindClusters function for the integrated analysis?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 1, 5, and 7 contain the exact sentence from the ground truth evidence, stating that integrated data was performed on standardized data using FindNeighbors (dims = 1:100) and FindClusters (resolution = 3)."
+      }
+    ]
+  },
+  {
+    "question": "What is the minimum max overlap score for a macaque cluster to be classified as conserved with mouse?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 and Chunk 3 explicitly state the classification criteria for macaque-specific (max overlap score < 0.3) and macaque/mouse conserved clusters (max overlap score >= 0.3), matching the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What were the p_val_adj and avg_log2FC thresholds for identifying differentially expressed genes between conserved and macaque-specific clusters?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact same information as the ground truth evidence, detailing the use of Seurat's FindAllMarkers function and the specific thresholds used to identify differentially expressed genes between macaque/mouse conserved and macaque-specific clusters."
+      }
+    ]
+  },
+  {
+    "question": "What UMI-to-gene count ratio threshold was used for filtering PSZ libraries?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "The core information is present across Chunk 5 and Chunk 1, which together detail the 11 libraries for PSZ#1, the filtering criteria (median gene count > 300, mitochondrial gene content < 5%, UMI-to-gene count ratio > 1.2), and the resulting 75,532 cells."
+      }
+    ]
+  },
+  {
+    "question": "Which R function was used to perform differential gene expression analysis across PSZ regions?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding the differential gene expression analysis using the 'SeuratWrappers::RunPrestoAll' function on LogNormalized data."
+      }
+    ]
+  },
+  {
+    "question": "How many major classes are in the cell-type classification hierarchy?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating 'A table showing more clearly the hierarchy of our cell-type classification: 3 major classes, 16 subclasses, and 48 cell types.'"
+      }
+    ]
+  },
+  {
+    "question": "Which brain region has glutamatergic transcriptomes most similar to those of the claustrum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 and Chunk 8 explicitly state that the transcriptomic profiles of glutamatergic cells in the claustrum are highly similar to those in the insula compared to other brain regions."
+      }
+    ]
+  },
+  {
+    "question": "How many clusters were identified in the marmoset and macaque claustrum snRNA-seq data?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 explicitly states that marmoset data were partitioned into 38 clusters and mouse data were divided into 60 clusters, matching the ground truth evidence exactly."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention the use of the TransferData function from the Seurat package to transfer cell annotations to different projection areas."
+      }
+    ]
+  },
+  {
+    "question": "What were the per-cluster sampling sizes for marmoset and mouse in the two separate downsampling procedures?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding the sampling of 2,500 cells per marmoset cluster and 2,000 per mouse cluster."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the selection of 1,500 cells per marmoset cluster and 6,000 per mouse cluster."
+      }
+    ]
+  },
+  {
+    "question": "What cell filtering criteria and differential gene expression thresholds were applied in the PSZ analysis?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 5 and 6 together contain the exact sentence from the ground truth evidence, split across the two chunks."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact same text as the ground truth evidence, with only minor formatting differences in mathematical symbols."
+      }
+    ]
+  },
+  {
+    "question": "What integration approaches were used for the initial supervised cross-species integration and for the GNB4 subclasses integration?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains an exact match of the ground truth evidence, stating that Seurat's SCTransform workflow was used to perform supervised integration on claustrum cells across species with downsampling by each subclass."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that the modified 'RunHarmony' function in the Harmony package (v0.1.0) was used to integrate data across species."
+      }
+    ]
+  },
+  {
+    "question": "How many retrogradely labeled neurons were analyzed after tracer injections in the prefrontal cortex and visual cortex?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact text from the ground truth evidence, with minor differences in LaTeX formatting for the numbers."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence from the ground truth evidence, with only minor formatting differences in the numbers (e.g., LaTeX formatting)."
+      }
+    ]
+  },
+  {
+    "question": "How many subclasses were annotated in mice and marmosets, and how many cell types are in the overall classification?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, confirming that high variable genes from the macaque subclass were used to annotate subclasses in mice and marmosets, resulting in 16 subclasses for each species."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact text describing the table with the hierarchy of the cell-type classification: 3 major classes, 16 subclasses, and 48 cell types."
+      }
+    ]
+  },
+  {
+    "question": "What differential expression thresholds and statistical methods were used in the macaque conserved vs specific comparison and in the GNB4 cell type comparison?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact same information as the ground truth evidence, detailing the use of Seurat's FindAllMarkers function to identify differentially expressed genes between macaque/mouse conserved and macaque-specific clusters with the exact same thresholds."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact statement from the ground truth evidence, with minor formatting differences in mathematical symbols."
+      }
+    ]
+  },
+  {
+    "question": "What were the maximum numbers of cells sampled per macaque subclass or cluster in the two cross-species analyses?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence stating that 2,000 cells were sampled for each macaque subclass, with all available cells used if the subclass contained fewer than 2,000."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 explicitly states that for each macaque cluster, 1,200 cells were selected, and all available cells were used if the cluster contained fewer than 1,200, which perfectly matches the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "How many transcriptome-defined cortical cell types does the macaque cortex atlas include?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What are the five prominent marker genes used to annotate GABAergic neuron subclasses?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence stating that GABAergic neuron subclasses were annotated by the 5 prominent marker genes: LAMP5, VIP, RELN, PV, and SST."
+      }
+    ]
+  },
+  {
+    "question": "Which cortical region had the highest cell density?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact text of the ground truth evidence, stating the cell density differences among cortical regions, with the highest in V1 and lowest in the entorhinal cortex."
+      }
+    ]
+  },
+  {
+    "question": "What was the average number of genes detected per cell in the stereo-seq analysis?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, detailing the number of segmented cortical cells, average UMIs, and genes per cell."
+      }
+    ]
+  },
+  {
+    "question": "What are the three major cell classes at level 1 of the transcriptomic taxonomy?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, detailing the three major cell classes and their respective cell counts."
+      }
+    ]
+  },
+  {
+    "question": "How many cortical cells were mapped in the spatial transcriptome map?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that cell types were identified for 42,076,954 cortical cells in the spatial transcriptome map."
+      }
+    ]
+  },
+  {
+    "question": "How many coronal sections at what spacing were obtained from monkey #1 for stereo-seq?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact text of the ground truth evidence, detailing the number of sections, spacing, and adjacent sections used for immunostaining and snRNA-seq analysis in monkey #1."
+      }
+    ]
+  },
+  {
+    "question": "What are the six non-neuronal subclasses identified in the macaque cortex?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the 6 non-neuronal subclasses and their specific marker genes."
+      }
+    ]
+  },
+  {
+    "question": "In which cortical layers are RELN subclass GABAergic neurons predominantly located?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the layer specificities of GABAergic cells, specifically the RELN, LAMP5, VIP, and VIP_RELN subclasses."
+      }
+    ]
+  },
+  {
+    "question": "What primate-specific cell type enrichment was found through cross-species comparison?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 0,
+    "recall": 0.0,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "The retrieved chunks mention cross-species analysis revealing primate-specific cell types enriched in layer 4, but they do not contain the information that their marker genes are expressed in a region-dependent manner."
+      }
+    ]
+  },
+  {
+    "question": "What is the total number of cells used for snRNA-seq, and how many of those came from monkey #1?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 2 and 3 together provide all the key information from the ground truth evidence, including the total number of cells (646,393 + 846,847 = 1,493,240), the 143 cortical regions, the two monkeys, and the use of the data for snRNA-seq analysis and cell-type classification."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact statement from the ground truth evidence, confirming the number of cells obtained from monkey #1 and the section details."
+      }
+    ]
+  },
+  {
+    "question": "What section thickness was used for stereo-seq, and what was the average number of segmented cells per section?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention that the sections were from the freshly isolated left hemisphere of three adult male cynomolgus monkeys."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence from the ground truth evidence, detailing the number of segmented cortical cells, average UMIs, and genes per cell."
+      }
+    ]
+  },
+  {
+    "question": "How many cell types were identified, and what analysis showed that cortical lobes can be distinguished by cell-type composition?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 7 contains the exact sentence from the ground truth evidence, detailing the identification of 264 cell clusters for 143 cortical regions grouped into 9 conventional lobes."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, stating that unsupervised clustering analysis revealed 9 major cortical lobes could be distinguished by their cell-type compositions based on the stereo-seq map and snRNA-seq data."
+      }
+    ]
+  },
+  {
+    "question": "What are the five prominent GABAergic subclass marker genes, and what two SST cell groups were identified with complementary regional abundance?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, listing the 5 prominent marker genes for GABAergic neuron subclasses."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding the two groups of SST cell types and their complementary abundance in specific cortical regions."
+      }
+    ]
+  },
+  {
+    "question": "What spatial transcriptome method was employed, and what physical factors enabled single-cell resolution?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 0,
+    "recall": 0.0,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "The retrieved chunks mention the use of the stereo-seq technology for spatial transcriptome analysis, but they fail to mention the development of a method for preparing centimeter-scale thin sections of the monkey brain, which is a key part of the ground truth evidence."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention the 10-μm section thickness or the specific section preservation procedures that reduced mRNA diffusion."
+      }
+    ]
+  },
+  {
+    "question": "What is the cell density in V1, and what gene is characteristic of V1-specific glutamatergic cell types?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention the overall cell density differences among cortical regions, nor do they provide the specific density values for V1 (~1,500 cells/μm^2) and the entorhinal cortex (200 cells/μm^2)."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, stating that V1-specific cell types are characterized by high expression of NTNG1, its role in guiding axon growth, and its association with schizophrenia."
+      }
+    ]
+  },
+  {
+    "question": "How many monkeys provided brain tissue for snRNA-seq, and how many for stereo-seq?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, stating that cortical tissues from two cynomolgus monkey brains were used for snRNA-seq analysis."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention that Stereo-seq analysis was performed on 10-μm coronal sections from the freshly isolated left hemisphere of three adult male cynomolgus monkeys."
+      }
+    ]
+  },
+  {
+    "question": "What are the three major cell classes in the macaque cortex taxonomy, and how many glutamatergic cell types are highly localized to specific cortical regions?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, detailing the three major cell classes and their respective cell counts."
+      },
+      {
+        "attributed": false,
+        "reason": "The retrieved chunks mention that 'several' glutamatergic cell types were localized to specific lobes and refer to 'nine cortical lobes', but they do not contain the specific finding that exactly 'nine glutamatergic cell types' were highly localized to specific cortical regions."
+      }
+    ]
+  },
+  {
+    "question": "What is the function of chandelier cells in the cortex?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that chandelier cells innervate the axon initial segments of pyramid neurons and could veto neuronal firing."
+      }
+    ]
+  },
+  {
+    "question": "Which chandelier cell type is most abundant in layer 2, and where are the other two types most abundant?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the abundance and distribution of the three chandelier cell types (CHC.1, CHC.2, and CHC.3)."
+      }
+    ]
+  },
+  {
+    "question": "In which cortical areas is the PV/(PV+SST) cell density ratio the highest?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact text of the ground truth evidence, stating that the L2/3 PV/(PV+SST) cell density ratio was highest in motor cortices and the entorhinal area, and lowest in the insular and auditory cortices."
+      }
+    ]
+  },
+  {
+    "question": "Does the PV and SST density ratio in macaque show a significant correlation with hierarchical levels in sensory systems?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the lack of significant correlation between PV and SST density ratio and hierarchical levels in macaque sensory systems."
+      }
+    ]
+  },
+  {
+    "question": "What did principal component analysis reveal about PV and SST cell-type compositions and hierarchy?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 3 and 4 contain the exact text from the ground truth evidence, split across the two chunks."
+      }
+    ]
+  },
+  {
+    "question": "Which glutamatergic receptor families are expressed at higher levels in group 2 ASCs?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the higher expression level of glutamatergic receptor genes in group 2 ASCs."
+      }
+    ]
+  },
+  {
+    "question": "How many primate-specific glutamatergic L4 cell types were found in macaque and human but not in mouse?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that a pairwise comparison uncovered six glutamatergic L4 cell types present in the PFC, F1, and V1 regions of macaques and humans but not in mice."
+      }
+    ]
+  },
+  {
+    "question": "In macaque cortical regions with a clear layer 4, where is FOXP2 expression highest?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the quantification of FOXP2 expression in the macaque cortex and its highest expression level in L4 for most cortical regions."
+      }
+    ]
+  },
+  {
+    "question": "What is the average number of genes captured per cell by the spatial transcriptome method used in the study?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement from the ground truth evidence, matching the factual content about the average number of genes captured per cell and its comparison to other methods."
+      }
+    ]
+  },
+  {
+    "question": "How does the regional distribution of non-neuronal cell types correlate with cortical hierarchy?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, stating that the regional distribution of non-neuronal cell types only exhibits positive correlations with the hierarchy level."
+      }
+    ]
+  },
+  {
+    "question": "What are the laminar and regional distribution characteristics of the ASC.11 cell type?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, detailing the two groups of ASCs and their predominant locations in L1 and L6."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that ASC.10, ASC.11, ASC.13, and ASC.16 were preferentially enriched in the occipital lobe."
+      }
+    ]
+  },
+  {
+    "question": "What correlation does the first principal component of PV/SST cell-type composition show with hierarchy, and which major cell class has more cell types negatively correlated with hierarchy?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 5 and 6 together contain the exact sentence from the ground truth evidence, stating that the first principal component (PC1) exhibited a positive correlation with hierarchical levels, suggesting tight regulation of PV and SST interneurons."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 8 contains the exact sentence from the ground truth evidence, stating that the number of glutamatergic cell types with negative correlation with hierarchy is much higher than that of GABAergic cell types."
+      }
+    ]
+  },
+  {
+    "question": "Which non-neuronal cell types are distributed in a gradient along the A-P axis, and what are their laminar preferences?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding the systematic evaluation of the regional distribution of non-neuronal cell types and their gradient along the A-P axis."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the distribution of EC, VLMC, OLG, and ASC cell types across cortical layers."
+      }
+    ]
+  },
+  {
+    "question": "What are the A-P axis distribution patterns of the two OLG groups, and how does non-neuronal cell distribution overall correlate with hierarchy?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence provided in the ground truth evidence, detailing the two groups of OLG cell types and their localization along the A-P axis."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence from the ground truth evidence, stating that the regional distribution of non-neuronal cell types only exhibits positive correlations with the hierarchy level."
+      }
+    ]
+  },
+  {
+    "question": "How many primate-specific L4 glutamatergic cell types were discovered, and what key genes do they highly express?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence provided in the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that 53 out of 226 genes, including FOXP2, EPHA3, and DCC, showed much higher expression levels in the L4/5 IT subclass neurons of humans and macaques than in mice."
+      }
+    ]
+  },
+  {
+    "question": "How does the correlation with hierarchy differ between the PV/SST density ratio and the non-neuronal cell distribution?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, stating that the PV and SST density ratio in macaque did not show any significant correlation with the hierarchical levels in either sensory system."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 8 contains the exact sentence from the ground truth evidence regarding the regional distribution of non-neuronal cell types exhibiting only positive correlations with the hierarchy level."
+      }
+    ]
+  },
+  {
+    "question": "Which group of ASCs is enriched in layer 6, and how does their abundance compare between V1 and the prefrontal cortex?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence regarding the two groups of ASCs and their locations in L1 and L6."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What cell type novelty was found in primates, and how does hierarchical organization in primate brains compare to mice?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "The retrieved chunks mention '6 primate-specific glutamatergic cell types' and a 'pairwise comparison', but none of them contain the complete core information that these six L4 cell types were found specifically in the PFC, F1, and V1 regions of macaques and humans but not in mice."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact statement that the primate brain is more hierarchically organized than the mouse brain."
+      }
+    ]
+  },
+  {
+    "question": "What technology is covered in pending patents according to the declaration?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact statement 'Stereo-seq is covered in pending patents', and Chunk 1 also explicitly states that the chip, procedure, and applications of Stereo-seq are covered in pending patents."
+      }
+    ]
+  },
+  {
+    "question": "Who holds company stock as stated in the declaration?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 explicitly states 'BGI employees hold company stock', which perfectly matches the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "In which journal did Sousa et al. publish their 2017 article on human nervous system evolution?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact citation provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What is the title of the 2016 paper by Bakken et al. about primate brain development?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact citation provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What is the name of the journal that published the 2021 paper by Berg et al. on glutamatergic neuron diversification?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact citation provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "Which year was the paper \"Innovations present in the primate interneuron repertoire\" published?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 1 and 2 contain the exact citation provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What is the title of the 2019 Cell paper by Hodge et al. about human versus mouse cortex?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 1 and 2 contain the exact citation provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "In which journal was the 2021 article \"A taxonomy of transcriptomic cell types across the isocortex and hippocampal formation\" published?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact citation provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What volume of Nature contains the 2021 BICCN article \"A multimodal cell census and atlas of the mammalian primary motor cortex\"?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact citation provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "Who are the authors of the 2015 Science paper titled \"RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells\"?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact citation provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What date is associated with the acceptance of the document that contains the statement \"BGI employees hold company stock\"?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 explicitly states that 'BGI employees hold company stock', which perfectly matches the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 explicitly contains the exact phrase 'Accepted: June 14, 2023', matching the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What date is associated with the publication of the document that contains the statement \"Stereo-seq is covered in pending patents\"?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 and Chunk 2 explicitly state that Stereo-seq is covered in pending patents, matching the ground truth evidence exactly."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 explicitly states 'Published: July 12, 2023', which perfectly matches the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What is the revision date of the document that includes the declaration about Stereo-seq patents?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 and Chunk 2 explicitly state that Stereo-seq is covered in pending patents, matching the ground truth evidence exactly."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 explicitly states 'Revised: February 24, 2023', which perfectly matches the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What is the received date of the document that states BGI employees hold company stock?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 explicitly states 'BGI employees hold company stock', which perfectly matches the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 explicitly contains the exact phrase 'Received: October 11, 2022', matching the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What publication year do the articles \"Evolution of the human nervous system function, structure, and development\" and \"Comprehensive transcriptome analysis of neocortical layers in humans, chimpanzees and macaques\" share?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact citation provided in the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact citation provided in the ground truth evidence, matching all authors, title, journal, and DOI information."
+      }
+    ]
+  },
+  {
+    "question": "Which two journals published the articles \"Transcriptional architecture of the primate neocortex\" and \"Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortex\"?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact citation provided in the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact citation provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What are the titles of the Science articles from 2018 and 2022 authored by Zhu et al. and Ma et al. respectively?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact citation provided in the ground truth evidence."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks contain the citation for Ma, S. et al. (2022) regarding the molecular and cellular evolution of the primate dorsolateral prefrontal cortex."
+      }
+    ]
+  },
+  {
+    "question": "What are the titles of the two 2021 Nature articles that address comparative cellular analysis of motor cortex and human neocortical glutamatergic neuron diversification?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact citation provided in the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact citation provided in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "Who is the lead contact for resource and reagent requests regarding the spatial transcriptomics study?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement from the ground truth evidence regarding the lead contact, Chengyu Li, and the email address for resource requests."
+      }
+    ]
+  },
+  {
+    "question": "What URL provides access to the processed spatial-omics data from macaque brain?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the access and download link for the processed data."
+      }
+    ]
+  },
+  {
+    "question": "What accession code was assigned to the raw data deposited in the CNGB Nucleotide Sequence Archive?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the deposition of raw data to the CNGB Nucleotide Sequence Archive with the accession code CNP0002035."
+      }
+    ]
+  },
+  {
+    "question": "How many male cynomolgus monkeys were used, and what were their ages?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact information about the left hemispheres collected from the three male cynomolgus monkeys, including their ages and weights, matching the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What anesthetic agents were administered to the monkeys prior to brain perfusion?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 8 contains the exact sentence from the ground truth evidence regarding the anesthesia protocol, including the specific drugs and their dosages."
+      }
+    ]
+  },
+  {
+    "question": "What temperature was the cooling chamber set to prior to cryosectioning?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 explicitly states that before cryosection, the temperature of the cooling chamber was set to -20°C, matching the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What thicknesses of coronal sections were collected for Stereo-seq, immunohistochemical staining, and snRNA-seq?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, detailing the number and thickness of sections obtained for Stereo-seq, immunohistochemical staining, and snRNA-seq at each coronal coordinate."
+      }
+    ]
+  },
+  {
+    "question": "How long was the methanol fixation step for Stereo-seq tissue sections, and at what temperature?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact same information as the ground truth evidence, with only minor formatting differences such as LaTeX symbols for temperatures and units."
+      }
+    ]
+  },
+  {
+    "question": "What exposure time was used when capturing fluorescent section images with the Zeiss Axio Scan Z1 microscope?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 4 and 6 contain the exact sentence stating that section images were captured using a Zeiss Axio Scan Z1 microscope at EGFP wavelength with a 10-ms exposure."
+      }
+    ]
+  },
+  {
+    "question": "What kit was used for snRNA-seq library preparation?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 1 and 2 contain the exact sentence from the ground truth evidence regarding the use of the DNBelab C Series High-throughput Single-Cell RNA Library Preparation Kit."
+      }
+    ]
+  },
+  {
+    "question": "How many cynomolgus monkeys were used in total across the Stereo-seq, snRNA-seq, and RNAscope experiments?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "The retrieved chunks do not contain the exact information from the ground truth. While they mention monkeys with similar ages and weights, the monkey IDs do not match (e.g., the chunks list the 10.6 kg monkey as #6 and the 3.7 kg monkey as #3, whereas the ground truth lists them as #3 and #2, respectively), and the specific statement about collecting left hemispheres from these three monkeys is missing."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 7 contains the exact same information as the ground truth evidence, with only minor differences in LaTeX formatting for the section thickness."
+      }
+    ]
+  },
+  {
+    "question": "How many snRNA-seq libraries were included for downstream analysis, and how many cells remained after the initial quality control?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, stating that 444 snRNA-seq libraries covering different brain areas among two macaques were included for downstream analysis."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention the specific number of cells (1,493,240) remaining after the first quality control as stated in the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What was the time limit for the tissue collection process, and at what temperature were tissue blocks stored between successive days of sectioning?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 7 contains the exact statement that the whole tissue collection process was completed within 30 min."
+      },
+      {
+        "attributed": true,
+        "reason": "parse fallback"
+      }
+    ]
+  },
+  {
+    "question": "What were the incubation temperatures for reverse transcription in Stereo-seq and probe hybridization in RNAscope?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 1 and 4 explicitly state that RNAs were reverse transcribed for 2 hours at 42°C, matching the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 10 contains the exact sentence from the ground truth evidence, detailing the hybridization with probes (EPHA3, SST) in a HybEZ oven for 2 hours at 40°C, although the beginning of the sentence is slightly truncated."
+      }
+    ]
+  },
+  {
+    "question": "What are the possible dimensions of the Stereo-seq chip, and which sequencing platform was used?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact same factual information as the ground truth evidence, with only minor formatting differences such as LaTeX symbols for temperatures and units."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact information about the DNBs being sequenced on the DNBSEQTM T10 sequencing platform (MGI, Shenzhen, China) with 50 bp for read1 and 100 bp for read2."
+      }
+    ]
+  },
+  {
+    "question": "In the snRNA-seq cDNA libraries, which base pairs of read1 constitute the bead barcodes, and what kit was used for library preparation?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the structure of read1 and read2 for cDNA libraries."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunks 5 and 6 contain the exact sentence from the ground truth evidence regarding the use of the DNBelab C Series High-throughput Single-Cell RNA Library Preparation Kit."
+      }
+    ]
+  },
+  {
+    "question": "What fixative and incubation time were used for immunohistochemical staining and for RNAscope post-fixation?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 7 contains the exact statement that the mounted brain tissues were fixed with 4% paraformaldehyde in 0.1M phosphate buffer (PBS) for 10 min."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact statement that the sections were post-fixed with pre-chilled 4% paraformaldehyde in PBS for 15 minutes at 4°C."
+      }
+    ]
+  },
+  {
+    "question": "How many PCR cycles were used for cDNA amplification in Stereo-seq, and what was the duration of the tagmentation reaction?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact PCR reaction protocol described in the ground truth evidence, including the temperatures and durations for each step."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact text from the ground truth evidence regarding the tagmentation of cDNA with Tn5 transposases and the stopping of the reaction with SDS."
+      }
+    ]
+  },
+  {
+    "question": "What deep learning model architecture was used for cell segmentation on ConA staining images?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, detailing the training of the mask R-CNN deep learning model on ConA staining images using a small set of cells."
+      }
+    ]
+  },
+  {
+    "question": "How many total cell annotations were generated on ConA staining images in the current experiment?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the generation of a full set of cell annotations on ConA staining images (14212 in the current experiment)."
+      }
+    ]
+  },
+  {
+    "question": "What precision and recall did the nucleic acid model achieve on validation?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the validation of the nucleic acid model on 10,209 cells, achieving 0.912 precision and 0.913 recall."
+      }
+    ]
+  },
+  {
+    "question": "What software and version were used to implement the image registration?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 9 contains the exact sentence from the ground truth evidence, stating that the registration was implemented with Scikit-image package (v.0.18.3) in Python (v.3.9.7)."
+      }
+    ]
+  },
+  {
+    "question": "How many cortical brain regions were parcellated in the macaque cortex?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact text of the ground truth evidence, detailing the segmentation of the macaque cortex into 143 brain regions based on atlas-based landmarks."
+      }
+    ]
+  },
+  {
+    "question": "What normalization method was used to mitigate batch effects in Stereo-seq data preprocessing?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, explaining the use of 'SCTransform' with the parameter 'vars.to.regress = percent.mt' to mitigate batch effects in Stereo-seq data."
+      }
+    ]
+  },
+  {
+    "question": "What function created the single-cell gene expression matrix in the Seurat workflow?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement that the cell-by-gene matrix was obtained with the function 'CreateSeuratObject' with min.cells = 3 and min.features = 0."
+      }
+    ]
+  },
+  {
+    "question": "What statistical method was used to correlate cell-type proportion with cortical hierarchy levels?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the calculation of cell proportions and the use of Spearman analysis to correlate them with hierarchy levels."
+      }
+    ]
+  },
+  {
+    "question": "What radius defines the neighborhood complexity around a cell?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact definition of neighborhood complexity as stated in the ground truth evidence, including the 200 pixel or 100 μm radius."
+      }
+    ]
+  },
+  {
+    "question": "How many coronal sections were used to build the 3D macaque brain atlas?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the 119 coronal sections from monkey #1 used to recover the shape and topology of the macaque brain."
+      }
+    ]
+  },
+  {
+    "question": "What thresholds were applied in Stereo-seq data preprocessing and in the nucleic acid model to filter or retain cells?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 explicitly states that cells with less than 100 features or percent.mt larger than 15% were discarded, which perfectly matches the ground truth evidence."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention a score threshold of 0.1 being applied to retain more cells."
+      }
+    ]
+  },
+  {
+    "question": "How were cortical layers defined and used to identify layer-specific astrocytes?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "The retrieved chunks only mention 'Cortical region and layer parcellation' as a section title in the methods list, but none of them contain the actual details about how the parcellation was manually delineated based on cytoarchitectural patterns, mRNA expression, or staining."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence regarding the identification of layer1-specific and layer6-specific ASCs and the use of the 'sc.tl.rangk_genes_groups' function of scanpy."
+      }
+    ]
+  },
+  {
+    "question": "How were cell type densities and their correlation with cortical hierarchy levels computed?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact sentence from the ground truth evidence, explaining how the density of each cell type was quantified in each layer and cortical region."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact text from the ground truth evidence regarding the calculation of cell proportions and the use of Spearman analysis to correlate them with hierarchy levels."
+      }
+    ]
+  },
+  {
+    "question": "How were cellular neighborhoods statistically evaluated in the complexity analysis and in the CHC neighbor analysis?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement that cell-cell distance matrices were calculated with the function 'dist' in R."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding the statistical comparison of observation neighbors and random neighbors for the CHC type."
+      }
+    ]
+  },
+  {
+    "question": "What evidence supports the accuracy of cell segmentation and cell-type annotation in this analysis?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence regarding the validation of the nucleic acid model on 10,209 cells, achieving 0.912 precision and 0.913 recall."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention the high consistency in cell type distributions between adjacent sections or biological replicates confirming the reliability of the procedure."
+      }
+    ]
+  },
+  {
+    "question": "What criteria were used to select cell types for regional specificity analysis and what was the minimum cell count required?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention the specific threshold of using cell types with more than 1000 cells across three monkeys for the analysis."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact text of the ground truth evidence, detailing the filtering criteria for clusters including p=0, region co-occurrence, cell number, and observed ratio in specific regions."
+      }
+    ]
+  },
+  {
+    "question": "Which deep learning packages and versions were used for cell segmentation and cell-type annotation?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, stating that all models described in this step were implemented with the mmdet package (v.2.25.1) in Python (v.3.8.13)."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence from the ground truth evidence regarding the implementation of Spatial-ID with PyTorch, PyTorch Geometric, and Python versions."
+      }
+    ]
+  },
+  {
+    "question": "How were cross-species comparisons of glutamatergic neurons performed in terms of species selection and integration method?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 7 contains the exact sentence from the ground truth evidence regarding the selection and classification of cells from specific brain regions across human, macaque, and mouse."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention the use of Seurat IntegrateData or marker genes as an anchorset for the integration of three species excitatory neurons."
+      }
+    ]
+  },
+  {
+    "question": "How many single-neuron projectomes were reconstructed from the macaque prefrontal cortex?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact text of the ground truth evidence, detailing the reconstruction of 2,231 single-neuron projectomes and the specific areas where the somata were found."
+      }
+    ]
+  },
+  {
+    "question": "How many projectome-based subtypes were classified from the macaque PFC neurons?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence from the ground truth evidence, stating that all PFC neurons were classified into 32 projectome-based subtypes by the overall morphological similarity of single-neuron projectomes."
+      }
+    ]
+  },
+  {
+    "question": "Into what three neuron classes are the macaque PFC neurons divided?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, detailing the division of the 2,231 PFC neurons into IT, PT, and CT classes along with their respective counts."
+      }
+    ]
+  },
+  {
+    "question": "What was the total data size per typical macaque brain for one channel using fMOST imaging?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact text from the ground truth evidence, matching all the key facts including the number of PFC sites, macaque brains, imaging method, spatial resolution, and data size."
+      }
+    ]
+  },
+  {
+    "question": "From how many PFC injection sites and macaque brains were the whole-brain axon projections imaged?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact text of the ground truth evidence, detailing the imaging of whole-brain axon projections from 19 PFC sites in 7 macaque brains using fMOST at the specified resolution and resulting data size."
+      }
+    ]
+  },
+  {
+    "question": "In which cortical layers are the somata of PT and CT neurons primarily located?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact text of the ground truth evidence, detailing the laminar distribution of PT, CT, ITi, ITc, and ITs neurons at the injection site in area 45."
+      }
+    ]
+  },
+  {
+    "question": "How many PFC subdomains were defined for intra-PFC connectivity analysis?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the definition of 44 PFC subdomains to examine fine-grained intra-PFC connectivity."
+      }
+    ]
+  },
+  {
+    "question": "What single-neuron tracing system was used for accelerated projectome reconstruction in the macaque brain?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence regarding the use of the Gapr system for reconstructing whole-brain axon projections."
+      }
+    ]
+  },
+  {
+    "question": "How many terminal arbors were extracted from the single axons using the machine-learning-based method?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the extraction of over 17,000 terminal arbors using a machine-learning-based method."
+      }
+    ]
+  },
+  {
+    "question": "What spatial resolution was used in the fMOST imaging of the macaque brains?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact text of the ground truth evidence, detailing the imaging of whole-brain axon projections from 19 PFC sites in 7 macaque brains using fMOST at the specified resolution and resulting data size."
+      }
+    ]
+  },
+  {
+    "question": "What was the total number of reconstructed single-neuron projectomes, and how many neurons and total axon length were in the example dataset G97-1?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "The retrieved chunks mention the reconstruction of 2,231 single-neuron projectomes in the macaque PFC, but none of the chunks contain the specific information about the somata being located in areas 46, 8, and 9 in dlPFC; areas 45 and 12 in vlPFC; and area 10 in the OFC."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact sentence from the ground truth evidence, detailing the reconstruction of 576 single-neuron projectomes in dataset G97-1."
+      }
+    ]
+  },
+  {
+    "question": "Which projectome-based subtypes correspond to pyramidal tract (PT) and cortico-thalamic (CT) neurons, and what are their total numbers?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, stating that subtypes 11 and 12 correspond to PT neurons and subtype 10 corresponds to CT neurons."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence from the ground truth evidence, detailing the division of the 2,231 PFC neurons into IT, PT, and CT classes along with their respective counts."
+      }
+    ]
+  },
+  {
+    "question": "How many projectome-based subtypes were identified, and did individual virus injection sites typically contain only one subtype?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains an almost exact match to the ground truth evidence, stating that PFC neurons were classified into 32 projectome-based subtypes by the overall morphological similarity of single-neuron projectomes."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, confirming that almost every single injection site harbored multiple subtypes, suggesting diverse projections among closely situated neurons in the PFC."
+      }
+    ]
+  },
+  {
+    "question": "How many projectome-based subtypes were classified, and which cognitive function is enriched in subtype 13?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact sentence from the ground truth evidence, stating that all PFC neurons were classified into 32 projectome-based subtypes by the overall morphological similarity of single-neuron projectomes."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact text from the ground truth evidence, detailing the specific subtypes, their projection areas, and their enriched functions."
+      }
+    ]
+  },
+  {
+    "question": "What two modules were identified in the lateral prefrontal cortex, and how are they interconnected?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the identification of two modules in lPFC corresponding to dlPFC and vlPFC."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, stating that dlPFC and vlPFC modules were connected by recurrent projections mediated by different receiving and sending subdomains."
+      }
+    ]
+  },
+  {
+    "question": "How many PFC subdomains were defined, and how do dlPFC and vlPFC axon arbors differ in their targeting of OFC subdomains?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 8 contains the exact sentence from the ground truth evidence regarding the definition of 44 PFC subdomains to examine fine-grained intra-PFC connectivity."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, detailing the projection of dlPFC and vlPFC neurons to different subdomains of the OFC."
+      }
+    ]
+  },
+  {
+    "question": "In which cortical layer are the somata of subtype 32 located, and what is its primary projection target in the parietal lobe?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the localization of the somata of subtypes 14/32 and 13/15 to L3 of dlPFC and vlPFC, respectively."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, stating that parietal lobe-projecting subtypes 32 and 15 showed exclusive projections to the PCC and LIP in the medial and lateral parts of the parietal lobe, respectively."
+      }
+    ]
+  },
+  {
+    "question": "How many contralateral cortex-projecting (ITc) neurons were identified, and which projectome-based subtypes do they correspond to?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement from the ground truth evidence, detailing the division of IT neurons into ITi, ITs, and ITc with their respective projection targets and neuron counts."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, stating that subtypes 1-5 (ITc neurons) displayed contralateral cortical projection."
+      }
+    ]
+  },
+  {
+    "question": "What is the primary function of contralateral cortical projections that travel through the corpus callosum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, stating that contralateral cortical projections via the corpus callosum coordinate activity and information transfer between the two hemispheres."
+      }
+    ]
+  },
+  {
+    "question": "What feature primarily distinguishes the five ITc projectome subtypes?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "How far do the contralateral arbors of a single ITc neuron typically extend from the mirrored soma location?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the contralateral arbors of a single ITc neuron extending within ~1 cm around the mirrored location of its soma."
+      }
+    ]
+  },
+  {
+    "question": "Along which axis is the topography of soma location maintained in the main axon at the midline of the corpus callosum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the preservation of soma location topography in the main axon location at the midline cross-section of the corpus callosum."
+      }
+    ]
+  },
+  {
+    "question": "Which arbor type is most abundant in the contralateral projections from dlPFC and vlPFC?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding the contralateral projections originating from the dlPFC and vlPFC containing the highest proportion of type 3 arbors."
+      }
+    ]
+  },
+  {
+    "question": "What proportion of heterotypic projections to contralateral subdomains is accompanied by matching ipsilateral projections?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that for 93.4% of heterotypic projections to contralateral subdomains, corresponding ipsilateral projections from the same source subdomains to mirrored ipsilateral target subdomains were observed."
+      }
+    ]
+  },
+  {
+    "question": "Which ITs subtype predominantly sends projections to the contralateral striatum rather than the ipsilateral striatum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the projection patterns of ITs subtypes 7-9 and subtype 6 in the macaque striatum."
+      }
+    ]
+  },
+  {
+    "question": "What is the exclusive striatal target of ITs subtype 9?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the projection patterns of ITs subtypes 7, 8, and 9 to the head of caudate and putamen."
+      }
+    ]
+  },
+  {
+    "question": "What is the average diameter of the arbor patches formed by ITs neurons in the striatum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding the average size of patches formed in the striatum and the average striatal arbor size."
+      }
+    ]
+  },
+  {
+    "question": "Do macaque CT neurons project to any subcortical structures outside the thalamus?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact text of the ground truth evidence, detailing the subcortical targets of PT neurons and the specific projection of CT neurons to the thalamus in macaques."
+      }
+    ]
+  },
+  {
+    "question": "How do the lateralization patterns of ITc neurons and striatum-projecting ITs neurons differ in macaque?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 explicitly states that 'ITc neurons predominantly targeted contralateral homotypic cortical areas (Figure 5F)', which perfectly matches the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact sentence from the ground truth evidence regarding the projection patterns of striatum-projecting ITs subtypes 7-9 and subtype 6 in macaques."
+      }
+    ]
+  },
+  {
+    "question": "How does the relationship between soma location and arbor position differ between ITc contralateral cortical projections and ITs striatal projections?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact text from the ground truth evidence, stating that contralateral arbors of a single ITc neuron extend within ~1 cm around the mirrored soma location, resulting in a strict correspondence of ipsilateral soma locations and contralateral arbor centers."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding macaque PFC ITs neurons following a strict soma location-dependent topographic projection to the striatum."
+      }
+    ]
+  },
+  {
+    "question": "How do the main axon segregation patterns of PT neurons projecting to the superior colliculus compare with those of CT neurons projecting to the thalamus?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, with only minor formatting differences in the subscript of the F1 score."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence regarding the topographic segregation between dlPFC and vlPFC CT neurons."
+      }
+    ]
+  },
+  {
+    "question": "In what ways do macaque PT and CT neurons differ from their mouse counterparts in terms of projection targets and spatial precision?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that PT and CT macaque neurons projected to significantly fewer target regions than those in mice."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence regarding the reduction of collateral branch number and relative size of axon arbors from mice to macaques."
+      }
+    ]
+  },
+  {
+    "question": "How does the contralateral bias of IT neurons vary within the macaque prefrontal cortex, and how does the overall bias of bilaterally projecting IT neurons compare between macaque and mouse?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the correlation of contralateral bias of ITc neurons with soma location along the dorsoventral axis and the resulting higher bias in vlPFC than in dlPFC."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the hemispheric bias index for bilaterally projecting neurons in macaques versus mice."
+      }
+    ]
+  },
+  {
+    "question": "What are the broad subcortical projection differences between PT and CT neurons, and which specific thalamic regions do they respectively target?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact text of the ground truth evidence, detailing the subcortical targets of PT neurons and the specific projection of CT neurons to the thalamus in macaques."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding the concentration of CT axons in MD and the broad targeting of PT axons to other thalamic regions."
+      }
+    ]
+  },
+  {
+    "question": "How do macaque and mouse PFC IT neurons differ in their cortical target specificity and their likelihood of projecting to the contralateral hemisphere?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence provided in the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence, stating that the percentage of IT neurons projecting to the contralateral hemisphere was much lower in macaques (20%) than in mice (74%)."
+      }
+    ]
+  },
+  {
+    "question": "What are some of the subcortical targets of macaque PFC PT neurons, and how does their ipsilateral projection bias compare to that of mouse PT neurons?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact text from the ground truth evidence regarding the subcortical targets of PT neurons in the macaque PFC."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the bias of PT neurons in macaque PFC toward ipsilateral projections compared to mouse PFC."
+      }
+    ]
+  },
+  {
+    "question": "How many single axons of PFC neurons were reconstructed in the macaque brain?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that large-scale automatic axon reconstruction combined with human collaborative proofreading yielded the wholebrain map for 2,231 single axons of PFC neurons in the macaque brain."
+      }
+    ]
+  },
+  {
+    "question": "How many subtypes of PFC neurons were identified through unbiased classification?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunks 2, 3, and 8 collectively state that single-neuron projectomes were classified into 32 subtypes, and that these subtypes were annotated with putative functions encompassing cognitive, sensory, emotional, and motor processing."
+      }
+    ]
+  },
+  {
+    "question": "How does the total axon length in macaque PFC neurons compare to that in mouse PFC neurons?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence regarding the comparison of total axon length, axon collaterals, and axon arbor size between macaques and mice."
+      }
+    ]
+  },
+  {
+    "question": "What do contralateral cortical axonal patches mainly consist of?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, with only a minor formatting difference in the citation marker."
+      }
+    ]
+  },
+  {
+    "question": "What type of relationship does single-axon reconstruction reveal between axons and patches in the striatum?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, confirming the many-to-many relationship between axons and patches in the striatum and the topographic order depending on soma location in the PFC."
+      }
+    ]
+  },
+  {
+    "question": "What sex were all the macaques used in the study?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the limitation of using only female macaques and not examining sexual dimorphic differences in projectomes."
+      }
+    ]
+  },
+  {
+    "question": "From how many different monkey brains were the single-neuron projectomes pooled?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence regarding the pooling of projectomes from seven different monkey brains and how individual variations could compromise spatial precision."
+      }
+    ]
+  },
+  {
+    "question": "What was the final injection volume range for each injection site?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence 'The final injection volume was 0.2–2 μL for each injection site.', which matches the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What species of monkey was used in this study?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, stating that brains in their entirety were collected from seven female cynomolgus monkeys."
+      }
+    ]
+  },
+  {
+    "question": "What was the voxel size of the fMOST imaging system used in the study?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, with only minor formatting differences in the voxel size representation."
+      }
+    ]
+  },
+  {
+    "question": "How do the projection patterns of macaque PFC neurons differ from mouse PFC neurons, and what executive functions might this support?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 explicitly states that the cross-species comparison of single-neuron projectomes revealed that unlike mouse PFC neurons which project to multiple targets, each macaque PFC neuron typically projects only to a single target, directly matching the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "The exact text of the ground truth evidence is present in Chunk 2."
+      }
+    ]
+  },
+  {
+    "question": "What mechanism is proposed for the reduction of axon collaterals and arborization in macaque PFC neurons, and how does this affect the spatial coverage of arbors?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence provided in the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 7 contains the exact sentence from the ground truth evidence regarding the axon arbor size and its relative spatial coverage."
+      }
+    ]
+  },
+  {
+    "question": "How many simultaneous users could the collaborative proofreading system support, and how were simple versus complex reconstruction errors handled?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, stating that Gapr can accommodate more than 100 people simultaneously performing real-time online reconstruction of single neurons."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "What was the composition of the monkey cohort in terms of sex and species, and what limitation did this impose on the study?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, stating that brains were collected from seven female cynomolgus monkeys (Macaca fascicularis)."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence regarding the limitation of using only female macaques and not examining sexual dimorphic differences in projectomes."
+      }
+    ]
+  },
+  {
+    "question": "How were single neurons labeled, and how were the labeled neurons detected during imaging?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks contain the specific details about the viruses used, their titers, or the mixing ratio with the Cre virus as stated in the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement from the ground truth evidence, with only minor spacing differences."
+      }
+    ]
+  },
+  {
+    "question": "What module served as the hub for automatic reconstruction and collaborative proofreading, and how many simultaneous users could it support?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the deployment and specifications of the Gapr Gather module."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence from the ground truth evidence regarding Gapr accommodating more than 100 people simultaneously performing real-time online reconstruction of single neurons."
+      }
+    ]
+  },
+  {
+    "question": "How many single axons were fully reconstructed, and why might the characteristics of some projectome subtypes be biased?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 7 contains the exact sentence from the ground truth evidence, stating that large-scale automatic axon reconstruction combined with human collaborative proofreading yielded the wholebrain map for 2,231 single axons of PFC neurons in the macaque brain."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact sentence from the ground truth evidence, stating that the characteristics of a particular projectome subtype may be biased due to limited sampling."
+      }
+    ]
+  },
+  {
+    "question": "What property of striatal patch organization depends on soma location, and why might this analysis be impacted by the injection coverage?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence from the ground truth evidence regarding the single-axon reconstruction unraveling the many-to-many relationship between axon and patches in the striatum and the topographic order depending on soma location."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention the distribution of injection sites or that they covered a limited portion of the macaque PFC."
+      }
+    ]
+  },
+  {
+    "question": "What programming language was used for the custom registration program?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "Which machine learning framework was used for minimization in the registration process?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence stating that the Flux machine learning framework of Julia was used for minimization."
+      }
+    ]
+  },
+  {
+    "question": "What numerical range is used to represent laminar depth?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the use of a number in the range [0; 1] to represent laminar depth."
+      }
+    ]
+  },
+  {
+    "question": "How many neuron subtypes were defined by cutting the hierarchical clustering dendrogram?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains an exact match of the ground truth evidence, stating that the dendrogram of hierarchical clustering was cut to produce 32 clusters, defining the 32 neuron subtypes."
+      }
+    ]
+  },
+  {
+    "question": "What are the three subtypes of IT neurons based on their projection regions?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence, detailing the classification of IT neurons into ITi, ITs, and ITc subtypes based on their projection regions."
+      }
+    ]
+  },
+  {
+    "question": "How are neurons with both striatal and contralateral projections classified?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding the classification of neurons with both striatal and contralateral projections as ITs neurons."
+      }
+    ]
+  },
+  {
+    "question": "Which large language model was used for AI-based literature retrieval?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains an almost exact match to the ground truth evidence, stating the use of ChatGPT for AI-based literature retrieval to collect functional information associated with relevant brain regions."
+      }
+    ]
+  },
+  {
+    "question": "Which language model was used to group function terms by relevance?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, matching the details about using a local installation of DeepSeek R1 (32b version) to group 32 randomly-selected function terms by relevance and similarity."
+      }
+    ]
+  },
+  {
+    "question": "On what structure was the Graph Neural Network applied for axon arbor segmentation?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, stating that the GNN was applied to the dendrogram of axon terminals instead of the original axon tree."
+      }
+    ]
+  },
+  {
+    "question": "What value of alpha was used for the relaxation in the enrichment analysis adjustment?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement from the ground truth evidence, explaining that alpha = 0.05 is a small number adjusting the extent of relaxation."
+      }
+    ]
+  },
+  {
+    "question": "How are cross-border axon connections validated and integrated in the reconstruction process?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentences from the ground truth evidence regarding the correctness of axon stitching and the use of a custom Julia program for registration to the NMTv2 reference atlas."
+      }
+    ]
+  },
+  {
+    "question": "How was the atlas registration refined and what approach handled the modality mismatch between sample and reference?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding refining registration with a non-rigid (BSpline) transformation and minimizing pixel-wise differences."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact text of the ground truth evidence, explaining the use of U-Net to produce MRI-like images for calculating pixel-wise image differences."
+      }
+    ]
+  },
+  {
+    "question": "How is the functional annotation of a PFC neuron determined and how are the weights assigned?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains an almost exact match to the ground truth evidence, stating that the functional annotation for each PFC neuron was determined based on the congruency among the sets of function terms for the PFC area where the soma was located and its targeted brain areas."
+      },
+      {
+        "attributed": false,
+        "reason": "parse fallback"
+      }
+    ]
+  },
+  {
+    "question": "How were total neurite lengths compared to bulk tracing and fMRI data?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact text from the ground truth evidence, detailing the comparison to bulk tracing data from serial two-photon microscopy by calculating total neurite lengths and comparing them against volume per brain area using linear regression."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact text of the ground truth evidence, detailing the comparison between fMRI vertex-level activity strength and total neurite lengths of pooled single-neuron projectomes."
+      }
+    ]
+  },
+  {
+    "question": "How were cortical subdomains identified and what defines a homotypic projection?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence regarding the definition of cortical subdomains."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the definition of homotypic projections based on cortical subdomains."
+      }
+    ]
+  },
+  {
+    "question": "How is the preservation of topography along axon paths quantified?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 7 explicitly states that the topography index was calculated based on the F1 score in the part 'Calculation of F1 scores along axon routes', which perfectly matches the ground truth evidence."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, with only minor OCR/formatting differences."
+      }
+    ]
+  },
+  {
+    "question": "How was hierarchical clustering applied in laminar distribution analysis and arbor patch detection?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding hierarchical clustering performed with a distance matrix combining two distance measures by addition."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the asymmetric distance matrix and the use of its symmetric version for hierarchical clustering."
+      }
+    ]
+  },
+  {
+    "question": "What criteria were used to classify projection neuron types and how many subtypes were defined by the clustering dendrogram cut?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact text from the ground truth evidence detailing the classification criteria for IT, PT, and CT neurons based on their projection patterns."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact sentence from the ground truth evidence regarding the dendrogram of hierarchical clustering being cut to produce 32 clusters."
+      }
+    ]
+  },
+  {
+    "question": "What Pearson correlation coefficient was observed between single-neuron projectome data and fMRI activity in area 45 upon electrical stimulation?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement about the significant positive correlation with a Pearson correlation coefficient r = 0.778 and p < 0.001, matching the ground truth evidence despite minor LaTeX formatting differences."
+      }
+    ]
+  },
+  {
+    "question": "What Pearson correlation coefficient was observed between single-neuron projectome data and population-level projection strengths in area 45?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement about the significant positive correlation with a Pearson correlation coefficient r = 0.515 and p < 0.001, matching the ground truth evidence despite minor LaTeX formatting differences."
+      }
+    ]
+  },
+  {
+    "question": "How many annotators performed manual proofreading for the single-neuron reconstruction dataset G97-1?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding the black lines marking manual proofreading and the light red shading representing cumulative time usage."
+      }
+    ]
+  },
+  {
+    "question": "What computational tool was used for automated single-neuron reconstruction in dataset G97-1?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains an exact match of the ground truth evidence, detailing the summarized workflow of single-neuron reconstruction by Gapr for the dataset G97-1 over 11 weeks, including automated reconstruction and manual proofreading processes."
+      }
+    ]
+  },
+  {
+    "question": "What statistical method was used in Figure 5I to assess enrichment of projection pattern combinations?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence, detailing the statistical tests and corrections used in Figure 5I for specific projection combinations."
+      }
+    ]
+  },
+  {
+    "question": "What test was used to compare total arbor length, arbor size, and number of branches between lPFC PT and CT neurons in Figure 6P?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding Figure 6P and the two-sided Wilcoxon rank-sum tests comparing total arbor length, arbor size, and number of arbor branches between lPFC PT and CT neurons."
+      }
+    ]
+  },
+  {
+    "question": "What does a higher entropy value indicate about the laminar distribution of cortical axon arbors?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact statement regarding higher entropy values indicating broader layer distribution and lower entropy values indicating higher layer specificity, matching the ground truth evidence."
+      }
+    ]
+  },
+  {
+    "question": "Why is patch VII not shown in panels C and D of Figure S6?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 8 contains the exact sentence from the ground truth evidence explaining why patch VII is not shown in (C) and (D)."
+      }
+    ]
+  },
+  {
+    "question": "What statistical test was used to evaluate the association between soma location in ORBl/ORBvl and projections to RSP/PTLp in Figure 7A?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding Figure 7A and the use of Fisher's exact test."
+      }
+    ]
+  },
+  {
+    "question": "What p-value threshold is signified by the symbol **?",
+    "type": "single-evidence",
+    "n_evidences": 1,
+    "hits": 1,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 3 contains the exact statement regarding the significance marks of p-values used in the study, matching the ground truth evidence with minor LaTeX formatting differences."
+      }
+    ]
+  },
+  {
+    "question": "What statistical methods were employed for assessing correlations and for determining differences between groups?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains an exact match of the ground truth evidence, stating that all linear regression analyses employed a correlation test to calculate the Pearson correlation coefficient and the corresponding p-value."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence from the ground truth evidence regarding the use of the two-sided Wilcoxon rank-sum test to determine statistically significant differences between groups."
+      }
+    ]
+  },
+  {
+    "question": "How was the relationship between single-neuron projectome data and fMRI activity in area 45 examined, and what was the resulting correlation?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact text of the ground truth evidence, detailing the linear regressions and correlation tests conducted in Figure S1B."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact statement about the significant positive correlation with a Pearson correlation coefficient r = 0.778 and p < 0.001, matching the ground truth evidence despite minor LaTeX formatting differences."
+      }
+    ]
+  },
+  {
+    "question": "What statistical test was applied to compare the laminar depth distribution of contralateral arbors between mouse ORBvl/ORB and macaque lPFC neurons, and what was the main difference found?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 6 contains the exact text from the ground truth evidence regarding the two-sided Wilcoxon rank-sum test in Figure S7E."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact sentence from the ground truth evidence, stating that mouse arbors are more concentrated in the superficial layers compared with macaque arbors, with the same p-value."
+      }
+    ]
+  },
+  {
+    "question": "What method was used to evaluate enrichment or depletion of projection pattern combinations, and which specific combination was significantly enriched for ITc neurons?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the use of proportion tests and FDR correction for evaluating homotypic and heterotypic projection patterns."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence regarding ITc neurons projecting to both the contralateral lPFC and contralateral striatum being significantly enriched."
+      }
+    ]
+  },
+  {
+    "question": "What statistical test was used to compare somata laminar depths between subtypes 13 and 15, and what test was used to compare arbor laminar distribution between dlPFC→vlPFC and vlPFC→dlPFC projections?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 1 contains the exact sentence from the ground truth evidence regarding the two-sided Wilcoxon rank-sum test conducted in Figure 3E to compare the laminar depths of somata between subtypes 13 and 15."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence stating that in Figure 4G (right), a two-sided Wilcoxon rank-sum test of mean laminar depth was conducted to compare the laminar depth distribution between arbors involved in dlPFC→vlPFC and vlPFC→dlPFC projections."
+      }
+    ]
+  },
+  {
+    "question": "What method was used in Figure 2D to assess associations between subtypes and biological functions, and what general method was used to assess correlations involving continuous variables?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact statement that in Figure 2D, Fisher's exact tests were conducted to calculate the significant association between each subtype and the biological functions."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact statement from the ground truth evidence regarding the use of correlation tests to calculate the Pearson correlation coefficient and p-value for all linear regression analyses."
+      }
+    ]
+  },
+  {
+    "question": "What statistical test was used to compare the laminar depth distribution of PFC axonal arbors between macaques and mice in specific brain regions, and what test was used to examine the mediolateral arbor-soma relationship in lPFC PT neurons?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 1,
+    "recall": 0.5,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 4 contains the exact sentence from the ground truth evidence regarding Figure 7E and the two-sided Wilcoxon rank-sum test comparing laminar depth distribution between PFC axonal arbors of macaques and mice in TE, RSC, and LIP."
+      },
+      {
+        "attributed": false,
+        "reason": "None of the retrieved chunks mention Figure 6F or the specific linear regression and correlation test examining the relationship between mediolateral arbor center and mediolateral soma position of lPFC PT neurons."
+      }
+    ]
+  },
+  {
+    "question": "What p-value thresholds correspond to the significance symbols used, and what test compared morphological parameters between macaque and mouse PFC neurons?",
+    "type": "multi-evidence",
+    "n_evidences": 2,
+    "hits": 2,
+    "recall": 1.0,
+    "evidence_results": [
+      {
+        "attributed": true,
+        "reason": "Chunk 5 contains the exact statement regarding the significance marks of p-values used in the study, matching the ground truth evidence despite minor LaTeX formatting differences."
+      },
+      {
+        "attributed": true,
+        "reason": "Chunk 2 contains the exact sentence from the ground truth evidence, with only a minor formatting difference for the citation marker."
+      }
+    ]
+  }
+]

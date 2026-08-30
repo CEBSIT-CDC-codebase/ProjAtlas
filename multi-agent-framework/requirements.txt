@@ -1,0 +1,14 @@
+gritlm==1.0.2
+networkx==3.4.2
+numpy
+openai>=1.58.1
+pydantic==2.10.4
+python_igraph==0.11.8
+# scipy==1.14.1
+tenacity==8.5.0
+tiktoken==0.7.0
+torch
+tqdm==4.66.6
+transformers==4.45.2
+einops
+hipporag @ git+https://github.com/OSU-NLP-Group/HippoRAG@e455c5d67f2b3e59b7940382e5556e303cccf55b

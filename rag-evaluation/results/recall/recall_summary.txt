@@ -1,0 +1,33 @@
+
+============================================================
+macaque
+============================================================
+Total items: 288
+Models: gpt, claude, gemini
+Avg Recall@10: 0.932
+  single-evidence (168): recall=0.976
+  multi-evidence (120): recall=0.871
+
+============================================================
+mouse
+============================================================
+Total items: 486
+Models: gpt, claude, gemini
+Avg Recall@10: 0.902
+  single-evidence (310): recall=0.932
+  multi-evidence (176): recall=0.849
+
+============================================================
+PIVOT TABLE (Recall@10, RAG only)
+============================================================
+                               | Items  Recall
+-------------------------------+---------------
+     macaque / single-evidence |   168   0.976
+      macaque / multi-evidence |   120   0.871
+                 macaque / ALL |   288   0.932
+       mouse / single-evidence |   310   0.932
+        mouse / multi-evidence |   176   0.849
+                   mouse / ALL |   486   0.902
+ All species / single-evidence |   478   0.948
+  All species / multi-evidence |   296   0.858
+                           ALL |   774   0.913

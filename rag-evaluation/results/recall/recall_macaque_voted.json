@@ -1,0 +1,2882 @@
+[
+  {
+    "question": "How many transcriptome-defined cell types were identified in the macaque claustrum through single-nucleus RNA sequencing?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of claustral glutamatergic cells resemble deep-layer insular neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Where is the macaque claustrum located in relation to the insular cortex?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What type of neurons are NPY-expressing SST GABAergic cells in the claustrum considered to be?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which genes are mentioned as claustral marker genes that distinguish the macaque claustrum from surrounding structures?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Injections in which five subcortical structures yielded a significant number of labeled claustral neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In cross-species comparison, which glutamatergic subclass was predominant in macaque and marmoset but only a minority in mouse?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many cells were included in the macaque claustrum snRNA-seq analysis after quality control?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the names of the four projection-selective zones defined in the macaque claustrum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What developmental origin is suggested for the LAMP5/LHX6 claustral cell types that lack ADARB2 expression?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many subclasses and cell types were identified from the macaque claustrum snRNA-seq data?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Does the macaque claustrum exhibit a lateralized pattern of connectivity?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What does the predominant glutamatergic subclass in the macaque claustrum correspond to in the insula?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "Is the macaque claustrum more transcriptomically similar to the insula or the amygdala?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the gene expression of the RBC compare to that of the claustrum proper?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What experimental methods and marker genes were used to delineate the boundary between the RBC and the claustrum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which projection-selective zones contain neurons projecting to the hippocampal-entorhinal cortical circuit versus the motor cortical areas?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the suggested identity of the region bordering ventromedial claustrum (RBC)?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which ipsilateral cortical areas provide only weak inputs to the macaque claustrum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the nature of the connectivity between the macaque claustrum and visual areas V1 and area 1?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Does the macaque claustrum show a preference for ipsilateral or contralateral cortical inputs?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many ipsilateral subcortical nuclei receive projections from the intra-claustrum injections, and which structures are the most strongly labeled?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "From which subcortical structures does the C4 claustral injection site receive inputs?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which ipsilateral subcortical nuclei are labeled by the C5 injection?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which projection-specific zone (PSZ) are the claustral neurons labeled by the C4 injection predominantly located?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Do macaque/mouse-conserved GLUT/GNB4 cell types exhibit preferential projection targets?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do the transcriptomic profiles of the claustrum, RBC, and insula compare?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "To which brain regions do RBC neurons project?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does contralateral cortical input to the claustrum compare between macaques and rodents?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the cortical and subcortical connection preferences of the C3 claustral injection site?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What are the cortical targets and subcortical inputs of the C4 claustral injection site?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the projection targets and subcortical inputs of the C5 claustral injection site?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What two key features characterize intra-claustrum connectivity in the macaque?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do intra-claustrum connectivity patterns relate to the transcriptomically distinct projection-specific zones (PSZs)?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which macaque-specific cell types are enriched in the dorsal claustrum and what are their projection targets?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which macaque-specific cell types are enriched in the ventral claustrum and what are their projection targets?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Who is the lead contact for resources and reagents?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "Are the materials used for snRNA-seq and Stereo-seq commercially available?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the accession number for the raw data?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the URL for the processed data?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What types of data are available through the macaque digital brain website?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which public snRNA-seq datasets are listed in the resource availability?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How was the data analysis conducted according to the resource availability?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "Who are the co-inventors of Stereo-seq technology?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the intellectual property status of Stereo-seq?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Where can the supplemental information be found?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How can one access the raw data and who should be contacted for further information?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What resources are available to enable replication of the experimental procedures?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "Who invented Stereo-seq and where can the raw data be found?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What is the publication date and where can supplemental material be accessed?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Where can detailed experimental methods and additional supplemental data be found?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "Are the experimental materials proprietary, and what analysis methods were employed?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "Who should be contacted about resources and what is the patent status of Stereo-seq?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What consortium supported the study and what is the accession number for the raw data?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What is the approval number for the animal protocol used in this study?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many male cynomolgus monkeys were used for Stereo-seq of the claustrum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What strain and age are the male mice used for snRNA-seq of the claustrum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many coronal sections were collected from macaque #1 for Stereo-seq?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How long is the methanol fixation step for tissue sections on the Stereo-seq chip at -20°C?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How long is the reverse transcription step in the Stereo-seq protocol?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What enzyme is used for treating cDNA-containing chips in Stereo-seq?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What amount of cDNA per sample is used for tagmentation in Stereo-seq library preparation?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What system is used to prepare snRNA-seq libraries?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the p-value threshold for determining preferred cell type distribution in the claustrum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What temperature is used for the initial tissue incubation on the Stereo-seq chip, and what temperature is used for the tagmentation step in library preparation?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many macaques provided insular cortex for snRNA-seq, and at what depths is the macaque claustrum segmented for snRNA-seq?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How are single cells segmented in Stereo-seq images, and what algorithm assigns cell types to them?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What marker genes identify the RBC subregion, and what antibody is used to mark the RBC loci in immunohistochemistry?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What survival period is allowed after tracer injection, and what thickness are the sections used for IHC staining?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What is the temperature for reverse transcription in Stereo-seq, and what is the hybridization temperature for RNAscope probes?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How are the captured mRNAs converted for image registration, and how are spatial positions normalized for distribution analysis?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What tracers were used for retrograde labeling, and what primary antibodies were used for IHC staining?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What MRI sequence and parameters were used to acquire T1w structural images?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What metric indicates stronger connections in the study?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What software was used to transform NIfTI-1 data into a smooth 3D model of the claustrum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many clear clusters were identified from the distribution zone similarity matrix?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What genome reference and alignment software were used for snRNA-seq read mapping?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many high-quality snRNA-seq libraries were retained for analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What were the eight major cell types identified from the unsupervised clustering of snRNA-seq data?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many nuclei were ultimately retained for downstream analysis after quality filtering?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "Which normalization function was applied to the snRNA-seq count data during initial processing?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What dropout rate was used during training of the Siamese neural network for claustrum registration?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What image resolutions were used for down-sampling in claustrum segmentation and for populating the grid matrix in distribution zone determination?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What normalization methods were used for the initial snRNA-seq processing and for the subsequent iterative clustering of the seven major cell classes?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many major cell types were initially categorized, and how many clusters were ultimately identified?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What deep learning models were used for claustrum segmentation and for cross-animal registration?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many training epochs were used for the registration network, and how many trees were set for the random forest model?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What threshold was used to extract contours in distribution zone determination, and what probability threshold was applied to discard nuclei in the random forest classification?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many manually segmented sections were used for initial claustrum segmentation training, and how many coronal sections were outlined for distribution zone determination?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many channels did the MRI coil and the fluorescence microscope have, respectively?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many cells were identified from the mouse claustrum in the snRNA-seq analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Into how many clusters was the marmoset data partitioned?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which package and function were used to select highly variable genes for cross-species integration?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What resolution was used in the FindClusters function for the integrated analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the minimum max overlap score for a macaque cluster to be classified as conserved with mouse?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What were the p_val_adj and avg_log2FC thresholds for identifying differentially expressed genes between conserved and macaque-specific clusters?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What UMI-to-gene count ratio threshold was used for filtering PSZ libraries?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which R function was used to perform differential gene expression analysis across PSZ regions?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many major classes are in the cell-type classification hierarchy?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which brain region has glutamatergic transcriptomes most similar to those of the claustrum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many clusters were identified in the marmoset and macaque claustrum snRNA-seq data?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What were the per-cluster sampling sizes for marmoset and mouse in the two separate downsampling procedures?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What cell filtering criteria and differential gene expression thresholds were applied in the PSZ analysis?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What integration approaches were used for the initial supervised cross-species integration and for the GNB4 subclasses integration?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many retrogradely labeled neurons were analyzed after tracer injections in the prefrontal cortex and visual cortex?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many subclasses were annotated in mice and marmosets, and how many cell types are in the overall classification?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What differential expression thresholds and statistical methods were used in the macaque conserved vs specific comparison and in the GNB4 cell type comparison?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What were the maximum numbers of cells sampled per macaque subclass or cluster in the two cross-species analyses?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many transcriptome-defined cortical cell types does the macaque cortex atlas include?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the five prominent marker genes used to annotate GABAergic neuron subclasses?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which cortical region had the highest cell density?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the average number of genes detected per cell in the stereo-seq analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the three major cell classes at level 1 of the transcriptomic taxonomy?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many cortical cells were mapped in the spatial transcriptome map?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many coronal sections at what spacing were obtained from monkey #1 for stereo-seq?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the six non-neuronal subclasses identified in the macaque cortex?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which cortical layers are RELN subclass GABAergic neurons predominantly located?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What primate-specific cell type enrichment was found through cross-species comparison?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What is the total number of cells used for snRNA-seq, and how many of those came from monkey #1?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What section thickness was used for stereo-seq, and what was the average number of segmented cells per section?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How many cell types were identified, and what analysis showed that cortical lobes can be distinguished by cell-type composition?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the five prominent GABAergic subclass marker genes, and what two SST cell groups were identified with complementary regional abundance?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What spatial transcriptome method was employed, and what physical factors enabled single-cell resolution?",
+    "type": "multi-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What is the cell density in V1, and what gene is characteristic of V1-specific glutamatergic cell types?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How many monkeys provided brain tissue for snRNA-seq, and how many for stereo-seq?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What are the three major cell classes in the macaque cortex taxonomy, and how many glutamatergic cell types are highly localized to specific cortical regions?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What is the function of chandelier cells in the cortex?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which chandelier cell type is most abundant in layer 2, and where are the other two types most abundant?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which cortical areas is the PV/(PV+SST) cell density ratio the highest?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Does the PV and SST density ratio in macaque show a significant correlation with hierarchical levels in sensory systems?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What did principal component analysis reveal about PV and SST cell-type compositions and hierarchy?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which glutamatergic receptor families are expressed at higher levels in group 2 ASCs?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many primate-specific glutamatergic L4 cell types were found in macaque and human but not in mouse?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In macaque cortical regions with a clear layer 4, where is FOXP2 expression highest?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the average number of genes captured per cell by the spatial transcriptome method used in the study?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the regional distribution of non-neuronal cell types correlate with cortical hierarchy?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the laminar and regional distribution characteristics of the ASC.11 cell type?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What correlation does the first principal component of PV/SST cell-type composition show with hierarchy, and which major cell class has more cell types negatively correlated with hierarchy?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which non-neuronal cell types are distributed in a gradient along the A-P axis, and what are their laminar preferences?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the A-P axis distribution patterns of the two OLG groups, and how does non-neuronal cell distribution overall correlate with hierarchy?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many primate-specific L4 glutamatergic cell types were discovered, and what key genes do they highly express?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the correlation with hierarchy differ between the PV/SST density ratio and the non-neuronal cell distribution?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which group of ASCs is enriched in layer 6, and how does their abundance compare between V1 and the prefrontal cortex?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What cell type novelty was found in primates, and how does hierarchical organization in primate brains compare to mice?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What technology is covered in pending patents according to the declaration?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Who holds company stock as stated in the declaration?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which journal did Sousa et al. publish their 2017 article on human nervous system evolution?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the title of the 2016 paper by Bakken et al. about primate brain development?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the name of the journal that published the 2021 paper by Berg et al. on glutamatergic neuron diversification?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which year was the paper \"Innovations present in the primate interneuron repertoire\" published?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the title of the 2019 Cell paper by Hodge et al. about human versus mouse cortex?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which journal was the 2021 article \"A taxonomy of transcriptomic cell types across the isocortex and hippocampal formation\" published?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What volume of Nature contains the 2021 BICCN article \"A multimodal cell census and atlas of the mammalian primary motor cortex\"?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Who are the authors of the 2015 Science paper titled \"RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells\"?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What date is associated with the acceptance of the document that contains the statement \"BGI employees hold company stock\"?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What date is associated with the publication of the document that contains the statement \"Stereo-seq is covered in pending patents\"?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the revision date of the document that includes the declaration about Stereo-seq patents?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the received date of the document that states BGI employees hold company stock?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What publication year do the articles \"Evolution of the human nervous system function, structure, and development\" and \"Comprehensive transcriptome analysis of neocortical layers in humans, chimpanzees and macaques\" share?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which two journals published the articles \"Transcriptional architecture of the primate neocortex\" and \"Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortex\"?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the titles of the Science articles from 2018 and 2022 authored by Zhu et al. and Ma et al. respectively?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What are the titles of the two 2021 Nature articles that address comparative cellular analysis of motor cortex and human neocortical glutamatergic neuron diversification?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Who is the lead contact for resource and reagent requests regarding the spatial transcriptomics study?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What URL provides access to the processed spatial-omics data from macaque brain?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What accession code was assigned to the raw data deposited in the CNGB Nucleotide Sequence Archive?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many male cynomolgus monkeys were used, and what were their ages?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What anesthetic agents were administered to the monkeys prior to brain perfusion?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What temperature was the cooling chamber set to prior to cryosectioning?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What thicknesses of coronal sections were collected for Stereo-seq, immunohistochemical staining, and snRNA-seq?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How long was the methanol fixation step for Stereo-seq tissue sections, and at what temperature?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What exposure time was used when capturing fluorescent section images with the Zeiss Axio Scan Z1 microscope?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What kit was used for snRNA-seq library preparation?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many cynomolgus monkeys were used in total across the Stereo-seq, snRNA-seq, and RNAscope experiments?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How many snRNA-seq libraries were included for downstream analysis, and how many cells remained after the initial quality control?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What was the time limit for the tissue collection process, and at what temperature were tissue blocks stored between successive days of sectioning?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What were the incubation temperatures for reverse transcription in Stereo-seq and probe hybridization in RNAscope?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the possible dimensions of the Stereo-seq chip, and which sequencing platform was used?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In the snRNA-seq cDNA libraries, which base pairs of read1 constitute the bead barcodes, and what kit was used for library preparation?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What fixative and incubation time were used for immunohistochemical staining and for RNAscope post-fixation?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many PCR cycles were used for cDNA amplification in Stereo-seq, and what was the duration of the tagmentation reaction?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What deep learning model architecture was used for cell segmentation on ConA staining images?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many total cell annotations were generated on ConA staining images in the current experiment?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What precision and recall did the nucleic acid model achieve on validation?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What software and version were used to implement the image registration?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many cortical brain regions were parcellated in the macaque cortex?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What normalization method was used to mitigate batch effects in Stereo-seq data preprocessing?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What function created the single-cell gene expression matrix in the Seurat workflow?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What statistical method was used to correlate cell-type proportion with cortical hierarchy levels?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What radius defines the neighborhood complexity around a cell?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many coronal sections were used to build the 3D macaque brain atlas?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What thresholds were applied in Stereo-seq data preprocessing and in the nucleic acid model to filter or retain cells?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How were cortical layers defined and used to identify layer-specific astrocytes?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How were cell type densities and their correlation with cortical hierarchy levels computed?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How were cellular neighborhoods statistically evaluated in the complexity analysis and in the CHC neighbor analysis?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What evidence supports the accuracy of cell segmentation and cell-type annotation in this analysis?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What criteria were used to select cell types for regional specificity analysis and what was the minimum cell count required?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "Which deep learning packages and versions were used for cell segmentation and cell-type annotation?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How were cross-species comparisons of glutamatergic neurons performed in terms of species selection and integration method?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How many single-neuron projectomes were reconstructed from the macaque prefrontal cortex?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome-based subtypes were classified from the macaque PFC neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Into what three neuron classes are the macaque PFC neurons divided?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the total data size per typical macaque brain for one channel using fMOST imaging?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "From how many PFC injection sites and macaque brains were the whole-brain axon projections imaged?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which cortical layers are the somata of PT and CT neurons primarily located?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many PFC subdomains were defined for intra-PFC connectivity analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What single-neuron tracing system was used for accelerated projectome reconstruction in the macaque brain?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many terminal arbors were extracted from the single axons using the machine-learning-based method?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What spatial resolution was used in the fMOST imaging of the macaque brains?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the total number of reconstructed single-neuron projectomes, and how many neurons and total axon length were in the example dataset G97-1?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "Which projectome-based subtypes correspond to pyramidal tract (PT) and cortico-thalamic (CT) neurons, and what are their total numbers?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome-based subtypes were identified, and did individual virus injection sites typically contain only one subtype?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome-based subtypes were classified, and which cognitive function is enriched in subtype 13?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What two modules were identified in the lateral prefrontal cortex, and how are they interconnected?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many PFC subdomains were defined, and how do dlPFC and vlPFC axon arbors differ in their targeting of OFC subdomains?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which cortical layer are the somata of subtype 32 located, and what is its primary projection target in the parietal lobe?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many contralateral cortex-projecting (ITc) neurons were identified, and which projectome-based subtypes do they correspond to?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the primary function of contralateral cortical projections that travel through the corpus callosum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What feature primarily distinguishes the five ITc projectome subtypes?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How far do the contralateral arbors of a single ITc neuron typically extend from the mirrored soma location?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Along which axis is the topography of soma location maintained in the main axon at the midline of the corpus callosum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which arbor type is most abundant in the contralateral projections from dlPFC and vlPFC?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What proportion of heterotypic projections to contralateral subdomains is accompanied by matching ipsilateral projections?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which ITs subtype predominantly sends projections to the contralateral striatum rather than the ipsilateral striatum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the exclusive striatal target of ITs subtype 9?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the average diameter of the arbor patches formed by ITs neurons in the striatum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Do macaque CT neurons project to any subcortical structures outside the thalamus?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do the lateralization patterns of ITc neurons and striatum-projecting ITs neurons differ in macaque?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the relationship between soma location and arbor position differ between ITc contralateral cortical projections and ITs striatal projections?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do the main axon segregation patterns of PT neurons projecting to the superior colliculus compare with those of CT neurons projecting to the thalamus?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In what ways do macaque PT and CT neurons differ from their mouse counterparts in terms of projection targets and spatial precision?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the contralateral bias of IT neurons vary within the macaque prefrontal cortex, and how does the overall bias of bilaterally projecting IT neurons compare between macaque and mouse?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the broad subcortical projection differences between PT and CT neurons, and which specific thalamic regions do they respectively target?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do macaque and mouse PFC IT neurons differ in their cortical target specificity and their likelihood of projecting to the contralateral hemisphere?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are some of the subcortical targets of macaque PFC PT neurons, and how does their ipsilateral projection bias compare to that of mouse PT neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many single axons of PFC neurons were reconstructed in the macaque brain?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many subtypes of PFC neurons were identified through unbiased classification?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the total axon length in macaque PFC neurons compare to that in mouse PFC neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What do contralateral cortical axonal patches mainly consist of?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What type of relationship does single-axon reconstruction reveal between axons and patches in the striatum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What sex were all the macaques used in the study?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "From how many different monkey brains were the single-neuron projectomes pooled?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the final injection volume range for each injection site?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What species of monkey was used in this study?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the voxel size of the fMOST imaging system used in the study?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do the projection patterns of macaque PFC neurons differ from mouse PFC neurons, and what executive functions might this support?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What mechanism is proposed for the reduction of axon collaterals and arborization in macaque PFC neurons, and how does this affect the spatial coverage of arbors?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many simultaneous users could the collaborative proofreading system support, and how were simple versus complex reconstruction errors handled?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the composition of the monkey cohort in terms of sex and species, and what limitation did this impose on the study?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How were single neurons labeled, and how were the labeled neurons detected during imaging?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What module served as the hub for automatic reconstruction and collaborative proofreading, and how many simultaneous users could it support?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many single axons were fully reconstructed, and why might the characteristics of some projectome subtypes be biased?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What property of striatal patch organization depends on soma location, and why might this analysis be impacted by the injection coverage?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What programming language was used for the custom registration program?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which machine learning framework was used for minimization in the registration process?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What numerical range is used to represent laminar depth?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many neuron subtypes were defined by cutting the hierarchical clustering dendrogram?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the three subtypes of IT neurons based on their projection regions?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How are neurons with both striatal and contralateral projections classified?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which large language model was used for AI-based literature retrieval?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which language model was used to group function terms by relevance?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "On what structure was the Graph Neural Network applied for axon arbor segmentation?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What value of alpha was used for the relaxation in the enrichment analysis adjustment?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How are cross-border axon connections validated and integrated in the reconstruction process?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How was the atlas registration refined and what approach handled the modality mismatch between sample and reference?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How is the functional annotation of a PFC neuron determined and how are the weights assigned?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How were total neurite lengths compared to bulk tracing and fMRI data?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How were cortical subdomains identified and what defines a homotypic projection?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How is the preservation of topography along axon paths quantified?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How was hierarchical clustering applied in laminar distribution analysis and arbor patch detection?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What criteria were used to classify projection neuron types and how many subtypes were defined by the clustering dendrogram cut?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What Pearson correlation coefficient was observed between single-neuron projectome data and fMRI activity in area 45 upon electrical stimulation?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What Pearson correlation coefficient was observed between single-neuron projectome data and population-level projection strengths in area 45?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many annotators performed manual proofreading for the single-neuron reconstruction dataset G97-1?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What computational tool was used for automated single-neuron reconstruction in dataset G97-1?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What statistical method was used in Figure 5I to assess enrichment of projection pattern combinations?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What test was used to compare total arbor length, arbor size, and number of branches between lPFC PT and CT neurons in Figure 6P?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What does a higher entropy value indicate about the laminar distribution of cortical axon arbors?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Why is patch VII not shown in panels C and D of Figure S6?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What statistical test was used to evaluate the association between soma location in ORBl/ORBvl and projections to RSP/PTLp in Figure 7A?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What p-value threshold is signified by the symbol **?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What statistical methods were employed for assessing correlations and for determining differences between groups?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How was the relationship between single-neuron projectome data and fMRI activity in area 45 examined, and what was the resulting correlation?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What statistical test was applied to compare the laminar depth distribution of contralateral arbors between mouse ORBvl/ORB and macaque lPFC neurons, and what was the main difference found?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What method was used to evaluate enrichment or depletion of projection pattern combinations, and which specific combination was significantly enriched for ITc neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What statistical test was used to compare somata laminar depths between subtypes 13 and 15, and what test was used to compare arbor laminar distribution between dlPFC→vlPFC and vlPFC→dlPFC projections?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What method was used in Figure 2D to assess associations between subtypes and biological functions, and what general method was used to assess correlations involving continuous variables?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What statistical test was used to compare the laminar depth distribution of PFC axonal arbors between macaques and mice in specific brain regions, and what test was used to examine the mediolateral arbor-soma relationship in lPFC PT neurons?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What p-value thresholds correspond to the significance symbols used, and what test compared morphological parameters between macaque and mouse PFC neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  }
+]

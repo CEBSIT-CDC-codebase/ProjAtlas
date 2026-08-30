@@ -1,0 +1,16 @@
+Flask==2.0.1
+Flask-SQLAlchemy==2.5.1
+SQLAlchemy==1.4.49  # Late 1.4.x release, fixes compatibility issues
+typing-extensions>=4.0.0  # Required to avoid generic-type errors
+pymysql==1.0.2
+Werkzeug==2.0.3
+Flask-Migrate==3.1.0  # Slightly newer version, to pair with SQLAlchemy
+python-dotenv==1.0.1
+tqdm>=4.66.6
+flask-cors==5.0.0
+flask_executor==1.0.0
+
+# Multi-agent framework (provides atlas_assistant.assistant.ChatSession), part of this
+# monorepo at ../../multi-agent-framework — install with:
+#   pip install -e ../../multi-agent-framework
+# (not listed here as a direct requirement since the path is relative to the repo layout)

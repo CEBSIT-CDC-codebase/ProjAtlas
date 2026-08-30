@@ -1,0 +1,17 @@
+# Sensitive / local config
+.env
+.env.example
+*.log
+.idea/
+.vscode/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Data & version control
+data/
+.git/
+.gitmodules

@@ -1,0 +1,2434 @@
+[
+  {
+    "question": "How many transcriptome-defined cell types were identified in the macaque claustrum through single-nucleus RNA sequencing?",
+    "answer": "A total of 48 transcriptome-defined cell types were identified.",
+    "type": "single-evidence",
+    "evidences": [
+      "Single-nucleus RNA sequencing of 227,750 macaque claustral cells identified 48 transcriptome-defined cell types."
+    ]
+  },
+  {
+    "question": "What percentage of claustral glutamatergic cells resemble deep-layer insular neurons?",
+    "answer": "86.4% of claustral glutamatergic cells resemble deep-layer (L5/6) insular neurons.",
+    "type": "single-evidence",
+    "evidences": [
+      "Interestingly, the great majority (86.4%) of claustral glutamatergic cells resembled deep-layer (L5/6) insular cells."
+    ]
+  },
+  {
+    "question": "Where is the macaque claustrum located in relation to the insular cortex?",
+    "answer": "The macaque claustrum is a thin telencephalic structure situated below the insular cortex.",
+    "type": "single-evidence",
+    "evidences": [
+      "The claustrum, a thin telencephalic structure situated below the insular cortex,1 is reciprocally connected to nearly all cortical areas."
+    ]
+  },
+  {
+    "question": "What type of neurons are NPY-expressing SST GABAergic cells in the claustrum considered to be?",
+    "answer": "They are considered long-range projecting GABAergic neurons.",
+    "type": "single-evidence",
+    "evidences": [
+      "Interestingly, the percentage of neuropeptide Y (NPY)-expressing GABA/SST cells, known as long-range projecting GABAergic neurons,44–46 was much higher in the claustrum than in all cortical areas (Figure 2F), suggesting more substantial inhibitory output of the claustrum."
+    ]
+  },
+  {
+    "question": "Which genes are mentioned as claustral marker genes that distinguish the macaque claustrum from surrounding structures?",
+    "answer": "SYNPR, NR4A2, and NTNG2 are examples of claustral marker genes that distinguish the claustrum from surrounding structures.",
+    "type": "single-evidence",
+    "evidences": [
+      "In line with previous studies,52–57 we found many claustral marker genes (such as SYNPR, NR4A2, and NTNG2) distinguish claustrum from surrounding structures (Figure 3A)."
+    ]
+  },
+  {
+    "question": "Injections in which five subcortical structures yielded a significant number of labeled claustral neurons?",
+    "answer": "Injections in the thalamus, putamen, caudate nucleus, hippocampus, and amygdala yielded significant numbers of labeled claustral neurons.",
+    "type": "single-evidence",
+    "evidences": [
+      "We have also injected retrograde tracers at 15 sites in seven subcortical structures and found that injections in thalamus, putamen, caudate nucleus, hippocampus, and amygdala (Figure S4J) yielded a significant number of labeled claustral neurons, which were distributed with distinct injection site-dependent patterns in the claustrum (Figure 4I)."
+    ]
+  },
+  {
+    "question": "In cross-species comparison, which glutamatergic subclass was predominant in macaque and marmoset but only a minority in mouse?",
+    "answer": "The GNB4 glutamatergic subclass was predominant in macaque and marmoset but represented only a minority (14.7%) in mouse.",
+    "type": "single-evidence",
+    "evidences": [
+      "For glutamatergic neurons, the GNB4 subclass was predominant in macaque and marmoset but was only a minority (14.7%) in mouse (Figure 2H), where ZFPM2 subclass was more abundant."
+    ]
+  },
+  {
+    "question": "How many cells were included in the macaque claustrum snRNA-seq analysis after quality control?",
+    "answer": "The analysis included 227,750 cells after quality control.",
+    "type": "single-evidence",
+    "evidences": [
+      "After quality control (STAR Methods), the snRNA-seq analysis included 227,750 cells, with an average of 4,664 molecular identifiers (MIDs) per cell and 1,884 detected genes per cell (Figure S1A)."
+    ]
+  },
+  {
+    "question": "What are the names of the four projection-selective zones defined in the macaque claustrum?",
+    "answer": "The four projection-selective zones are named PSZ1, PSZ2, PSZ3, and PSZ4.",
+    "type": "single-evidence",
+    "evidences": [
+      "We then pooled all the labeled cells belonging to the same cluster and defined four overall ‘projection-selective zones’ (PSZs, 1–4), illustrated as domains of different colors in Figure 4D."
+    ]
+  },
+  {
+    "question": "What developmental origin is suggested for the LAMP5/LHX6 claustral cell types that lack ADARB2 expression?",
+    "answer": "They are suggested to originate from the medial ganglionic eminence (MGE).",
+    "type": "single-evidence",
+    "evidences": [
+      "By contrast, primate-specific cell types LAMP5/LHX6/ADARB2\u0003/1 and LAMP5/LHX6/ADARB2\u0003/ 4 showed minimal ADARB2 expression, suggesting their medial ganglionic eminence (MGE) origin."
+    ]
+  },
+  {
+    "question": "How many subclasses and cell types were identified from the macaque claustrum snRNA-seq data?",
+    "answer": "The UMAP analysis identified 16 subclasses, which were further divided into a total of 48 putative cell types.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Our UMAP analysis identified three major cell classes (‘‘glutamatergic’’ [GLUT]: 122,006 cells; ‘‘GABAergic’’ [GABA]: 34,293 cells; ‘‘non-neuronal’’: 71,451 cells), which were further divided into 16 subclasses (Figure 1B), including 3 glutamatergic (marked by GNB4, RGS6, and ZFPM2), 8 GABAergic (LAMP5, VIP, RELN, PVALB, SST, PDE10A, LHX6, and UNC5B), and 5 non-neuronal subclasses, including astrocytes (SLC1A2), oligodendrocyte precursor cells (OPCs, PCDH15), oligodendrocytes (MOBP), microglia (C1QB), and endothelial cells (FLT1).",
+      "The 16 subclasses could be further divided into 48 putative ‘‘cell types’’: 22 glutamatergic, 19 GABAergic, and 7 non-neuronal cell types (Figures 1C and S1D; Table S1)."
+    ]
+  },
+  {
+    "question": "Does the macaque claustrum exhibit a lateralized pattern of connectivity?",
+    "answer": "Yes, claustral connectivity has a strong ipsilateral bias; although many cortical areas receive bilateral projections, the projection strength from the contralateral claustrum is much weaker than from the ipsilateral claustrum.",
+    "type": "single-evidence",
+    "evidences": [
+      "Joint analysis of whole-brain connectivity and single-cell spatial transcriptome showed that these four zones containing distinct compositions of glutamatergic (but not GABAergic) cell types preferentially connected to specific brain regions with a strong ipsilateral bias."
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "What does the predominant glutamatergic subclass in the macaque claustrum correspond to in the insula?",
+    "answer": "The GNB4 subclass, which is predominant in macaque, predominantly corresponds to L5/6 intratelencephalic Car3 cells in the insula.",
+    "type": "multi-evidence",
+    "evidences": [
+      "For glutamatergic neurons, the GNB4 subclass was predominant in macaque and marmoset but was only a minority (14.7%) in mouse (Figure 2H), where ZFPM2 subclass was more abundant.",
+      "The GLUT/GNB4 subclass was predominantly re-annotated as L5/6 intratelencephalic (IT) Car3 insular cells, with few cells mapped to L2/3 IT cells."
+    ]
+  },
+  {
+    "question": "Is the macaque claustrum more transcriptomically similar to the insula or the amygdala?",
+    "answer": "The claustrum is more similar to the insula; overall claustrum clusters were more similar to insular clusters, and its glutamatergic cell types were much more similar to those in the insula than in the amygdala.",
+    "type": "single-evidence",
+    "evidences": [
+      "Overall, claustrum clusters were more similar to insular clusters than to putamen or amygdala clusters (Figure 2B)."
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "How does the gene expression of the RBC compare to that of the claustrum proper?",
+    "answer": "The RBC highly expresses genes such as CPLX3, CABP7, and SULF1 but not claustral marker genes, and its overall gene expression pattern differs markedly from the claustrum.",
+    "type": "single-evidence",
+    "evidences": [
+      "RBC highly expressed CPLX3, CABP7, and SULF1 but not the above-mentioned claustral marker genes (Figures 3A, S4A individual genes, S4B replicate data, and S4C Allen in situ hybridization [ISH] data)."
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "What experimental methods and marker genes were used to delineate the boundary between the RBC and the claustrum?",
+    "answer": "The boundary was determined using immunostaining for the RBC marker Crym and RNAscope analysis for the RBC marker gene CPLX3 and the ventral claustrum marker gene TTN.",
+    "type": "single-evidence",
+    "evidences": [
+      "The boundary between RBC and claustrum was determined by immunostaining RBC marker crystallin mu (Crym)61 (Figure S4F) and RNAscope analysis of ventral claustrum marker gene TTN and RBC marker gene CPLX3 (Figure S4G)."
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "Which projection-selective zones contain neurons projecting to the hippocampal-entorhinal cortical circuit versus the motor cortical areas?",
+    "answer": "PSZ3 contains hippocampal-projecting and entorhinal cortical-projecting neurons, while PSZ4 contains neurons that mainly project to frontal motor areas.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Hippocampal-projecting neurons were essentially localized in PSZ3, which also harbored ENTO cortical-projecting neurons.",
+      "PSZ4 neurons mainly projected to frontal motor areas and parietal sensory areas."
+    ]
+  },
+  {
+    "question": "What is the suggested identity of the region bordering ventromedial claustrum (RBC)?",
+    "answer": "The RBC is analogous to the claustrum shell or subplate in mouse but is not considered a component of the macaque claustrum.",
+    "type": "single-evidence",
+    "evidences": [
+      "Therefore, we suggest that RBC is analogous to ‘‘claustrum shell’’ or ‘‘subplate’’ in mouse but that it is not a component of the macaque claustrum."
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "Which ipsilateral cortical areas provide only weak inputs to the macaque claustrum?",
+    "answer": "The primary visual cortex (V1) and area 1 provide only weak inputs, as the claustrum receives strong inputs from essentially all other ipsilateral cortical areas.",
+    "type": "single-evidence",
+    "evidences": [
+      "After pooling labeled neurons from all five injections, we found that claustrum received strong inputs from essentially all ipsilateral cortical areas except certain regions within the primary visual cortex (V1) and area 1 (Figure 5D), in line with previous findings.2,6,62"
+    ]
+  },
+  {
+    "question": "What is the nature of the connectivity between the macaque claustrum and visual areas V1 and area 1?",
+    "answer": "The connectivity is largely unidirectional; the claustrum sends robust projections to V1 and area 1 but receives only weak inputs from them, suggesting a top-down influence.",
+    "type": "single-evidence",
+    "evidences": [
+      "Since claustral neurons had a reasonably robust projection to V1 and area 1, the connectivity between macaque claustrum and these two cortical areas is largely unidirectional, supporting the notion of a top-down claustrum influence on V1 and area 1."
+    ]
+  },
+  {
+    "question": "Does the macaque claustrum show a preference for ipsilateral or contralateral cortical inputs?",
+    "answer": "There is a robust ipsilateral bias, meaning cortical inputs to the macaque claustrum come predominantly from the same side of the brain.",
+    "type": "single-evidence",
+    "evidences": [
+      "Thus, there exists a robust ipsilateral bias of cortical inputs to the macaque claustrum."
+    ]
+  },
+  {
+    "question": "How many ipsilateral subcortical nuclei receive projections from the intra-claustrum injections, and which structures are the most strongly labeled?",
+    "answer": "A total of 100 ipsilateral subcortical nuclei are labeled, with particularly strong labeling in the amygdala and thalamus.",
+    "type": "single-evidence",
+    "evidences": [
+      "The five intra-claustrum injections led to labeling in 100 ipsilateral subcortical nuclei, particularly strong in the amygdala and thalamus (Figure 5F; Table S7)."
+    ]
+  },
+  {
+    "question": "From which subcortical structures does the C4 claustral injection site receive inputs?",
+    "answer": "The C4 site receives inputs exclusively from the thalamus, specifically the ventral posterior lateral nuclei (VPLo, VPLc) and the ventral posterior medial nucleus (VPM).",
+    "type": "single-evidence",
+    "evidences": [
+      "Interestingly, the C4 site received projections only from the thalamus, including ventral posterior lateral nuclei (VPLo, VPLc) and ventral posterior medial nucleus (VPM) (Figures 5F and S5C), both known to be connected with the somatosensory cortex."
+    ]
+  },
+  {
+    "question": "Which ipsilateral subcortical nuclei are labeled by the C5 injection?",
+    "answer": "The C5 injection labels various ipsilateral subcortical nuclei, including the olfactory nucleus and the hippocampus.",
+    "type": "single-evidence",
+    "evidences": [
+      "The C5 injection-labeled cells in various ipsilateral subcortical nuclei, including olfactory nucleus and the hippocampus (Figures 5F and S5C)."
+    ]
+  },
+  {
+    "question": "In which projection-specific zone (PSZ) are the claustral neurons labeled by the C4 injection predominantly located?",
+    "answer": "They are essentially all located in PSZ4, with more than 99% of C4-labeled neurons residing there.",
+    "type": "single-evidence",
+    "evidences": [
+      "In addition, by determining the percentage of labeled neurons for each injection site that was located in various cortical PSZs, we found that claustral neurons labeled by C1–C3 injections were largely (>80%) located in PSZ1, whereas those labeled by the C4 injection resided essentially (>99%) in PSZ4 (Figure 5H)."
+    ]
+  },
+  {
+    "question": "Do macaque/mouse-conserved GLUT/GNB4 cell types exhibit preferential projection targets?",
+    "answer": "No, none of the conserved GLUT/GNB4 cell types show a target preference, whereas a substantial portion of macaque-specific ones do.",
+    "type": "single-evidence",
+    "evidences": [
+      "Notably, we found that none of the macaque/mouse-conserved GLUT/GNB4 cell types exhibited a target preference, while a substantial portion of the macaque-specific GLUT/GNB4 cell types exhibited a projection target preference (Figure 6B, colored in red and blue, respectively)."
+    ]
+  },
+  {
+    "question": "How do the transcriptomic profiles of the claustrum, RBC, and insula compare?",
+    "answer": "The transcriptomic profiles of the claustrum, RBC, and insula are very different from one another.",
+    "type": "single-evidence",
+    "evidences": [
+      "Thus, the transcriptomic profiles were very different among claustrum, RBC, and insula."
+    ]
+  },
+  {
+    "question": "To which brain regions do RBC neurons project?",
+    "answer": "RBC neurons project to a restricted set of regions, including the amygdala, entorhinal cortex (ENTO), prefrontal area POLE, area 25, anterior insula, hippocampus, and superior temporal polysensory area (STPr).",
+    "type": "single-evidence",
+    "evidences": [
+      "We found that unlike claustral neurons (which projected to nearly all cortical areas), retrogradely labeled RBC neurons were found following injections in only a restricted number of brain regions, including amygdala, ENTO, POLE, area 25, anterior insula, hippocampus, and STPr (Figures S7D and examples in S7E)."
+    ]
+  },
+  {
+    "question": "How does contralateral cortical input to the claustrum compare between macaques and rodents?",
+    "answer": "In macaques, contralateral inputs are weaker than ipsilateral ones, producing a robust ipsilateral bias, whereas in rodents contralateral inputs can be stronger than ipsilateral for some areas such as motor and cingulate cortices.",
+    "type": "multi-evidence",
+    "evidences": [
+      "These observations stand in sharp contrast to the findings in rodents, where contralateral inputs to the claustrum could be stronger than their homotopic ipsilateral inputs for a few cortical regions, including motor and cingulate areas.",
+      "Thus, there exists a robust ipsilateral bias of cortical inputs to the macaque claustrum."
+    ]
+  },
+  {
+    "question": "What are the cortical and subcortical connection preferences of the C3 claustral injection site?",
+    "answer": "Compared to C1 and C2, the C3 site has a higher density of projections to higher visual areas and fewer to prefrontal cortex, and it receives stronger inputs from posterior thalamic nuclei such as the pulvinar, medial geniculate, and lateral geniculate, which are linked to visual processing.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Compared with C1 and C2 injections, the C3 injection resulted in a much higher density of labeled neurons in higher visual areas and fewer labeled neurons in the prefrontal cortex.",
+      "Compared with C1 and C2 injections, the C3 injection labeled more cells in the ipsilateral posterior thalamic nuclei (Figures 5F and S5C), especially pulvinar (Puli, Pull, and Pulm), medial geniculate nucleus (MGmc and MGpc), and lateral geniculate nucleus (LGN), which are subcortical structures exhibiting widespread connectivity with visual areas and associative parietal cortex that also projected strongly to the C3 site."
+    ]
+  },
+  {
+    "question": "What are the cortical targets and subcortical inputs of the C4 claustral injection site?",
+    "answer": "The C4 site in the dorsal claustrum sends projections primarily to motor and somatosensory cortices, and it receives inputs solely from thalamic nuclei (VPLo, VPLc, VPM) that are connected with the somatosensory system.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Interestingly, the C4 injection site at the most dorsal extremity of the claustrum is a location that contained cells projecting selectively to motor and somatosensory cortices (Figures 4A and 4D).",
+      "Interestingly, the C4 site received projections only from the thalamus, including ventral posterior lateral nuclei (VPLo, VPLc) and ventral posterior medial nucleus (VPM) (Figures 5F and S5C), both known to be connected with the somatosensory cortex."
+    ]
+  },
+  {
+    "question": "What are the projection targets and subcortical inputs of the C5 claustral injection site?",
+    "answer": "The C5 site in the middle ventral claustrum projects to ventral temporal and prefrontal cortices, including ENTO and POLE, and receives inputs from ipsilateral subcortical nuclei such as the olfactory nucleus and hippocampus.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Likewise, the C5 injection site located at the middle ventral claustrum is a location that contained cells projecting to ventral temporal and prefrontal cortices, including ENTO and POLE (Figures 4A and 4D).",
+      "The C5 injection-labeled cells in various ipsilateral subcortical nuclei, including olfactory nucleus and the hippocampus (Figures 5F and S5C)."
+    ]
+  },
+  {
+    "question": "What two key features characterize intra-claustrum connectivity in the macaque?",
+    "answer": "There is extensive connectivity along the rostral-to-caudal axis, but also regional specificity such that certain claustral domains avoid connections with others.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Taken together, these data indicate that there is extensive rostral-to-caudal connectivity within the claustrum, in line with the finding in rats.",
+      "These spatial distribution patterns point to a regional specificity in intra-claustral connections."
+    ]
+  },
+  {
+    "question": "How do intra-claustrum connectivity patterns relate to the transcriptomically distinct projection-specific zones (PSZs)?",
+    "answer": "The connectivity patterns reflect PSZ organization: e.g., C1-C3 injections predominantly label neurons in PSZ1, while C4 labels PSZ4, and these PSZs exhibit distinct transcriptomic profiles due to different glutamatergic cell-type compositions.",
+    "type": "multi-evidence",
+    "evidences": [
+      "In addition, by determining the percentage of labeled neurons for each injection site that was located in various cortical PSZs, we found that claustral neurons labeled by C1–C3 injections were largely (>80%) located in PSZ1, whereas those labeled by the C4 injection resided essentially (>99%) in PSZ4 (Figure 5H).",
+      "Thus, different PSZs exhibited distinct transcriptomic profiles due to differential compositions of glutamatergic cell types as well as varying gene expression profiles of the same cell types."
+    ]
+  },
+  {
+    "question": "Which macaque-specific cell types are enriched in the dorsal claustrum and what are their projection targets?",
+    "answer": "The macaque-specific GNB4 cell types GLUT/GNB4/4 and GLUT/GNB4/5 are enriched in the dorsal claustrum and project to the motor cortex and putamen, matching the motor/somatosensory projection zone defined by the C4 injection.",
+    "type": "single-evidence",
+    "evidences": [
+      "Similarly, another two GNB4 cell types (GLUT/GNB4/4 and GLUT/GNB4/5) were enriched in the dorsal claustrum (containing neurons projecting to motor cortex and putamen) (Figures 6B and 7)."
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "Which macaque-specific cell types are enriched in the ventral claustrum and what are their projection targets?",
+    "answer": "GLUT/GNB4/2 and GLUT/GNB4/7 are enriched in the ventral claustrum and project to the entorhinal cortex and hippocampus, consistent with the C5 injection site's projection to memory-related temporal areas.",
+    "type": "single-evidence",
+    "evidences": [
+      "Interestingly, we identified two macaque-specific GNB4 cell types (GLUT/GNB4/2 and GLUT/GNB4/7) that were enriched in ventral claustrum (containing neurons projecting to the ENTO cortex and hippocampus)."
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "Who is the lead contact for resources and reagents?",
+    "answer": "The lead contact is Zhiming Shen, who can be reached at zmshen@ion.ac.cn.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Further information and requests for the resources and reagents may be directed to and will be fulfilled by the lead contact, Zhiming Shen (zmshen@ ion.ac.cn).\""
+    ]
+  },
+  {
+    "question": "Are the materials used for snRNA-seq and Stereo-seq commercially available?",
+    "answer": "Yes, all materials used for snRNA-seq and Stereo-seq are commercially available.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"All materials used for snRNA-seq and Stereo-seq are commercially available.\""
+    ]
+  },
+  {
+    "question": "What is the accession number for the raw data?",
+    "answer": "The raw data are deposited in the CNGB Nucleotide Sequence Archive under accession CNP0005571.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"All raw data are deposited in CNGB Nucleotide Sequence Archive (CNP0005571: https://db.cngb.org/search/project/CNP0005571).\""
+    ]
+  },
+  {
+    "question": "What is the URL for the processed data?",
+    "answer": "Processed data are accessible online at https://doi.org/10.12412/BSDC.1714460320.30001.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Processed data are accessible online (https://doi.org/10.12412/BSDC.1714460320. 30001).\""
+    ]
+  },
+  {
+    "question": "What types of data are available through the macaque digital brain website?",
+    "answer": "Whole-brain connectivity and single-cell spatial transcriptomic data.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Whole-brain connectivity and single-cell spatial transcriptomic data are available via our website (https://macaque.digital-brain.cn/claustrum).\""
+    ]
+  },
+  {
+    "question": "Which public snRNA-seq datasets are listed in the resource availability?",
+    "answer": "Human hippocampus (GEO: GSE160189) and macaque cortex.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Public snRNA-seq datasets are available as follows: human hippocampus (GEO: GSE160189) and macaque cortex (https://macaque.digital-brain.cn/ spatial-omics/singleCellData?project=neocortex).\""
+    ]
+  },
+  {
+    "question": "How was the data analysis conducted according to the resource availability?",
+    "answer": "Data analysis followed standard methods, as detailed in the STAR Methods.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Data analysis followed standard methods (see STAR Methods).\""
+    ]
+  },
+  {
+    "question": "Who are the co-inventors of Stereo-seq technology?",
+    "answer": "L. Liu and X.X. are the co-inventors of Stereo-seq technology.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"L. Liu and X.X. are the co-inventors of Stereo-seq technology.\""
+    ]
+  },
+  {
+    "question": "What is the intellectual property status of Stereo-seq?",
+    "answer": "The chip, procedure, and applications of Stereo-seq are covered in pending patents.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The chip, procedure, and applications of Stereo-seq are covered in pending patents.\""
+    ]
+  },
+  {
+    "question": "Where can the supplemental information be found?",
+    "answer": "Supplemental information is available online at https://doi.org/10.1016/j.cell.2025.02.037.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Supplemental information can be found online at https://doi.org/10.1016/j.cell. 2025.02.037.\""
+    ]
+  },
+  {
+    "question": "How can one access the raw data and who should be contacted for further information?",
+    "answer": "Raw data are deposited in the CNGB Nucleotide Sequence Archive under accession CNP0005571, and further information can be obtained from the lead contact Zhiming Shen at zmshen@ion.ac.cn.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"All raw data are deposited in CNGB Nucleotide Sequence Archive (CNP0005571: https://db.cngb.org/search/project/CNP0005571).\"",
+      "\"Further information and requests for the resources and reagents may be directed to and will be fulfilled by the lead contact, Zhiming Shen (zmshen@ ion.ac.cn).\""
+    ]
+  },
+  {
+    "question": "What resources are available to enable replication of the experimental procedures?",
+    "answer": "All materials are commercially available, and raw data are deposited in the CNGB Nucleotide Sequence Archive under accession CNP0005571.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"All materials used for snRNA-seq and Stereo-seq are commercially available.\"",
+      "\"All raw data are deposited in CNGB Nucleotide Sequence Archive (CNP0005571: https://db.cngb.org/search/project/CNP0005571).\""
+    ]
+  },
+  {
+    "question": "Who invented Stereo-seq and where can the raw data be found?",
+    "answer": "L. Liu and X.X. are co-inventors of Stereo-seq, and the raw data are deposited in the CNGB Nucleotide Sequence Archive under accession CNP0005571.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"L. Liu and X.X. are the co-inventors of Stereo-seq technology.\"",
+      "\"All raw data are deposited in CNGB Nucleotide Sequence Archive (CNP0005571: https://db.cngb.org/search/project/CNP0005571).\""
+    ]
+  },
+  {
+    "question": "What is the publication date and where can supplemental material be accessed?",
+    "answer": "The research was published on April 3, 2025, and supplemental information is available online at https://doi.org/10.1016/j.cell.2025.02.037.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Received: May 3, 2024; Revised: October 3, 2024; Accepted: February 28, 2025; Published: April 3, 2025.\"",
+      "\"Supplemental information can be found online at https://doi.org/10.1016/j.cell. 2025.02.037.\""
+    ]
+  },
+  {
+    "question": "Where can detailed experimental methods and additional supplemental data be found?",
+    "answer": "Detailed methods are provided in the online version of the paper, and supplemental information is available at https://doi.org/10.1016/j.cell.2025.02.037.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Detailed methods are provided in the online version of this paper and include the following:\"",
+      "\"Supplemental information can be found online at https://doi.org/10.1016/j.cell. 2025.02.037.\""
+    ]
+  },
+  {
+    "question": "Are the experimental materials proprietary, and what analysis methods were employed?",
+    "answer": "No, all materials are commercially available, and data analysis followed standard methods as described in the STAR Methods.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"All materials used for snRNA-seq and Stereo-seq are commercially available.\"",
+      "\"Data analysis followed standard methods (see STAR Methods).\""
+    ]
+  },
+  {
+    "question": "Who should be contacted about resources and what is the patent status of Stereo-seq?",
+    "answer": "The lead contact is Zhiming Shen at zmshen@ion.ac.cn, and the chip, procedure, and applications of Stereo-seq are covered in pending patents.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Further information and requests for the resources and reagents may be directed to and will be fulfilled by the lead contact, Zhiming Shen (zmshen@ ion.ac.cn).\"",
+      "\"The chip, procedure, and applications of Stereo-seq are covered in pending patents.\""
+    ]
+  },
+  {
+    "question": "What consortium supported the study and what is the accession number for the raw data?",
+    "answer": "The Mesoscopic Brain Mapping Consortium supported the study, and raw data are available under CNGB Nucleotide Sequence Archive accession CNP0005571.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"This paper is from the Mesoscopic Brain Mapping Consortium, supported by the National Key R&D Program of China and by the National Science and Technology Innovation 2030 Major Program (2022YEF0203200, STI2030-2021ZD0200100, 2022YFA1603604, 2022YFC3400400, and 2021YFF0703802), the Shanghai Municipal Science and Technology Major Project (2018SHZDZX05), LabEX CORTEX ANR-11 LABX-0042, IRP Inserm 2021-Cortical_Connectome, ANR-22-CE92-0010-Claustrumhub, LabEX DEVweCAN ANR-10-LABX-0061, ERC-2023-Adv 101142153 PREDICTION, ANR-24-CE37-5022-CONNECTOME, FRC APE13, the Major Science and Technology R&D Project of the Science and Technology Department of Jiangxi Province (20213AAG01013), CAS Youth Innovation Promotion Association (2022268 and 2015223), the CAS Scientific Instrument Development Project (YJKYYQ20190052), the Lingang Laboratory (LG202104-02-04), and the National Natural Science Foundation of China (31571101, 81870187, and 81911530167).\"",
+      "\"All raw data are deposited in CNGB Nucleotide Sequence Archive (CNP0005571: https://db.cngb.org/search/project/CNP0005571).\""
+    ]
+  },
+  {
+    "question": "What is the approval number for the animal protocol used in this study?",
+    "answer": "The animal protocol was approved under number ION-2019011.",
+    "type": "single-evidence",
+    "evidences": [
+      "Animal protocol was approved (ION-2019011) by the Biomedical Research Ethics Committee of CAS Center for Excellence in Brain Science and Intelligence Technology, Chinese Academy of Sciences."
+    ]
+  },
+  {
+    "question": "How many male cynomolgus monkeys were used for Stereo-seq of the claustrum?",
+    "answer": "Two male monkeys were used for Stereo-seq.",
+    "type": "single-evidence",
+    "evidences": [
+      "The claustrum from cynomolgus monkeys (M. fascicularis) was collected from two male monkeys (#1, 6-year-old, 4.2 kg; #2, 4-year-old, $3 . 4 \\mathsf { k g } )$ for Stereo-seq, and from a total of four monkeys (#2; #3, 4-year-old, male, 3.7 kg; #4, 4-year-old, male, 4.5 kg; #5, 12-year-old, female, 3.9 kg; #7, 3-year-old, $3 . 3 \\mathsf { k g } )$ for snRNAseq."
+    ]
+  },
+  {
+    "question": "What strain and age are the male mice used for snRNA-seq of the claustrum?",
+    "answer": "The mice are C57/bl strain and 11 weeks old.",
+    "type": "single-evidence",
+    "evidences": [
+      "The mouse claustrum was collected for snRNA-seq from 18 male mice (C57/bl, 11 weeks) for snRNA-seq."
+    ]
+  },
+  {
+    "question": "How many coronal sections were collected from macaque #1 for Stereo-seq?",
+    "answer": "A total of 44 coronal sections were collected.",
+    "type": "single-evidence",
+    "evidences": [
+      "In macaque 1#, a total of 44 coronal sections $1 0 \\mathrm { - } \\mu \\mathrm { m }$ in thickness) were collected at $5 0 0 \\mathrm { - } \\mu \\mathrm { m }$ intervals, covering the entire claustrum."
+    ]
+  },
+  {
+    "question": "How long is the methanol fixation step for tissue sections on the Stereo-seq chip at -20°C?",
+    "answer": "The fixation step lasts for 30 minutes.",
+    "type": "single-evidence",
+    "evidences": [
+      "The section was then fixed in methanol (Sigma, 34860, precooled for 30 minutes at ${ \\mathsf { - 2 0 } } ^ { \\circ } \\mathrm { C } )$ ) and incubated at ${ \\mathfrak { - } } 2 0 ^ { \\circ } \\mathsf { C }$ for 30 minutes."
+    ]
+  },
+  {
+    "question": "How long is the reverse transcription step in the Stereo-seq protocol?",
+    "answer": "Reverse transcription is carried out for 3 hours at 42°C.",
+    "type": "single-evidence",
+    "evidences": [
+      "RNAs were reverse transcribed for 3 hours at $4 2 ^ { \\circ } \\complement$ ."
+    ]
+  },
+  {
+    "question": "What enzyme is used for treating cDNA-containing chips in Stereo-seq?",
+    "answer": "Exonuclease I (NEB, M0293L) is used for 16 hours at 55°C.",
+    "type": "single-evidence",
+    "evidences": [
+      "The cDNA-containing chips were subjected to Exonuclease I (NEB, M0293L) treatment for 16 hours at $5 5 ^ { \\circ } \\mathrm { C }$ ."
+    ]
+  },
+  {
+    "question": "What amount of cDNA per sample is used for tagmentation in Stereo-seq library preparation?",
+    "answer": "100 ng of cDNA is used per sample.",
+    "type": "single-evidence",
+    "evidences": [
+      "For each sample, 100 ng $( 2 0 \\mu \\mathsf { L } )$ of cDNA underwent tagmentation with Tn5 transposases (Vazyme) at $5 5 ^ { \\circ } \\mathrm { C }$ for 10 minutes, followed by the interruption of the reaction through the addition of $5 \\mu \\ L$ of $0 . 0 2 \\%$ SDS."
+    ]
+  },
+  {
+    "question": "What system is used to prepare snRNA-seq libraries?",
+    "answer": "The DNBelab C Series High-throughput Single-cell System (BGI-research) is used.",
+    "type": "single-evidence",
+    "evidences": [
+      "The DNBelab C Series High-throughput Single-cell System (BGI-research) was employed for the preparation of snRNA-seq libraries."
+    ]
+  },
+  {
+    "question": "What is the p-value threshold for determining preferred cell type distribution in the claustrum?",
+    "answer": "An integrated p-value of 0.001 or lower is required.",
+    "type": "single-evidence",
+    "evidences": [
+      "Only cell types with integrated p-values $\\leq 0 . 0 0 1$ in both macaques were considered to have a preferred distribution along the ML or DV axis."
+    ]
+  },
+  {
+    "question": "What temperature is used for the initial tissue incubation on the Stereo-seq chip, and what temperature is used for the tagmentation step in library preparation?",
+    "answer": "The initial tissue incubation on the chip is at 37°C, and the tagmentation step is performed at 55°C.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Following attachment to the Stereo-seq chip $\\mathtt { 5 c m } \\times 3 \\mathtt { c m }$ , 1 cm $\\times 2$ cm, or 1 cm 3 1 cm), the tissue section was incubated at $3 7 ^ { \\circ } \\mathrm { C }$ for 3-8 minutes.",
+      "For each sample, 100 ng $( 2 0 \\mu \\mathsf { L } )$ of cDNA underwent tagmentation with Tn5 transposases (Vazyme) at $5 5 ^ { \\circ } \\mathrm { C }$ for 10 minutes, followed by the interruption of the reaction through the addition of $5 \\mu \\ L$ of $0 . 0 2 \\%$ SDS."
+    ]
+  },
+  {
+    "question": "How many macaques provided insular cortex for snRNA-seq, and at what depths is the macaque claustrum segmented for snRNA-seq?",
+    "answer": "Four macaques provided insular cortex for snRNA-seq, and the claustrum is segmented on coronal planes at depths of 1-2 mm using tissue punchers.",
+    "type": "multi-evidence",
+    "evidences": [
+      "The insular cortex, were collected from a total of four macaques (#1; #2; #3; #6, 7-year-old, male, $1 0 . 6 \\mathsf { k g } )$ for snRNA-seq.",
+      "In the cryostat, the claustrum of macaques and marmosets was segmented on coronal planes at depths of $1 - 2 \\mathsf { m m }$ using tissue punchers $( 2 . 5 - 4 . 0 \\ : \\mathrm { m m }$ in diameter)"
+    ]
+  },
+  {
+    "question": "How are single cells segmented in Stereo-seq images, and what algorithm assigns cell types to them?",
+    "answer": "Single cells are segmented using mask R-CNN-based deep learning models, and cell types are assigned using the Spatial-ID algorithm.",
+    "type": "multi-evidence",
+    "evidences": [
+      "To segment single cells in nucleic acid staining images, we leveraged mask R-CNN-based deep learning models that were trained with annotations from Concanavalin A (ConA) staining images.",
+      "To annotate single cells in the Stereo-seq map, we employed Spatial-ID,39 a robust and effective cell type annotation algorithm."
+    ]
+  },
+  {
+    "question": "What marker genes identify the RBC subregion, and what antibody is used to mark the RBC loci in immunohistochemistry?",
+    "answer": "The RBC subregion is identified by marker genes DEn, CPLX3, CABP7, and SULF1, and anti-Crym antibody is used to mark the RBC loci.",
+    "type": "multi-evidence",
+    "evidences": [
+      "For subregional parcellation of the claustrum, we used the expression patterns of marker genes (SYNPR, NR4A2, and NTNG2 for the claustrum and DEn, CPLX3, CABP7, and SULF1 for the RBC) to delineate the subregional boundaries.",
+      "Coronal sections containing the claustrum and RBC from macaques were collected for IHC staining with Monoclonal antibody anti-NeuN (Abcam, ab177487) and anti-Crym (Novus Biologicals, H00001428-M03) antibody, which mark all the neurons of in and around claustrum entity and the loci of RBC, respectively."
+    ]
+  },
+  {
+    "question": "What survival period is allowed after tracer injection, and what thickness are the sections used for IHC staining?",
+    "answer": "The survival period is 11-13 days, and IHC staining uses 40-um thick sections.",
+    "type": "multi-evidence",
+    "evidences": [
+      "After a survival period of 11-13 days, the animals were anesthetized with Zoletil $( 5 \\mathsf { m g } / \\mathsf { k g } )$ , followed by Xylazine Hydrochloride $( 2 0 \\mathsf { m } \\mathsf { g } /$ kg) and Zoletil $( 2 0 \\mathrm { m g } / \\mathsf { k g } )$ , and perfused with saline, PFA $( 4 \\% )$ ), and PB-glycerine solution $( 5 \\% )$ .",
+      "The PFA-fixed frozen $4 0 \\mathrm { - } \\mu \\mathrm { m }$ sections were washed 6 times in 0.1M phosphate buffer (PBS) for 10 min, then were pre-incubated for 15 min in $0 . 5 \\%$ Triton X-100 in PBS, and followed by 1 hour incubation in $10 \\%$ normal goat serum for the non-specific site blocking."
+    ]
+  },
+  {
+    "question": "What is the temperature for reverse transcription in Stereo-seq, and what is the hybridization temperature for RNAscope probes?",
+    "answer": "Reverse transcription is performed at 42°C, and RNAscope hybridization is at 40°C.",
+    "type": "multi-evidence",
+    "evidences": [
+      "RNAs were reverse transcribed for 3 hours at $4 2 ^ { \\circ } \\complement$ .",
+      "The sections were then hybridized with each probe (CPLX3 and TTN) in a HybEZ oven (Advanced Cell Diagnostics, Newark, CA, USA) for 2 hours at $4 0 ^ { \\circ } \\mathsf { C }$ ."
+    ]
+  },
+  {
+    "question": "How are the captured mRNAs converted for image registration, and how are spatial positions normalized for distribution analysis?",
+    "answer": "Captured mRNAs are converted into a 16-bit image using UMI counts as pixel values, and spatial positions are normalized by solving the heat equation.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Initially, we converted the captured mRNAs of each section into a 16-bit image, with the UMI counts of each coordinate as its pixel value.",
+      "Specifically, the normalized layer and column values were calculated by solving a partial differential equation known as the heat equation within the defined claustrum area."
+    ]
+  },
+  {
+    "question": "What tracers were used for retrograde labeling, and what primary antibodies were used for IHC staining?",
+    "answer": "The retrograde tracers used were FastBlue, Cholera toxin subunit B conjugated with Alexa Fluor, and Diamedino Yellow; the IHC primary antibodies were anti-NeuN and anti-Crym.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Retrograde tracers FastBlue (Polysciences) $( 2 \\% - 3 \\%$ in water), Cholera toxin subunit B conjugated with Alexa Fluor (Molecular Probes) $( 1 \\% - 3 \\%$ in PBS), and Diamedino Yellow $( 2 \\% - 3 \\%$ in water) were injected into the different brain regions under the guidance of MRI (Siemens) to trace the connectivity of claustrum in cynomolgus monkeys (Macaca fascicularis).",
+      "Coronal sections containing the claustrum and RBC from macaques were collected for IHC staining with Monoclonal antibody anti-NeuN (Abcam, ab177487) and anti-Crym (Novus Biologicals, H00001428-M03) antibody, which mark all the neurons of in and around claustrum entity and the loci of RBC, respectively."
+    ]
+  },
+  {
+    "question": "What MRI sequence and parameters were used to acquire T1w structural images?",
+    "answer": "A magnetization prepared rapid gradient echo (MPRAGE) sequence was used with 0.5 mm isotropic resolution, TE of 2.8 ms, TR of 2200 ms, FA of 9 degrees, and 4 averages.",
+    "type": "single-evidence",
+    "evidences": [
+      "Magnetization prepared rapid gradient echo image (MPRAGE) sequence (0.5 mm isotropic resolution, TE = 2.8 ms, TR = 2200 ms, FA = 9 degree, number of average = 4) was used to obtain T1w structural images."
+    ]
+  },
+  {
+    "question": "What metric indicates stronger connections in the study?",
+    "answer": "Higher fraction of labeled neurons (FLN) values indicate stronger connections.",
+    "type": "single-evidence",
+    "evidences": [
+      "Higher FLN values indicate stronger connection."
+    ]
+  },
+  {
+    "question": "What software was used to transform NIfTI-1 data into a smooth 3D model of the claustrum?",
+    "answer": "3D Slicer software was employed.",
+    "type": "single-evidence",
+    "evidences": [
+      "3D Slicer81 software was used to transform NIfTI-1 data into a smooth 3D model of the claustrum."
+    ]
+  },
+  {
+    "question": "How many clear clusters were identified from the distribution zone similarity matrix?",
+    "answer": "Four clear clusters were found using hierarchical clustering.",
+    "type": "single-evidence",
+    "evidences": [
+      "We then utilized Seaborn’s implementation of hierarchical clustering on this similarity matrix, and found four clear clusters."
+    ]
+  },
+  {
+    "question": "What genome reference and alignment software were used for snRNA-seq read mapping?",
+    "answer": "The Macaca fascicularis genome (version 5.0.91) served as the reference, and reads were aligned with STAR (v2.5.3).",
+    "type": "single-evidence",
+    "evidences": [
+      "Subsequently, the snRNA-seq data was aligned to the Macaca fascicularis genome (5.0.91) reference using STAR (v2.5.3) with the adjusted GTF file."
+    ]
+  },
+  {
+    "question": "How many high-quality snRNA-seq libraries were retained for analysis?",
+    "answer": "Fifty-five libraries were retained after excluding those with a median gene count ≤500.",
+    "type": "single-evidence",
+    "evidences": [
+      "We excluded those libraries with a median gene count of ≤500, ultimately retaining 55 libraries classified as high-quality."
+    ]
+  },
+  {
+    "question": "What were the eight major cell types identified from the unsupervised clustering of snRNA-seq data?",
+    "answer": "The major cell types were excitatory neurons, inhibitory neurons, DRD2+ inhibitory neurons, astrocytes, oligodendrocytes, oligodendrocyte precursor cells, microglia, and endothelial cells.",
+    "type": "single-evidence",
+    "evidences": [
+      "The unsupervised clustering results were then categorized into 8 major cell types based on marker genes: excitatory neurons, inhibitory neurons, DRD2+ inhibitory neurons, astrocytes, oligodendrocytes, oligodendrocyte precursor cells, microglia and endothelial cells."
+    ]
+  },
+  {
+    "question": "How many nuclei were ultimately retained for downstream analysis after quality filtering?",
+    "answer": "A total of 227,750 nuclei were retained.",
+    "type": "single-evidence",
+    "evidences": [
+      "Ultimately, a total of 227,750 nuclei were retained for subsequent analysis."
+    ]
+  },
+  {
+    "question": "Which normalization function was applied to the snRNA-seq count data during initial processing?",
+    "answer": "The SCTransform function was used for normalization.",
+    "type": "single-evidence",
+    "evidences": [
+      "The counts data were normalized using the ‘SCTransform‘ function, with parameters set to variable.features.n = 5000, and vars.to.regress = \"percent.mt\" using the \"glmGamPoi\" method."
+    ]
+  },
+  {
+    "question": "What dropout rate was used during training of the Siamese neural network for claustrum registration?",
+    "answer": "A dropout rate of 0.25 was used.",
+    "type": "single-evidence",
+    "evidences": [
+      "During training, we used dropout = 0.25, AdamW optimizer with hyperparameters lr = 1e-3, betas = (0.9, 0.999), weight_decay = 1e-2, and data augmentation including random rotation (0 = ±45°), random left-right flip (p = 0.5), random translation (±20% on x, ±10% on y), and random scaling (0.9~1.1×)."
+    ]
+  },
+  {
+    "question": "What image resolutions were used for down-sampling in claustrum segmentation and for populating the grid matrix in distribution zone determination?",
+    "answer": "For claustrum segmentation, images were down-sampled to a resolution of 13 mm/pixel; for distribution zone determination, the grid matrix was populated at a resolution of 65 mm/pixel.",
+    "type": "multi-evidence",
+    "evidences": [
+      "To reduce computational cost, we down-sampled the images at a resolution of 13 mm/pixel.",
+      "Subsequently, we adjusted the values on the grid according to the number of cells and area size of the claustrum in current and adjacent sections."
+    ]
+  },
+  {
+    "question": "What normalization methods were used for the initial snRNA-seq processing and for the subsequent iterative clustering of the seven major cell classes?",
+    "answer": "SCTransform normalization was applied during initial processing, while LogNormalize with a scale factor of 10,000 was used for the iterative clustering of the seven classes.",
+    "type": "multi-evidence",
+    "evidences": [
+      "The counts data were normalized using the ‘SCTransform‘ function, with parameters set to variable.features.n = 5000, and vars.to.regress = \"percent.mt\" using the \"glmGamPoi\" method.",
+      "Single-nuclei data for each of the seven class were normalized using NormalizeData (normalization.method = ‘LogNormalize’, scale.factor = 10000)."
+    ]
+  },
+  {
+    "question": "How many major cell types were initially categorized, and how many clusters were ultimately identified?",
+    "answer": "Eight major cell types were initially categorized, and they were further resolved into 48 clusters.",
+    "type": "multi-evidence",
+    "evidences": [
+      "The unsupervised clustering results were then categorized into 8 major cell types based on marker genes: excitatory neurons, inhibitory neurons, DRD2+ inhibitory neurons, astrocytes, oligodendrocytes, oligodendrocyte precursor cells, microglia and endothelial cells.",
+      "Ultimately, we identified 48 clusters comprising 227,750 high-quality nuclei."
+    ]
+  },
+  {
+    "question": "What deep learning models were used for claustrum segmentation and for cross-animal registration?",
+    "answer": "nnUNet was used for segmenting the claustrum from coronal sections, and a convolutional Siamese neural network was used for computing claustrum embeddings for registration.",
+    "type": "multi-evidence",
+    "evidences": [
+      "We trained a model using nnUNet79 to segment the claustrum from coronal sections.",
+      "The method we used was a convolutional Siamese neural network that computed a 16-dimensional embedding of the claustrum."
+    ]
+  },
+  {
+    "question": "How many training epochs were used for the registration network, and how many trees were set for the random forest model?",
+    "answer": "The registration network was trained for 2000 epochs, and the random forest model was built with 500 trees.",
+    "type": "multi-evidence",
+    "evidences": [
+      "We trained for 2000 epochs in total.",
+      "A model was then initialized using the ‘randomForest‘ function from the randomForest package (v4.7.1.1), with the parameter ntree set to 500."
+    ]
+  },
+  {
+    "question": "What threshold was used to extract contours in distribution zone determination, and what probability threshold was applied to discard nuclei in the random forest classification?",
+    "answer": "A threshold of 0.05 was used for contour extraction; nuclei with a classification probability below 0.9 were discarded.",
+    "type": "multi-evidence",
+    "evidences": [
+      "We then extracted contours using a threshold of 0.05.",
+      "Nuclei with a probability < 0.9 were discarded."
+    ]
+  },
+  {
+    "question": "How many manually segmented sections were used for initial claustrum segmentation training, and how many coronal sections were outlined for distribution zone determination?",
+    "answer": "Twenty manually segmented sections were used for initial training, and 42 ipsilateral coronal sections were outlined for each animal in distribution zone determination.",
+    "type": "multi-evidence",
+    "evidences": [
+      "We then trained the model with 20 manually segmented claustrum (evenly spaced at 620 µm) sections from one monkey.",
+      "First, we outlined the claustrum in 42 ipsilateral coronal sections for each animal, with a spacing of 360 µm."
+    ]
+  },
+  {
+    "question": "How many channels did the MRI coil and the fluorescence microscope have, respectively?",
+    "answer": "The MRI scanning used an 8-channel coil, while the fluorescence microscope acquired images with four scanning channels (Cy3, Cy5, EGFP, and DAPI).",
+    "type": "multi-evidence",
+    "evidences": [
+      "MRI scanning was carried out with 8 channel coil (SuZhouZhongZhi, MK80-3T) and 3.0T MRI scanner (Siemens).",
+      "The input images were acquired from a fluorescence microscope with four scanning channels: Cy3 (582 - 640 nm), Cy5 (670 - 710 nm), EGFP (507 - 543 nm), and DAPI (430 - 470 nm)."
+    ]
+  },
+  {
+    "question": "How many cells were identified from the mouse claustrum in the snRNA-seq analysis?",
+    "answer": "234,986 cells were identified from the mouse claustrum.",
+    "type": "single-evidence",
+    "evidences": [
+      "Subsequently, we identified 234,986 cells from the mouse claustrum and 109,093 cells from the marmoset claustrum."
+    ]
+  },
+  {
+    "question": "Into how many clusters was the marmoset data partitioned?",
+    "answer": "The marmoset data were partitioned into 38 clusters.",
+    "type": "single-evidence",
+    "evidences": [
+      "marmoset data were partitioned into 38 clusters, whereas mouse data were divided into 60 clusters."
+    ]
+  },
+  {
+    "question": "Which package and function were used to select highly variable genes for cross-species integration?",
+    "answer": "The select_markers function from the scrattch.hicat package was used.",
+    "type": "single-evidence",
+    "evidences": [
+      "Highly variable genes in the four datasets were identified using the select_markers (n.markers = 100) function of the scrattch.hicat package (https://github.com/AllenInstitute/scrattch.hicat), and these marker genes served as anchor points for cell integration across regions using Seurat (v4.1.1)."
+    ]
+  },
+  {
+    "question": "What resolution was used in the FindClusters function for the integrated analysis?",
+    "answer": "A resolution of 3 was used.",
+    "type": "single-evidence",
+    "evidences": [
+      "Integrated data was performed on the standardized data using the FindNeighbors (parameters: dims = 1:100) and FindClusters (resolution = 3) functions."
+    ]
+  },
+  {
+    "question": "What is the minimum max overlap score for a macaque cluster to be classified as conserved with mouse?",
+    "answer": "A max overlap score of at least 0.3.",
+    "type": "single-evidence",
+    "evidences": [
+      "Macaque clusters with a max overlap score < 0.3 were classified as macaque-specific clusters, while those with a max overlap score >= 0.3 were classified as macaque/mouse conserved clusters."
+    ]
+  },
+  {
+    "question": "What were the p_val_adj and avg_log2FC thresholds for identifying differentially expressed genes between conserved and macaque-specific clusters?",
+    "answer": "p_val_adj less than 0.05 and avg_log2FC greater than 0.5.",
+    "type": "single-evidence",
+    "evidences": [
+      "Using Seurat’s FindAllMarkers function, we identified differentially expressed genes between the macaque/mouse conserved and macaque-specific clusters following thresholds: p_val_adj < 0.05, auc > 0.5, avg_log2FC > 0.5, and pct > 0.2."
+    ]
+  },
+  {
+    "question": "What UMI-to-gene count ratio threshold was used for filtering PSZ libraries?",
+    "answer": "The UMI-to-gene count ratio had to be greater than 1.2.",
+    "type": "single-evidence",
+    "evidences": [
+      "For PSZ#1, a total of 11 libraries were collected and filtered based on the following criteria: median gene count > 300, mitochondrial gene content < 5%, and a UMI-to-gene count ratio > 1.2, resulting in 75,532 cells."
+    ]
+  },
+  {
+    "question": "Which R function was used to perform differential gene expression analysis across PSZ regions?",
+    "answer": "The SeuratWrappers::RunPrestoAll function was used.",
+    "type": "single-evidence",
+    "evidences": [
+      "After completing the sample allocation, we performed differential gene expression analysis for each cell type using the ‘SeuratWrappers::RunPrestoAll‘ function on the LogNormalized gene expression data."
+    ]
+  },
+  {
+    "question": "How many major classes are in the cell-type classification hierarchy?",
+    "answer": "There are 3 major classes.",
+    "type": "single-evidence",
+    "evidences": [
+      "A table showing more clearly the hierarchy of our cell-type classification: 3 major classes, 16 subclasses, and 48 cell types."
+    ]
+  },
+  {
+    "question": "Which brain region has glutamatergic transcriptomes most similar to those of the claustrum?",
+    "answer": "The insula has the most similar glutamatergic transcriptomes.",
+    "type": "single-evidence",
+    "evidences": [
+      "Note that the transcriptome profile of glutamatergic cells in the claustrum is most similar to that of glutamatergic cells in the insula."
+    ]
+  },
+  {
+    "question": "How many clusters were identified in the marmoset and macaque claustrum snRNA-seq data?",
+    "answer": "The marmoset data was partitioned into 38 clusters, while the macaque claustrum had 48 clusters.",
+    "type": "multi-evidence",
+    "evidences": [
+      "marmoset data were partitioned into 38 clusters, whereas mouse data were divided into 60 clusters.",
+      "Cell annotations were transferred based on the 48 clusters of the macaque claustrum using the TransferData function from the Seurat package to obtain annotations in different projection areas."
+    ]
+  },
+  {
+    "question": "What were the per-cluster sampling sizes for marmoset and mouse in the two separate downsampling procedures?",
+    "answer": "In the first procedure, 2,500 cells per marmoset cluster and 2,000 per mouse cluster; in the second, 1,500 per marmoset and 6,000 per mouse cluster.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Similarly, 2,500 cells were sampled per marmoset cluster and 2,000 per mouse cluster, using all available cells if the cluster sizes were smaller than these thresholds.",
+      "Similarly, 1,500 cells were selected per marmoset cluster and 6,000 per mouse cluster, using all available cells if the cluster sizes were smaller than these thresholds."
+    ]
+  },
+  {
+    "question": "What cell filtering criteria and differential gene expression thresholds were applied in the PSZ analysis?",
+    "answer": "Cell filtering required median gene count >300, mitochondrial content <5%, and UMI-to-gene ratio >1.2. DEG thresholds were p_val_adj <0.05, auc >0.5, avg_log2FC >0.5, and pct >0.2.",
+    "type": "multi-evidence",
+    "evidences": [
+      "For PSZ#1, a total of 11 libraries were collected and filtered based on the following criteria: median gene count > 300, mitochondrial gene content < 5%, and a UMI-to-gene count ratio > 1.2, resulting in 75,532 cells.",
+      "Finally, we filtered the results based on the following thresholds: p_val_ad < 0.05, auc > 0.5, avg_log2FC > 0.5, and pct > 0.2, ensuring the significance and reliability of the identified gene expression patterns."
+    ]
+  },
+  {
+    "question": "What integration approaches were used for the initial supervised cross-species integration and for the GNB4 subclasses integration?",
+    "answer": "The initial integration used Seurat's SCTransform workflow; the GNB4 integration used the modified RunHarmony function from the Harmony package.",
+    "type": "multi-evidence",
+    "evidences": [
+      "We then used Seurat’s SCTransform workflow to perform supervised integration on claustrum cells across species with downsampling by each subclass.",
+      "We employed the modified ‘RunHarmony‘ function in the Harmony package (v0.1.0) to integrate data across species."
+    ]
+  },
+  {
+    "question": "How many retrogradely labeled neurons were analyzed after tracer injections in the prefrontal cortex and visual cortex?",
+    "answer": "There were 220 labeled neurons from the prefrontal cortex injection and 582 from the visual cortex injection.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Data points represent percentages of each cell type among all claustral glutamatergic cells in eight coronal sections for labeled neurons (solid line, n=220) and unlabeled neurons (dashed line, n=104,509), respectively.",
+      "Data points represent percentages of each cell type among all claustral glutamatergic cells in eight coronal sections for labeled neurons (solid line, n=582) and unlabeled neurons (dashed line, n=104,147), respectively."
+    ]
+  },
+  {
+    "question": "How many subclasses were annotated in mice and marmosets, and how many cell types are in the overall classification?",
+    "answer": "16 subclasses were annotated in mice and marmosets; the classification hierarchy contains 48 cell types.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Moreover, using high variable genes identified from the macaque subclass, we annotated subclasses in mice and marmosets, resulting in 16 subclasses for each species.",
+      "A table showing more clearly the hierarchy of our cell-type classification: 3 major classes, 16 subclasses, and 48 cell types."
+    ]
+  },
+  {
+    "question": "What differential expression thresholds and statistical methods were used in the macaque conserved vs specific comparison and in the GNB4 cell type comparison?",
+    "answer": "For conserved vs specific, thresholds were p_val_adj <0.05, auc >0.5, avg_log2FC >0.5, pct >0.2 using FindAllMarkers. For GNB4, adjusted p<0.05 and log2FC >0.5 with Wilcox test and Bonferroni correction.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Using Seurat’s FindAllMarkers function, we identified differentially expressed genes between the macaque/mouse conserved and macaque-specific clusters following thresholds: p_val_adj < 0.05, auc > 0.5, avg_log2FC > 0.5, and pct > 0.2.",
+      "Differential expressed genes were determined with adjusted p < 0.05 and log2 fold change > 0.5 (Wilcox test, Bonferroni correction)."
+    ]
+  },
+  {
+    "question": "What were the maximum numbers of cells sampled per macaque subclass or cluster in the two cross-species analyses?",
+    "answer": "In the first analysis, up to 2,000 cells per macaque subclass; in the second, up to 1,200 cells per macaque cluster.",
+    "type": "multi-evidence",
+    "evidences": [
+      "For each macaque subclass, 2,000 cells were sampled, with all available cells used if the subclasses contained fewer than 2,000.",
+      "For each macaque cluster, 1,200 cells were selected, with all available cells used if the cluster contained fewer than 1,200."
+    ]
+  },
+  {
+    "question": "How many transcriptome-defined cortical cell types does the macaque cortex atlas include?",
+    "answer": "The atlas includes 264 transcriptome-defined cortical cell types.",
+    "type": "single-evidence",
+    "evidences": [
+      "Using large-scale single-nucleus RNA sequencing and spatial transcriptomic analysis of 143 macaque cortical regions, we obtained a comprehensive atlas of 264 transcriptome-defined cortical cell types and mapped their spatial distribution across the entire cortex."
+    ]
+  },
+  {
+    "question": "What are the five prominent marker genes used to annotate GABAergic neuron subclasses?",
+    "answer": "The five prominent marker genes are LAMP5, VIP, RELN, parvalbumin (PV), and somatostatin (SST).",
+    "type": "single-evidence",
+    "evidences": [
+      "GABAergic neuron subclasses were annotated by 5 prominent marker genes: lysosome-associated membrane protein 5 (LAMP5), vasoactive intestinal peptide (VIP), reelin (RELN), parvalbumin (PV), and somatostatin (SST)."
+    ]
+  },
+  {
+    "question": "Which cortical region had the highest cell density?",
+    "answer": "The primary visual cortex (V1) had the highest density, at approximately 1500 cells per µm².",
+    "type": "single-evidence",
+    "evidences": [
+      "Further analysis of our stereo-seq cell-type maps showed marked cell density differences among various cortical regions, with the highest density in V1 $( \\sim 1 , 5 0 0 \\ c e | | \\mathsf { s } / \\mu \\mathsf { m } ^ { 2 } )$ ) and the lowest density in the entorhinal cortex (Elc; 200 cells $\\cdot \\mathrm { \\mu m } ^ { 2 } )$ ) (Figure S3A)."
+    ]
+  },
+  {
+    "question": "What was the average number of genes detected per cell in the stereo-seq analysis?",
+    "answer": "An average of 458 genes per cell were detected.",
+    "type": "single-evidence",
+    "evidences": [
+      "Using this method, we obtained 266,310 segmented cortical cells per section with an average of 819 unique molecular identifiers (UMIs) and 458 genes per cell (Figure 2C; Table S3)."
+    ]
+  },
+  {
+    "question": "What are the three major cell classes at level 1 of the transcriptomic taxonomy?",
+    "answer": "The three major cell classes are glutamatergic, GABAergic, and non-neuronal cells.",
+    "type": "single-evidence",
+    "evidences": [
+      "Level 1 represents three major cell classes: glutamatergic (969,794), GABAergic (268,097) and non-neuronal (97,298) cells."
+    ]
+  },
+  {
+    "question": "How many cortical cells were mapped in the spatial transcriptome map?",
+    "answer": "42,076,954 cortical cells were mapped.",
+    "type": "single-evidence",
+    "evidences": [
+      "Using this method, we identified cell types for 42,076,954 cortical cells in the spatial transcriptome map."
+    ]
+  },
+  {
+    "question": "How many coronal sections at what spacing were obtained from monkey #1 for stereo-seq?",
+    "answer": "A total of 119 sections at 500-µm spacing were obtained from monkey #1.",
+    "type": "single-evidence",
+    "evidences": [
+      "In monkey #1, we obtained a total of 119 sections at $5 0 0 - \\mu \\mathrm { m }$ spacing covering the entire cortex (Table S3), together with two 10- $\\mu \\mathsf { m }$ sections adjacent to each stereo-seq section for immunostaining and several adjacent $5 0 - \\mu \\mathrm { m }$ thick sections for regional microdissection and snRNA-seq analysis (see above, Figure 1A)."
+    ]
+  },
+  {
+    "question": "What are the six non-neuronal subclasses identified in the macaque cortex?",
+    "answer": "The six non-neuronal subclasses are astrocytes, oligodendrocyte precursor cells, oligodendrocytes, microglia, endothelial cells, and vascular leptomeningeal cells.",
+    "type": "single-evidence",
+    "evidences": [
+      "The 6 non-neuronal subclasses included astrocytes (ASCs), oligodendrocyte precursor cells (OPCs), oligodendrocytes (OLGs), microglia (MG), endothelial cells (ECs), and vascular leptomeningeal cells (VLMCs), each annotated by their specific marker genes (Figure S1K)."
+    ]
+  },
+  {
+    "question": "In which cortical layers are RELN subclass GABAergic neurons predominantly located?",
+    "answer": "RELN subclass GABAergic neurons are predominantly located in layers 1 and 2.",
+    "type": "single-evidence",
+    "evidences": [
+      "We next examined the layer and regional specificities of GABAergic cells and found that RELN subclass was predominantly located in L1/2, whereas LAMP5, VIP, and VIP_RELN subclasses were enriched in L2/3/4."
+    ]
+  },
+  {
+    "question": "What primate-specific cell type enrichment was found through cross-species comparison?",
+    "answer": "Primate-specific cell types were found to be enriched in layer 4, with their marker genes expressed in a region-dependent manner.",
+    "type": "single-evidence",
+    "evidences": [
+      "Cross-species comparison of transcriptomic data from human, macaque, and mouse cortices further revealed primate-specific cell types that are enriched in layer 4, with their marker genes expressed in a region-dependent manner."
+    ]
+  },
+  {
+    "question": "What is the total number of cells used for snRNA-seq, and how many of those came from monkey #1?",
+    "answer": "A total of 1,493,240 cells were used for snRNA-seq, of which 646,393 cells were obtained from monkey #1.",
+    "type": "multi-evidence",
+    "evidences": [
+      "A total of 1,493,240 cells from 143 regions of the entire cerebral cortex of two monkeys were used for snRNA-seq analysis and cell-type classification.",
+      "In monkey #1, 646,393 cells were obtained from $5 0 - \\mu \\mathrm { m }$ coronal sections adjacent to those used for stereo-seq."
+    ]
+  },
+  {
+    "question": "What section thickness was used for stereo-seq, and what was the average number of segmented cells per section?",
+    "answer": "Stereo-seq used 10-µm coronal sections, and an average of 266,310 cells were segmented per section.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Stereo-seq analysis was performed on $1 0 \\mathrm { - } \\mu \\mathrm { m }$ coronal sections from the freshly isolated left hemisphere of three adult male cynomolgus monkeys.",
+      "Using this method, we obtained 266,310 segmented cortical cells per section with an average of 819 unique molecular identifiers (UMIs) and 458 genes per cell (Figure 2C; Table S3)."
+    ]
+  },
+  {
+    "question": "How many cell types were identified, and what analysis showed that cortical lobes can be distinguished by cell-type composition?",
+    "answer": "264 cell types were identified, and unsupervised clustering analysis revealed that 9 cortical lobes could be distinguished by their cell-type compositions.",
+    "type": "multi-evidence",
+    "evidences": [
+      "This led to the identification of 264 cell clusters for 143 cortical regions, which were grouped into 9 conventional lobes (prefrontal, frontal, occipital, temporal, parietal, auditory, somatosensory, cingulate, and insular; Figure 1B; Table S1).",
+      "Unsupervised clustering analysis revealed that 9 major cortical lobes could be distinguished by their cell-type compositions based on the stereo-seq map (Figure 2G) and snRNA-seq data (Figure S2K)."
+    ]
+  },
+  {
+    "question": "What are the five prominent GABAergic subclass marker genes, and what two SST cell groups were identified with complementary regional abundance?",
+    "answer": "The five markers are LAMP5, VIP, RELN, PV, and SST. SST cells formed group 1 enriched in prefrontal and cingulate cortices and group 2 enriched in occipital and parietal cortices.",
+    "type": "multi-evidence",
+    "evidences": [
+      "GABAergic neuron subclasses were annotated by 5 prominent marker genes: lysosome-associated membrane protein 5 (LAMP5), vasoactive intestinal peptide (VIP), reelin (RELN), parvalbumin (PV), and somatostatin (SST).",
+      "We found two groups of SST cell types that showed ‘‘complementary abundance’’ in the macaque cortex: group 1 exhibited high density in the prefrontal and cingulate cortices, whereas group 2 mainly populated in the occipital and parietal cortices (Figure 5C)."
+    ]
+  },
+  {
+    "question": "What spatial transcriptome method was employed, and what physical factors enabled single-cell resolution?",
+    "answer": "The stereo-seq method was employed; the 10-µm section thickness combined with preservation procedures that reduced mRNA diffusion enabled single-cell resolution.",
+    "type": "multi-evidence",
+    "evidences": [
+      "In this study, we employed a newly developed large-field-ofview spatial transcriptome method, termed ‘‘stereo-seq,28’ and developed a method for preparing centimeter-scale thin sections of the monkey brain.",
+      "The $1 0 \\mathrm { - } \\mu \\mathrm { m }$ section thickness, together with section preservation procedures that reduced mRNA diffusion, facilitated spatial transcriptome analysis at the single-cell resolution."
+    ]
+  },
+  {
+    "question": "What is the cell density in V1, and what gene is characteristic of V1-specific glutamatergic cell types?",
+    "answer": "V1 has a density of approximately 1500 cells per µm², and V1-specific cell types highly express NTNG1.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Further analysis of our stereo-seq cell-type maps showed marked cell density differences among various cortical regions, with the highest density in V1 $( \\sim 1 , 5 0 0 \\ c e | | \\mathsf { s } / \\mu \\mathsf { m } ^ { 2 } )$ ) and the lowest density in the entorhinal cortex (Elc; 200 cells $\\cdot \\mathrm { \\mu m } ^ { 2 } )$ ) (Figure S3A).",
+      "V1-specific cell types were characterized by a high expression of NTNG1, which is known to guide axon growth during neuronal development, and its polymorphism was associated with schizophrenia."
+    ]
+  },
+  {
+    "question": "How many monkeys provided brain tissue for snRNA-seq, and how many for stereo-seq?",
+    "answer": "Two monkeys were used for snRNA-seq, and three monkeys for stereo-seq.",
+    "type": "multi-evidence",
+    "evidences": [
+      "For snRNA-seq analysis, we used cortical tissues from two cynomolgus monkey brains.",
+      "Stereo-seq analysis was performed on $1 0 \\mathrm { - } \\mu \\mathrm { m }$ coronal sections from the freshly isolated left hemisphere of three adult male cynomolgus monkeys."
+    ]
+  },
+  {
+    "question": "What are the three major cell classes in the macaque cortex taxonomy, and how many glutamatergic cell types are highly localized to specific cortical regions?",
+    "answer": "The three major cell classes are glutamatergic, GABAergic, and non-neuronal cells. Nine glutamatergic cell types are highly localized to specific cortical regions.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Level 1 represents three major cell classes: glutamatergic (969,794), GABAergic (268,097) and non-neuronal (97,298) cells.",
+      "We further zoomed in to the regional distribution of each glutamatergic cell type (Table S5) and found that nine glutamatergic cell types were highly localized to specific cortical regions (Figures 4C, 4D, and S4A)."
+    ]
+  },
+  {
+    "question": "What is the function of chandelier cells in the cortex?",
+    "answer": "Chandelier cells innervate the axon initial segments of pyramidal neurons and can veto neuronal firing.",
+    "type": "single-evidence",
+    "evidences": [
+      "Chandelier cells innervate the axon initial segments (AISs) of pyramid neurons and could veto neuronal firing."
+    ]
+  },
+  {
+    "question": "Which chandelier cell type is most abundant in layer 2, and where are the other two types most abundant?",
+    "answer": "CHC.3 is the most abundant in layer 2, whereas CHC.1 and CHC.2 are most abundant in layer 4.",
+    "type": "single-evidence",
+    "evidences": [
+      "Among the three chandelier cell types, CHC.3 was the most abundant in L2, whereas CHC.1 and CHC.2 were dispersed among all layers and the most abundant in L4 (Figure 5F)."
+    ]
+  },
+  {
+    "question": "In which cortical areas is the PV/(PV+SST) cell density ratio the highest?",
+    "answer": "The ratio is highest in motor cortices (F1–F3, F6, and F7) and the entorhinal area.",
+    "type": "single-evidence",
+    "evidences": [
+      "We therefore examined L2/3 PV/$( \\mathsf { P V } + \\mathsf { S S T } )$ cell density ratios and found that $^ { \\mathrm { { 3 } } } \\mathsf { V } / ( \\mathsf { P } \\mathsf { V } + \\mathsf { S } \\mathsf { S } \\mathsf { T } )$ ) density ratio was the highest in motor cortices (F1–F3, F6, and F7) and the entorhinal area and the lowest in the insular and auditory cortices (Figure 5I)."
+    ]
+  },
+  {
+    "question": "Does the PV and SST density ratio in macaque show a significant correlation with hierarchical levels in sensory systems?",
+    "answer": "No, it does not show any significant correlation with hierarchical levels in either the visual or somatosensory system.",
+    "type": "single-evidence",
+    "evidences": [
+      "However, PV and SST density ratio in macaque did not show any significant correlation with the hierarchical levels in either sensory system (Figure S5L)."
+    ]
+  },
+  {
+    "question": "What did principal component analysis reveal about PV and SST cell-type compositions and hierarchy?",
+    "answer": "The first principal component exhibited a positive correlation with the hierarchical levels of both the visual and somatosensory systems.",
+    "type": "single-evidence",
+    "evidences": [
+      "The first principal component (PC1) of various regions exhibited a positive correlation with the hierarchical levels of both sensory systems (Figure 5J), suggesting that the PV and SST interneurons with distinct soma- and dendritic-targeting properties are tightly regulated to support the functions of various cortical regions."
+    ]
+  },
+  {
+    "question": "Which glutamatergic receptor families are expressed at higher levels in group 2 ASCs?",
+    "answer": "AMPA, Kainate, NMDA, and Delta receptor families are all expressed at higher levels in group 2 ASCs.",
+    "type": "single-evidence",
+    "evidences": [
+      "Further analysis revealed that the glutamatergic receptor genes, including AMPA, Kainate, NMDA, and Delta families, were all expressed at a higher level in the group 2 ASCs (Figure 6D)."
+    ]
+  },
+  {
+    "question": "How many primate-specific glutamatergic L4 cell types were found in macaque and human but not in mouse?",
+    "answer": "Six such cell types were identified.",
+    "type": "single-evidence",
+    "evidences": [
+      "Remarkably, a pairwise comparison of the transcriptome profiles of cell types uncovered six glutamatergic L4 cell types that were present in the PFC, F1, and V1 regions of macaques and humans but not in mice (Figures 7A–7C, marked in red)."
+    ]
+  },
+  {
+    "question": "In macaque cortical regions with a clear layer 4, where is FOXP2 expression highest?",
+    "answer": "FOXP2 expression is highest in layer 4 for most cortical regions.",
+    "type": "single-evidence",
+    "evidences": [
+      "We further quantified FOXP2 expression in each cortical layer of all regions of the macaque cortex and found that this gene showed the highest expression level in L4 for most cortical regions (Figure 7H)."
+    ]
+  },
+  {
+    "question": "What is the average number of genes captured per cell by the spatial transcriptome method used in the study?",
+    "answer": "Approximately 500 genes per cell were captured.",
+    "type": "single-evidence",
+    "evidences": [
+      "The average number of genes captured per cell (~500) by the present method was higher than that found by using previously reported methods, although it remained much lower than that obtained by conventional snRNA-seq method."
+    ]
+  },
+  {
+    "question": "How does the regional distribution of non-neuronal cell types correlate with cortical hierarchy?",
+    "answer": "The regional distribution of non-neuronal cell types only exhibits positive correlations with the hierarchy level.",
+    "type": "single-evidence",
+    "evidences": [
+      "Finally, the regional distribution of non-neuronal cell types only exhibits positive correlations with the hierarchy level."
+    ]
+  },
+  {
+    "question": "What are the laminar and regional distribution characteristics of the ASC.11 cell type?",
+    "answer": "ASC.11 is predominantly located in layer 6 and is preferentially enriched in the occipital lobe.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Notably, we also identified two groups of ASCs, group 1 (ASC.1 GFAP/ APLNR and ASC.2 MSX2/TFAP2C) and group 2 (ASC.11 ADGRV1/GRAMD2), which were predominantly located in L1 and L6, respectively (Figures 6B and S6B).",
+      "Among ASC cell types, ASC.10, ASC.11, ASC.13, and ASC.16 were preferentially enriched in the occipital lobe."
+    ]
+  },
+  {
+    "question": "What correlation does the first principal component of PV/SST cell-type composition show with hierarchy, and which major cell class has more cell types negatively correlated with hierarchy?",
+    "answer": "The first principal component shows a positive correlation with hierarchical levels; glutamatergic cell types have a much higher number of negatively correlated cell types than GABAergic cell types.",
+    "type": "multi-evidence",
+    "evidences": [
+      "The first principal component (PC1) of various regions exhibited a positive correlation with the hierarchical levels of both sensory systems (Figure 5J), suggesting that the PV and SST interneurons with distinct soma- and dendritic-targeting properties are tightly regulated to support the functions of various cortical regions.",
+      "Third, the number of glutamatergic cell types with negative correlation with hierarchy is much higher than that of GABAergic cell types."
+    ]
+  },
+  {
+    "question": "Which non-neuronal cell types are distributed in a gradient along the A-P axis, and what are their laminar preferences?",
+    "answer": "ASC, MG, and OLG cell types show a gradient along the anterior-posterior axis; laminar preferences include EC and VLMC predominantly in L1, OLGs enriched in L6, and ASCs dispersed across layers.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Systematic evaluation of the regional distribution of non-neuronal cell types showed that ASC, MG, and OLG cell types were distributed in a gradient along the A-P axis (Figure 6E; Table S5).",
+      "For examples, EC and VLMC cell types were predominantly distributed in L1, OLG cells were enriched in L6, and ASCs were dispersed throughout cortical layers (Figure 6A)."
+    ]
+  },
+  {
+    "question": "What are the A-P axis distribution patterns of the two OLG groups, and how does non-neuronal cell distribution overall correlate with hierarchy?",
+    "answer": "Group 1 OLGs are localized to medial regions and group 2 OLGs to posterior regions along the A-P axis; overall, the regional distribution of non-neuronal cell types only shows positive correlations with hierarchy.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Among OLG cell types, we identified two groups based on their global distribution: group 1 cells (OLG.3 ANLN/CNDP1, OLG.5 PLP1/ERMN, OLG.7 ANLN/MOBP, and OLG.8 PLP1/ OPALIN) and group 2 cells (OLG.6 PLP1/MOG and OLG.11 ANLN/MOG) were localized to medial and posterior regions along the A-P axis, respectively (Figure 6E).",
+      "Finally, the regional distribution of non-neuronal cell types only exhibits positive correlations with the hierarchy level."
+    ]
+  },
+  {
+    "question": "How many primate-specific L4 glutamatergic cell types were discovered, and what key genes do they highly express?",
+    "answer": "Six primate-specific L4 glutamatergic cell types were found in macaques and humans but not mice; they highly express genes including FOXP2, EPHA3, and DCC.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Remarkably, a pairwise comparison of the transcriptome profiles of cell types uncovered six glutamatergic L4 cell types that were present in the PFC, F1, and V1 regions of macaques and humans but not in mice (Figures 7A–7C, marked in red).",
+      "In addition, we found that 53 out of the 226 genes, including FOXP2, EPHA3, and DCC, showed much higher expression levels in the L4/5 IT subclass neurons of humans and macaques than in those of mice (Figure 7G)."
+    ]
+  },
+  {
+    "question": "How does the correlation with hierarchy differ between the PV/SST density ratio and the non-neuronal cell distribution?",
+    "answer": "The PV/SST density ratio shows no significant correlation with hierarchy, whereas the regional distribution of non-neuronal cells only exhibits positive correlations.",
+    "type": "multi-evidence",
+    "evidences": [
+      "However, PV and SST density ratio in macaque did not show any significant correlation with the hierarchical levels in either sensory system (Figure S5L).",
+      "Finally, the regional distribution of non-neuronal cell types only exhibits positive correlations with the hierarchy level."
+    ]
+  },
+  {
+    "question": "Which group of ASCs is enriched in layer 6, and how does their abundance compare between V1 and the prefrontal cortex?",
+    "answer": "Group 2 ASCs (including ASC.11) are predominantly located in layer 6; these L6-enriched ASCs are more abundant in V1 than in the prefrontal cortex.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Notably, we also identified two groups of ASCs, group 1 (ASC.1 GFAP/ APLNR and ASC.2 MSX2/TFAP2C) and group 2 (ASC.11 ADGRV1/GRAMD2), which were predominantly located in L1 and L6, respectively (Figures 6B and S6B).",
+      "In addition to the laminar preference, we also observed that L6-enriched ASCs were more abundant in V1 than in prefrontal cortex (PFC) (Figure 6B)."
+    ]
+  },
+  {
+    "question": "What cell type novelty was found in primates, and how does hierarchical organization in primate brains compare to mice?",
+    "answer": "Six L4 glutamatergic cell types are present in macaques and humans but absent in mice; the primate brain is more hierarchically organized than the mouse brain.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Remarkably, a pairwise comparison of the transcriptome profiles of cell types uncovered six glutamatergic L4 cell types that were present in the PFC, F1, and V1 regions of macaques and humans but not in mice (Figures 7A–7C, marked in red).",
+      "The primate brain is more hierarchically organized than the mouse brain."
+    ]
+  },
+  {
+    "question": "What technology is covered in pending patents according to the declaration?",
+    "answer": "Stereo-seq.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Stereo-seq is covered in pending patents.\""
+    ]
+  },
+  {
+    "question": "Who holds company stock as stated in the declaration?",
+    "answer": "BGI employees hold company stock.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"BGI employees hold company stock.\""
+    ]
+  },
+  {
+    "question": "In which journal did Sousa et al. publish their 2017 article on human nervous system evolution?",
+    "answer": "Cell.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Sousa, A.M.M., Meyer, K.A., Santpere, G., Gulden, F.O., and Sestan, N. (2017). Evolution of the human nervous system function, structure, and development. Cell 170, 226–247. https://doi.org/10.1016/j.cell.2017. 06.036.\""
+    ]
+  },
+  {
+    "question": "What is the title of the 2016 paper by Bakken et al. about primate brain development?",
+    "answer": "A comprehensive transcriptional map of primate brain development.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Bakken, T.E., Miller, J.A., Ding, S.L., Sunkin, S.M., Smith, K.A., Ng, L., Szafer, A., Dalley, R.A., Royall, J.J., Lemon, T., et al. (2016). A comprehensive transcriptional map of primate brain development. Nature 535, 367–375. https://doi.org/10.1038/nature18637.\""
+    ]
+  },
+  {
+    "question": "What is the name of the journal that published the 2021 paper by Berg et al. on glutamatergic neuron diversification?",
+    "answer": "Nature.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Berg, J., Sorensen, S.A., Ting, J.T., Miller, J.A., Chartrand, T., Buchin, A., Bakken, T.E., Budzillo, A., Dee, N., Ding, S.L., et al. (2021). Human neocortical expansion involves glutamatergic neuron diversification. Nature 598, 151–158. https://doi.org/10.1038/s41586-021-03813-8.\""
+    ]
+  },
+  {
+    "question": "Which year was the paper \"Innovations present in the primate interneuron repertoire\" published?",
+    "answer": "2020.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Krienen, F.M., Goldman, M., Zhang, Q., C H Del Rosario, R., Florio, M., Machold, R., Saunders, A., Levandowski, K., Zaniewski, H., Schuman, B., et al. (2020). Innovations present in the primate interneuron repertoire. Nature 586, 262–269. https://doi.org/10.1038/s41586-020-2781-z.\""
+    ]
+  },
+  {
+    "question": "What is the title of the 2019 Cell paper by Hodge et al. about human versus mouse cortex?",
+    "answer": "Conserved cell types with divergent features in human versus mouse cortex.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Hodge, R.D., Bakken, T.E., Miller, J.A., Smith, K.A., Barkan, E.R., Graybuck, L.T., Close, J.L., Long, B., Johansen, N., Penn, O., et al. (2019). Conserved cell types with divergent features in human versus mouse cortex. Nature 573, 61–68. https://doi.org/10.1038/s41586-019-1506-7.\""
+    ]
+  },
+  {
+    "question": "In which journal was the 2021 article \"A taxonomy of transcriptomic cell types across the isocortex and hippocampal formation\" published?",
+    "answer": "Cell.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Yao, Z., van Velthoven, C.T.J., Nguyen, T.N., Goldy, J., Sedeno-Cortes, A.E., Baftizadeh, F., Bertagnolli, D., Casper, T., Chiang, M., Crichton, K., et al. (2021). A taxonomy of transcriptomic cell types across the isocortex and hippocampal formation. Cell 184, 3222–3241.e26. https://doi.org/10. 1016/j.cell.2021.04.021.\""
+    ]
+  },
+  {
+    "question": "What volume of Nature contains the 2021 BICCN article \"A multimodal cell census and atlas of the mammalian primary motor cortex\"?",
+    "answer": "Volume 598.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"BRAIN Initiative Cell Census Network (BICCN) (2021). A multimodal cell census and atlas of the mammalian primary motor cortex. Nature 598, 86–102. https://doi.org/10.1038/s41586-021-03950-0.\""
+    ]
+  },
+  {
+    "question": "Who are the authors of the 2015 Science paper titled \"RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells\"?",
+    "answer": "Chen, K.H., Boettiger, A.N., Moffitt, J.R., Wang, S., and Zhuang, X.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Chen, K.H., Boettiger, A.N., Moffitt, J.R., Wang, S., and Zhuang, X. (2015). RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells. Science 348, aaa6090. https://doi.org/10.1126/science.aaa6090.\""
+    ]
+  },
+  {
+    "question": "What date is associated with the acceptance of the document that contains the statement \"BGI employees hold company stock\"?",
+    "answer": "June 14, 2023.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"BGI employees hold company stock.\"",
+      "\"Accepted: June 14, 2023\""
+    ]
+  },
+  {
+    "question": "What date is associated with the publication of the document that contains the statement \"Stereo-seq is covered in pending patents\"?",
+    "answer": "July 12, 2023.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Stereo-seq is covered in pending patents.\"",
+      "\"Published: July 12, 2023\""
+    ]
+  },
+  {
+    "question": "What is the revision date of the document that includes the declaration about Stereo-seq patents?",
+    "answer": "February 24, 2023.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Stereo-seq is covered in pending patents.\"",
+      "\"Revised: February 24, 2023\""
+    ]
+  },
+  {
+    "question": "What is the received date of the document that states BGI employees hold company stock?",
+    "answer": "October 11, 2022.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"BGI employees hold company stock.\"",
+      "\"Received: October 11, 2022\""
+    ]
+  },
+  {
+    "question": "What publication year do the articles \"Evolution of the human nervous system function, structure, and development\" and \"Comprehensive transcriptome analysis of neocortical layers in humans, chimpanzees and macaques\" share?",
+    "answer": "Both were published in 2017.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Sousa, A.M.M., Meyer, K.A., Santpere, G., Gulden, F.O., and Sestan, N. (2017). Evolution of the human nervous system function, structure, and development. Cell 170, 226–247. https://doi.org/10.1016/j.cell.2017. 06.036.\"",
+      "\"He, Z., Han, D., Efimova, O., Guijarro, P., Yu, Q., Oleksiak, A., Jiang, S., Anokhin, K., Velichkovsky, B., Gru¨ newald, S., and Khaitovich, P. (2017). Comprehensive transcriptome analysis of neocortical layers in humans, chimpanzees and macaques. Nat. Neurosci. 20, 886–895. https://doi. org/10.1038/nn.4548.\""
+    ]
+  },
+  {
+    "question": "Which two journals published the articles \"Transcriptional architecture of the primate neocortex\" and \"Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortex\"?",
+    "answer": "Neuron and Nature Neuroscience, respectively.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Bernard, A., Lubbers, L.S., Tanis, K.Q., Luo, R., Podtelezhnikov, A.A., Finney, E.M., McWhorter, M.M., Serikawa, K., Lemon, T., Morgan, R., et al. (2012). Transcriptional architecture of the primate neocortex. Neuron 73, 1083–1099. https://doi.org/10.1016/j.neuron.2012.03.002.\"",
+      "\"Maynard, K.R., Collado-Torres, L., Weber, L.M., Uytingco, C., Barry, B.K., Williams, S.R., Catallini, J.L., 2nd, Tran, M.N., Besich, Z., Tippani, M., et al. (2021). Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortex. Nat. Neurosci. 24, 425–436. https://doi.org/10. 1038/s41593-020-00787-0.\""
+    ]
+  },
+  {
+    "question": "What are the titles of the Science articles from 2018 and 2022 authored by Zhu et al. and Ma et al. respectively?",
+    "answer": "\"Spatiotemporal transcriptomic divergence across human and macaque brain development\" (2018) and \"Molecular and cellular evolution of the primate dorsolateral prefrontal cortex\" (2022).",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Zhu, Y., Sousa, A.M.M., Gao, T., Skarica, M., Li, M., Santpere, G., Esteller-Cucala, P., Juan, D., Ferra´ ndez-Peral, L., Gulden, F.O., et al. (2018). Spatiotemporal transcriptomic divergence across human and macaque brain development. Science 362, eaat8077. https://doi.org/10.1126/science.aat8077.\"",
+      "\"Ma, S., Skarica, M., Li, Q., Xu, C., Risgaard, R.D., Tebbenkamp, A.T.N., Mato-Blanco, X., Kovner, R., Krsnik, Z., de Martin, X., et al. (2022). Molec-\u0001 ular and cellular evolution of the primate dorsolateral prefrontal cortex. Science 377, eabo7257. https://doi.org/10.1126/science.abo7257.\""
+    ]
+  },
+  {
+    "question": "What are the titles of the two 2021 Nature articles that address comparative cellular analysis of motor cortex and human neocortical glutamatergic neuron diversification?",
+    "answer": "\"Comparative cellular analysis of motor cortex in human, marmoset and mouse\" by Bakken et al. and \"Human neocortical expansion involves glutamatergic neuron diversification\" by Berg et al.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Bakken, T.E., Jorstad, N.L., Hu, Q., Lake, B.B., Tian, W., Kalmbach, B.E., Crow, M., Hodge, R.D., Krienen, F.M., Sorensen, S.A., et al. (2021). Comparative cellular analysis of motor cortex in human, marmoset and mouse. Nature 598, 111–119. https://doi.org/10.1038/s41586-021- 03465-8.\"",
+      "\"Berg, J., Sorensen, S.A., Ting, J.T., Miller, J.A., Chartrand, T., Buchin, A., Bakken, T.E., Budzillo, A., Dee, N., Ding, S.L., et al. (2021). Human neocortical expansion involves glutamatergic neuron diversification. Nature 598, 151–158. https://doi.org/10.1038/s41586-021-03813-8.\""
+    ]
+  },
+  {
+    "question": "Who is the lead contact for resource and reagent requests regarding the spatial transcriptomics study?",
+    "answer": "The lead contact is Chengyu Li, who can be reached at tonylicy@ion.ac.cn.",
+    "type": "single-evidence",
+    "evidences": [
+      "Further information and requests for the resources and reagents may be directed to and will be fulfilled by the lead contact, Chengyu Li (tonylicy@ion.ac.cn)."
+    ]
+  },
+  {
+    "question": "What URL provides access to the processed spatial-omics data from macaque brain?",
+    "answer": "Processed data can be accessed and downloaded at https://macaque.digital-brain.cn/spatial-omics.",
+    "type": "single-evidence",
+    "evidences": [
+      "The processed data ready for exploration can be accessed and downloaded via https://macaque.digital-brain.cn/ spatial-omics."
+    ]
+  },
+  {
+    "question": "What accession code was assigned to the raw data deposited in the CNGB Nucleotide Sequence Archive?",
+    "answer": "The accession code is CNP0002035.",
+    "type": "single-evidence",
+    "evidences": [
+      "All raw data have been deposited to CNGB Nucleotide Sequence Archive (accession code: CNP0002035, https://db.cngb.org/search/project/CNP0002035) and are publicly available as of the date of publication."
+    ]
+  },
+  {
+    "question": "How many male cynomolgus monkeys were used, and what were their ages?",
+    "answer": "Three male cynomolgus monkeys were used, aged 6, 4, and 7 years.",
+    "type": "single-evidence",
+    "evidences": [
+      "Left hemispheres were collected from three male cynomolgus monkeys (M. fascicularis; #1, 6-year-old, 4.2 kg; #2, 4-year-old, 3.7 kg; #3, 7-year-old, 10.6 kg)."
+    ]
+  },
+  {
+    "question": "What anesthetic agents were administered to the monkeys prior to brain perfusion?",
+    "answer": "The monkeys were anesthetized with tiletamine hydrochloride, zolazepam hydrochloride (25 mg/kg, I.M), and xylazine hydrochloride (20 mg/kg, I.M).",
+    "type": "single-evidence",
+    "evidences": [
+      "The animals were deeply anesthetized with tiletamine hydrochloride, zolazepam hydrochloride (25 mg/kg, I.M) and xylazine hydrochloride (20 mg/kg, I.M)."
+    ]
+  },
+  {
+    "question": "What temperature was the cooling chamber set to prior to cryosectioning?",
+    "answer": "The cooling chamber was set to -20°C.",
+    "type": "single-evidence",
+    "evidences": [
+      "Before cryosection, temperature of the cooling chamber was set to -20°C."
+    ]
+  },
+  {
+    "question": "What thicknesses of coronal sections were collected for Stereo-seq, immunohistochemical staining, and snRNA-seq?",
+    "answer": "One 10-μm section was collected for Stereo-seq, two 10-μm sections for immunohistochemical staining, and three to five 50-μm sections for snRNA-seq.",
+    "type": "single-evidence",
+    "evidences": [
+      "At each desired coronal coordinate, cryosection was performed to obtain one 10-um section for Stereo-seq, two 10-um sections for immunohistochemical staining, and three-five 50-um sections for snRNA-seq."
+    ]
+  },
+  {
+    "question": "How long was the methanol fixation step for Stereo-seq tissue sections, and at what temperature?",
+    "answer": "The tissue sections were fixed in methanol at -20°C for 30 minutes.",
+    "type": "single-evidence",
+    "evidences": [
+      "The tissue section on the Stereo-seq chip (5 cm x 3 cm or 2 cm x 3 cm) was then incubated at 37°C for 5-8 min and subsequently fixed in methanol (Sigma, 34860, precooled for 30 mins at -20°C; 40 ml methanol was added in 10 cm dish for each section) and incubated at -20°C for 30 minutes."
+    ]
+  },
+  {
+    "question": "What exposure time was used when capturing fluorescent section images with the Zeiss Axio Scan Z1 microscope?",
+    "answer": "The exposure time was 10 milliseconds.",
+    "type": "single-evidence",
+    "evidences": [
+      "Section images were captured using Zeiss Axio Scan Z1 microscope (at EGFP wavelength, 10-ms exposure)."
+    ]
+  },
+  {
+    "question": "What kit was used for snRNA-seq library preparation?",
+    "answer": "The DNBelab C Series High-throughput Single-Cell RNA Library Preparation Kit (MGI, #940-000047-00) was used.",
+    "type": "single-evidence",
+    "evidences": [
+      "The DNBelab C Series High-throughput Single-Cell RNA Library Preparation Kit (MGI, #940-000047-00) was utilized to construct the sequencing libraries according to the manufacturer’s protocol."
+    ]
+  },
+  {
+    "question": "How many cynomolgus monkeys were used in total across the Stereo-seq, snRNA-seq, and RNAscope experiments?",
+    "answer": "A total of four monkeys were used: three males (aged 6, 4, and 7 years) for Stereo-seq and snRNA-seq, and one 18-year-old female for RNAscope.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Left hemispheres were collected from three male cynomolgus monkeys (M. fascicularis; #1, 6-year-old, 4.2 kg; #2, 4-year-old, 3.7 kg; #3, 7-year-old, 10.6 kg).",
+      "Fixed frozen tissues from an 18-year-old female cynomolgus monkey (M. fascicularis) were used to prepare 14-μm thick sections, which were mounted on SuperFrost Plus Slides (Fisher Scientific, Cat. No. 12-550-15)."
+    ]
+  },
+  {
+    "question": "How many snRNA-seq libraries were included for downstream analysis, and how many cells remained after the initial quality control?",
+    "answer": "444 snRNA-seq libraries were included, and after quality control, 1,493,240 cells were retained.",
+    "type": "multi-evidence",
+    "evidences": [
+      "As a result, 444 snRNA-seq libraries covering different brain areas among two macaques were included for further downstream analysis.",
+      "After the first quality control, 1,493,240 cells were remained for the following analyses."
+    ]
+  },
+  {
+    "question": "What was the time limit for the tissue collection process, and at what temperature were tissue blocks stored between successive days of sectioning?",
+    "answer": "The whole tissue collection process was completed within 30 minutes, and tissue blocks were stored at -80°C between sectioning days.",
+    "type": "multi-evidence",
+    "evidences": [
+      "The whole tissue collection process was completed within 30 min.",
+      "Between successive days of sectioning, the tissue blocks were stored at -80°C."
+    ]
+  },
+  {
+    "question": "What were the incubation temperatures for reverse transcription in Stereo-seq and probe hybridization in RNAscope?",
+    "answer": "Reverse transcription was carried out at 42°C, while RNAscope probe hybridization was performed at 40°C.",
+    "type": "multi-evidence",
+    "evidences": [
+      "RNAs were then reverse transcribed for 2 hours at 42°C.",
+      "The sections were then hybridized with each probe (FOXP2, EPHA3, SST) in a HybEZ oven (Advanced Cell Diagnostics, Newark, CA, USA) for 2 hours at 40°C."
+    ]
+  },
+  {
+    "question": "What are the possible dimensions of the Stereo-seq chip, and which sequencing platform was used?",
+    "answer": "The Stereo-seq chip was either 5 cm x 3 cm or 2 cm x 3 cm, and the libraries were sequenced on the DNBSEQ T10 platform.",
+    "type": "multi-evidence",
+    "evidences": [
+      "The tissue section on the Stereo-seq chip (5 cm x 3 cm or 2 cm x 3 cm) was then incubated at 37°C for 5-8 min and subsequently fixed in methanol (Sigma, 34860, precooled for 30 mins at -20°C; 40 ml methanol was added in 10 cm dish for each section) and incubated at -20°C for 30 minutes.",
+      "Finally, the DNBs were sequenced on the DNBSEQTM T10 sequencing platform (MGI, Shenzhen, China) with 50 bp read1 and 100 bp read2."
+    ]
+  },
+  {
+    "question": "In the snRNA-seq cDNA libraries, which base pairs of read1 constitute the bead barcodes, and what kit was used for library preparation?",
+    "answer": "The bead barcodes correspond to 1-10bp and 11-20bp of read1, and the libraries were prepared using the DNBelab C Series High-throughput Single-Cell RNA Library Preparation Kit.",
+    "type": "multi-evidence",
+    "evidences": [
+      "For cDNA libraries, 1-10bp and 11-20bp of read1 were bead barcodes, the 21-30bp was UMI sequence, the whole read2 (100bp) was used for downstream alignment analysis.",
+      "The DNBelab C Series High-throughput Single-Cell RNA Library Preparation Kit (MGI, #940-000047-00) was utilized to construct the sequencing libraries according to the manufacturer’s protocol."
+    ]
+  },
+  {
+    "question": "What fixative and incubation time were used for immunohistochemical staining and for RNAscope post-fixation?",
+    "answer": "For IHC, tissues were fixed with 4% paraformaldehyde in 0.1M PBS for 10 minutes; for RNAscope, sections were post-fixed with pre-chilled 4% paraformaldehyde in PBS for 15 minutes at 4°C.",
+    "type": "multi-evidence",
+    "evidences": [
+      "The mounted brain tissues were fixed with 4% paraformaldehyde in 0.1M phosphate buffer (PBS) for 10 min.",
+      "The sections were post-fixed with pre-chilled 4% paraformaldehyde in PBS for 15 minutes at 4°C."
+    ]
+  },
+  {
+    "question": "How many PCR cycles were used for cDNA amplification in Stereo-seq, and what was the duration of the tagmentation reaction?",
+    "answer": "cDNA amplification employed 15 PCR cycles, and tagmentation was performed for 10 minutes at 55°C.",
+    "type": "multi-evidence",
+    "evidences": [
+      "The PCR reaction protocol was: first incubation at 95°C for 5 min, 15 cycles at 98°C for 20 s, 58°C for 20 s, 72°C for 3 min and a final incubation at 72°C for 5 min.",
+      "One-hundred ng of cDNA $( 2 0 ~ \\mu \\mu )$ encing from each sample were tagmented with Tn5 transposases (Vazyme) at $5 5 ^ { \\circ } \\mathrm { C }$ for 10 mins, then the reaction was stopped by adding $5 \\mu \\ L$ of $0 . 0 2 \\%$ SDS."
+    ]
+  },
+  {
+    "question": "What deep learning model architecture was used for cell segmentation on ConA staining images?",
+    "answer": "A mask R-CNN model, referred to as the ConA model, was trained on the ConA staining images.",
+    "type": "single-evidence",
+    "evidences": [
+      "Starting with this small set (hundreds of cells), we trained a deep learning model (i.e. mask R-CNN78) on the ConA staining images, called ConA model."
+    ]
+  },
+  {
+    "question": "How many total cell annotations were generated on ConA staining images in the current experiment?",
+    "answer": "A full set of cell annotations totaling 14,212 was generated on the ConA staining images.",
+    "type": "single-evidence",
+    "evidences": [
+      "After several iterations, a full set of cell annotations on ConA staining images were generated (14212 in the current experiment)."
+    ]
+  },
+  {
+    "question": "What precision and recall did the nucleic acid model achieve on validation?",
+    "answer": "The model achieved a precision of 0.912 and a recall of 0.913 on a validation set of 10,209 cells.",
+    "type": "single-evidence",
+    "evidences": [
+      "The nucleic acid model was validated on 10,209 cells from three nucleic acid staining images and achieved 0.912 of precision and 0.913 of recall, demonstrating reliable performance."
+    ]
+  },
+  {
+    "question": "What software and version were used to implement the image registration?",
+    "answer": "The registration was implemented using Scikit-image package version 0.18.3 in Python version 3.9.7.",
+    "type": "single-evidence",
+    "evidences": [
+      "The whole registration was implemented with Scikit-image package (v.0.18.3) in Python (v.3.9.7)."
+    ]
+  },
+  {
+    "question": "How many cortical brain regions were parcellated in the macaque cortex?",
+    "answer": "The macaque cortex was segmented into 143 brain regions, including prefrontal, frontal, cingulate, somatosensory, insular, auditory, temporal, parietal, occipital, and piriform areas.",
+    "type": "single-evidence",
+    "evidences": [
+      "According to atlas-based landmarks,79 the macaque cortex were segmented into 143 brain regions, including prefrontal, frontal, cingulate, somatosensory, insular, auditory, temporal, parietal, occipital and piriform areas."
+    ]
+  },
+  {
+    "question": "What normalization method was used to mitigate batch effects in Stereo-seq data preprocessing?",
+    "answer": "SCTransform with the parameter vars.to.regress set to 'percent.mt' was applied.",
+    "type": "single-evidence",
+    "evidences": [
+      "In order to mitigate potential batch effects resulting from variations in single-cell sequencing depth within and across sections of the Stereo-seq map, “SCTransform” with the parameter vars.to.regress = “percent.mt” was used for normalization."
+    ]
+  },
+  {
+    "question": "What function created the single-cell gene expression matrix in the Seurat workflow?",
+    "answer": "The function ‘CreateSeuratObject’ with min.cells = 3 and min.features = 0 was used to obtain the cell-by-gene matrix.",
+    "type": "single-evidence",
+    "evidences": [
+      "The cell-by-gene matrix was obtained with the function “CreateSeuratObject” with min.cells = 3 and min.features = 0."
+    ]
+  },
+  {
+    "question": "What statistical method was used to correlate cell-type proportion with cortical hierarchy levels?",
+    "answer": "Spearman correlation analysis was applied.",
+    "type": "single-evidence",
+    "evidences": [
+      "The cell proportion of individual cell type was calculated for each cortical region (cell counts of specific cell type / total cell counts of all cell types), and then the Spearman analysis was applied to calculate the correlation of cell type proportion with the hierarchy levels."
+    ]
+  },
+  {
+    "question": "What radius defines the neighborhood complexity around a cell?",
+    "answer": "A neighborhood of 200 pixels, corresponding to 100 μm in radius.",
+    "type": "single-evidence",
+    "evidences": [
+      "The neighborhood complexity of a cell is defined as the number of different cell clusters present within a neighborhood of 200 pixel, or 100 μm, in radius surrounding the given cell."
+    ]
+  },
+  {
+    "question": "How many coronal sections were used to build the 3D macaque brain atlas?",
+    "answer": "A total of 119 coronal sections from monkey #1 were used to reconstruct the 3D atlas.",
+    "type": "single-evidence",
+    "evidences": [
+      "A total of 119 coronal sections at different coronal coordinates from monkey #1 were used to recover the original shape and topology of a macaque brain."
+    ]
+  },
+  {
+    "question": "What thresholds were applied in Stereo-seq data preprocessing and in the nucleic acid model to filter or retain cells?",
+    "answer": "Preprocessing discarded cells with fewer than 100 features or mitochondrial gene percentage above 15%; the nucleic acid model used a low score threshold of 0.1 to retain more cells.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Cells with less than 100 features or percent.mt larger than 15% were discarded.",
+      "Therefore, a low score threshold of 0.1 was applied to retain more cells."
+    ]
+  },
+  {
+    "question": "How were cortical layers defined and used to identify layer-specific astrocytes?",
+    "answer": "Cortical layers were manually delineated based on cytoarchitecture in each coronal section. Using these layers, astrocyte cell density was computed across six layers, identifying layer1- and layer6-specific astrocytes.",
+    "type": "multi-evidence",
+    "evidences": [
+      "For each coronal section, the cortical region and layer parcellation were manually delineated on Stereo-seq data background, based on cytoarchitectual pattern (eg. cell density, cell size) revealed by total mRNA expression, nucleic acid staining, and NeuN staing of adjacent sections.",
+      "Then we obtained two layer1-specific ASC and one layer6-specific ASC, and identified the differential expressed genes with “sc.tl.rangk_genes_groups” function of scanpy from snRNA data."
+    ]
+  },
+  {
+    "question": "How were cell type densities and their correlation with cortical hierarchy levels computed?",
+    "answer": "Cell density was calculated by dividing cell count by area size for each layer and region. Cell proportions were then correlated with hierarchy levels using Spearman correlation.",
+    "type": "multi-evidence",
+    "evidences": [
+      "For each cell type, we quantified the density in each layer and cortical region by dividing the total number of cells in each area by the area size.",
+      "The cell proportion of individual cell type was calculated for each cortical region (cell counts of specific cell type / total cell counts of all cell types), and then the Spearman analysis was applied to calculate the correlation of cell type proportion with the hierarchy levels."
+    ]
+  },
+  {
+    "question": "How were cellular neighborhoods statistically evaluated in the complexity analysis and in the CHC neighbor analysis?",
+    "answer": "In complexity analysis, cell‑cell distance matrices were computed with the ‘dist’ function in R. For CHC cells, randomization tests compared observation neighbors to random neighbors, with P<0.05 indicating significant accompanying neurons.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Cell-cell distance matrices were calculated with the function “dist” in R.",
+      "When the appearing frequency of the observation neighbors around the CHC type was statistically higher than that of the random neighbors $( P < 0 . 0 5 )$ , it was considered that the currently detected observation neighbors were the accompany neighbors for the CHC type in the observed brain region."
+    ]
+  },
+  {
+    "question": "What evidence supports the accuracy of cell segmentation and cell-type annotation in this analysis?",
+    "answer": "The nucleic acid segmentation model achieved 0.912 precision and 0.913 recall on a validation set of 10,209 cells. The cell-type annotation showed high consistency of cell type distributions between adjacent sections and biological replicates.",
+    "type": "multi-evidence",
+    "evidences": [
+      "The nucleic acid model was validated on 10,209 cells from three nucleic acid staining images and achieved 0.912 of precision and 0.913 of recall, demonstrating reliable performance.",
+      "The high consistency in cell type distributions between adjacent sections or sections with similar coordinates from different biological replicates confirmed the reliability of this procedure (Figures S2F–S2H)."
+    ]
+  },
+  {
+    "question": "What criteria were used to select cell types for regional specificity analysis and what was the minimum cell count required?",
+    "answer": "Cell types were required to have more than 1000 cells across three monkeys. Additionally, region-specific clusters were filtered with a permutation p‑value of 0 and other quality criteria including limits on co-occurrence frequency, cluster cell number (≥30 cells/slide), and observed ratio thresholds.",
+    "type": "multi-evidence",
+    "evidences": [
+      "We quantified the number of cells annotated with specific cell types in each monkey and cell types with more than 1000 cells in the three monkeys were used for the following analysis.",
+      "Finally, clusters were filtered with ${ \\mathsf p } = 0$ and other quality criteria such as 1) no more than $20 \\%$ regions showed significant co-occurrence with this cluster, 2) cluster cell number (at least 30 cells per slide) and 3) the observed ratio of the cluster in the specific region (larger than 0.3 for F1 and V1; larger than 0.5 for temporal pole)."
+    ]
+  },
+  {
+    "question": "Which deep learning packages and versions were used for cell segmentation and cell-type annotation?",
+    "answer": "Cell segmentation models were implemented with mmdet v.2.25.1 in Python v.3.8.13, while cell-type annotation used PyTorch v.1.13.1 and PyTorch Geometric v.2.1.0 in Python v.3.8.10.",
+    "type": "multi-evidence",
+    "evidences": [
+      "All models described in this step were implemented with mmdet package (v.2.25.1) in Python (v.3.8.13).",
+      "Spatial-ID used in this study was implemented with PyTorch package (v.1.13.1) and PyTorch Geometric package (v.2.1.0) in Python (v.3.8.10)."
+    ]
+  },
+  {
+    "question": "How were cross-species comparisons of glutamatergic neurons performed in terms of species selection and integration method?",
+    "answer": "Glutamatergic neurons were selected from human, macaque, and mouse cortical regions including PFC, F1, and V1, and then integrated using Seurat IntegrateData with marker genes as anchorset.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Cells from PFC regions in human and macaque, and cells from PFC/F1/V1 regions in human, macaque and mouse were selected, then classified into glutamatergic neuron, GABAergic neuron, and non-neuronal cells.",
+      "Integration of three species excitatory neurons were done by Seurat IntegrateData with marker genes as anchorset."
+    ]
+  },
+  {
+    "question": "How many single-neuron projectomes were reconstructed from the macaque prefrontal cortex?",
+    "answer": "2,231 projectomes were reconstructed.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"In total, we reconstructed 2,231 single-neuron projectomes of macaque PFC<sup>17</sup> registered onto a common Monkey Brain Atlas (NIMH Macaque Template version 2.0, NMT v2),<sup>18,19</sup> and somata of these neurons were found in areas 46, 8, and 9 in dlPFC; areas 45 and 12 in vlPFC; and area 10 in the orbitofrontal cortex (OFC) (Figure 1E).\""
+    ]
+  },
+  {
+    "question": "How many projectome-based subtypes were classified from the macaque PFC neurons?",
+    "answer": "32 subtypes.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"We next classified all PFC neurons into 32 projectome-based ''subtypes'' by the overall morphological similarity of single-neuron projectomes<sup>11</sup> (Figure 2A).\""
+    ]
+  },
+  {
+    "question": "Into what three neuron classes are the macaque PFC neurons divided?",
+    "answer": "Intra-telencephalic (IT) neurons, pyramidal tract (PT) neurons, and cortico-thalamic (CT) neurons.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The 2,231 PFC neurons can be divided into three neuron classes: intra-telencephalic (IT) neurons, pyramidal tract (PT) neurons, and cortico-thalamic (CT) neurons<sup>11,20,21</sup> (IT, 2,045; PT, 138; CT, 48).\""
+    ]
+  },
+  {
+    "question": "What was the total data size per typical macaque brain for one channel using fMOST imaging?",
+    "answer": "432 TB.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The whole-brain axon projections from a total of 19 PFC sites in 7 macaque brains were imaged with fMOST<sup>14</sup> in two color channels at the spatial resolution of $0 . 6 5 \\times 0 . 6 5 \\times 3 { \\mu \\mathrm { m } } ^ { 3 }$ , resulting in a total data size of 432 TB for a single channel of a typical macaque brain (Figure 1A, right).\""
+    ]
+  },
+  {
+    "question": "From how many PFC injection sites and macaque brains were the whole-brain axon projections imaged?",
+    "answer": "19 PFC sites in 7 macaque brains.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The whole-brain axon projections from a total of 19 PFC sites in 7 macaque brains were imaged with fMOST<sup>14</sup> in two color channels at the spatial resolution of $0 . 6 5 \\times 0 . 6 5 \\times 3 { \\mu \\mathrm { m } } ^ { 3 }$ , resulting in a total data size of 432 TB for a single channel of a typical macaque brain (Figure 1A, right).\""
+    ]
+  },
+  {
+    "question": "In which cortical layers are the somata of PT and CT neurons primarily located?",
+    "answer": "Infragranular layers (L5/6).",
+    "type": "single-evidence",
+    "evidences": [
+      "\"As illustrated by a specific injection site at area 45 (Figure S2A), the somata of subcortically projecting PT and CT neurons were distributed in infragranular layers (L5/6), while neurons projecting intra-cortically, including ITi and ITc neurons, were mainly distributed in supragranular layers (L2/3), and striatum-projecting ITs neurons were found in both infragranular and supragranular layers (Figure 1I).\""
+    ]
+  },
+  {
+    "question": "How many PFC subdomains were defined for intra-PFC connectivity analysis?",
+    "answer": "44 subdomains.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"To examine the fine-grained intra-PFC connectivity, we first defined 44 PFC subdomains containing densely distributed arbors and/or somata (see STAR Methods, Figures 4A and 4B).\""
+    ]
+  },
+  {
+    "question": "What single-neuron tracing system was used for accelerated projectome reconstruction in the macaque brain?",
+    "answer": "A system named Gapr.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"To reconstruct whole-brain axon projections, we utilized a recently developed single-neuron tracing system named Gapr<sup>16</sup> that was optimized for accelerated projectome reconstruction in large datasets of the macaque brain (Figure 1B).\""
+    ]
+  },
+  {
+    "question": "How many terminal arbors were extracted from the single axons using the machine-learning-based method?",
+    "answer": "Over 17,000 terminal arbors.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"We extracted over 17,000 terminal arbors from the single axons using a machine-learning-based method for identifying the arbors of a single macaque neuron (Figures S3A and S3B; see STAR Methods).\""
+    ]
+  },
+  {
+    "question": "What spatial resolution was used in the fMOST imaging of the macaque brains?",
+    "answer": "0.65 × 0.65 × 3 μm³.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The whole-brain axon projections from a total of 19 PFC sites in 7 macaque brains were imaged with fMOST<sup>14</sup> in two color channels at the spatial resolution of $0 . 6 5 \\times 0 . 6 5 \\times 3 { \\mu \\mathrm { m } } ^ { 3 }$ , resulting in a total data size of 432 TB for a single channel of a typical macaque brain (Figure 1A, right).\""
+    ]
+  },
+  {
+    "question": "What was the total number of reconstructed single-neuron projectomes, and how many neurons and total axon length were in the example dataset G97-1?",
+    "answer": "A total of 2,231 projectomes were reconstructed; the example dataset G97-1 contained 576 neurons with a total axon length of 94,985 mm.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"In total, we reconstructed 2,231 single-neuron projectomes of macaque PFC<sup>17</sup> registered onto a common Monkey Brain Atlas (NIMH Macaque Template version 2.0, NMT v2),<sup>18,19</sup> and somata of these neurons were found in areas 46, 8, and 9 in dlPFC; areas 45 and 12 in vlPFC; and area 10 in the orbitofrontal cortex (OFC) (Figure 1E).\"",
+      "\"In the example dataset (G97-1), 576 single-neuron projectomes with a total axon length of 94,985 mm were reconstructed by over 50 annotators simultaneously within 12 weeks using approximately 7,200 human hours (Figure S1A; Video S1)\""
+    ]
+  },
+  {
+    "question": "Which projectome-based subtypes correspond to pyramidal tract (PT) and cortico-thalamic (CT) neurons, and what are their total numbers?",
+    "answer": "Subtypes 11 and 12 correspond to PT neurons (138 in total), and subtype 10 corresponds to CT neurons (48 in total).",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Subtypes 11 and 12 corresponded to PT neurons, and subtype 10 corresponded to CT neurons.\"",
+      "\"The 2,231 PFC neurons can be divided into three neuron classes: intra-telencephalic (IT) neurons, pyramidal tract (PT) neurons, and cortico-thalamic (CT) neurons<sup>11,20,21</sup> (IT, 2,045; PT, 138; CT, 48).\""
+    ]
+  },
+  {
+    "question": "How many projectome-based subtypes were identified, and did individual virus injection sites typically contain only one subtype?",
+    "answer": "32 subtypes were identified; almost every single injection site harbored multiple subtypes.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"We next classified all PFC neurons into 32 projectome-based ''subtypes'' by the overall morphological similarity of single-neuron projectomes<sup>11</sup> (Figure 2A).\"",
+      "\"We next quantified the projection diversity of neurons at the same virus injection sites and found that almost every single injection site harbored multiple subtypes (Figure S2C), suggesting diverse projections even among closely situated neurons in PFC.\""
+    ]
+  },
+  {
+    "question": "How many projectome-based subtypes were classified, and which cognitive function is enriched in subtype 13?",
+    "answer": "32 subtypes; subtype 13 is enriched with object recognition.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"We next classified all PFC neurons into 32 projectome-based ''subtypes'' by the overall morphological similarity of single-neuron projectomes<sup>11</sup> (Figure 2A).\"",
+      "\"For example, we found that subtype 13 (projecting from area 45b to inferior temporal cortex [TE]) is enriched with object recognition, subtype 15 (projecting from area 45b to the lateral intraparietal area [LIP]) with visuospatial processing, subtype 19 (projecting from area 12r to area 11) with emotion, and subtype 27 (projecting from area 8Bd to the dorsal premotor cortex [PMd] and pre-supplementary motor area [preSMA]) with reaching movements.\""
+    ]
+  },
+  {
+    "question": "What two modules were identified in the lateral prefrontal cortex, and how are they interconnected?",
+    "answer": "Two modules roughly corresponding to dlPFC and vlPFC were identified; they are interconnected via recurrent projections mediated by different receiving and sending subdomains.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Through network analysis, we identified two modules in lPFC, each containing the highly interacting subdomains roughly corresponding to dlPFC and vlPFC, respectively (Figure 4D).\"",
+      "\"Furthermore, we found that dlPFC and vlPFC modules were also connected by recurrent projections mediated by different receiving and sending subdomains in the two modules, as shown in Figure 4F.\""
+    ]
+  },
+  {
+    "question": "How many PFC subdomains were defined, and how do dlPFC and vlPFC axon arbors differ in their targeting of OFC subdomains?",
+    "answer": "44 subdomains were defined; dlPFC arbors are located in more dorsal OFC subdomains (areas 10mr and 10mc), while vlPFC arbors are in more ventral OFC subdomains (areas 11l and 12m).",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"To examine the fine-grained intra-PFC connectivity, we first defined 44 PFC subdomains containing densely distributed arbors and/or somata (see STAR Methods, Figures 4A and 4B).\"",
+      "\"Furthermore, while both dlPFC and vlPFC neurons projected to OFC, they projected to different subdomains of OFC, with dlPFC and vlPFC axon arbors located in more dorsal (areas 10mr and 10mc) and ventral (areas 11l and 12m) OFC subdomains, respectively (Figure 4J).\""
+    ]
+  },
+  {
+    "question": "In which cortical layer are the somata of subtype 32 located, and what is its primary projection target in the parietal lobe?",
+    "answer": "Subtype 32 somata are mostly in layer 3 of dlPFC, and it projects primarily to the posterior cingulate cortex (PCC).",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"The somata of subtypes 14/32 and 13/15 were mostly localized to L3 of dlPFC and vlPFC, respectively (Figures S2D and 3B).\"",
+      "\"Additionally, parietal lobe-projecting subtypes 32 and 15 showed exclusive projections to the posterior cingulate cortex (PCC) and LIP in the medial and lateral parts of the parietal lobe, respectively (Figures 3J and 3K).\""
+    ]
+  },
+  {
+    "question": "How many contralateral cortex-projecting (ITc) neurons were identified, and which projectome-based subtypes do they correspond to?",
+    "answer": "342 ITc neurons, corresponding to subtypes 1–5.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"The IT neurons can be further divided into ITi (ipsilateral cortex-projecting only, 1,232), ITs (striatum-projecting, 471), and ITc (contralateral cortex-projecting, 342) (Figure 1H).\"",
+      "\"Overall, subtypes 1–5 (ITc neurons) displayed contralateral cortical projection.\""
+    ]
+  },
+  {
+    "question": "What is the primary function of contralateral cortical projections that travel through the corpus callosum?",
+    "answer": "They coordinate the activity and information transfer between the two cerebral hemispheres.",
+    "type": "single-evidence",
+    "evidences": [
+      "Contralateral cortical projections via corpus callosum coordinate the activity and information transfer between the two hemispheres."
+    ]
+  },
+  {
+    "question": "What feature primarily distinguishes the five ITc projectome subtypes?",
+    "answer": "They are distinguished by their contralateral projections to the respective homotypic cortical areas.",
+    "type": "single-evidence",
+    "evidences": [
+      "The ITc projectome subtypes 1–5 were distinguished by the contralateral projections to their respective homotypic cortical areas (Figure 5B)."
+    ]
+  },
+  {
+    "question": "How far do the contralateral arbors of a single ITc neuron typically extend from the mirrored soma location?",
+    "answer": "They generally extend within approximately 1 cm around the mirrored location of the soma in the homotypic area.",
+    "type": "single-evidence",
+    "evidences": [
+      "The contralateral arbors of a single ITc neuron generally extended within the range of ∼1 cm around the mirrored location of its soma in the homotypic area (Figure 5C)."
+    ]
+  },
+  {
+    "question": "Along which axis is the topography of soma location maintained in the main axon at the midline of the corpus callosum?",
+    "answer": "It is maintained only along the anteroposterior axis and is lost along the dorsoventral axis.",
+    "type": "single-evidence",
+    "evidences": [
+      "However, the topography of the soma location was preserved in the main axon location at the midline cross-section of the corpus callosum only along the anteroposterior axis (Figure 5E) but not the dorsoventral axis of PFC (Figure S6A)."
+    ]
+  },
+  {
+    "question": "Which arbor type is most abundant in the contralateral projections from dlPFC and vlPFC?",
+    "answer": "Type 3 arbors are the most abundant.",
+    "type": "single-evidence",
+    "evidences": [
+      "Finally, we found that the contralateral projections originating from the dlPFC and vlPFC contained the highest proportion of type 3 arbors we defined (Figures 5G and S3G)."
+    ]
+  },
+  {
+    "question": "What proportion of heterotypic projections to contralateral subdomains is accompanied by matching ipsilateral projections?",
+    "answer": "93.4% of such heterotypic projections have matching ipsilateral projections from the same source subdomain to the mirrored ipsilateral target.",
+    "type": "single-evidence",
+    "evidences": [
+      "Interestingly, for most (93.4%) heterotypic projections to contralateral subdomains, we could observe corresponding ipsilateral projections from the same source subdomains to the mirrored ipsilateral target subdomains (Figure 5H, arrows with solid line)."
+    ]
+  },
+  {
+    "question": "Which ITs subtype predominantly sends projections to the contralateral striatum rather than the ipsilateral striatum?",
+    "answer": "Subtype 6 predominantly projects to the contralateral striatum.",
+    "type": "single-evidence",
+    "evidences": [
+      "We found that striatum-projecting ITs subtypes 7–9 projected solely to ipsilateral striatum, whereas subtype 6 predominantly projected to contralateral striatum in macaque (Figures 5J and 5K)."
+    ]
+  },
+  {
+    "question": "What is the exclusive striatal target of ITs subtype 9?",
+    "answer": "The head of caudate (CdH).",
+    "type": "single-evidence",
+    "evidences": [
+      "Furthermore, ITs subtype 9 projected only to the head of caudate (CdH) within the striatum, whereas ITs subtypes 7 and 8 projected to both CdH and putamen (Pu) (Figure 5K)."
+    ]
+  },
+  {
+    "question": "What is the average diameter of the arbor patches formed by ITs neurons in the striatum?",
+    "answer": "1.14 ± 0.10 mm.",
+    "type": "single-evidence",
+    "evidences": [
+      "The average size of patches formed in the striatum (diameter 1.14 ± 0.10 mm, standard error of the mean [SEM], n = 12; see STAR Methods) was slightly larger than the average striatal arbor size (diameter 0.85 ± 0.02 mm, SEM, n = 781 arbors; see STAR Methods) of PFC ITs neurons."
+    ]
+  },
+  {
+    "question": "Do macaque CT neurons project to any subcortical structures outside the thalamus?",
+    "answer": "No, they project solely to the thalamus.",
+    "type": "single-evidence",
+    "evidences": [
+      "In macaque, we found that PT neurons (Figure 6A, top and bottom left; Figure 6B) in PFC projected to numerous subcortical targets, including mediodorsal thalamus (MD), superior colliculus (SC), ventral tegmental area (VTA), substantia nigra (SN), and periaqueductal gray (PAG) in midbrain; pallidum (Pd) in basal ganglia; lateral hypothalamus (LHy) in hypothalamus; pontine nucleus (Pn); and locus coeruleus (LC) in pons, whereas CT neurons solely projected to the thalamus (Figure 6A, middle and bottom right; Figure 6C; Figure S7A)."
+    ]
+  },
+  {
+    "question": "How do the lateralization patterns of ITc neurons and striatum-projecting ITs neurons differ in macaque?",
+    "answer": "ITc neurons predominantly target contralateral homotypic cortical areas, whereas ITs subtypes 7-9 project solely to ipsilateral striatum and subtype 6 projects predominantly to contralateral striatum.",
+    "type": "multi-evidence",
+    "evidences": [
+      "ITc neurons predominantly targeted contralateral homotypic cortical areas (Figure 5F).",
+      "We found that striatum-projecting ITs subtypes 7–9 projected solely to ipsilateral striatum, whereas subtype 6 predominantly projected to contralateral striatum in macaque (Figures 5J and 5K)."
+    ]
+  },
+  {
+    "question": "How does the relationship between soma location and arbor position differ between ITc contralateral cortical projections and ITs striatal projections?",
+    "answer": "Both types exhibit strict soma location-dependent topography; ITc contralateral arbor centers correspond strictly to mirrored soma locations, and ITs arbor positions in the striatum are mapped according to soma location.",
+    "type": "multi-evidence",
+    "evidences": [
+      "The contralateral arbors of a single ITc neuron generally extended within the range of ∼1 cm around the mirrored location of its soma in the homotypic area (Figure 5C), resulting in a strict correspondence of ipsilateral soma locations and contralateral arbor centers (Figure 5D).",
+      "Thus, macaque PFC ITs neurons followed a strict soma location-dependent topographic projection to striatum."
+    ]
+  },
+  {
+    "question": "How do the main axon segregation patterns of PT neurons projecting to the superior colliculus compare with those of CT neurons projecting to the thalamus?",
+    "answer": "PT neuron axons from dlPFC and vlPFC remain highly segregated along the entire main axon route, while CT neuron segregation gradually declines along the axon but is substantially restored at the thalamic target area.",
+    "type": "multi-evidence",
+    "evidences": [
+      "We found that dlPFC and vlPFC axons were highly segregated within the main axon trunks along the entire axon routes (Figure 6D), as indicated by high F<sub>1</sub> scores (see STAR Methods) (Figure 6E).",
+      "The topographic segregation between dlPFC and vlPFC CT neurons gradually declined along the axon trunk bundles, but the segregation was substantially restored at the targeted thalamic area (Figure 6I)."
+    ]
+  },
+  {
+    "question": "In what ways do macaque PT and CT neurons differ from their mouse counterparts in terms of projection targets and spatial precision?",
+    "answer": "Macaque PT and CT neurons project to significantly fewer target regions than mouse neurons, and there is a general reduction in collateral branch number and relative arbor size in macaques, which indicates higher spatial specificity and precision.",
+    "type": "multi-evidence",
+    "evidences": [
+      "PT and CT macaque neurons projected to significantly fewer target regions than those in mice (Figure 7I).",
+      "Thus, there is a general reduction of collateral branch number and the relative size of axon arbors at the target zone from mice to macaques, implicating a higher spatial specificity and precision of macaque axon arborization at the target area."
+    ]
+  },
+  {
+    "question": "How does the contralateral bias of IT neurons vary within the macaque prefrontal cortex, and how does the overall bias of bilaterally projecting IT neurons compare between macaque and mouse?",
+    "answer": "Within macaque, bias is higher in vlPFC than dlPFC, correlating with dorsoventral soma location. Across species, macaque bilateral IT neurons have a significantly higher median contralateral bias (0.55) than mouse neurons (0.20).",
+    "type": "multi-evidence",
+    "evidences": [
+      "Furthermore, the extent of contralateral bias of ITc neurons was correlated with the soma location along the dorsoventral axis, resulting in higher bias in vlPFC than in dlPFC.",
+      "For bilaterally projecting neurons, the hemispheric bias index for each neuron was significantly biased toward contralateral in macaques (median 0.55) than mice (median 0.20) (Figure 7F, right)."
+    ]
+  },
+  {
+    "question": "What are the broad subcortical projection differences between PT and CT neurons, and which specific thalamic regions do they respectively target?",
+    "answer": "PT neurons project to many subcortical areas, whereas CT neurons project only to the thalamus. Within the thalamus, CT axons concentrate in mediodorsal thalamus (MD), while PT axons broadly innervate midline, reticular, and ventral thalamic regions.",
+    "type": "multi-evidence",
+    "evidences": [
+      "In macaque, we found that PT neurons (Figure 6A, top and bottom left; Figure 6B) in PFC projected to numerous subcortical targets, including mediodorsal thalamus (MD), superior colliculus (SC), ventral tegmental area (VTA), substantia nigra (SN), and periaqueductal gray (PAG) in midbrain; pallidum (Pd) in basal ganglia; lateral hypothalamus (LHy) in hypothalamus; pontine nucleus (Pn); and locus coeruleus (LC) in pons, whereas CT neurons solely projected to the thalamus (Figure 6A, middle and bottom right; Figure 6C; Figure S7A).",
+      "In particular, CT axons were mostly concentrated in MD, whereas PT axons broadly targeted other thalamic regions including midline, reticular, and ventral thalamus (Figures 6C and 6L)."
+    ]
+  },
+  {
+    "question": "How do macaque and mouse PFC IT neurons differ in their cortical target specificity and their likelihood of projecting to the contralateral hemisphere?",
+    "answer": "Macaque IT neurons mostly project to only one of the shared cortical targets, while mouse IT neurons often jointly project to multiple targets. Additionally, a much smaller percentage of macaque IT neurons (20%) project contralaterally compared to mouse (74%).",
+    "type": "multi-evidence",
+    "evidences": [
+      "However, while mouse IT neurons exhibited substantial joint projections to RSP, PTLp, and TEa, macaque dlPFC/vlPFC IT neurons mostly projected to only one of these cortical targets (Figure 7C).",
+      "We found that percentage of IT neurons projecting to the contralateral hemisphere was much lower in macaques (20%) than in mice (74%) (Figure 7F, left)."
+    ]
+  },
+  {
+    "question": "What are some of the subcortical targets of macaque PFC PT neurons, and how does their ipsilateral projection bias compare to that of mouse PT neurons?",
+    "answer": "Macaque PT neurons project to targets such as MD, SC, VTA, SN, PAG, pallidum, lateral hypothalamus, pontine nucleus, and locus coeruleus. They exhibit a stronger bias toward ipsilateral projections than mouse PT neurons.",
+    "type": "multi-evidence",
+    "evidences": [
+      "In macaque, we found that PT neurons (Figure 6A, top and bottom left; Figure 6B) in PFC projected to numerous subcortical targets, including mediodorsal thalamus (MD), superior colliculus (SC), ventral tegmental area (VTA), substantia nigra (SN), and periaqueductal gray (PAG) in midbrain; pallidum (Pd) in basal ganglia; lateral hypothalamus (LHy) in hypothalamus; pontine nucleus (Pn); and locus coeruleus (LC) in pons",
+      "PT neurons in macaque PFC are more biased toward ipsilateral projections vs. contralateral projections than PT neurons in mouse PFC (Figure 7J, left)."
+    ]
+  },
+  {
+    "question": "How many single axons of PFC neurons were reconstructed in the macaque brain?",
+    "answer": "2,231 single axons were reconstructed.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"In this study, large-scale automatic axon reconstruction combined with human collaborative proofreading yielded the wholebrain map for 2,231 single axons of PFC neurons in the macaque brain.\""
+    ]
+  },
+  {
+    "question": "How many subtypes of PFC neurons were identified through unbiased classification?",
+    "answer": "32 subtypes were identified.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Unbiased classification of single-neuron projectomes obtained 32 neuron subtypes, each of which could be associated with specific cognitive functions.\""
+    ]
+  },
+  {
+    "question": "How does the total axon length in macaque PFC neurons compare to that in mouse PFC neurons?",
+    "answer": "The total axon length is similar in macaques and mice.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Most strikingly, we found that the total axon length, including the main axon trunk, collatera branches, and terminal arbors, in macaques is similar to that in mice, but the number of axon collaterals and axon arbor size relative to the brain size at the target areas was much smaller in macaques.\""
+    ]
+  },
+  {
+    "question": "What do contralateral cortical axonal patches mainly consist of?",
+    "answer": "They consist of columnar axon arbors of restricted sizes.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Our data showed that contralateral cortical axonal patches mainly consist of columnar axon arbors of restricted sizes, extending previous results by Goldman-Rakic and Schwartz41 and providing the cellular basis of patch formation in the cortex.\""
+    ]
+  },
+  {
+    "question": "What type of relationship does single-axon reconstruction reveal between axons and patches in the striatum?",
+    "answer": "A many-to-many relationship.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Our single-axon reconstruction further unraveled the many-to-many relationship between axon and patches in the striatum and a topographic order that depends on the soma location in PFC.\""
+    ]
+  },
+  {
+    "question": "What sex were all the macaques used in the study?",
+    "answer": "All were female.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Third, as only female macaques were used in this study, potential sexual dimorphic differences in projectomes were not examined in this study.\""
+    ]
+  },
+  {
+    "question": "From how many different monkey brains were the single-neuron projectomes pooled?",
+    "answer": "Seven different monkey brains.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Finally, since our single-neuron macaque projectomes were pooled from seven different monkey brains, individual variations could compromise the spatial precision in cell registration to the reference macaque atlas.\""
+    ]
+  },
+  {
+    "question": "What was the final injection volume range for each injection site?",
+    "answer": "0.2 to 2 microliters.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The final injection volume was 0.2–2 μL for each injection site.\""
+    ]
+  },
+  {
+    "question": "What species of monkey was used in this study?",
+    "answer": "Cynomolgus monkeys (Macaca fascicularis).",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Brains in their entirety were collected from seven female cynomolgus monkeys (Macaca fascicularis).\""
+    ]
+  },
+  {
+    "question": "What was the voxel size of the fMOST imaging system used in the study?",
+    "answer": "0.65 × 0.65 × 3 μm³.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The imaging was automatically performed using our fMOST system, which combined the high-precision large-scale vibratome and line-scan confocal microscope with the voxel size of 0.65 × 0.65 × 3 μm^3.\""
+    ]
+  },
+  {
+    "question": "How do the projection patterns of macaque PFC neurons differ from mouse PFC neurons, and what executive functions might this support?",
+    "answer": "Macaque PFC neurons mostly project to a single target area, unlike mouse neurons that project to multiple targets. This fine-tuned projection pattern may support executive functions such as focused attention, flexible cognitive control, and precise action selection.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Systematic comparison of single-neuron projectomes of macaque PFC with mouse PFC projectomes reported previously11 revealed that each macaque PFC neuron mostly projected to a single target area, unlike the multi-targeting of mouse neurons.\"",
+      "\"Since the primate brain highly relies on top-down signaling from PFC to sensory and motor systems, the fine-tuned projection patterns we observed may enable focused attention to relevant stimuli, flexible cognitive control, and precise action selection, all of which are fundamental to executive functions.\""
+    ]
+  },
+  {
+    "question": "What mechanism is proposed for the reduction of axon collaterals and arborization in macaque PFC neurons, and how does this affect the spatial coverage of arbors?",
+    "answer": "The conservation of total axon length, combined with the large increase in axon trunk length due to brain expansion, is proposed to lead to global reduction of collaterals and arborization. Consequently, the relative spatial coverage of arbors at target areas is reduced, resulting in more selective and refined targeting.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Since the axon trunk increases greatly with the expansion of brain size in the macaque, we propose that the conservation of the total axon length due to intrinsic cellular constraints leads to the global reduction of axon collaterals and arborization of macaque neurons, suggesting the distinct organization for primate PFC projection neurons.\"",
+      "\"Since the axon arbor size does not increase significantly as brain size expands from mice to macaques, the relative spatial coverage of the arbors at the target area is thus reduced, leading to more selective and refined targeting.\""
+    ]
+  },
+  {
+    "question": "How many simultaneous users could the collaborative proofreading system support, and how were simple versus complex reconstruction errors handled?",
+    "answer": "The system could accommodate more than 100 people working simultaneously online. Simple errors were fixed on the spot, while complex ones were labeled and sent to experts for resolution.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Gapr can accommodate more than 100 people simultaneously performing real-time online reconstruction of single neurons.\"",
+      "\"Simple errors were fixed on the spot, but complex ones were sent to experts by labeling of error annotations.\""
+    ]
+  },
+  {
+    "question": "What was the composition of the monkey cohort in terms of sex and species, and what limitation did this impose on the study?",
+    "answer": "The cohort consisted of seven female cynomolgus monkeys (Macaca fascicularis). Because only females were used, potential sexual dimorphic differences in projectomes could not be examined.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Brains in their entirety were collected from seven female cynomolgus monkeys (Macaca fascicularis).\"",
+      "\"Third, as only female macaques were used in this study, potential sexual dimorphic differences in projectomes were not examined in this study.\""
+    ]
+  },
+  {
+    "question": "How were single neurons labeled, and how were the labeled neurons detected during imaging?",
+    "answer": "Single neurons were labeled by stereotaxic injection of a mixture of fluorescent protein-tagged AAV and Cre virus into specific brain regions. During fMOST imaging, neurons labeled with GFP and tdTomato were detected using both green and red imaging channels simultaneously.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Virus tagged with fluorescent protein (rAAV-CAG-DIO-EGFP-WPRE-hGH polyA, titer: 4.57 × 10^12 v.g./mL; or another virus rAAV-CAG-DIO-tdTomato-WPRE-hGH polyA, titer: 1.10 × 10^13 v.g./mL) was 1:1 mixed with Cre virus (rAAV-hSyn-SV40 NLS-Cre WPRE-hGH polyA, original titer: 1.05 × 10^13 v.g./mL, with the final dilution factor 40000–80000 times after mixing).\"",
+      "\"As the neurons were labeled with green fluorescent protein (GFP) and tdTomato, we adopted both green and red imaging channels to simultaneously acquire the images for them.\""
+    ]
+  },
+  {
+    "question": "What module served as the hub for automatic reconstruction and collaborative proofreading, and how many simultaneous users could it support?",
+    "answer": "The Gapr Gather module served as the hub. It supported more than 100 people working simultaneously online.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"The Gapr Gather module, as the hub for automatic reconstruction and collaborative manual proofreading, was deploved to a virtua network server that equipped with two cores (2.5 GHz Intel Xeon Platinum 8163 processor), 32 GiB of RAM, and 2 MiB/s bandwidth.\"",
+      "\"Gapr can accommodate more than 100 people simultaneously performing real-time online reconstruction of single neurons.\""
+    ]
+  },
+  {
+    "question": "How many single axons were fully reconstructed, and why might the characteristics of some projectome subtypes be biased?",
+    "answer": "2,231 single axons were reconstructed. However, limited sampling may bias the observed characteristics of particular projectome subtypes.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"In this study, large-scale automatic axon reconstruction combined with human collaborative proofreading yielded the wholebrain map for 2,231 single axons of PFC neurons in the macaque brain.\"",
+      "\"The characteristics of a particular projectome subtype we observed may be biased due to limited sampling.\""
+    ]
+  },
+  {
+    "question": "What property of striatal patch organization depends on soma location, and why might this analysis be impacted by the injection coverage?",
+    "answer": "A topographic order in striatal patches depends on the soma location in PFC. The analysis of this topography may be impacted because the injection sites covered only a limited portion of the entire PFC.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Our single-axon reconstruction further unraveled the many-to-many relationship between axon and patches in the striatum and a topographic order that depends on the soma location in PFC.\"",
+      "\"Second, the distribution of injection sites still covered a limited portion of the entire macaque PFC.\""
+    ]
+  },
+  {
+    "question": "What programming language was used for the custom registration program?",
+    "answer": "Julia.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"We used a custom Julia program to perform registration to the NMTv2 reference atlas<sup>18,19</sup> that integrates cross-border axon connection information.\""
+    ]
+  },
+  {
+    "question": "Which machine learning framework was used for minimization in the registration process?",
+    "answer": "The Flux machine learning framework of Julia.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The Flux machine learning framework of Julia was used for minimization.\""
+    ]
+  },
+  {
+    "question": "What numerical range is used to represent laminar depth?",
+    "answer": "A number in the range [0, 1].",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Instead, we used a number in the range [0; 1] to represent laminar depth, in which 0 denotes a position at the superficial cortical surface and 1 denotes a position at the boundary between white and grey matter.\""
+    ]
+  },
+  {
+    "question": "How many neuron subtypes were defined by cutting the hierarchical clustering dendrogram?",
+    "answer": "32.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The dendrogram of hierarchical clustering was finally cut to produce 32 clusters, defining the 32 neuron subtypes in this study.\""
+    ]
+  },
+  {
+    "question": "What are the three subtypes of IT neurons based on their projection regions?",
+    "answer": "ITi (projecting to ipsilateral cortex exclusively), ITs (projecting to striatum), and ITc (projecting to contralateral cortex).",
+    "type": "single-evidence",
+    "evidences": [
+      "\"IT neurons were further classified into three subtypes by their different projection regions: ITi (projecting to ipsilateral cortex exclusively), ITs (projecting to striatum) and ITc (projecting to contralateral cortex).\""
+    ]
+  },
+  {
+    "question": "How are neurons with both striatal and contralateral projections classified?",
+    "answer": "They are classified as ITs neurons.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"If both striatal and contralateral projections are both present, we classified these neurons as ITs neurons for the soma distribution and arbor distribution of most neurons are predominantly similar to ITs neurons.\""
+    ]
+  },
+  {
+    "question": "Which large language model was used for AI-based literature retrieval?",
+    "answer": "ChatGPT.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"We utilized ChatGPT, a large language model, to perform an artificial-intelligence-based (AI-based) literature retrieval for collecting functional information associated with relevant brain regions i our study.\""
+    ]
+  },
+  {
+    "question": "Which language model was used to group function terms by relevance?",
+    "answer": "DeepSeek R1 (32b version).",
+    "type": "single-evidence",
+    "evidences": [
+      "\"With a local instal lation of DeepSeek R1 (32b version), we provided a list of 32 randomly-selected function terms and asked the language model to group the terms by relevance and similarity, in the context of neuroscience terms.\""
+    ]
+  },
+  {
+    "question": "On what structure was the Graph Neural Network applied for axon arbor segmentation?",
+    "answer": "On the dendrogram of axon terminals.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The GNN was applied to the dendrogram of axon terminals instead, not on the original axon tree.\""
+    ]
+  },
+  {
+    "question": "What value of alpha was used for the relaxation in the enrichment analysis adjustment?",
+    "answer": "0.05.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Here, α = 0 . 0 5 is a small number adjusting the extent of relaxation.\""
+    ]
+  },
+  {
+    "question": "How are cross-border axon connections validated and integrated in the reconstruction process?",
+    "answer": "Cross-border connections are applied only when plausible based on multiple pieces of evidence and when no other plausible alternatives exist; they are integrated via a custom Julia program that performs atlas registration incorporating cross-border connection information.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"To ensure the correctness of axon stitching, cross-border connection of axons was applied only when it was plausible based on these considerations, and no other plausible alternatives of connection existed.\" \"We used a custom Julia program to perform registration to the NMTv2 reference atlas18,19 that integrates cross-border axon connection information.\""
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "How was the atlas registration refined and what approach handled the modality mismatch between sample and reference?",
+    "answer": "Registration was refined by introducing a non-rigid BSpline transformation and minimizing pixel-wise difference; modality mismatch was addressed by using U-Net to produce MRI-like images from the sample's fluorescence signal for comparison.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Then we refined registration by introducing a layer of non-rigid (BSpline) transformation and minimizing the pixel-wise difference between the transformed sample and the reference.\"",
+      "\"As the background fluorescence signal used for registration was different from the MRI imaging of the reference atlas, we used U-Net to produce MRI-like images, such that pixel-wise image difference was able to be calculated between the sample and th reference.\""
+    ]
+  },
+  {
+    "question": "How is the functional annotation of a PFC neuron determined and how are the weights assigned?",
+    "answer": "Annotation is determined by congruency between function terms of the soma location and target areas, using a minimization that sums weighted differences; the soma area weight is 1, and target area weights are proportional to path distance normalized so the most distant target has weight 1.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Then, we determined the functional annotation for each PFC neuron (N ) based on the congruency among the sets of function terms for both the PFC area where the soma was located (s ) and its targeted brain areas (T ).\"",
+      "\"For the brain area where the soma was located, $W _ { i s _ { i } }$ is defined to be 1. For target areas, $W _ { i j }$ is proportional to the path distance to soma, and is normalized such that the most distant target (t*) has $w _ { i t _ { i } ^ { * } } ~ = ~ 1$.\""
+    ]
+  },
+  {
+    "question": "How were total neurite lengths compared to bulk tracing and fMRI data?",
+    "answer": "For bulk tracing, total neurite length per brain area was compared to volume via linear regression analysis; for fMRI, total neurite length per vertex was compared to cortical activity per vertex using correlation analysis.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"For the comparison to bulk tracing data from serial two-photon microscopy, we calculated total neurite lengths contributed by neurons from injection site G97-1bL for each brain area. Then, the total length per brain area was compared against the $\\mathfrak { a } \\mathfrak { e } \\mathfrak { p } \\mathfrak { p }$ volume per brain area with linear regression analysis.\"",
+      "\"The fMRI data for comparison provides vertex-level activity strength for the whole ipsilateral cortex. For comparison, we similarly calculated total neurite lengths of pooled single-neuron projectomes for each vertex, and compared total neurite length per vertex to cortical activity per vertex. Correlation analysis allowed us to identify the consistency between pooled single-neuron projectomes and fMRI activity data at electrical stimulation sites near our injection sites.\""
+    ]
+  },
+  {
+    "question": "How were cortical subdomains identified and what defines a homotypic projection?",
+    "answer": "Cortical subdomains were defined as areas with dense reconstructed arbors/somata for fine-grained parcellation; homotypic projections have axon arbors located in the mirrored subdomain of their soma.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"We defined cortical subdomains as areas containing dense reconstructed arbors/somata, allowing for fine-grained parcellation of standard macaque PFC areas in the reference atlas.\"",
+      "\"Based on the cortical subdomains, we defined axon arbors in the mirrored subdomain of their somata as homotypic projections.\""
+    ]
+  },
+  {
+    "question": "How is the preservation of topography along axon paths quantified?",
+    "answer": "A topography index is computed based on the F1 score: the best F1 score over binary soma classifications is found at each cross-section, and the median, 0.25, and 0.75 quantiles of these best scores serve as measures of topography preservation.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"The topography index was calculated based on the $F _ { 1 }$ score in the part 'Calculation of $F _ { 1 }$ scores along axon routes'.\"",
+      "\"The median value, and 0.25 and 0.75 quantiles of $\\{ F _ { 1 } ^ { * } ( P , N ) \\}$ were used as the measures of preservation of topography between soma locations and axon locations at a specific cross-section.\""
+    ]
+  },
+  {
+    "question": "How was hierarchical clustering applied in laminar distribution analysis and arbor patch detection?",
+    "answer": "For laminar distributions, hierarchical clustering was performed on a distance matrix combining two distance measures; for arbor patches, hierarchical clustering used a symmetric matrix derived from the asymmetric median minimum distance between arbor nodes.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Hierarchical clustering was then performed with a distance matrix that combines these two distance measures by addition.\"",
+      "\"The resulting distance matrix $M = [ { \\mathsf { d i s t } } ( A , B ) ] _ { A , B }$ is asymmetric, but the symmetric matrix $( M + M ^ { \\prime } ) / 2$ is used for hierarchical clustering.\""
+    ]
+  },
+  {
+    "question": "What criteria were used to classify projection neuron types and how many subtypes were defined by the clustering dendrogram cut?",
+    "answer": "IT neurons project exclusively to cortical or striatal regions, PT neurons to mid-brain/hypothalamus/pons/medulla, and CT neurons to thalamic regions but not typical PT targets; the dendrogram cut produced 32 subtypes.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"According to the observed different projection patterns, we classified all neurons as IT, PT and CT neurons by the following criteria: IT neurons project to cortical or striatal regions exclusively; PT neurons project to mid-brain, hypothalamus, pons and/or medulla; and CT neurons project to thalamic regions but not the typical targeted regions of PT neurons.\"",
+      "\"The dendrogram of hierarchical clustering was finally cut to produce 32 clusters, defining the 32 neuron subtypes in this study.\""
+    ]
+  },
+  {
+    "question": "What Pearson correlation coefficient was observed between single-neuron projectome data and fMRI activity in area 45 upon electrical stimulation?",
+    "answer": "The correlation coefficient was 0.778 (p < 0.001).",
+    "type": "single-evidence",
+    "evidences": [
+      "A significant positive correlation is observed, with a Pearson correlation coefficient r = 0.778 (***p < 0.001)."
+    ]
+  },
+  {
+    "question": "What Pearson correlation coefficient was observed between single-neuron projectome data and population-level projection strengths in area 45?",
+    "answer": "A coefficient of 0.515 (p < 0.001) was observed.",
+    "type": "single-evidence",
+    "evidences": [
+      "A significant positive correlation is observed, with a Pearson correlation coefficient r = 0.515 (***p < 0.001)."
+    ]
+  },
+  {
+    "question": "How many annotators performed manual proofreading for the single-neuron reconstruction dataset G97-1?",
+    "answer": "30 annotators were involved, drawn from over 50 participants in total.",
+    "type": "single-evidence",
+    "evidences": [
+      "Black lines mark manual proofreading by the randomly selected 30 annotators (from over 50 participants in total), while the light red shading represents the cumulative tim usage in hours for all participants."
+    ]
+  },
+  {
+    "question": "What computational tool was used for automated single-neuron reconstruction in dataset G97-1?",
+    "answer": "Gapr16 was used.",
+    "type": "single-evidence",
+    "evidences": [
+      "Summarized workflow of single-neuron reconstruction by Gapr16 for the dataset G97-1 over 11 weeks is presented here, detailing the contributions of automated reconstruction and manual proofreading processes."
+    ]
+  },
+  {
+    "question": "What statistical method was used in Figure 5I to assess enrichment of projection pattern combinations?",
+    "answer": "Proportion tests followed by FDR correction were used.",
+    "type": "single-evidence",
+    "evidences": [
+      "In Figure 5I, proportion tests followed by FDR correction were conducted to identify the significant increases or decreases of combinations of ipsilateral/contralateral ACgG projections and contralateral homotypic dlPFC projections."
+    ]
+  },
+  {
+    "question": "What test was used to compare total arbor length, arbor size, and number of branches between lPFC PT and CT neurons in Figure 6P?",
+    "answer": "Two-sided Wilcoxon rank-sum tests were used.",
+    "type": "single-evidence",
+    "evidences": [
+      "In Figure 6P, two sided Wilcoxon rank-sum tests were conducted to compare the differences between total arbor length, arbor size and number of arbor branches between lPFC PT and CT neurons."
+    ]
+  },
+  {
+    "question": "What does a higher entropy value indicate about the laminar distribution of cortical axon arbors?",
+    "answer": "Higher entropy values indicate a broader layer distribution, corresponding to a columnar pattern and diffusely expanded arbors across multiple layers.",
+    "type": "single-evidence",
+    "evidences": [
+      "Higher entropy values indicate broader layer distribution (corresponding to columnar pattern and diffusely expanded in multiple layers of arbor distribution), and lower entropy values indicated higher layer specificity (corresponding to specific layer distribution of arbors)."
+    ]
+  },
+  {
+    "question": "Why is patch VII not shown in panels C and D of Figure S6?",
+    "answer": "Because it originates from neurons in a different injection site, G97-1aL.",
+    "type": "single-evidence",
+    "evidences": [
+      "The patch VII is not shown in (C) and (D) because it comes from neurons in another injection site, G97-1aL."
+    ]
+  },
+  {
+    "question": "What statistical test was used to evaluate the association between soma location in ORBl/ORBvl and projections to RSP/PTLp in Figure 7A?",
+    "answer": "Fisher’s exact test was used.",
+    "type": "single-evidence",
+    "evidences": [
+      "In Figure 7A, Fisher’s exact test was conducted to calculate the significant association between soma location in ORBl/ORBvl and projections to RSP/PTLp."
+    ]
+  },
+  {
+    "question": "What p-value threshold is signified by the symbol **?",
+    "answer": "p < 0.01.",
+    "type": "single-evidence",
+    "evidences": [
+      "For all significance marks of p-values used in this study, * p < 0.05; ** p < 0.01; *** p < 0.001"
+    ]
+  },
+  {
+    "question": "What statistical methods were employed for assessing correlations and for determining differences between groups?",
+    "answer": "Correlations were assessed using Pearson correlation tests within linear regression analyses; group differences were assessed using the two-sided Wilcoxon rank-sum test.",
+    "type": "multi-evidence",
+    "evidences": [
+      "All linear regression analyses in this study employed a correlation test to calculate the Pearson correlation coefficient and the corresponding p-value to assess the statistical significance of the correlation.",
+      "To determine whether there were statistically significant differences between groups, the two-sided Wilcoxon rank-sum test, a non-parametric method, was applied throughout this study."
+    ]
+  },
+  {
+    "question": "How was the relationship between single-neuron projectome data and fMRI activity in area 45 examined, and what was the resulting correlation?",
+    "answer": "Linear regression and correlation tests were used; the Pearson correlation coefficient was 0.778 (p < 0.001).",
+    "type": "multi-evidence",
+    "evidences": [
+      "In Figure S1B, linear regressions and correlation tests were conducted to examine the relationship between the rank of GFP volume in bulk-tracing data and the rank of projection strength in our single-neuron projectome data, and linear regressions and correlation tests were also conducted to examine the relationship between the rank of fMRI activity in electric-stimulated fMRI data and the rank of projection strength in our single-neuron projectome data.",
+      "A significant positive correlation is observed, with a Pearson correlation coefficient r = 0.778 (***p < 0.001)."
+    ]
+  },
+  {
+    "question": "What statistical test was applied to compare the laminar depth distribution of contralateral arbors between mouse ORBvl/ORB and macaque lPFC neurons, and what was the main difference found?",
+    "answer": "The two-sided Wilcoxon rank-sum test of mean laminar depth was used; mouse arbors were more concentrated in superficial layers (closer to L1) than macaque arbors.",
+    "type": "multi-evidence",
+    "evidences": [
+      "In Figure S7E, a two-sided Wilcoxon rank-sum test of mean laminar depth was conducted to compare the laminar depth distribution between arbors involved in the projection from ORBvl/ORB to contralateral regions in mice, and arbors involved in the projection from lPFC to contralateral regions in macaques",
+      "Mouse arbors are more concentrated in the superficial layers (closer to L1) compared with macaque arbors. ***p < 0.001."
+    ]
+  },
+  {
+    "question": "What method was used to evaluate enrichment or depletion of projection pattern combinations, and which specific combination was significantly enriched for ITc neurons?",
+    "answer": "Proportion tests with FDR correction were used; ITc neurons that project to both the contralateral lPFC and contralateral striatum were significantly enriched.",
+    "type": "multi-evidence",
+    "evidences": [
+      "For the combinations of homotypic and heterotypic projection patterns, proportion tests were conducted to evaluate whether the projections in various combinations were significantly enriched or depleted, with p-values adjusted using FDR correction.",
+      "Note that ITc neurons that project to both the contralateral lPFC and contralateral striatum are significantly enriched."
+    ]
+  },
+  {
+    "question": "What statistical test was used to compare somata laminar depths between subtypes 13 and 15, and what test was used to compare arbor laminar distribution between dlPFC→vlPFC and vlPFC→dlPFC projections?",
+    "answer": "A two-sided Wilcoxon rank-sum test was used for somata; a two-sided Wilcoxon rank-sum test of mean laminar depth was used for arbors.",
+    "type": "multi-evidence",
+    "evidences": [
+      "In Figure 3E, a two-sided Wilcoxon rank-sum test was conducted to compare the laminar depths of somata between subtypes 13 and 15.",
+      "In Figure 4G (right), a two-sided Wilcoxon rank-sum test of mean laminar depth was conducted to compare the laminar depth distribution between arbors involved in dlPFC→vlPFC and vlPFC→dlPFC projections."
+    ]
+  },
+  {
+    "question": "What method was used in Figure 2D to assess associations between subtypes and biological functions, and what general method was used to assess correlations involving continuous variables?",
+    "answer": "Fisher’s exact tests were used for subtype-function associations; linear regression and Pearson correlation tests were used for continuous variable correlations.",
+    "type": "multi-evidence",
+    "evidences": [
+      "In Figure 2D, Fisher’s exact tests were conducted to calculate the significant association between each subtype and the biological functions.",
+      "All linear regression analyses in this study employed a correlation test to calculate the Pearson correlation coefficient and the corresponding p-value to assess the statistical significance of the correlation."
+    ]
+  },
+  {
+    "question": "What statistical test was used to compare the laminar depth distribution of PFC axonal arbors between macaques and mice in specific brain regions, and what test was used to examine the mediolateral arbor-soma relationship in lPFC PT neurons?",
+    "answer": "The two-sided Wilcoxon rank-sum test of mean laminar depth was used for the arbor distribution comparison; linear regression and correlation test was used for the arbor-soma relationship.",
+    "type": "multi-evidence",
+    "evidences": [
+      "In Figure 7E, a two-sided Wilcoxon rank-sum test of mean laminar depth was conducted to compare the laminar depth distribution between PFC axonal arbors of macaques and mice in TE, RSC and LIP, respectively.",
+      "In Figure 6F, linear regression and correlation test were conducted to examine the relationship between mediolateral arbor center and mediolateral soma position of lPFC PT neurons."
+    ]
+  },
+  {
+    "question": "What p-value thresholds correspond to the significance symbols used, and what test compared morphological parameters between macaque and mouse PFC neurons?",
+    "answer": "* indicates p < 0.05, ** indicates p < 0.01, and *** indicates p < 0.001; the two-sided Wilcoxon rank-sum test was used for morphological comparisons.",
+    "type": "multi-evidence",
+    "evidences": [
+      "For all significance marks of p-values used in this study, * p < 0.05; ** p < 0.01; *** p < 0.001",
+      "In Figure S8, two-sided Wilcoxon rank-sum tests were conducted to compare the differences in many morphological parameters calculated by L-measure56 between macaques and mice within each subgroup of IT, CT, and PT."
+    ]
+  }
+]

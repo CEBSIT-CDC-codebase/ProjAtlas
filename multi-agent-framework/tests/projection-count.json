@@ -1,0 +1,3246 @@
+[
+  {
+    "name": "GREY Basic cell groups and regions",
+    "count": 6357
+  },
+  {
+    "name": "BS Brain stem",
+    "count": 2828
+  },
+  {
+    "name": "IB Interbrain",
+    "count": 2767
+  },
+  {
+    "name": "HY Hypothalamus",
+    "count": 2374
+  },
+  {
+    "name": "MEZ Hypothalamic medial zone",
+    "count": 1354
+  },
+  {
+    "name": "MBO Mammillary body",
+    "count": 853
+  },
+  {
+    "name": "TM Tuberomammillary nucleus",
+    "count": 164
+  },
+  {
+    "name": "TMV Tuberomammillary nucleus, ventral part",
+    "count": 149
+  },
+  {
+    "name": "TMD Tuberomammillary nucleus, dorsal part",
+    "count": 24
+  },
+  {
+    "name": "LM Lateral mammillary nucleus",
+    "count": 276
+  },
+  {
+    "name": "MM Medial mammillary nucleus",
+    "count": 541
+  },
+  {
+    "name": "MML Medial mammillary nucleus, lateral part",
+    "count": 400
+  },
+  {
+    "name": "MMM Medial mammillary nucleus, medial part",
+    "count": 355
+  },
+  {
+    "name": "MMP Medial mammillary nucleus, posterior part",
+    "count": 65
+  },
+  {
+    "name": "MMD Medial mammillary nucleus, dorsal part",
+    "count": 155
+  },
+  {
+    "name": "MMME Medial mammillary nucleus, median part",
+    "count": 369
+  },
+  {
+    "name": "SUM Supramammillary nucleus",
+    "count": 794
+  },
+  {
+    "name": "PMV Ventral premammillary nucleus",
+    "count": 156
+  },
+  {
+    "name": "MPN Medial preoptic nucleus",
+    "count": 68
+  },
+  {
+    "name": "PVHD Paraventricular hypothalamic nucleus, descending division",
+    "count": 597
+  },
+  {
+    "name": "VMH Ventromedial hypothalamic nucleus",
+    "count": 96
+  },
+  {
+    "name": "AHN Anterior hypothalamic nucleus",
+    "count": 416
+  },
+  {
+    "name": "PH Posterior hypothalamic nucleus",
+    "count": 1163
+  },
+  {
+    "name": "PMD Dorsal premammillary nucleus",
+    "count": 462
+  },
+  {
+    "name": "PVR Periventricular region",
+    "count": 634
+  },
+  {
+    "name": "PS Parastrial nucleus",
+    "count": 131
+  },
+  {
+    "name": "PVP Periventricular hypothalamic nucleus, posterior part",
+    "count": 2
+  },
+  {
+    "name": "PVPO Periventricular hypothalamic nucleus, preoptic part",
+    "count": 1
+  },
+  {
+    "name": "AVP Anteroventral preoptic nucleus",
+    "count": 149
+  },
+  {
+    "name": "AVPV Anteroventral periventricular nucleus",
+    "count": 52
+  },
+  {
+    "name": "SCH Suprachiasmatic nucleus",
+    "count": 6
+  },
+  {
+    "name": "SBPV Subparaventricular zone",
+    "count": 14
+  },
+  {
+    "name": "MEPO Median preoptic nucleus",
+    "count": 14
+  },
+  {
+    "name": "MPO Medial preoptic area",
+    "count": 329
+  },
+  {
+    "name": "VMPO Ventromedial preoptic nucleus",
+    "count": 26
+  },
+  {
+    "name": "VLPO Ventrolateral preoptic nucleus",
+    "count": 121
+  },
+  {
+    "name": "ADP Anterodorsal preoptic nucleus",
+    "count": 33
+  },
+  {
+    "name": "DMH Dorsomedial nucleus of the hypothalamus",
+    "count": 439
+  },
+  {
+    "name": "PD Posterodorsal preoptic nucleus",
+    "count": 3
+  },
+  {
+    "name": "PVZ Periventricular zone",
+    "count": 491
+  },
+  {
+    "name": "PVI Periventricular hypothalamic nucleus, intermediate part",
+    "count": 299
+  },
+  {
+    "name": "ARH Arcuate hypothalamic nucleus",
+    "count": 8
+  },
+  {
+    "name": "PVA Periventricular hypothalamic nucleus, anterior part",
+    "count": 3
+  },
+  {
+    "name": "ASO Accessory supraoptic group",
+    "count": 25
+  },
+  {
+    "name": "PVH Paraventricular hypothalamic nucleus",
+    "count": 193
+  },
+  {
+    "name": "SO Supraoptic nucleus",
+    "count": 110
+  },
+  {
+    "name": "LZ Hypothalamic lateral zone",
+    "count": 2261
+  },
+  {
+    "name": "RCH Retrochiasmatic area",
+    "count": 74
+  },
+  {
+    "name": "LHA Lateral hypothalamic area",
+    "count": 1603
+  },
+  {
+    "name": "LPO Lateral preoptic area",
+    "count": 690
+  },
+  {
+    "name": "PST Preparasubthalamic nucleus",
+    "count": 291
+  },
+  {
+    "name": "PSTN Parasubthalamic nucleus",
+    "count": 805
+  },
+  {
+    "name": "STN Subthalamic nucleus",
+    "count": 1004
+  },
+  {
+    "name": "PEF Perifornical nucleus",
+    "count": 505
+  },
+  {
+    "name": "TU Tuberal nucleus",
+    "count": 271
+  },
+  {
+    "name": "ZI Zona incerta",
+    "count": 1940
+  },
+  {
+    "name": "FF Fields of Forel",
+    "count": 697
+  },
+  {
+    "name": "TH Thalamus",
+    "count": 2560
+  },
+  {
+    "name": "DORSM Thalamus, sensory-motor cortex related",
+    "count": 2349
+  },
+  {
+    "name": "GEND Geniculate group, dorsal thalamus",
+    "count": 97
+  },
+  {
+    "name": "MG Medial geniculate complex",
+    "count": 76
+  },
+  {
+    "name": "MGD Medial geniculate complex, dorsal part",
+    "count": 10
+  },
+  {
+    "name": "MGV Medial geniculate complex, ventral part",
+    "count": 13
+  },
+  {
+    "name": "MGM Medial geniculate complex, medial part",
+    "count": 67
+  },
+  {
+    "name": "LGD Dorsal part of the lateral geniculate complex",
+    "count": 24
+  },
+  {
+    "name": "LGD-CO Dorsal part of the lateral geniculate complex, core",
+    "count": 24
+  },
+  {
+    "name": "PP Peripeduncular nucleus",
+    "count": 62
+  },
+  {
+    "name": "SPF Subparafascicular nucleus",
+    "count": 898
+  },
+  {
+    "name": "SPFM Subparafascicular nucleus, magnocellular part",
+    "count": 604
+  },
+  {
+    "name": "SPFP Subparafascicular nucleus, parvicellular part",
+    "count": 497
+  },
+  {
+    "name": "VENT Ventral group of the dorsal thalamus",
+    "count": 2218
+  },
+  {
+    "name": "POT Posterior triangular thalamic nucleus",
+    "count": 280
+  },
+  {
+    "name": "VAL Ventral anterior-lateral complex of the thalamus",
+    "count": 1149
+  },
+  {
+    "name": "VM Ventral medial nucleus of the thalamus",
+    "count": 2025
+  },
+  {
+    "name": "VP Ventral posterior complex of the thalamus",
+    "count": 878
+  },
+  {
+    "name": "VPL Ventral posterolateral nucleus of the thalamus",
+    "count": 326
+  },
+  {
+    "name": "VPLPC Ventral posterolateral nucleus of the thalamus, parvicellular part",
+    "count": 72
+  },
+  {
+    "name": "VPM Ventral posteromedial nucleus of the thalamus",
+    "count": 124
+  },
+  {
+    "name": "VPMPC Ventral posteromedial nucleus of the thalamus, parvicellular part",
+    "count": 560
+  },
+  {
+    "name": "SPA Subparafascicular area",
+    "count": 838
+  },
+  {
+    "name": "DORPM Thalamus, polymodal association cortex related",
+    "count": 2528
+  },
+  {
+    "name": "GENV Geniculate group, ventral thalamus",
+    "count": 175
+  },
+  {
+    "name": "LGV Ventral part of the lateral geniculate complex",
+    "count": 157
+  },
+  {
+    "name": "IGL Intergeniculate leaflet of the lateral geniculate complex",
+    "count": 41
+  },
+  {
+    "name": "SUBG Subgeniculate nucleus",
+    "count": 25
+  },
+  {
+    "name": "INTG Intermediate geniculate nucleus",
+    "count": 56
+  },
+  {
+    "name": "LAT Lateral group of the dorsal thalamus",
+    "count": 946
+  },
+  {
+    "name": "PO Posterior complex of the thalamus",
+    "count": 380
+  },
+  {
+    "name": "POL Posterior limiting nucleus of the thalamus",
+    "count": 189
+  },
+  {
+    "name": "LP Lateral posterior nucleus of the thalamus",
+    "count": 606
+  },
+  {
+    "name": "SGN Suprageniculate nucleus",
+    "count": 26
+  },
+  {
+    "name": "ETH Ethmoid nucleus of the thalamus",
+    "count": 407
+  },
+  {
+    "name": "MED Medial group of the dorsal thalamus",
+    "count": 2270
+  },
+  {
+    "name": "PR Perireunensis nucleus",
+    "count": 1435
+  },
+  {
+    "name": "MD Mediodorsal nucleus of thalamus",
+    "count": 1742
+  },
+  {
+    "name": "SMT Submedial nucleus of the thalamus",
+    "count": 1489
+  },
+  {
+    "name": "IMD Intermediodorsal nucleus of the thalamus",
+    "count": 962
+  },
+  {
+    "name": "ATN Anterior group of the dorsal thalamus",
+    "count": 1815
+  },
+  {
+    "name": "AM Anteromedial nucleus",
+    "count": 1635
+  },
+  {
+    "name": "AMD Anteromedial nucleus, dorsal part",
+    "count": 1396
+  },
+  {
+    "name": "AMV Anteromedial nucleus, ventral part",
+    "count": 1529
+  },
+  {
+    "name": "IAD Interanterodorsal nucleus of the thalamus",
+    "count": 1276
+  },
+  {
+    "name": "IAM Interanteromedial nucleus of the thalamus",
+    "count": 642
+  },
+  {
+    "name": "LD Lateral dorsal nucleus of thalamus",
+    "count": 623
+  },
+  {
+    "name": "AV Anteroventral nucleus of thalamus",
+    "count": 862
+  },
+  {
+    "name": "AD Anterodorsal nucleus",
+    "count": 526
+  },
+  {
+    "name": "MTN Midline group of the dorsal thalamus",
+    "count": 1925
+  },
+  {
+    "name": "PVT Paraventricular nucleus of the thalamus",
+    "count": 1096
+  },
+  {
+    "name": "PT Parataenial nucleus",
+    "count": 1017
+  },
+  {
+    "name": "RE Nucleus of reuniens",
+    "count": 1564
+  },
+  {
+    "name": "XI Xiphoid thalamic nucleus",
+    "count": 948
+  },
+  {
+    "name": "EPI Epithalamus",
+    "count": 872
+  },
+  {
+    "name": "LH Lateral habenula",
+    "count": 869
+  },
+  {
+    "name": "MH Medial habenula",
+    "count": 34
+  },
+  {
+    "name": "ILM Intralaminar nuclei of the dorsal thalamus",
+    "count": 2168
+  },
+  {
+    "name": "RH Rhomboid nucleus",
+    "count": 970
+  },
+  {
+    "name": "PIL Posterior intralaminar thalamic nucleus",
+    "count": 134
+  },
+  {
+    "name": "CL Central lateral nucleus of the thalamus",
+    "count": 1032
+  },
+  {
+    "name": "CM Central medial nucleus of the thalamus",
+    "count": 1248
+  },
+  {
+    "name": "PCN Paracentral nucleus",
+    "count": 843
+  },
+  {
+    "name": "PF Parafascicular nucleus",
+    "count": 1335
+  },
+  {
+    "name": "RT Reticular nucleus of the thalamus",
+    "count": 2196
+  },
+  {
+    "name": "MB Midbrain",
+    "count": 1862
+  },
+  {
+    "name": "MBMOT Midbrain, motor related",
+    "count": 1688
+  },
+  {
+    "name": "SCM Superior colliculus, motor related",
+    "count": 945
+  },
+  {
+    "name": "SCIG Superior colliculus, motor related, intermediate gray layer",
+    "count": 678
+  },
+  {
+    "name": "SCIW Superior colliculus, motor related, intermediate white layer",
+    "count": 816
+  },
+  {
+    "name": "SCDG Superior colliculus, motor related, deep gray layer",
+    "count": 810
+  },
+  {
+    "name": "SCDW Superior colliculus, motor related, deep white layer",
+    "count": 664
+  },
+  {
+    "name": "PRT Pretectal region",
+    "count": 900
+  },
+  {
+    "name": "PPT Posterior pretectal nucleus",
+    "count": 71
+  },
+  {
+    "name": "APN Anterior pretectal nucleus",
+    "count": 432
+  },
+  {
+    "name": "MPT Medial pretectal area",
+    "count": 17
+  },
+  {
+    "name": "RPF Retroparafascicular nucleus",
+    "count": 554
+  },
+  {
+    "name": "NOT Nucleus of the optic tract",
+    "count": 9
+  },
+  {
+    "name": "NPC Nucleus of the posterior commissure",
+    "count": 632
+  },
+  {
+    "name": "OP Olivary pretectal nucleus",
+    "count": 6
+  },
+  {
+    "name": "IV Trochlear nucleus",
+    "count": 6
+  },
+  {
+    "name": "MRN Midbrain reticular nucleus",
+    "count": 1457
+  },
+  {
+    "name": "RN Red nucleus",
+    "count": 484
+  },
+  {
+    "name": "AT Anterior tegmental nucleus",
+    "count": 239
+  },
+  {
+    "name": "RR Midbrain reticular nucleus, retrorubral area",
+    "count": 411
+  },
+  {
+    "name": "III Oculomotor nucleus",
+    "count": 110
+  },
+  {
+    "name": "SNR Substantia nigra, reticular part",
+    "count": 1284
+  },
+  {
+    "name": "PAG Periaqueductal gray",
+    "count": 1440
+  },
+  {
+    "name": "PRC Precommissural nucleus",
+    "count": 583
+  },
+  {
+    "name": "ND Nucleus of Darkschewitsch",
+    "count": 425
+  },
+  {
+    "name": "SU3 Supraoculomotor periaqueductal gray",
+    "count": 384
+  },
+  {
+    "name": "INC Interstitial nucleus of Cajal",
+    "count": 211
+  },
+  {
+    "name": "MA3 Medial accesory oculomotor nucleus",
+    "count": 248
+  },
+  {
+    "name": "MT Medial terminal nucleus of the accessory optic tract",
+    "count": 819
+  },
+  {
+    "name": "PA4 Paratrochlear nucleus",
+    "count": 68
+  },
+  {
+    "name": "PN Paranigral nucleus",
+    "count": 235
+  },
+  {
+    "name": "CUN Cuneiform nucleus",
+    "count": 545
+  },
+  {
+    "name": "LT Lateral terminal nucleus of the accessory optic tract",
+    "count": 23
+  },
+  {
+    "name": "VTA Ventral tegmental area",
+    "count": 1205
+  },
+  {
+    "name": "DT Dorsal terminal nucleus of the accessory optic tract",
+    "count": 4
+  },
+  {
+    "name": "VTN Ventral tegmental nucleus",
+    "count": 255
+  },
+  {
+    "name": "EW Edinger-Westphal nucleus",
+    "count": 335
+  },
+  {
+    "name": "MBSTA Midbrain, behavioral state related",
+    "count": 1364
+  },
+  {
+    "name": "RAMB Midbrain raphe nuclei",
+    "count": 1130
+  },
+  {
+    "name": "IPN Interpeduncular nucleus",
+    "count": 595
+  },
+  {
+    "name": "IPR Interpeduncular nucleus, rostral",
+    "count": 143
+  },
+  {
+    "name": "IPC Interpeduncular nucleus, caudal",
+    "count": 156
+  },
+  {
+    "name": "IPA Interpeduncular nucleus, apical",
+    "count": 135
+  },
+  {
+    "name": "IPL Interpeduncular nucleus, lateral",
+    "count": 323
+  },
+  {
+    "name": "IPI Interpeduncular nucleus, intermediate",
+    "count": 158
+  },
+  {
+    "name": "IPDM Interpeduncular nucleus, dorsomedial",
+    "count": 147
+  },
+  {
+    "name": "IPDL Interpeduncular nucleus, dorsolateral",
+    "count": 240
+  },
+  {
+    "name": "IPRL Interpeduncular nucleus, rostrolateral",
+    "count": 243
+  },
+  {
+    "name": "IF Interfascicular nucleus raphe",
+    "count": 483
+  },
+  {
+    "name": "RL Rostral linear nucleus raphe",
+    "count": 414
+  },
+  {
+    "name": "CLI Central linear nucleus raphe",
+    "count": 246
+  },
+  {
+    "name": "DR Dorsal nucleus raphe",
+    "count": 764
+  },
+  {
+    "name": "PPN Pedunculopontine nucleus",
+    "count": 824
+  },
+  {
+    "name": "SNC Substantia nigra, compact part",
+    "count": 839
+  },
+  {
+    "name": "MBSEN Midbrain, sensory related",
+    "count": 853
+  },
+  {
+    "name": "SAG Nucleus sagulum",
+    "count": 211
+  },
+  {
+    "name": "SCS Superior colliculus, sensory related",
+    "count": 264
+  },
+  {
+    "name": "SCZO Superior colliculus, zonal layer",
+    "count": 63
+  },
+  {
+    "name": "SCSG Superior colliculus, superficial gray layer",
+    "count": 100
+  },
+  {
+    "name": "SCOP Superior colliculus, optic layer",
+    "count": 233
+  },
+  {
+    "name": "IC Inferior colliculus",
+    "count": 420
+  },
+  {
+    "name": "ICC Inferior colliculus, central nucleus",
+    "count": 250
+  },
+  {
+    "name": "ICD Inferior colliculus, dorsal nucleus",
+    "count": 352
+  },
+  {
+    "name": "ICE Inferior colliculus, external nucleus",
+    "count": 158
+  },
+  {
+    "name": "MEV Midbrain trigeminal nucleus",
+    "count": 327
+  },
+  {
+    "name": "NB Nucleus of the brachium of the inferior colliculus",
+    "count": 14
+  },
+  {
+    "name": "SCO Subcommissural organ",
+    "count": 8
+  },
+  {
+    "name": "PBG Parabigeminal nucleus",
+    "count": 46
+  },
+  {
+    "name": "HB Hindbrain",
+    "count": 1439
+  },
+  {
+    "name": "MY Medulla",
+    "count": 1007
+  },
+  {
+    "name": "MY-SEN Medulla, sensory related",
+    "count": 143
+  },
+  {
+    "name": "CN Cochlear nuclei",
+    "count": 4
+  },
+  {
+    "name": "VCO Ventral cochlear nucleus",
+    "count": 4
+  },
+  {
+    "name": "DCN Dorsal column nuclei",
+    "count": 5
+  },
+  {
+    "name": "CU Cuneate nucleus",
+    "count": 5
+  },
+  {
+    "name": "SPVC Spinal nucleus of the trigeminal, caudal part",
+    "count": 27
+  },
+  {
+    "name": "SPVI Spinal nucleus of the trigeminal, interpolar part",
+    "count": 35
+  },
+  {
+    "name": "SPVO Spinal nucleus of the trigeminal, oral part",
+    "count": 38
+  },
+  {
+    "name": "PA5 Paratrigeminal nucleus",
+    "count": 1
+  },
+  {
+    "name": "NTB Nucleus of the trapezoid body",
+    "count": 70
+  },
+  {
+    "name": "NTS Nucleus of the solitary tract",
+    "count": 45
+  },
+  {
+    "name": "MY-MOT Medulla, motor related",
+    "count": 888
+  },
+  {
+    "name": "GRN Gigantocellular reticular nucleus",
+    "count": 416
+  },
+  {
+    "name": "ISN Inferior salivatory nucleus",
+    "count": 4
+  },
+  {
+    "name": "PPY Parapyramidal nucleus",
+    "count": 54
+  },
+  {
+    "name": "MDRN Medullary reticular nucleus",
+    "count": 99
+  },
+  {
+    "name": "MDRND Medullary reticular nucleus, dorsal part",
+    "count": 72
+  },
+  {
+    "name": "MDRNV Medullary reticular nucleus, ventral part",
+    "count": 76
+  },
+  {
+    "name": "AMB Nucleus ambiguus",
+    "count": 25
+  },
+  {
+    "name": "AMBV Nucleus ambiguus, ventral division",
+    "count": 10
+  },
+  {
+    "name": "AMBD Nucleus ambiguus, dorsal division",
+    "count": 16
+  },
+  {
+    "name": "IRN Intermediate reticular nucleus",
+    "count": 152
+  },
+  {
+    "name": "PHY Perihypoglossal nuclei",
+    "count": 286
+  },
+  {
+    "name": "PRP Nucleus prepositus",
+    "count": 277
+  },
+  {
+    "name": "NR Nucleus of Roller",
+    "count": 11
+  },
+  {
+    "name": "VNC Vestibular nuclei",
+    "count": 647
+  },
+  {
+    "name": "MV Medial vestibular nucleus",
+    "count": 636
+  },
+  {
+    "name": "LAV Lateral vestibular nucleus",
+    "count": 7
+  },
+  {
+    "name": "SUV Superior vestibular nucleus",
+    "count": 60
+  },
+  {
+    "name": "SPIV Spinal vestibular nucleus",
+    "count": 4
+  },
+  {
+    "name": "LIN Linear nucleus of the medulla",
+    "count": 33
+  },
+  {
+    "name": "LRN Lateral reticular nucleus",
+    "count": 46
+  },
+  {
+    "name": "LRNM Lateral reticular nucleus, magnocellular part",
+    "count": 46
+  },
+  {
+    "name": "LRNP Lateral reticular nucleus, parvicellular part",
+    "count": 1
+  },
+  {
+    "name": "MARN Magnocellular reticular nucleus",
+    "count": 257
+  },
+  {
+    "name": "ICB Infracerebellar nucleus",
+    "count": 3
+  },
+  {
+    "name": "ACVII Accessory facial motor nucleus",
+    "count": 14
+  },
+  {
+    "name": "VI Abducens nucleus",
+    "count": 232
+  },
+  {
+    "name": "VII Facial motor nucleus",
+    "count": 74
+  },
+  {
+    "name": "X Nucleus x",
+    "count": 2
+  },
+  {
+    "name": "XII Hypoglossal nucleus",
+    "count": 30
+  },
+  {
+    "name": "IO Inferior olivary complex",
+    "count": 222
+  },
+  {
+    "name": "DMX Dorsal motor nucleus of the vagus nerve",
+    "count": 25
+  },
+  {
+    "name": "PARN Parvicellular reticular nucleus",
+    "count": 96
+  },
+  {
+    "name": "PGRN Paragigantocellular reticular nucleus",
+    "count": 237
+  },
+  {
+    "name": "PGRND Paragigantocellular reticular nucleus, dorsal part",
+    "count": 152
+  },
+  {
+    "name": "PGRNL Paragigantocellular reticular nucleus, lateral part",
+    "count": 102
+  },
+  {
+    "name": "MY-SAT Medulla, behavioral state related",
+    "count": 481
+  },
+  {
+    "name": "RM Nucleus raphe magnus",
+    "count": 449
+  },
+  {
+    "name": "RO Nucleus raphe obscurus",
+    "count": 84
+  },
+  {
+    "name": "RPA Nucleus raphe pallidus",
+    "count": 141
+  },
+  {
+    "name": "P Pons",
+    "count": 1439
+  },
+  {
+    "name": "P-SEN Pons, sensory related",
+    "count": 758
+  },
+  {
+    "name": "SOC Superior olivary complex",
+    "count": 55
+  },
+  {
+    "name": "SOCM Superior olivary complex, medial part",
+    "count": 21
+  },
+  {
+    "name": "SOCL Superior olivary complex, lateral part",
+    "count": 40
+  },
+  {
+    "name": "POR Superior olivary complex, periolivary region",
+    "count": 13
+  },
+  {
+    "name": "PB Parabrachial nucleus",
+    "count": 726
+  },
+  {
+    "name": "KF Koelliker-Fuse subnucleus",
+    "count": 65
+  },
+  {
+    "name": "NLL Nucleus of the lateral lemniscus",
+    "count": 46
+  },
+  {
+    "name": "PSV Principal sensory nucleus of the trigeminal",
+    "count": 55
+  },
+  {
+    "name": "P-MOT Pons, motor related",
+    "count": 1370
+  },
+  {
+    "name": "PRNC Pontine reticular nucleus, caudal part",
+    "count": 846
+  },
+  {
+    "name": "B Barrington's nucleus",
+    "count": 297
+  },
+  {
+    "name": "SG Supragenual nucleus",
+    "count": 227
+  },
+  {
+    "name": "SUT Supratrigeminal nucleus",
+    "count": 241
+  },
+  {
+    "name": "P5 Peritrigeminal zone",
+    "count": 157
+  },
+  {
+    "name": "ACS5 Accessory trigeminal nucleus",
+    "count": 20
+  },
+  {
+    "name": "PC5 Parvicellular motor 5 nucleus",
+    "count": 28
+  },
+  {
+    "name": "I5 Intertrigeminal nucleus",
+    "count": 7
+  },
+  {
+    "name": "TRN Tegmental reticular nucleus",
+    "count": 1100
+  },
+  {
+    "name": "PDTG Posterodorsal tegmental nucleus",
+    "count": 340
+  },
+  {
+    "name": "V Motor nucleus of trigeminal",
+    "count": 49
+  },
+  {
+    "name": "DTN Dorsal tegmental nucleus",
+    "count": 679
+  },
+  {
+    "name": "PCG Pontine central gray",
+    "count": 1065
+  },
+  {
+    "name": "PG Pontine gray",
+    "count": 737
+  },
+  {
+    "name": "P-SAT Pons, behavioral state related",
+    "count": 1359
+  },
+  {
+    "name": "PRNR Pontine reticular nucleus",
+    "count": 1247
+  },
+  {
+    "name": "LC Locus ceruleus",
+    "count": 205
+  },
+  {
+    "name": "LDT Laterodorsal tegmental nucleus",
+    "count": 827
+  },
+  {
+    "name": "RPO Nucleus raphe pontis",
+    "count": 658
+  },
+  {
+    "name": "SLC Subceruleus nucleus",
+    "count": 171
+  },
+  {
+    "name": "SLD Sublaterodorsal nucleus",
+    "count": 455
+  },
+  {
+    "name": "NI Nucleus incertus",
+    "count": 707
+  },
+  {
+    "name": "CS Superior central nucleus raphe",
+    "count": 1100
+  },
+  {
+    "name": "CH Cerebrum",
+    "count": 6357
+  },
+  {
+    "name": "CTX Cerebral cortex",
+    "count": 6357
+  },
+  {
+    "name": "CTXPL Cortical plate",
+    "count": 6357
+  },
+  {
+    "name": "ISOCORTEX Isocortex",
+    "count": 6357
+  },
+  {
+    "name": "AUD Auditory areas",
+    "count": 353
+  },
+  {
+    "name": "AUDP Primary auditory area",
+    "count": 184
+  },
+  {
+    "name": "AUDP6B Primary auditory area, layer 6b",
+    "count": 31
+  },
+  {
+    "name": "AUDP2/3 Primary auditory area, layer 2/3",
+    "count": 48
+  },
+  {
+    "name": "AUDP1 Primary auditory area, layer 1",
+    "count": 92
+  },
+  {
+    "name": "AUDP4 Primary auditory area, layer 4",
+    "count": 26
+  },
+  {
+    "name": "AUDP5 Primary auditory area, layer 5",
+    "count": 75
+  },
+  {
+    "name": "AUDP6A Primary auditory area, layer 6a",
+    "count": 102
+  },
+  {
+    "name": "AUDD Dorsal auditory area",
+    "count": 199
+  },
+  {
+    "name": "AUDD6A Dorsal auditory area, layer 6a",
+    "count": 116
+  },
+  {
+    "name": "AUDD6B Dorsal auditory area, layer 6b",
+    "count": 43
+  },
+  {
+    "name": "AUDD5 Dorsal auditory area, layer 5",
+    "count": 108
+  },
+  {
+    "name": "AUDD1 Dorsal auditory area, layer 1",
+    "count": 87
+  },
+  {
+    "name": "AUDD2/3 Dorsal auditory area, layer 2/3",
+    "count": 60
+  },
+  {
+    "name": "AUDD4 Dorsal auditory area, layer 4",
+    "count": 38
+  },
+  {
+    "name": "AUDV Ventral auditory area",
+    "count": 254
+  },
+  {
+    "name": "AUDV5 Ventral auditory area, layer 5",
+    "count": 110
+  },
+  {
+    "name": "AUDV6A Ventral auditory area, layer 6a",
+    "count": 130
+  },
+  {
+    "name": "AUDV6B Ventral auditory area, layer 6b",
+    "count": 69
+  },
+  {
+    "name": "AUDV2/3 Ventral auditory area, layer 2/3",
+    "count": 109
+  },
+  {
+    "name": "AUDV1 Ventral auditory area, layer 1",
+    "count": 135
+  },
+  {
+    "name": "AUDV4 Ventral auditory area, layer 4",
+    "count": 63
+  },
+  {
+    "name": "AUDPO Posterior auditory area",
+    "count": 146
+  },
+  {
+    "name": "AUDPO6A Posterior auditory area, layer 6a",
+    "count": 74
+  },
+  {
+    "name": "AUDPO6B Posterior auditory area, layer 6b",
+    "count": 18
+  },
+  {
+    "name": "AUDPO2/3 Posterior auditory area, layer 2/3",
+    "count": 41
+  },
+  {
+    "name": "AUDPO1 Posterior auditory area, layer 1",
+    "count": 70
+  },
+  {
+    "name": "AUDPO4 Posterior auditory area, layer 4",
+    "count": 27
+  },
+  {
+    "name": "AUDPO5 Posterior auditory area, layer 5",
+    "count": 76
+  },
+  {
+    "name": "SS Somatosensory areas",
+    "count": 1253
+  },
+  {
+    "name": "SSP Primary somatosensory area",
+    "count": 1156
+  },
+  {
+    "name": "SSP-TR Primary somatosensory area, trunk",
+    "count": 478
+  },
+  {
+    "name": "SSP-TR1 Primary somatosensory area, trunk, layer 1",
+    "count": 126
+  },
+  {
+    "name": "SSP-TR4 Primary somatosensory area, trunk, layer 4",
+    "count": 57
+  },
+  {
+    "name": "SSP-TR5 Primary somatosensory area, trunk, layer 5",
+    "count": 150
+  },
+  {
+    "name": "SSP-TR6B Primary somatosensory area, trunk, layer 6b",
+    "count": 129
+  },
+  {
+    "name": "SSP-TR2/3 Primary somatosensory area, trunk, layer 2/3",
+    "count": 92
+  },
+  {
+    "name": "SSP-TR6A Primary somatosensory area, trunk, layer 6a",
+    "count": 401
+  },
+  {
+    "name": "SSP-UL Primary somatosensory area, upper limb",
+    "count": 500
+  },
+  {
+    "name": "SSP-UL6B Primary somatosensory area, upper limb, layer 6b",
+    "count": 188
+  },
+  {
+    "name": "SSP-UL1 Primary somatosensory area, upper limb, layer 1",
+    "count": 147
+  },
+  {
+    "name": "SSP-UL4 Primary somatosensory area, upper limb, layer 4",
+    "count": 71
+  },
+  {
+    "name": "SSP-UL5 Primary somatosensory area, upper limb, layer 5",
+    "count": 160
+  },
+  {
+    "name": "SSP-UL2/3 Primary somatosensory area, upper limb, layer 2/3",
+    "count": 88
+  },
+  {
+    "name": "SSP-UL6A Primary somatosensory area, upper limb, layer 6a",
+    "count": 404
+  },
+  {
+    "name": "SSP-LL Primary somatosensory area, lower limb",
+    "count": 534
+  },
+  {
+    "name": "SSP-LL1 Primary somatosensory area, lower limb, layer 1",
+    "count": 119
+  },
+  {
+    "name": "SSP-LL4 Primary somatosensory area, lower limb, layer 4",
+    "count": 49
+  },
+  {
+    "name": "SSP-LL5 Primary somatosensory area, lower limb, layer 5",
+    "count": 117
+  },
+  {
+    "name": "SSP-LL2/3 Primary somatosensory area, lower limb, layer 2/3",
+    "count": 73
+  },
+  {
+    "name": "SSP-LL6A Primary somatosensory area, lower limb, layer 6a",
+    "count": 457
+  },
+  {
+    "name": "SSP-LL6B Primary somatosensory area, lower limb, layer 6b",
+    "count": 145
+  },
+  {
+    "name": "SSP-BFD Primary somatosensory area, barrel field",
+    "count": 434
+  },
+  {
+    "name": "SSP-BFD6A Primary somatosensory area, barrel field, layer 6a",
+    "count": 349
+  },
+  {
+    "name": "SSP-BFD4 Primary somatosensory area, barrel field, layer 4",
+    "count": 110
+  },
+  {
+    "name": "SSP-BFD6B Primary somatosensory area, barrel field, layer 6b",
+    "count": 198
+  },
+  {
+    "name": "SSP-BFD5 Primary somatosensory area, barrel field, layer 5",
+    "count": 221
+  },
+  {
+    "name": "SSP-BFD2/3 Primary somatosensory area, barrel field, layer 2/3",
+    "count": 109
+  },
+  {
+    "name": "SSP-BFD1 Primary somatosensory area, barrel field, layer 1",
+    "count": 150
+  },
+  {
+    "name": "SSP-M Primary somatosensory area, mouth",
+    "count": 551
+  },
+  {
+    "name": "SSP-M6A Primary somatosensory area, mouth, layer 6a",
+    "count": 401
+  },
+  {
+    "name": "SSP-M6B Primary somatosensory area, mouth, layer 6b",
+    "count": 282
+  },
+  {
+    "name": "SSP-M2/3 Primary somatosensory area, mouth, layer 2/3",
+    "count": 112
+  },
+  {
+    "name": "SSP-M1 Primary somatosensory area, mouth, layer 1",
+    "count": 171
+  },
+  {
+    "name": "SSP-M4 Primary somatosensory area, mouth, layer 4",
+    "count": 85
+  },
+  {
+    "name": "SSP-M5 Primary somatosensory area, mouth, layer 5",
+    "count": 162
+  },
+  {
+    "name": "SSP-UN Primary somatosensory area, unassigned",
+    "count": 352
+  },
+  {
+    "name": "SSP-UN1 Primary somatosensory area, unassigned, layer 1",
+    "count": 86
+  },
+  {
+    "name": "SSP-UN2/3 Primary somatosensory area, unassigned, layer 2/3",
+    "count": 42
+  },
+  {
+    "name": "SSP-UN4 Primary somatosensory area, unassigned, layer 4",
+    "count": 33
+  },
+  {
+    "name": "SSP-UN5 Primary somatosensory area, unassigned, layer 5",
+    "count": 85
+  },
+  {
+    "name": "SSP-UN6A Primary somatosensory area, unassigned, layer 6a",
+    "count": 284
+  },
+  {
+    "name": "SSP-UN6B Primary somatosensory area, unassigned, layer 6b",
+    "count": 110
+  },
+  {
+    "name": "SSP-N Primary somatosensory area, nose",
+    "count": 234
+  },
+  {
+    "name": "SSP-N1 Primary somatosensory area, nose, layer 1",
+    "count": 55
+  },
+  {
+    "name": "SSP-N4 Primary somatosensory area, nose, layer 4",
+    "count": 22
+  },
+  {
+    "name": "SSP-N5 Primary somatosensory area, nose, layer 5",
+    "count": 59
+  },
+  {
+    "name": "SSP-N2/3 Primary somatosensory area, nose, layer 2/3",
+    "count": 22
+  },
+  {
+    "name": "SSP-N6A Primary somatosensory area, nose, layer 6a",
+    "count": 191
+  },
+  {
+    "name": "SSP-N6B Primary somatosensory area, nose, layer 6b",
+    "count": 102
+  },
+  {
+    "name": "SSS Supplemental somatosensory area",
+    "count": 671
+  },
+  {
+    "name": "SSS4 Supplemental somatosensory area, layer 4",
+    "count": 179
+  },
+  {
+    "name": "SSS5 Supplemental somatosensory area, layer 5",
+    "count": 323
+  },
+  {
+    "name": "SSS2/3 Supplemental somatosensory area, layer 2/3",
+    "count": 208
+  },
+  {
+    "name": "SSS6A Supplemental somatosensory area, layer 6a",
+    "count": 516
+  },
+  {
+    "name": "SSS1 Supplemental somatosensory area, layer 1",
+    "count": 254
+  },
+  {
+    "name": "SSS6B Supplemental somatosensory area, layer 6b",
+    "count": 397
+  },
+  {
+    "name": "VISC Visceral area",
+    "count": 569
+  },
+  {
+    "name": "VISC4 Visceral area, layer 4",
+    "count": 125
+  },
+  {
+    "name": "VISC5 Visceral area, layer 5",
+    "count": 273
+  },
+  {
+    "name": "VISC2/3 Visceral area, layer 2/3",
+    "count": 192
+  },
+  {
+    "name": "VISC6B Visceral area, layer 6b",
+    "count": 271
+  },
+  {
+    "name": "VISC6A Visceral area, layer 6a",
+    "count": 394
+  },
+  {
+    "name": "VISC1 Visceral area, layer 1",
+    "count": 211
+  },
+  {
+    "name": "ACA Anterior cingulate area",
+    "count": 3723
+  },
+  {
+    "name": "ACAD Anterior cingulate area, dorsal part",
+    "count": 3189
+  },
+  {
+    "name": "ACAD5 Anterior cingulate area, dorsal part, layer 5",
+    "count": 2588
+  },
+  {
+    "name": "ACAD2/3 Anterior cingulate area, dorsal part, layer 2/3",
+    "count": 1810
+  },
+  {
+    "name": "ACAD6A Anterior cingulate area, dorsal part, layer 6a",
+    "count": 2709
+  },
+  {
+    "name": "ACAD6B Anterior cingulate area, dorsal part, layer 6b",
+    "count": 1184
+  },
+  {
+    "name": "ACAD1 Anterior cingulate area, dorsal part, layer 1",
+    "count": 1603
+  },
+  {
+    "name": "ACAV Anterior cingulate area, ventral part",
+    "count": 2634
+  },
+  {
+    "name": "ACAV2/3 Anterior cingulate area, ventral part, layer 2/3",
+    "count": 1530
+  },
+  {
+    "name": "ACAV1 Anterior cingulate area, ventral part, layer 1",
+    "count": 1288
+  },
+  {
+    "name": "ACAV5 Anterior cingulate area, ventral part, layer 5",
+    "count": 2168
+  },
+  {
+    "name": "ACAV6A Anterior cingulate area, ventral part, 6a",
+    "count": 2276
+  },
+  {
+    "name": "ACAV6B Anterior cingulate area, ventral part, 6b",
+    "count": 1498
+  },
+  {
+    "name": "MO Somatomotor areas",
+    "count": 3641
+  },
+  {
+    "name": "MOS Secondary motor area",
+    "count": 3569
+  },
+  {
+    "name": "MOS6A Secondary motor area, layer 6a",
+    "count": 2990
+  },
+  {
+    "name": "MOS6B Secondary motor area, layer 6b",
+    "count": 1437
+  },
+  {
+    "name": "MOS1 Secondary motor area, layer 1",
+    "count": 1953
+  },
+  {
+    "name": "MOS5 Secondary motor area, layer 5",
+    "count": 2934
+  },
+  {
+    "name": "MOS2/3 Secondary motor area, layer 2/3",
+    "count": 2290
+  },
+  {
+    "name": "MOP Primary motor area",
+    "count": 1864
+  },
+  {
+    "name": "MOP1 Primary motor area, Layer 1",
+    "count": 718
+  },
+  {
+    "name": "MOP5 Primary motor area, Layer 5",
+    "count": 860
+  },
+  {
+    "name": "MOP6A Primary motor area, Layer 6a",
+    "count": 1514
+  },
+  {
+    "name": "MOP6B Primary motor area, Layer 6b",
+    "count": 887
+  },
+  {
+    "name": "MOP2/3 Primary motor area, Layer 2/3",
+    "count": 807
+  },
+  {
+    "name": "AI Agranular insular area",
+    "count": 3349
+  },
+  {
+    "name": "AID Agranular insular area, dorsal part",
+    "count": 2746
+  },
+  {
+    "name": "AID5 Agranular insular area, dorsal part, layer 5",
+    "count": 2185
+  },
+  {
+    "name": "AID2/3 Agranular insular area, dorsal part, layer 2/3",
+    "count": 1439
+  },
+  {
+    "name": "AID6A Agranular insular area, dorsal part, layer 6a",
+    "count": 2390
+  },
+  {
+    "name": "AID6B Agranular insular area, dorsal part, layer 6b",
+    "count": 1356
+  },
+  {
+    "name": "AID1 Agranular insular area, dorsal part, layer 1",
+    "count": 956
+  },
+  {
+    "name": "AIP Agranular insular area, posterior part",
+    "count": 1264
+  },
+  {
+    "name": "AIP1 Agranular insular area, posterior part, layer 1",
+    "count": 260
+  },
+  {
+    "name": "AIP2/3 Agranular insular area, posterior part, layer 2/3",
+    "count": 410
+  },
+  {
+    "name": "AIP6A Agranular insular area, posterior part, layer 6a",
+    "count": 1076
+  },
+  {
+    "name": "AIP5 Agranular insular area, posterior part, layer 5",
+    "count": 653
+  },
+  {
+    "name": "AIP6B Agranular insular area, posterior part, layer 6b",
+    "count": 277
+  },
+  {
+    "name": "AIV Agranular insular area, ventral part",
+    "count": 2896
+  },
+  {
+    "name": "AIV6A Agranular insular area, ventral part, layer 6a",
+    "count": 2435
+  },
+  {
+    "name": "AIV2/3 Agranular insular area, ventral part, layer 2/3",
+    "count": 1380
+  },
+  {
+    "name": "AIV6B Agranular insular area, ventral part, layer 6b",
+    "count": 429
+  },
+  {
+    "name": "AIV1 Agranular insular area, ventral part, layer 1",
+    "count": 884
+  },
+  {
+    "name": "AIV5 Agranular insular area, ventral part, layer 5",
+    "count": 2086
+  },
+  {
+    "name": "ECT Ectorhinal area",
+    "count": 552
+  },
+  {
+    "name": "ECT6B Ectorhinal area/Layer 6b",
+    "count": 128
+  },
+  {
+    "name": "ECT2/3 Ectorhinal area/Layer 2/3",
+    "count": 321
+  },
+  {
+    "name": "ECT1 Ectorhinal area/Layer 1",
+    "count": 261
+  },
+  {
+    "name": "ECT6A Ectorhinal area/Layer 6a",
+    "count": 358
+  },
+  {
+    "name": "ECT5 Ectorhinal area/Layer 5",
+    "count": 434
+  },
+  {
+    "name": "VIS Visual areas",
+    "count": 660
+  },
+  {
+    "name": "VISAM Anteromedial visual area",
+    "count": 477
+  },
+  {
+    "name": "VISAM6A Anteromedial visual area, layer 6a",
+    "count": 328
+  },
+  {
+    "name": "VISAM2/3 Anteromedial visual area, layer 2/3",
+    "count": 215
+  },
+  {
+    "name": "VISAM1 Anteromedial visual area, layer 1",
+    "count": 230
+  },
+  {
+    "name": "VISAM4 Anteromedial visual area, layer 4",
+    "count": 168
+  },
+  {
+    "name": "VISAM5 Anteromedial visual area, layer 5",
+    "count": 275
+  },
+  {
+    "name": "VISAM6B Anteromedial visual area, layer 6b",
+    "count": 153
+  },
+  {
+    "name": "VISAL Anterolateral visual area",
+    "count": 179
+  },
+  {
+    "name": "VISAL1 Anterolateral visual area, layer 1",
+    "count": 79
+  },
+  {
+    "name": "VISAL4 Anterolateral visual area, layer 4",
+    "count": 41
+  },
+  {
+    "name": "VISAL5 Anterolateral visual area, layer 5",
+    "count": 107
+  },
+  {
+    "name": "VISAL6A Anterolateral visual area, layer 6a",
+    "count": 115
+  },
+  {
+    "name": "VISAL6B Anterolateral visual area, layer 6b",
+    "count": 33
+  },
+  {
+    "name": "VISAL2/3 Anterolateral visual area, layer 2/3",
+    "count": 56
+  },
+  {
+    "name": "VISL Lateral visual area",
+    "count": 152
+  },
+  {
+    "name": "VISL6B Lateral visual area, layer 6b",
+    "count": 23
+  },
+  {
+    "name": "VISL1 Lateral visual area, layer 1",
+    "count": 71
+  },
+  {
+    "name": "VISL4 Lateral visual area, layer 4",
+    "count": 31
+  },
+  {
+    "name": "VISL5 Lateral visual area, layer 5",
+    "count": 72
+  },
+  {
+    "name": "VISL6A Lateral visual area, layer 6a",
+    "count": 87
+  },
+  {
+    "name": "VISL2/3 Lateral visual area, layer 2/3",
+    "count": 46
+  },
+  {
+    "name": "VISPM posteromedial visual area",
+    "count": 341
+  },
+  {
+    "name": "VISPM6A posteromedial visual area, layer 6a",
+    "count": 214
+  },
+  {
+    "name": "VISPM2/3 posteromedial visual area, layer 2/3",
+    "count": 106
+  },
+  {
+    "name": "VISPM6B posteromedial visual area, layer 6b",
+    "count": 117
+  },
+  {
+    "name": "VISPM4 posteromedial visual area, layer 4",
+    "count": 57
+  },
+  {
+    "name": "VISPM5 posteromedial visual area, layer 5",
+    "count": 135
+  },
+  {
+    "name": "VISPM1 posteromedial visual area, layer 1",
+    "count": 158
+  },
+  {
+    "name": "VISPL Posterolateral visual area",
+    "count": 106
+  },
+  {
+    "name": "VISPL2/3 Posterolateral visual area, layer 2/3",
+    "count": 54
+  },
+  {
+    "name": "VISPL6A Posterolateral visual area, layer 6a",
+    "count": 42
+  },
+  {
+    "name": "VISPL6B Posterolateral visual area, layer 6b",
+    "count": 7
+  },
+  {
+    "name": "VISPL1 Posterolateral visual area, layer 1",
+    "count": 59
+  },
+  {
+    "name": "VISPL4 Posterolateral visual area, layer 4",
+    "count": 46
+  },
+  {
+    "name": "VISPL5 Posterolateral visual area, layer 5",
+    "count": 76
+  },
+  {
+    "name": "VISP Primary visual area",
+    "count": 321
+  },
+  {
+    "name": "VISP6B Primary visual area, layer 6b",
+    "count": 131
+  },
+  {
+    "name": "VISP6A Primary visual area, layer 6a",
+    "count": 240
+  },
+  {
+    "name": "VISP1 Primary visual area, layer 1",
+    "count": 163
+  },
+  {
+    "name": "VISP4 Primary visual area, layer 4",
+    "count": 112
+  },
+  {
+    "name": "VISP5 Primary visual area, layer 5",
+    "count": 201
+  },
+  {
+    "name": "VISP2/3 Primary visual area, layer 2/3",
+    "count": 129
+  },
+  {
+    "name": "VISLI Laterointermediate area",
+    "count": 117
+  },
+  {
+    "name": "VISLI1 Laterointermediate area, layer 1",
+    "count": 51
+  },
+  {
+    "name": "VISLI2/3 Laterointermediate area, layer 2/3",
+    "count": 38
+  },
+  {
+    "name": "VISLI4 Laterointermediate area, layer 4",
+    "count": 24
+  },
+  {
+    "name": "VISLI5 Laterointermediate area, layer 5",
+    "count": 64
+  },
+  {
+    "name": "VISLI6A Laterointermediate area, layer 6a",
+    "count": 65
+  },
+  {
+    "name": "VISLI6B Laterointermediate area, layer 6b",
+    "count": 12
+  },
+  {
+    "name": "VISPOR Postrhinal area",
+    "count": 194
+  },
+  {
+    "name": "VISPOR1 Postrhinal area, layer 1",
+    "count": 103
+  },
+  {
+    "name": "VISPOR2/3 Postrhinal area, layer 2/3",
+    "count": 130
+  },
+  {
+    "name": "VISPOR4 Postrhinal area, layer 4",
+    "count": 49
+  },
+  {
+    "name": "VISPOR5 Postrhinal area, layer 5",
+    "count": 147
+  },
+  {
+    "name": "VISPOR6A Postrhinal area, layer 6a",
+    "count": 83
+  },
+  {
+    "name": "VISPOR6B Postrhinal area, layer 6b",
+    "count": 16
+  },
+  {
+    "name": "ILA Infralimbic area",
+    "count": 2182
+  },
+  {
+    "name": "ILA6A Infralimbic area, layer 6a",
+    "count": 1933
+  },
+  {
+    "name": "ILA6B Infralimbic area, layer 6b",
+    "count": 1370
+  },
+  {
+    "name": "ILA2/3 Infralimbic area, layer 2/3",
+    "count": 598
+  },
+  {
+    "name": "ILA1 Infralimbic area, layer 1",
+    "count": 487
+  },
+  {
+    "name": "ILA5 Infralimbic area, layer 5",
+    "count": 1037
+  },
+  {
+    "name": "GU Gustatory areas",
+    "count": 907
+  },
+  {
+    "name": "GU4 Gustatory areas, layer 4",
+    "count": 177
+  },
+  {
+    "name": "GU2/3 Gustatory areas, layer 2/3",
+    "count": 287
+  },
+  {
+    "name": "GU5 Gustatory areas, layer 5",
+    "count": 351
+  },
+  {
+    "name": "GU1 Gustatory areas, layer 1",
+    "count": 236
+  },
+  {
+    "name": "GU6A Gustatory areas, layer 6a",
+    "count": 700
+  },
+  {
+    "name": "GU6B Gustatory areas, layer 6b",
+    "count": 484
+  },
+  {
+    "name": "ORB Orbital area",
+    "count": 4352
+  },
+  {
+    "name": "ORBVL Orbital area, ventrolateral part",
+    "count": 3045
+  },
+  {
+    "name": "ORBVL5 Orbital area, ventrolateral part, layer 5",
+    "count": 2532
+  },
+  {
+    "name": "ORBVL2/3 Orbital area, ventrolateral part, layer 2/3",
+    "count": 1831
+  },
+  {
+    "name": "ORBVL6A Orbital area, ventrolateral part, layer 6a",
+    "count": 2331
+  },
+  {
+    "name": "ORBVL6B Orbital area, ventrolateral part, layer 6b",
+    "count": 1051
+  },
+  {
+    "name": "ORBVL1 Orbital area, ventrolateral part, layer 1",
+    "count": 1352
+  },
+  {
+    "name": "ORBL Orbital area, lateral part",
+    "count": 3365
+  },
+  {
+    "name": "ORBL2/3 Orbital area, lateral part, layer 2/3",
+    "count": 1523
+  },
+  {
+    "name": "ORBL6A Orbital area, lateral part, layer 6a",
+    "count": 2959
+  },
+  {
+    "name": "ORBL1 Orbital area, lateral part, layer 1",
+    "count": 1198
+  },
+  {
+    "name": "ORBL6B Orbital area, lateral part, layer 6b",
+    "count": 2306
+  },
+  {
+    "name": "ORBL5 Orbital area, lateral part, layer 5",
+    "count": 2571
+  },
+  {
+    "name": "ORBM Orbital area, medial part",
+    "count": 2735
+  },
+  {
+    "name": "ORBM1 Orbital area, medial part, layer 1",
+    "count": 1325
+  },
+  {
+    "name": "ORBM6B Orbital area, medial part, layer 6b",
+    "count": 667
+  },
+  {
+    "name": "ORBM2/3 Orbital area, medial part, layer 2/3",
+    "count": 1481
+  },
+  {
+    "name": "ORBM5 Orbital area, medial part, layer 5",
+    "count": 2021
+  },
+  {
+    "name": "ORBM6A Orbital area, medial part, layer 6a",
+    "count": 2122
+  },
+  {
+    "name": "TEA Temporal association areas",
+    "count": 486
+  },
+  {
+    "name": "TEA2/3 Temporal association areas, layer 2/3",
+    "count": 266
+  },
+  {
+    "name": "TEA4 Temporal association areas, layer 4",
+    "count": 200
+  },
+  {
+    "name": "TEA5 Temporal association areas, layer 5",
+    "count": 340
+  },
+  {
+    "name": "TEA6A Temporal association areas, layer 6a",
+    "count": 314
+  },
+  {
+    "name": "TEA6B Temporal association areas, layer 6b",
+    "count": 125
+  },
+  {
+    "name": "TEA1 Temporal association areas, layer 1",
+    "count": 247
+  },
+  {
+    "name": "PL Prelimbic area",
+    "count": 3703
+  },
+  {
+    "name": "PL6B Prelimbic area, layer 6b",
+    "count": 1768
+  },
+  {
+    "name": "PL1 Prelimbic area, layer 1",
+    "count": 1844
+  },
+  {
+    "name": "PL2/3 Prelimbic area, layer 2/3",
+    "count": 2077
+  },
+  {
+    "name": "PL5 Prelimbic area, layer 5",
+    "count": 3044
+  },
+  {
+    "name": "PL6A Prelimbic area, layer 6a",
+    "count": 2925
+  },
+  {
+    "name": "FRP Frontal pole, cerebral cortex",
+    "count": 2394
+  },
+  {
+    "name": "FRP5 Frontal pole, layer 5",
+    "count": 1885
+  },
+  {
+    "name": "FRP6A Frontal pole, layer 6a",
+    "count": 1413
+  },
+  {
+    "name": "FRP6B Frontal pole, layer 6b",
+    "count": 152
+  },
+  {
+    "name": "FRP2/3 Frontal pole, layer 2/3",
+    "count": 1325
+  },
+  {
+    "name": "FRP1 Frontal pole, layer 1",
+    "count": 1165
+  },
+  {
+    "name": "PTLP Posterior parietal association areas",
+    "count": 536
+  },
+  {
+    "name": "VISA Anterior area",
+    "count": 512
+  },
+  {
+    "name": "VISA1 Anterior area, layer 1",
+    "count": 208
+  },
+  {
+    "name": "VISA2/3 Anterior area, layer 2/3",
+    "count": 196
+  },
+  {
+    "name": "VISA4 Anterior area, layer 4",
+    "count": 151
+  },
+  {
+    "name": "VISA5 Anterior area, layer 5",
+    "count": 264
+  },
+  {
+    "name": "VISA6A Anterior area, layer 6a",
+    "count": 396
+  },
+  {
+    "name": "VISA6B Anterior area, layer 6b",
+    "count": 162
+  },
+  {
+    "name": "VISRL Rostrolateral visual area",
+    "count": 264
+  },
+  {
+    "name": "VISRL1 Rostrolateral area, layer 1",
+    "count": 118
+  },
+  {
+    "name": "VISRL2/3 Rostrolateral area, layer 2/3",
+    "count": 84
+  },
+  {
+    "name": "VISRL4 Rostrolateral area, layer 4",
+    "count": 78
+  },
+  {
+    "name": "VISRL5 Rostrolateral area, layer 5",
+    "count": 152
+  },
+  {
+    "name": "VISRL6A Rostrolateral area, layer 6a",
+    "count": 188
+  },
+  {
+    "name": "VISRL6B Rostrolateral area, layer 6b",
+    "count": 61
+  },
+  {
+    "name": "RSP Retrosplenial area",
+    "count": 1092
+  },
+  {
+    "name": "RSPD Retrosplenial area, dorsal part",
+    "count": 884
+  },
+  {
+    "name": "RSPD6A Retrosplenial area, dorsal part, layer 6a",
+    "count": 680
+  },
+  {
+    "name": "RSPD6B Retrosplenial area, dorsal part, layer 6b",
+    "count": 288
+  },
+  {
+    "name": "RSPD2/3 Retrosplenial area, dorsal part, layer 2/3",
+    "count": 584
+  },
+  {
+    "name": "RSPD1 Retrosplenial area, dorsal part, layer 1",
+    "count": 557
+  },
+  {
+    "name": "RSPD5 Retrosplenial area, dorsal part, layer 5",
+    "count": 692
+  },
+  {
+    "name": "RSPAGL Retrosplenial area, lateral agranular part",
+    "count": 814
+  },
+  {
+    "name": "RSPAGL6B Retrosplenial area, lateral agranular part, layer 6b",
+    "count": 260
+  },
+  {
+    "name": "RSPAGL1 Retrosplenial area, lateral agranular part, layer 1",
+    "count": 405
+  },
+  {
+    "name": "RSPAGL5 Retrosplenial area, lateral agranular part, layer 5",
+    "count": 532
+  },
+  {
+    "name": "RSPAGL6A Retrosplenial area, lateral agranular part, layer 6a",
+    "count": 622
+  },
+  {
+    "name": "RSPAGL2/3 Retrosplenial area, lateral agranular part, layer 2/3",
+    "count": 441
+  },
+  {
+    "name": "RSPV Retrosplenial area, ventral part",
+    "count": 631
+  },
+  {
+    "name": "RSPV2/3 Retrosplenial area, ventral part, layer 2/3",
+    "count": 385
+  },
+  {
+    "name": "RSPV1 Retrosplenial area, ventral part, layer 1",
+    "count": 369
+  },
+  {
+    "name": "RSPV6A Retrosplenial area, ventral part, layer 6a",
+    "count": 473
+  },
+  {
+    "name": "RSPV6B Retrosplenial area, ventral part, layer 6b",
+    "count": 250
+  },
+  {
+    "name": "RSPV5 Retrosplenial area, ventral part, layer 5",
+    "count": 461
+  },
+  {
+    "name": "PERI Perirhinal area",
+    "count": 457
+  },
+  {
+    "name": "PERI6A Perirhinal area, layer 6a",
+    "count": 134
+  },
+  {
+    "name": "PERI6B Perirhinal area, layer 6b",
+    "count": 14
+  },
+  {
+    "name": "PERI1 Perirhinal area, layer 1",
+    "count": 207
+  },
+  {
+    "name": "PERI5 Perirhinal area, layer 5",
+    "count": 331
+  },
+  {
+    "name": "PERI2/3 Perirhinal area, layer 2/3",
+    "count": 316
+  },
+  {
+    "name": "HPF Hippocampal formation",
+    "count": 2007
+  },
+  {
+    "name": "RHP Retrohippocampal region",
+    "count": 599
+  },
+  {
+    "name": "POST Postsubiculum",
+    "count": 56
+  },
+  {
+    "name": "PRE Presubiculum",
+    "count": 13
+  },
+  {
+    "name": "ENT Entorhinal area",
+    "count": 544
+  },
+  {
+    "name": "ENTL Entorhinal area, lateral part",
+    "count": 530
+  },
+  {
+    "name": "ENTL1 Entorhinal area, lateral part, layer 1",
+    "count": 121
+  },
+  {
+    "name": "ENTL5 Entorhinal area, lateral part, layer 5",
+    "count": 459
+  },
+  {
+    "name": "ENTL2 Entorhinal area, lateral part, layer 2",
+    "count": 254
+  },
+  {
+    "name": "ENTL6A Entorhinal area, lateral part, layer 6a",
+    "count": 327
+  },
+  {
+    "name": "ENTL3 Entorhinal area, lateral part, layer 3",
+    "count": 379
+  },
+  {
+    "name": "ENTM Entorhinal area, medial part, dorsal zone",
+    "count": 121
+  },
+  {
+    "name": "ENTM1 Entorhinal area, medial part, dorsal zone, layer 1",
+    "count": 30
+  },
+  {
+    "name": "ENTM2 Entorhinal area, medial part, dorsal zone, layer 2",
+    "count": 41
+  },
+  {
+    "name": "ENTM3 Entorhinal area, medial part, dorsal zone, layer 3",
+    "count": 69
+  },
+  {
+    "name": "ENTM5 Entorhinal area, medial part, dorsal zone, layer 5",
+    "count": 77
+  },
+  {
+    "name": "ENTM6 Entorhinal area, medial part, dorsal zone, layer 6",
+    "count": 58
+  },
+  {
+    "name": "PROS Prosubiculum",
+    "count": 3
+  },
+  {
+    "name": "APR Area prostriata",
+    "count": 46
+  },
+  {
+    "name": "SUB Subiculum",
+    "count": 28
+  },
+  {
+    "name": "HATA Hippocampo-amygdalar transition area",
+    "count": 3
+  },
+  {
+    "name": "PAR Parasubiculum",
+    "count": 37
+  },
+  {
+    "name": "HIP Hippocampal region",
+    "count": 1591
+  },
+  {
+    "name": "DG Dentate gyrus",
+    "count": 152
+  },
+  {
+    "name": "DG-MO Dentate gyrus, molecular layer",
+    "count": 152
+  },
+  {
+    "name": "DG-SG Dentate gyrus, granule cell layer",
+    "count": 1
+  },
+  {
+    "name": "IG Induseum griseum",
+    "count": 1442
+  },
+  {
+    "name": "CA Ammon's horn",
+    "count": 31
+  },
+  {
+    "name": "CA1 Field CA1",
+    "count": 7
+  },
+  {
+    "name": "CA2 Field CA2",
+    "count": 2
+  },
+  {
+    "name": "CA3 Field CA3",
+    "count": 26
+  },
+  {
+    "name": "FC Fasciola cinerea",
+    "count": 2
+  },
+  {
+    "name": "OLF Olfactory areas",
+    "count": 4018
+  },
+  {
+    "name": "NLOT Nucleus of the lateral olfactory tract",
+    "count": 325
+  },
+  {
+    "name": "NLOT3 Nucleus of the lateral olfactory tract, layer 3",
+    "count": 278
+  },
+  {
+    "name": "NLOT1 Nucleus of the lateral olfactory tract, molecular layer",
+    "count": 133
+  },
+  {
+    "name": "NLOT2 Nucleus of the lateral olfactory tract, pyramidal layer",
+    "count": 227
+  },
+  {
+    "name": "AOB Accessory olfactory bulb",
+    "count": 431
+  },
+  {
+    "name": "AOBGL Accessory olfactory bulb, glomerular layer",
+    "count": 425
+  },
+  {
+    "name": "AOBGR Accessory olfactory bulb, granular layer",
+    "count": 4
+  },
+  {
+    "name": "AOBMI Accessory olfactory bulb, mitral layer",
+    "count": 40
+  },
+  {
+    "name": "AON Anterior olfactory nucleus",
+    "count": 1160
+  },
+  {
+    "name": "MOB Main olfactory bulb",
+    "count": 347
+  },
+  {
+    "name": "TR Postpiriform transition area",
+    "count": 59
+  },
+  {
+    "name": "TT Taenia tecta",
+    "count": 1124
+  },
+  {
+    "name": "TTD Taenia tecta, dorsal part",
+    "count": 962
+  },
+  {
+    "name": "TTV Taenia tecta, ventral part",
+    "count": 324
+  },
+  {
+    "name": "COA Cortical amygdalar area",
+    "count": 358
+  },
+  {
+    "name": "COAA Cortical amygdalar area, anterior part",
+    "count": 288
+  },
+  {
+    "name": "COAP Cortical amygdalar area, posterior part",
+    "count": 169
+  },
+  {
+    "name": "COAPL Cortical amygdalar area, posterior part, lateral zone",
+    "count": 155
+  },
+  {
+    "name": "COAPM Cortical amygdalar area, posterior part, medial zone",
+    "count": 103
+  },
+  {
+    "name": "PAA Piriform-amygdalar area",
+    "count": 159
+  },
+  {
+    "name": "DP Dorsal peduncular area",
+    "count": 1958
+  },
+  {
+    "name": "PIR Piriform area",
+    "count": 1771
+  },
+  {
+    "name": "CTXSP Cortical subplate",
+    "count": 3201
+  },
+  {
+    "name": "LA Lateral amygdalar nucleus",
+    "count": 591
+  },
+  {
+    "name": "BLA Basolateral amygdalar nucleus",
+    "count": 835
+  },
+  {
+    "name": "BLAA Basolateral amygdalar nucleus, anterior part",
+    "count": 739
+  },
+  {
+    "name": "BLAP Basolateral amygdalar nucleus, posterior part",
+    "count": 370
+  },
+  {
+    "name": "BLAV Basolateral amygdalar nucleus, ventral part",
+    "count": 407
+  },
+  {
+    "name": "BMA Basomedial amygdalar nucleus",
+    "count": 716
+  },
+  {
+    "name": "BMAA Basomedial amygdalar nucleus, anterior part",
+    "count": 621
+  },
+  {
+    "name": "BMAP Basomedial amygdalar nucleus, posterior part",
+    "count": 302
+  },
+  {
+    "name": "CLA Claustrum",
+    "count": 2427
+  },
+  {
+    "name": "PA Posterior amygdalar nucleus",
+    "count": 128
+  },
+  {
+    "name": "EP Endopiriform nucleus",
+    "count": 2312
+  },
+  {
+    "name": "EPD Endopiriform nucleus, dorsal part",
+    "count": 2161
+  },
+  {
+    "name": "EPV Endopiriform nucleus, ventral part",
+    "count": 841
+  },
+  {
+    "name": "CNU Cerebral nuclei",
+    "count": 6076
+  },
+  {
+    "name": "PAL Pallidum",
+    "count": 4344
+  },
+  {
+    "name": "PALD Pallidum, dorsal region",
+    "count": 2818
+  },
+  {
+    "name": "GPE Globus pallidus, external segment",
+    "count": 2350
+  },
+  {
+    "name": "GPI Globus pallidus, internal segment",
+    "count": 1458
+  },
+  {
+    "name": "PALC Pallidum, caudal region",
+    "count": 1254
+  },
+  {
+    "name": "BAC Bed nucleus of the anterior commissure",
+    "count": 21
+  },
+  {
+    "name": "BST Bed nuclei of the stria terminalis",
+    "count": 1254
+  },
+  {
+    "name": "PALV Pallidum, ventral region",
+    "count": 2566
+  },
+  {
+    "name": "MA Magnocellular nucleus",
+    "count": 684
+  },
+  {
+    "name": "SI Substantia innominata",
+    "count": 2561
+  },
+  {
+    "name": "PALM Pallidum, medial region",
+    "count": 705
+  },
+  {
+    "name": "MSC Medial septal complex",
+    "count": 689
+  },
+  {
+    "name": "MS Medial septal nucleus",
+    "count": 113
+  },
+  {
+    "name": "NDB Diagonal band nucleus",
+    "count": 659
+  },
+  {
+    "name": "TRS Triangular nucleus of septum",
+    "count": 26
+  },
+  {
+    "name": "STR Striatum",
+    "count": 6075
+  },
+  {
+    "name": "SAMY Striatum-like amygdalar nuclei",
+    "count": 1616
+  },
+  {
+    "name": "IA Intercalated amygdalar nucleus",
+    "count": 540
+  },
+  {
+    "name": "AAA Anterior amygdalar area",
+    "count": 736
+  },
+  {
+    "name": "BA Bed nucleus of the accessory olfactory tract",
+    "count": 29
+  },
+  {
+    "name": "MEA Medial amygdalar nucleus",
+    "count": 759
+  },
+  {
+    "name": "CEA Central amygdalar nucleus",
+    "count": 1030
+  },
+  {
+    "name": "CEAC Central amygdalar nucleus, capsular part",
+    "count": 535
+  },
+  {
+    "name": "CEAL Central amygdalar nucleus, lateral part",
+    "count": 378
+  },
+  {
+    "name": "CEAM Central amygdalar nucleus, medial part",
+    "count": 719
+  },
+  {
+    "name": "LSX Lateral septal complex",
+    "count": 871
+  },
+  {
+    "name": "LS Lateral septal nucleus",
+    "count": 588
+  },
+  {
+    "name": "LSC Lateral septal nucleus, caudal",
+    "count": 59
+  },
+  {
+    "name": "LSR Lateral septal nucleus, rostral",
+    "count": 545
+  },
+  {
+    "name": "LSV Lateral septal nucleus, ventral part",
+    "count": 138
+  },
+  {
+    "name": "SF Septofimbrial nucleus",
+    "count": 45
+  },
+  {
+    "name": "SH Septohippocampal nucleus",
+    "count": 383
+  },
+  {
+    "name": "STRD Striatum dorsal region",
+    "count": 5916
+  },
+  {
+    "name": "CP Caudoputamen",
+    "count": 5916
+  },
+  {
+    "name": "STRV Striatum ventral region",
+    "count": 3331
+  },
+  {
+    "name": "ACB Nucleus accumbens",
+    "count": 3099
+  },
+  {
+    "name": "OT Olfactory tubercle",
+    "count": 1212
+  },
+  {
+    "name": "FS Fundus of striatum",
+    "count": 1255
+  },
+  {
+    "name": "CB Cerebellum",
+    "count": 780
+  },
+  {
+    "name": "CBX Cerebellar cortex",
+    "count": 740
+  },
+  {
+    "name": "HEM Hemispheric regions",
+    "count": 7
+  },
+  {
+    "name": "COPY Copula pyramidis",
+    "count": 6
+  },
+  {
+    "name": "PFL Paraflocculus",
+    "count": 1
+  },
+  {
+    "name": "FL Flocculus",
+    "count": 1
+  },
+  {
+    "name": "VERM Vermal regions",
+    "count": 738
+  },
+  {
+    "name": "CUL Culmen",
+    "count": 59
+  },
+  {
+    "name": "CUL4, 5 Lobules IV-V",
+    "count": 59
+  },
+  {
+    "name": "LING Lingula",
+    "count": 41
+  },
+  {
+    "name": "CENT Central lobule",
+    "count": 725
+  },
+  {
+    "name": "CENT2 Lobule II",
+    "count": 690
+  },
+  {
+    "name": "CENT3 Lobule III",
+    "count": 299
+  },
+  {
+    "name": "UVU Uvula",
+    "count": 1
+  },
+  {
+    "name": "NOD Nodulus",
+    "count": 5
+  },
+  {
+    "name": "CBN Cerebellar nuclei",
+    "count": 77
+  },
+  {
+    "name": "VECB Vestibulocerebellar nucleus",
+    "count": 59
+  },
+  {
+    "name": "DN Dentate nucleus",
+    "count": 2
+  },
+  {
+    "name": "IP Interposed nucleus",
+    "count": 12
+  },
+  {
+    "name": "FN Fastigial nucleus",
+    "count": 30
+  },
+  {
+    "name": "FIBER TRACTS fiber tracts",
+    "count": 6300
+  },
+  {
+    "name": "EPS extrapyramidal fiber systems",
+    "count": 1646
+  },
+  {
+    "name": "EPSC cerebral nuclei related",
+    "count": 1413
+  },
+  {
+    "name": "NST nigrostriatal tract",
+    "count": 1413
+  },
+  {
+    "name": "TSP tectospinal pathway",
+    "count": 911
+  },
+  {
+    "name": "TSPC crossed tectospinal pathway",
+    "count": 875
+  },
+  {
+    "name": "DTD doral tegmental decussation",
+    "count": 166
+  },
+  {
+    "name": "RUST rubrospinal tract",
+    "count": 721
+  },
+  {
+    "name": "VTD ventral tegmental decussation",
+    "count": 288
+  },
+  {
+    "name": "CM cranial nerves",
+    "count": 2888
+  },
+  {
+    "name": "IN olfactory nerve",
+    "count": 1708
+  },
+  {
+    "name": "ONL olfactory nerve layer of main olfactory bulb",
+    "count": 1
+  },
+  {
+    "name": "LOTG lateral olfactory tract, general",
+    "count": 30
+  },
+  {
+    "name": "LOTD dorsal limb",
+    "count": 28
+  },
+  {
+    "name": "LOT lateral olfactory tract, body",
+    "count": 3
+  },
+  {
+    "name": "ACO anterior commissure, olfactory limb",
+    "count": 1692
+  },
+  {
+    "name": "VIIN facial nerve",
+    "count": 225
+  },
+  {
+    "name": "GVIIN genu of the facial nerve",
+    "count": 176
+  },
+  {
+    "name": "IIN optic nerve",
+    "count": 590
+  },
+  {
+    "name": "OCH optic chiasm",
+    "count": 12
+  },
+  {
+    "name": "OPT optic tract",
+    "count": 355
+  },
+  {
+    "name": "CSC superior colliculus commissure",
+    "count": 230
+  },
+  {
+    "name": "BSC brachium of the superior colliculus",
+    "count": 18
+  },
+  {
+    "name": "IIIN oculomotor nerve",
+    "count": 989
+  },
+  {
+    "name": "PC posterior commissure",
+    "count": 360
+  },
+  {
+    "name": "MLF medial longitudinal fascicle",
+    "count": 764
+  },
+  {
+    "name": "VN trigeminal nerve",
+    "count": 17
+  },
+  {
+    "name": "SV sensory root of the trigeminal nerve",
+    "count": 12
+  },
+  {
+    "name": "SPTV spinal tract of the trigeminal nerve",
+    "count": 9
+  },
+  {
+    "name": "MOV motor root of the trigeminal nerve",
+    "count": 6
+  },
+  {
+    "name": "XN vagus nerve",
+    "count": 2
+  },
+  {
+    "name": "TS solitary tract",
+    "count": 2
+  },
+  {
+    "name": "DRT dorsal roots",
+    "count": 1470
+  },
+  {
+    "name": "CETT cervicothalamic tract",
+    "count": 1470
+  },
+  {
+    "name": "ML medial lemniscus",
+    "count": 1470
+  },
+  {
+    "name": "VIIIN vestibulocochlear nerve",
+    "count": 483
+  },
+  {
+    "name": "VVIIIN vestibular nerve",
+    "count": 4
+  },
+  {
+    "name": "CVIIIN cochlear nerve",
+    "count": 483
+  },
+  {
+    "name": "BIC brachium of the inferior colliculus",
+    "count": 14
+  },
+  {
+    "name": "CIC inferior colliculus commissure",
+    "count": 76
+  },
+  {
+    "name": "LL lateral lemniscus",
+    "count": 176
+  },
+  {
+    "name": "TB trapezoid body",
+    "count": 303
+  },
+  {
+    "name": "IVN trochlear nerve",
+    "count": 245
+  },
+  {
+    "name": "VON vomeronasal nerve",
+    "count": 110
+  },
+  {
+    "name": "MFBS medial forebrain bundle system",
+    "count": 5684
+  },
+  {
+    "name": "MFSBSHY hypothalamus related",
+    "count": 2228
+  },
+  {
+    "name": "MFBSE epithalamus related",
+    "count": 1565
+  },
+  {
+    "name": "FR fasciculus retroflexus",
+    "count": 1155
+  },
+  {
+    "name": "HBC habenular commissure",
+    "count": 5
+  },
+  {
+    "name": "SM stria medullaris",
+    "count": 885
+  },
+  {
+    "name": "SUP supraoptic commissures",
+    "count": 212
+  },
+  {
+    "name": "MFBSMA mammillary related",
+    "count": 1850
+  },
+  {
+    "name": "MP mammillary peduncle",
+    "count": 743
+  },
+  {
+    "name": "MTG mammillotegmental tract",
+    "count": 680
+  },
+  {
+    "name": "MTT mammillothalamic tract",
+    "count": 1383
+  },
+  {
+    "name": "PM principal mammillary tract",
+    "count": 485
+  },
+  {
+    "name": "MFB medial forebrain bundle",
+    "count": 622
+  },
+  {
+    "name": "MFBC cerebrum related",
+    "count": 5089
+  },
+  {
+    "name": "FXS fornix system",
+    "count": 609
+  },
+  {
+    "name": "FXPO postcommissural fornix",
+    "count": 532
+  },
+  {
+    "name": "MCT medial corticohypothalamic tract",
+    "count": 76
+  },
+  {
+    "name": "FX columns of the fornix",
+    "count": 519
+  },
+  {
+    "name": "HC hippocampal commissures",
+    "count": 9
+  },
+  {
+    "name": "DHC dorsal hippocampal commissure",
+    "count": 9
+  },
+  {
+    "name": "ALV alveus",
+    "count": 55
+  },
+  {
+    "name": "DF dorsal fornix",
+    "count": 19
+  },
+  {
+    "name": "FI fimbria",
+    "count": 17
+  },
+  {
+    "name": "ST stria terminalis",
+    "count": 481
+  },
+  {
+    "name": "STC commissural branch of stria terminalis",
+    "count": 215
+  },
+  {
+    "name": "AMC amygdalar capsule",
+    "count": 693
+  },
+  {
+    "name": "ACT anterior commissure, temporal limb",
+    "count": 1284
+  },
+  {
+    "name": "CING cingulum bundle",
+    "count": 4056
+  },
+  {
+    "name": "LFBS lateral forebrain bundle system",
+    "count": 6168
+  },
+  {
+    "name": "LFBST thalamus related",
+    "count": 850
+  },
+  {
+    "name": "EM external medullary lamina of the thalamus",
+    "count": 280
+  },
+  {
+    "name": "OR optic radiation",
+    "count": 399
+  },
+  {
+    "name": "AR auditory radiation",
+    "count": 327
+  },
+  {
+    "name": "CC corpus callosum",
+    "count": 5934
+  },
+  {
+    "name": "CCG genu of corpus callosum",
+    "count": 2550
+  },
+  {
+    "name": "CCB corpus callosum, body",
+    "count": 1939
+  },
+  {
+    "name": "FA corpus callosum, anterior forceps",
+    "count": 5066
+  },
+  {
+    "name": "EC external capsule",
+    "count": 2302
+  },
+  {
+    "name": "EE corpus callosum, extreme capsule",
+    "count": 399
+  },
+  {
+    "name": "FP corpus callosum, posterior forceps",
+    "count": 121
+  },
+  {
+    "name": "CCS corpus callosum, splenium",
+    "count": 268
+  },
+  {
+    "name": "CST corticospinal tract",
+    "count": 3217
+  },
+  {
+    "name": "PY pyramid",
+    "count": 236
+  },
+  {
+    "name": "PYD pyramidal decussation",
+    "count": 102
+  },
+  {
+    "name": "INT internal capsule",
+    "count": 3196
+  },
+  {
+    "name": "CPD cerebal peduncle",
+    "count": 1133
+  },
+  {
+    "name": "CBF cerebellum related fiber tracts",
+    "count": 864
+  },
+  {
+    "name": "CBP cerebellar peduncles",
+    "count": 822
+  },
+  {
+    "name": "ICP inferior cerebellar peduncle",
+    "count": 10
+  },
+  {
+    "name": "SCTD dorsal spinocerebellar tract",
+    "count": 5
+  },
+  {
+    "name": "SCP superior cerebelar peduncles",
+    "count": 816
+  },
+  {
+    "name": "DSCP superior cerebellar peduncle decussation",
+    "count": 222
+  },
+  {
+    "name": "UF uncinate fascicle",
+    "count": 110
+  },
+  {
+    "name": "SCTV ventral spinocerebellar tract",
+    "count": 236
+  },
+  {
+    "name": "MCP middle cerebellar peduncle",
+    "count": 21
+  },
+  {
+    "name": "ARB arbor vitae",
+    "count": 370
+  },
+  {
+    "name": "SCWM supra-callosal cerebral white matter",
+    "count": 2188
+  },
+  {
+    "name": "VS ventricular systems",
+    "count": 1943
+  },
+  {
+    "name": "VL lateral ventricle",
+    "count": 1165
+  },
+  {
+    "name": "CHPL choroid plexus",
+    "count": 17
+  },
+  {
+    "name": "SEZ subependymal zone",
+    "count": 867
+  },
+  {
+    "name": "V3 third ventricle",
+    "count": 295
+  },
+  {
+    "name": "AQ cerebral aqueduct",
+    "count": 541
+  },
+  {
+    "name": "V4 fourth ventricle",
+    "count": 724
+  },
+  {
+    "name": "V4R lateral recess",
+    "count": 4
+  }
+]

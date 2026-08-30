@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Central amygdalar nucleus, lateral part",
+        "soma_count": 18
+    },
+    {
+        "name": "Central amygdalar nucleus, capsular part",
+        "soma_count": 35
+    },
+    {
+        "name": "Central amygdalar nucleus, medial part",
+        "soma_count": 14
+    }
+]

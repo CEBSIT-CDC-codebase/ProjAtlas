@@ -1,0 +1,1559 @@
+[
+  {
+    "index": 12,
+    "instruction": "Begin by, set the mouse line to Vgat-Cre. Then, set the soma region to AId6b. Next, filter projections to MB. Then, query neurons and include both structure types. Finally, show them in the scene.",
+    "target": "[{\"name\":\"set_mouse_line\",\"arguments\":{\"mouse_line\":\"Vgat-Cre\"}},{\"name\":\"set_soma_location\",\"arguments\":{\"region\":\"AId6b\"}},{\"name\":\"set_axon_projects_to_location\",\"arguments\":{\"region\":\"MB\"}},{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}},{\"name\":\"add_to_scene\",\"arguments\":{\"add\":true}}]",
+    "prediction": "[{\"name\": \"set_mouse_line\", \"arguments\": {\"mouse_line\": \"Vgat-Cre\"}}, {\"name\": \"set_soma_location\", \"arguments\": {\"region\": \"AId6b\"}}, {\"name\": \"set_axon_projects_to_location\", \"arguments\": {\"region\": \"MB\"}}, {\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": false}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 18,
+    "instruction": "先先用 Tac2 这个 mouse line，然后soma 位置选 ICB，最后结构别限制，两个都查。",
+    "target": "[{\"name\":\"set_mouse_line\",\"arguments\":{\"mouse_line\":\"Tac2\"}},{\"name\":\"set_soma_location\",\"arguments\":{\"region\":\"ICB\"}},{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}}]",
+    "prediction": "[{\"name\": \"set_mouse_line\", \"arguments\": {\"mouse_line\": \"Tac2\"}}, {\"name\": \"set_soma_location\", \"arguments\": {\"region\": \"ICB\"}}, {\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": true}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 27,
+    "instruction": "麻烦先先用 Crh 这个品种，再把投射目标设成 VISrl4，再结构不限定，两个都要，最后把筛出来的结果显示到场景里。",
+    "target": "[{\"name\":\"set_mouse_line\",\"arguments\":{\"mouse_line\":\"Crh\"}},{\"name\":\"set_axon_projects_to_location\",\"arguments\":{\"region\":\"VISrl4\"}},{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}},{\"name\":\"add_to_scene\",\"arguments\":{\"add\":true}}]",
+    "prediction": "[{\"name\": \"set_mouse_line\", \"arguments\": {\"mouse_line\": \"Crh\"}}, {\"name\": \"set_axon_projects_to_location\", \"arguments\": {\"region\": \"VISrl4\"}}, {\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": false}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 28,
+    "instruction": "I want to include both structure types in the query for this run.",
+    "target": "[{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}}]",
+    "prediction": "[{\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": false}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 33,
+    "instruction": "帮我按胞体位置筛一下神经元。",
+    "target": "没问题。你想把 soma 设成哪个脑区？",
+    "prediction": "[{\"name\": \"set_soma_location\", \"arguments\": {\"region\": \"CP\"}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 44,
+    "instruction": "mouse line 选 Sst，然后把 soma 区域也设一下。",
+    "target": "好的。你想把 soma 设成哪个脑区？",
+    "prediction": "[{\"name\": \"set_mouse_line\", \"arguments\": {\"mouse_line\": \"Sst\"}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 46,
+    "instruction": "Start by, set the soma region to VISli2/3. Last, query neurons with no structure restriction.",
+    "target": "[{\"name\":\"set_soma_location\",\"arguments\":{\"region\":\"VISli2/3\"}},{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}}]",
+    "prediction": "[{\"name\": \"set_soma_location\", \"arguments\": {\"region\": \"VISli2/3\"}}, {\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": false, \"axon_only\": false}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 52,
+    "instruction": "先按 Tac1 筛，接着我还想按胞体位置筛。",
+    "target": "好的。你想把 soma 设成哪个脑区？",
+    "prediction": "[{\"name\": \"set_mouse_line\", \"arguments\": {\"mouse_line\": \"Tac1\"}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 58,
+    "instruction": "Could you run the query with no structure restriction for now?",
+    "target": "[{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}}]",
+    "prediction": "[{\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": false, \"axon_only\": false}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 62,
+    "instruction": "先帮我把 mouse line 设成 Oxt，接着细胞体位置筛到 cbp，然后按 axon only 查一下，末了把结果放到场景视图。",
+    "target": "[{\"name\":\"set_mouse_line\",\"arguments\":{\"mouse_line\":\"Oxt\"}},{\"name\":\"set_soma_location\",\"arguments\":{\"region\":\"cbp\"}},{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":false,\"axon_only\":true}},{\"name\":\"add_to_scene\",\"arguments\":{\"add\":true}}]",
+    "prediction": "",
+    "dataset_type": "Mouse",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 63,
+    "instruction": "First, use mouse line Oxt. After that, set the soma region to IPA. After that, limit axon projections to VISal2/3. Next, query neurons with no structure restriction. Finally, put the results into the scene view.",
+    "target": "[{\"name\":\"set_mouse_line\",\"arguments\":{\"mouse_line\":\"Oxt\"}},{\"name\":\"set_soma_location\",\"arguments\":{\"region\":\"IPA\"}},{\"name\":\"set_axon_projects_to_location\",\"arguments\":{\"region\":\"VISal2/3\"}},{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}},{\"name\":\"add_to_scene\",\"arguments\":{\"add\":true}}]",
+    "prediction": "[{\"name\": \"set_mouse_line\", \"arguments\": {\"mouse_line\": \"Oxt\"}}, {\"name\": \"set_soma_location\", \"arguments\": {\"region\": \"IPA\"}}, {\"name\": \"set_axon_projects_to_location\", \"arguments\": {\"region\": \"VISal2/3\"}}, {\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": false, \"axon_only\": false}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 69,
+    "instruction": "set the mouse line to Emx1-Cre. Next, filter soma location to EP. After that, set the projection target to PALd. Then, query neurons and include both structure types. Finally, show them in the scene.",
+    "target": "[{\"name\":\"set_mouse_line\",\"arguments\":{\"mouse_line\":\"Emx1-Cre\"}},{\"name\":\"set_soma_location\",\"arguments\":{\"region\":\"EP\"}},{\"name\":\"set_axon_projects_to_location\",\"arguments\":{\"region\":\"PALd\"}},{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}},{\"name\":\"add_to_scene\",\"arguments\":{\"add\":true}}]",
+    "prediction": "[{\"name\": \"set_mouse_line\", \"arguments\": {\"mouse_line\": \"Emx1-Cre\"}}, {\"name\": \"set_soma_location\", \"arguments\": {\"region\": \"EP\"}}, {\"name\": \"set_axon_projects_to_location\", \"arguments\": {\"region\": \"PALd\"}}, {\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": false}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 75,
+    "instruction": "show neurons from both structure types for this run.",
+    "target": "[{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}}]",
+    "prediction": "[{\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": true}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 80,
+    "instruction": "只看 soma 在 ACAd5 的神经元。",
+    "target": "[{\"name\":\"set_soma_location\",\"arguments\":{\"region\":\"ACAd5\"}}]",
+    "prediction": "[{\"name\": \"set_soma_location\", \"arguments\": {\"region\": \"ACAd5\"}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 105,
+    "instruction": "I'd like to run the query with no structure restriction this time.",
+    "target": "[{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}}]",
+    "prediction": "[{\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": false, \"axon_only\": false}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 112,
+    "instruction": "Can you set the soma location?",
+    "target": "No problem. Which brain region should I use for the soma location?",
+    "prediction": "[{\"name\": \"set_soma_location\", \"arguments\": {\"region\": \"CP\"}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 119,
+    "instruction": "麻烦先soma 位置选 CA1，再这一步结构放宽，两个都算，然后把把结果加到场景里。",
+    "target": "[{\"name\":\"set_soma_location\",\"arguments\":{\"region\":\"CA1\"}},{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}},{\"name\":\"add_to_scene\",\"arguments\":{\"add\":true}}]",
+    "prediction": "[{\"name\": \"set_soma_location\", \"arguments\": {\"region\": \"CA1\"}}, {\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": false}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 130,
+    "instruction": "To start, filter soma location to MGm. Then finally, query neurons and include both structure types.",
+    "target": "[{\"name\":\"set_soma_location\",\"arguments\":{\"region\":\"MGm\"}},{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}}]",
+    "prediction": "[{\"name\": \"set_soma_location\", \"arguments\": {\"region\": \"MGm\"}}, {\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": false}}]",
+    "dataset_type": "Mouse",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 134,
+    "instruction": "Let’s run the structure query.",
+    "target": "Okay—do you want axon only, axon and dendrite, or both?",
+    "prediction": "[{\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": false}}]",
+    "dataset_type": "Macaque",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 148,
+    "instruction": "Limit axon projections to area.",
+    "target": "[{\"name\":\"set_axon_projects_to_location\",\"arguments\":{\"region\":\"area\"}}]",
+    "prediction": "I can help with that. Could you please specify which brain area you would like to limit the axon projections to?",
+    "dataset_type": "Macaque",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 158,
+    "instruction": "脑区筛选：左半脑区。帮我跑 axon only + axon and dendrite 的 query。",
+    "target": "[{\"name\":\"filter_neurons_by_hemisphere\",\"arguments\":{\"left\":true,\"right\":false}},{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}}]",
+    "prediction": "[{\"name\": \"filter_neurons_by_hemisphere\", \"arguments\": {\"left\": true, \"right\": false}}, {\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": true}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Macaque",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 165,
+    "instruction": "看双侧脑区。",
+    "target": "[{\"name\":\"filter_neurons_by_hemisphere\",\"arguments\":{\"left\":true,\"right\":true}}]",
+    "prediction": "[{\"name\": \"filter_neurons_by_hemisphere\", \"arguments\": {\"left\": true, \"right\": true}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Macaque",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 170,
+    "instruction": "First, Filter neuron type = ITs. Next, soma locates in areas. Then, Axon projects to ST. After that, Filter by both sides of the brain. Finally, Please search for axon and dendrite neurons. Then, Put them into the scene view.",
+    "target": "[{\"name\":\"set_neuron_type\",\"arguments\":{\"neuron_type\":\"ITs\"}},{\"name\":\"set_soma_location\",\"arguments\":{\"region\":\"areas\"}},{\"name\":\"set_axon_projects_to_location\",\"arguments\":{\"region\":\"ST\"}},{\"name\":\"filter_neurons_by_hemisphere\",\"arguments\":{\"left\":true,\"right\":true}},{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":false}},{\"name\":\"add_to_scene\",\"arguments\":{\"add\":true}}]",
+    "prediction": "[{\"name\": \"set_neuron_type\", \"arguments\": {\"neuron_type\": \"ITs\"}}, {\"name\": \"set_axon_projects_to_location\", \"arguments\": {\"region\": \"ST\"}}, {\"name\": \"filter_neurons_by_hemisphere\", \"arguments\": {\"left\": true, \"right\": true}}, {\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": false}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Macaque",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 182,
+    "instruction": "First, Start with neuron type ITs. Next, limit axon projections to ventral_dysgranular_temporal_pole. Then, Run the structure query for axon and dendrite.",
+    "target": "[{\"name\":\"set_neuron_type\",\"arguments\":{\"neuron_type\":\"ITs\"}},{\"name\":\"set_axon_projects_to_location\",\"arguments\":{\"region\":\"ventral_dysgranular_temporal_pole\"}},{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":false}}]",
+    "prediction": "[{\"name\": \"set_neuron_type\", \"arguments\": {\"neuron_type\": \"ITs\"}}, {\"name\": \"set_axon_projects_to_location\", \"arguments\": {\"region\": \"ventral_dysgranular_temporal_pole\"}}, {\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": false}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Macaque",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 201,
+    "instruction": "Limit axon projections to areas.",
+    "target": "[{\"name\":\"set_axon_projects_to_location\",\"arguments\":{\"region\":\"areas\"}}]",
+    "prediction": "I can help with that. Could you please specify which brain areas you would like to limit the axon projections to?",
+    "dataset_type": "Macaque",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 216,
+    "instruction": "按 axon only + axon and dendrite 查一下。",
+    "target": "[{\"name\":\"query_neurons_by_structure\",\"arguments\":{\"axon_and_dendrite\":true,\"axon_only\":true}}]",
+    "prediction": "[{\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": true, \"axon_only\": true}}, {\"name\": \"add_to_scene\", \"arguments\": {\"add\": true}}]",
+    "dataset_type": "Macaque",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 223,
+    "instruction": "只看 axon 投到 area 的。",
+    "target": "[{\"name\":\"set_axon_projects_to_location\",\"arguments\":{\"region\":\"area\"}}]",
+    "prediction": "[{\"name\": \"query_neurons_by_structure\", \"arguments\": {\"axon_and_dendrite\": false, \"axon_only\": true}}, {\"name\": \"set_axon_projects_to_location\", \"arguments\": {\"region\": \"area\"}}]",
+    "dataset_type": "Macaque",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 268,
+    "instruction": "Set soma location to area.",
+    "target": "[{\"name\":\"set_soma_location\",\"arguments\":{\"region\":\"area\"}}]",
+    "prediction": "I can help with that. Could you please specify which brain region area you would like to set the soma location to?",
+    "dataset_type": "Macaque",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 271,
+    "instruction": "麻烦你先帮我缩小一点看整体，最后播放一下示例动画",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"zoomFishBody\"}},{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 272,
+    "instruction": "Please mirror neurons to the right side.",
+    "target": "[{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"right\"}}]",
+    "prediction": "",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 273,
+    "instruction": "Mind helping me rotate the camera up 90 degrees (pitch)?",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"pitch+90\"}}]",
+    "prediction": "",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 274,
+    "instruction": "Could you color neurons randomly?",
+    "target": "[{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"random\"}}]",
+    "prediction": "",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 280,
+    "instruction": "Could you please first, go to the left view, then display the coronal reference plane, then make the background indianred, and finally play the demo animation for me.",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-x\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": false, \"horizontal\": false, \"coronal\": true}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#CD5C5C\"}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-x\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#CD5C5C\"}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 281,
+    "instruction": "先帮我换成俯视角度，接着播放演示动画，再截屏",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+z\"}},{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":true}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"horizontal\"}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 287,
+    "instruction": "Mind helping me show the sagittal reference slice?",
+    "target": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": true, \"horizontal\": false, \"coronal\": false}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 290,
+    "instruction": "Spin the view 90 degrees counter-clockwise.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"roll-90\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"yaw-90\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 291,
+    "instruction": "Load coronal reference planes.",
+    "target": "For reference slices, please tell me:\n1) which reference to use: “segmentation” (labels/regions) or “average brain image”\n2) which planes to show/hide: side (sagittal), top (horizontal), front (coronal)\nExample: “Show segmentation reference slices: side on, top off, front on.”",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"average_brain_imaging_map\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 292,
+    "instruction": "Hi—are the coordinate axes something you can show or hide?",
+    "target": "Axes: say “Show the coordinate axes.” or “Hide the coordinate axes.”",
+    "prediction": "[{\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 295,
+    "instruction": "Scale the soma radius, I don't remember the exact preset name.",
+    "target": "Soma size: give me a scale from 0 to 10 (1 = default). Example: “Set soma size to 1.5.”",
+    "prediction": "[{\"name\": \"set_neuron_soma_radius_scale\", \"arguments\": {\"scale\": 2}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 297,
+    "instruction": "I'd appreciate it if you could Switch to the coronal view, then reset neuron mirroring, then just display sagittal and coronal reference planes, then kick off the example animation.",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"coronal\"}}, {\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": true, \"horizontal\": false, \"coronal\": true}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"coronal\"}}, {\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 301,
+    "instruction": "我准备开启参考平面，可我拿不准应该用分割参考，也不确定该开哪些切面；能举个例子让我照着输吗？",
+    "target": "要显示参考切片的话，你给我两类信息就行：\n1）参考类型：**分割参考切片**（标签/分区） 或 **平均脑图参考切片**\n2）切面开关：矢状（侧面） / 水平（俯视） / 冠状（正面） 分别说“打开/关闭”\n例：“显示分割参考切片：水平（俯视）开、冠状（正面）关、矢状（侧面）开”。",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 304,
+    "instruction": "Can you mirror the view horizontally?",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"flip-horizontal\"}}]",
+    "prediction": "",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 305,
+    "instruction": "我准备开启参考切片，但我搞不清该选分割还是平均脑图，也不确定要打开哪几个平面；能帮我写一句可直接用的输入吗？",
+    "target": "参考切片怎么开？你只需要告诉我两件事：\n1）参考类型：**分割参考切片**（标签/分区） 或 **平均脑图参考切片**\n2）切面开关：矢状（侧面） / 水平（俯视） / 冠状（正面） 分别说“打开/关闭”\n例：“显示平均脑图参考切片：矢状（侧面）开、冠状（正面）关、水平（俯视）开”。",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"average_brain_imaging_map\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 306,
+    "instruction": "Can you go to coronal view?",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"coronal\"}}]",
+    "prediction": "",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 307,
+    "instruction": "把神经元简化成线条",
+    "target": "[{\"name\":\"set_neuron_display_mode\",\"arguments\":{\"mode\":true}}]",
+    "prediction": "",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 308,
+    "instruction": "Would you first, zoom in for a closer look, then show sagittal and coronal reference slices, then change the background color to black, and finally run the demo animation.",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"zoomFishHead\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": true, \"horizontal\": false, \"coronal\": true}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#000000\"}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "prediction": "",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 309,
+    "instruction": "First, disable mirroring, and finally show the horizontal view.",
+    "target": "[{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"\"}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"horizontal\"}}]",
+    "prediction": "",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 310,
+    "instruction": "Turn off the demo.",
+    "target": "[{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":false}}]",
+    "prediction": "",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 311,
+    "instruction": "Can you please first, switch to the sagittal view, then show a right-side mirror, then display sagittal and horizontal reference planes, and finally play the demo animation for me.",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"sagittal\"}}, {\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"right\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": true, \"horizontal\": true, \"coronal\": false}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "prediction": "",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 312,
+    "instruction": "我想调整神经元胞体大小，但不确定应该给什么数值。",
+    "target": "胞体大小：给我一个 0~10 的缩放值（1 为默认）。例：“把胞体大小设为 1.5”。",
+    "prediction": "[{\"name\": \"set_neuron_soma_radius_scale\", \"arguments\": {\"scale\": 2}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 319,
+    "instruction": "Look from the front.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"-y\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"coronal\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 327,
+    "instruction": "先帮我把镜像关掉，再看全景，再把背景换成 深灰色，然后按 mouseLine 给神经元配色，然后截个图",
+    "target": "[{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"\"}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"zoomFishBody\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#A9A9A9\"}},{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"mouseLine\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"\"}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+z\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#333333\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"mouseLine\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 330,
+    "instruction": "麻烦换到背面视角",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+y\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 334,
+    "instruction": "First, rotate the camera right 90 degrees , and finally set the background to darkgray.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"yaw+90\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#A9A9A9\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"yaw+90\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#a9a9a9\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 337,
+    "instruction": "麻烦先取消镜像，再从上往下看，然后只看按脑区分割的冠状切面，接着隐藏坐标轴，再背景颜色设为 橙色，然后演示动画能不能播一下",
+    "target": "[{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"\"}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+z\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"segmentation\",\"sagittal\":false,\"horizontal\":false,\"coronal\":true}},{\"name\":\"set_coordinate_axis_visibility\",\"arguments\":{\"visibility\":false}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#FFA500\"}},{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"\"}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": false}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#FFA500\"}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 338,
+    "instruction": "First, zoom in for a closer look, and finally turn on the horizontal reference slice.",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"zoomFishHead\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": false, \"horizontal\": true, \"coronal\": false}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"zoomFishHead\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": false, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 339,
+    "instruction": "麻烦先把画面顺时针旋转90度，接着把按脑区分割的的矢状参考切片打开，然后背景颜色设为 亮粉色，再把示例动画过一遍",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"roll+90\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"segmentation\",\"sagittal\":true,\"horizontal\":false,\"coronal\":false}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#FF69B4\"}},{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"roll+90\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#FFB6C1\"}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 342,
+    "instruction": "Show the sagittal reference slice, then turn on the XYZ axes, then change the background color to sienna.",
+    "target": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": true, \"horizontal\": false, \"coronal\": false}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#A0522D\"}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#A0522D\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 345,
+    "instruction": "Switch the camera preset, not sure about the exact value.",
+    "target": "To adjust the view, just tell me what you want in plain language. For example:\n- “Switch to a side view.” / “Switch to a front view.” / “Switch to a top-down view.”\n- “Rotate the camera 90° to the right/left.”\n- “Tilt the camera up/down 90°.”\n- “Roll the view clockwise/counterclockwise 90°.”\n- “Mirror the view left↔right.” / “Flip the view vertically.”\n- “Zoom in.” / “Zoom out.”\nReply with one sentence, e.g., “Rotate the camera 90° to the right.”",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"sagittal\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 356,
+    "instruction": "Turn off neuron mirroring, then just spin the view 90 degrees clockwise.",
+    "target": "[{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"\"}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"roll+90\"}}]",
+    "prediction": "[{\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"\"}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"yaw+90\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 357,
+    "instruction": "麻烦先拉远点看，最后背景色改成红色",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"zoomFishBody\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#FF0000\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#FF0000\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 358,
+    "instruction": "Switch to the sagittal view, then display the sagittal reference plane, then just hide the coordinate axes, then make the background linen, then just randomize neuron colors.",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"sagittal\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": true, \"horizontal\": false, \"coronal\": false}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": false}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#FAF0E6\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"random\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"sagittal\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": false}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#FAF0E6\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"random\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 360,
+    "instruction": "Please first, turn off neuron mirroring, then switch to the back view, then set the background to red, then use structure-based colors for neurons, and finally play the example animation.",
+    "target": "[{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"\"}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+y\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#FF0000\"}},{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"structure\"}},{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"\"}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#FF0000\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"structure\"}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 361,
+    "instruction": "Can you help me set up a nice view?",
+    "target": "To adjust the view, just tell me what you want in plain language. For example:\n- “Switch to a side view.” / “Switch to a front view.” / “Switch to a top-down view.”\n- “Rotate the camera 90° to the right/left.”\n- “Tilt the camera up/down 90°.”\n- “Roll the view clockwise/counterclockwise 90°.”\n- “Mirror the view left↔right.” / “Flip the view vertically.”\n- “Zoom in.” / “Zoom out.”\nReply with one sentence, e.g., “Rotate the camera 90° to the right.”",
+    "prediction": "[{\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#1a1a1a\"}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+x\"}}, {\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"allen\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"region\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 366,
+    "instruction": "麻烦先切到前视图，最后只看平均脑图矢状切面",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": true, \"horizontal\": false, \"coronal\": false}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": false, \"sagittal\": true, \"type\": \"average_brain_imaging_map\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 369,
+    "instruction": "Change the soma radius scale please.",
+    "target": "Soma size: give me a scale from 0 to 10 (1 = default). Example: “Set soma size to 1.5.”",
+    "prediction": "[{\"name\": \"set_neuron_soma_radius_scale\", \"arguments\": {\"scale\": 2}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 371,
+    "instruction": "Zoom in (focus on the head), then just display the coronal reference plane, then just turn on the XYZ axes, then change the background color to honeydew, then just give each neuron a random color.",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"zoomFishHead\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": false, \"horizontal\": false, \"coronal\": true}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#F0FFF0\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"random\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"zoomFishHead\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#F0FFF0\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"random\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 372,
+    "instruction": "If you don't mind, please Mirror neurons to the right side, and then spin the view 90 degrees counter-clockwise, then just fire up the example animation.",
+    "target": "[{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"right\"}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"roll-90\"}},{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"right\"}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"yaw-90\"}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 373,
+    "instruction": "先用脑区给神经元分色，再脑区按 CEBSIT 上色，最后把背景换成 靛蓝色",
+    "target": "[{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"region\"}},{\"name\":\"set_brain_region_coloring_scheme\",\"arguments\":{\"scheme\":\"cebsit\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#4B0082\"}}]",
+    "prediction": "[{\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"region\"}}, {\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"cebsit\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#000080\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 377,
+    "instruction": "先把画面左右镜像一下，再只开矢状和冠状方向的平均脑图参考切面，再把 XYZ 轴显示出来，然后背景颜色设为 深橙色，再用脑区给神经元分色",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"flip-horizontal\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": true, \"horizontal\": false, \"coronal\": true}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#FF8C00\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"region\"}}]",
+    "prediction": "[{\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"left\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": true, \"type\": \"average_brain_imaging_map\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#FF8C00\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"region\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 385,
+    "instruction": "First, view it from the right, then turn on the horizontal segmentation reference slice, then color brain regions with the Allen scheme, then use mouse-line colors for neurons, and finally grab a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+x\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"segmentation\",\"sagittal\":false,\"horizontal\":true,\"coronal\":false}},{\"name\":\"set_brain_region_coloring_scheme\",\"arguments\":{\"scheme\":\"allen\"}},{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"mouseLine\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-x\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"allen\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"mouseLine\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 400,
+    "instruction": "Mirror the view vertically, then just reset neuron mirroring, then just turn on the coronal reference slice, and then save a screenshot.",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"flip-vertical\"}}, {\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": false, \"horizontal\": false, \"coronal\": true}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"flip-vertical\"}}, {\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 412,
+    "instruction": "麻烦帮我把相机角度调得更舒服？另外顺手顺便保存一张截图可以吗？",
+    "target": "当然可以。你先用一句话告诉我你想优先调整什么（视角/参考切片/配色/背景/点选/坐标轴/胞体大小/动画/截图），我再帮你一步步来。\n\n如果是调镜头角度，可以用下面这些口语指令：\n- “切到侧面视角 / 正面视角 / 俯视视角”\n- “镜头向上抬90度 / 向下压90度”\n- “画面顺时针旋转90度 / 逆时针旋转90度”\n- “放大画面 / 缩小画面”\n- “镜头向右旋转90度 / 向左旋转90度”\n- “左右镜像 / 上下翻转”\n例如：“画面顺时针旋转90度”。\n\n另外，参考切片可以这样描述：\n你告诉我：参考类型（分割参考 / 平均脑图）+ 三个切面（矢状/水平/冠状）各自开关。\n例如：“显示分割参考切片：矢状开、水平关、冠状开”。\n\n截图：直接说“帮我截图”。如果你想先调整画面，就先说怎么调，再补一句“帮我截图”。",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+x\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 419,
+    "instruction": "Display sagittal and horizontal reference planes, I don't remember the exact preset name.",
+    "target": "For reference slices, please tell me:\n1) which reference to use: “segmentation” (labels/regions) or “average brain image”\n2) which planes to show/hide: side (sagittal), top (horizontal), front (coronal)\nExample: “Show segmentation reference slices: side on, top off, front on.”",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 427,
+    "instruction": "Enable segmentation reference slices, I didn't specify the details.",
+    "target": "For reference slices, please tell me:\n1) which reference to use: “segmentation” (labels/regions) or “average brain image”\n2) which planes to show/hide: side (sagittal), top (horizontal), front (coronal)\nExample: “Show segmentation reference slices: side on, top off, front on.”",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 428,
+    "instruction": "先帮我切到仰视，接着只开矢状和水平方向的平均脑图参考切面，然后截屏",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": true, \"horizontal\": true, \"coronal\": false}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": true, \"type\": \"average_brain_imaging_map\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 430,
+    "instruction": "First, flip the view horizontally, and finally turn on the coronal reference slice.",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"flip-horizontal\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": false, \"horizontal\": false, \"coronal\": true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"flip-horizontal\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 434,
+    "instruction": "Turn off region picking, then enable neuron picking, then just look from above.",
+    "target": "[{\"name\":\"set_region_picking_mode\",\"arguments\":{\"mode\":false}},{\"name\":\"set_neuron_picking_mode\",\"arguments\":{\"mode\":true}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+z\"}}]",
+    "prediction": "[{\"name\": \"set_region_picking_mode\", \"arguments\": {\"mode\": false}}, {\"name\": \"set_neuron_picking_mode\", \"arguments\": {\"mode\": true}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 435,
+    "instruction": "Change the camera.",
+    "target": "To adjust the view, just tell me what you want in plain language. For example:\n- “Switch to a side view.” / “Switch to a front view.” / “Switch to a top-down view.”\n- “Rotate the camera 90° to the right/left.”\n- “Tilt the camera up/down 90°.”\n- “Roll the view clockwise/counterclockwise 90°.”\n- “Mirror the view left↔right.” / “Flip the view vertically.”\n- “Zoom in.” / “Zoom out.”\nReply with one sentence, e.g., “Rotate the camera 90° to the right.”",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+x\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 436,
+    "instruction": "First, show the horizontal view, and finally change the background color to darkred.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"horizontal\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#8B0000\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"horizontal\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#8b0000\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 438,
+    "instruction": "Look from the front, and then change the background color to darkgreen.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"-y\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#006400\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+z\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#006400\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 443,
+    "instruction": "First, spin the view 90 degrees counter-clockwise, and finally display all reference slices.",
+    "target": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"roll-90\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"type\": \"average_brain_imaging_map\", \"sagittal\": true, \"horizontal\": true, \"coronal\": true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"yaw-90\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 447,
+    "instruction": "Hello, I'm new to this viewer, Can I toggle picking modes?",
+    "target": "To adjust the view, just tell me what you want in plain language. For example:\n- “Switch to a side view.” / “Switch to a front view.” / “Switch to a top-down view.”\n- “Rotate the camera 90° to the right/left.”\n- “Tilt the camera up/down 90°.”\n- “Roll the view clockwise/counterclockwise 90°.”\n- “Mirror the view left↔right.” / “Flip the view vertically.”\n- “Zoom in.” / “Zoom out.”\nReply with one sentence, e.g., “Rotate the camera 90° to the right.”\n\nIf you want to click/select things in the scene, tell me which picking mode and whether to turn it on or off:\n- “Enable region picking.” / “Disable region picking.”\n- “Enable neuron picking.” / “Disable neuron picking.”",
+    "prediction": "[{\"name\": \"set_region_picking_mode\", \"arguments\": {\"mode\": true}}, {\"name\": \"set_neuron_picking_mode\", \"arguments\": {\"mode\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 452,
+    "instruction": "Switch to a top-down view, then run the demo, then just take a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+z\"}},{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":true}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 458,
+    "instruction": "Mirror the view vertically, and then turn on all reference planes, then use the Allen atlas colors for brain regions, and then use mouse-line colors for neurons, then just take a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"flip-vertical\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":true,\"coronal\":true}},{\"name\":\"set_brain_region_coloring_scheme\",\"arguments\":{\"scheme\":\"allen\"}},{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"mouseLine\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"flip-vertical\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"allen\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"mouseLine\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 462,
+    "instruction": "First, turn on the sagittal reference slice, then remove the coordinate axis, and finally change the background color to maroon.",
+    "target": "[{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":false,\"coronal\":false}},{\"name\":\"set_coordinate_axis_visibility\",\"arguments\":{\"visibility\":false}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#800000\"}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": false}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#800000\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 463,
+    "instruction": "First, disable region picking, then turn on neuron picking, and finally look from the back.",
+    "target": "[{\"name\":\"set_region_picking_mode\",\"arguments\":{\"mode\":false}},{\"name\":\"set_neuron_picking_mode\",\"arguments\":{\"mode\":true}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+y\"}}]",
+    "prediction": "[{\"name\": \"set_region_picking_mode\", \"arguments\": {\"mode\": false}}, {\"name\": \"set_neuron_picking_mode\", \"arguments\": {\"mode\": true}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 467,
+    "instruction": "先帮我把画面顺时针旋转90度，接着把矢状和冠状参考切面显示出来，最后截个图",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"roll+90\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":false,\"coronal\":true}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"roll+90\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 470,
+    "instruction": "Let me click regions, then just turn off neuron picking, then make the background green, then just grab a screenshot.",
+    "target": "[{\"name\":\"set_region_picking_mode\",\"arguments\":{\"mode\":true}},{\"name\":\"set_neuron_picking_mode\",\"arguments\":{\"mode\":false}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#008000\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_region_picking_mode\", \"arguments\": {\"mode\": true}}, {\"name\": \"set_neuron_picking_mode\", \"arguments\": {\"mode\": false}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#00FF00\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 482,
+    "instruction": "First, show sagittal and coronal segmentation reference slices, then hide the coordinate axes, and finally set the background to darkgray.",
+    "target": "[{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"segmentation\",\"sagittal\":true,\"horizontal\":false,\"coronal\":true}},{\"name\":\"set_coordinate_axis_visibility\",\"arguments\":{\"visibility\":false}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#A9A9A9\"}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": false}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#a9a9a9\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 483,
+    "instruction": "Spin the view 90 degrees clockwise, then just turn on all reference planes.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"roll+90\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":true,\"coronal\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"roll+90\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 484,
+    "instruction": "Switch to a top-down view, please.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+z\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 485,
+    "instruction": "Zoom out for an overview, then just reset neuron mirroring, then show the sagittal reference slice, and then grab a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"zoomFishBody\"}},{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":false,\"coronal\":false}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}, {\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 487,
+    "instruction": "Please show horizontal and coronal reference slices.",
+    "target": "[{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":true,\"coronal\":true}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": false, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 491,
+    "instruction": "先帮我恢复原样不镜像，再换成仰视角度，然后背景色改成深橙色，再把神经元按 mouse line 上色，最后保存一张截图",
+    "target": "[{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"\"}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"-z\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#FF8C00\"}},{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"mouseLine\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"\"}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#FF8C00\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"mouseLine\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 492,
+    "instruction": "First, rotate the view counter-clockwise 90 degrees, then turn on the horizontal reference slice, and finally save a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"roll-90\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":true,\"coronal\":false}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"roll-90\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 500,
+    "instruction": "Mirror neurons to the right side, and then look from the back, then show the sagittal reference slice, and then turn on the XYZ axes, then just make the background lime, then just save a screenshot.",
+    "target": "[{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"right\"}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+y\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":false,\"coronal\":false}},{\"name\":\"set_coordinate_axis_visibility\",\"arguments\":{\"visibility\":true}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#00FF00\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"right\"}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#00FF00\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 505,
+    "instruction": "Hi, I have a quick question about the view, Can you do reference planes?",
+    "target": "To adjust the view, just tell me what you want in plain language. For example:\n- “Switch to a side view.” / “Switch to a front view.” / “Switch to a top-down view.”\n- “Rotate the camera 90° to the right/left.”\n- “Tilt the camera up/down 90°.”\n- “Roll the view clockwise/counterclockwise 90°.”\n- “Mirror the view left↔right.” / “Flip the view vertically.”\n- “Zoom in.” / “Zoom out.”\nReply with one sentence, e.g., “Rotate the camera 90° to the right.”\n\nFor reference slices, please tell me:\n1) which reference to use: “segmentation” (labels/regions) or “average brain image”\n2) which planes to show/hide: side (sagittal), top (horizontal), front (coronal)\nExample: “Show segmentation reference slices: side on, top off, front on.”",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 506,
+    "instruction": "先切到右视图，然后取消镜像，接着把冠状参考切片打开，最后保存一张截图",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+x\"}},{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":false,\"coronal\":true}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-x\"}}, {\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 510,
+    "instruction": "麻烦先画面逆时针转90度，再把冠状参考切片打开",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"roll-90\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":false,\"coronal\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"roll-90\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 516,
+    "instruction": "先帮我切到仰视，然后把水平和冠状参考切面显示出来",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"-z\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":true,\"coronal\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": false, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 517,
+    "instruction": "Mind helping me switch to the back view?",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+y\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-x\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 521,
+    "instruction": "Shrink the soma a bit, I don't remember the exact preset name.",
+    "target": "Soma size: give me a scale from 0 to 10 (1 = default). Example: “Set soma size to 1.5.”",
+    "prediction": "[{\"name\": \"set_neuron_soma_radius_scale\", \"arguments\": {\"scale\": 0.5}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 527,
+    "instruction": "First, turn on the sagittal reference slice, then turn off the XYZ axes, and finally make the background teal.",
+    "target": "[{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":false,\"coronal\":false}},{\"name\":\"set_coordinate_axis_visibility\",\"arguments\":{\"visibility\":false}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#008080\"}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": false}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#008080\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 530,
+    "instruction": "我打算切换一下观察角度，可我不确定该怎么讲，可以给个口语化示例吗？（随便先给我几个例子也行）",
+    "target": "如果你想调一下视角，直接用口语描述就行，比如：\n- “画面顺时针旋转90度 / 逆时针旋转90度”\n- “左右镜像 / 上下翻转”\n- “镜头向上抬90度 / 向下压90度”\n- “镜头向右旋转90度 / 向左旋转90度”\n- “放大画面 / 缩小画面”\n- “切到侧面视角 / 正面视角 / 俯视视角”\n你回一句就够了，比如：“镜头向右旋转90度”。",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"sagittal\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 532,
+    "instruction": "Show sagittal, horizontal, and coronal reference slices, please.",
+    "target": "[{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":true,\"coronal\":true}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 536,
+    "instruction": "Display sagittal and horizontal reference planes.",
+    "target": "[{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":true,\"coronal\":false}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 538,
+    "instruction": "First, switch to a top-down view, and finally turn on the coronal segmentation reference slice.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+z\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"segmentation\",\"sagittal\":false,\"horizontal\":false,\"coronal\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 539,
+    "instruction": "Enable picking in this view.",
+    "target": "To adjust the view, just tell me what you want in plain language. For example:\n- “Switch to a side view.” / “Switch to a front view.” / “Switch to a top-down view.”\n- “Rotate the camera 90° to the right/left.”\n- “Tilt the camera up/down 90°.”\n- “Roll the view clockwise/counterclockwise 90°.”\n- “Mirror the view left↔right.” / “Flip the view vertically.”\n- “Zoom in.” / “Zoom out.”\nReply with one sentence, e.g., “Rotate the camera 90° to the right.”\n\nIf you want to click/select things in the scene, tell me which picking mode and whether to turn it on or off:\n- “Enable region picking.” / “Disable region picking.”\n- “Enable neuron picking.” / “Disable neuron picking.”",
+    "prediction": "[{\"name\": \"set_region_picking_mode\", \"arguments\": {\"mode\": true}}, {\"name\": \"set_neuron_picking_mode\", \"arguments\": {\"mode\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 540,
+    "instruction": "先把神经元按 mouse line 上色，再背景颜色设为绿色",
+    "target": "[{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"mouseLine\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#008000\"}}]",
+    "prediction": "[{\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"mouseLine\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#00FF00\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 554,
+    "instruction": "Set a nicer background.",
+    "target": "Background: say “Set the background to white / light gray / gray / dark gray / black”, or provide a hex color like “#FFFFFF”.",
+    "prediction": "[{\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#2c3e50\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 556,
+    "instruction": "Display horizontal reference planes, I forgot the exact setting.",
+    "target": "For reference slices, please tell me:\n1) which reference to use: “segmentation” (labels/regions) or “average brain image”\n2) which planes to show/hide: side (sagittal), top (horizontal), front (coronal)\nExample: “Show segmentation reference slices: side on, top off, front on.”",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": false, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 557,
+    "instruction": "First, rotate the camera down 90 degrees (pitch), then display the coronal plane with brain region distinctions, then shuffle brain-region colors, then color neurons based on brain region, then make the background green, and finally take a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"pitch-90\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"segmentation\",\"sagittal\":false,\"horizontal\":false,\"coronal\":true}},{\"name\":\"set_brain_region_coloring_scheme\",\"arguments\":{\"scheme\":\"random\"}},{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"region\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#008000\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"pitch-90\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"random\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"region\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#00FF00\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 558,
+    "instruction": "Turn on the horizontal reference slice.",
+    "target": "[{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":true,\"coronal\":false}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": false, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 561,
+    "instruction": "First, mirror the view vertically, then show sagittal, horizontal, and coronal reference slices, then remove the coordinate axis, then set the background to maroon, and finally give each neuron a random color.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"flip-vertical\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":true,\"coronal\":true}},{\"name\":\"set_coordinate_axis_visibility\",\"arguments\":{\"visibility\":false}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#800000\"}},{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"random\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"flip-vertical\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": false}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#800000\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"random\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 567,
+    "instruction": "Change the soma radius scale, I didn't specify the details.",
+    "target": "Soma size: give me a scale from 0 to 10 (1 = default). Example: “Set soma size to 1.5.”",
+    "prediction": "[{\"name\": \"set_neuron_soma_radius_scale\", \"arguments\": {\"scale\": 2}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 568,
+    "instruction": "麻烦把视角调到更清晰/更美观？同时截一张图可以吗？",
+    "target": "没问题。你告诉我目标（好看视角 + 截图），我会先把画面调到你想要的角度，再给你截图。\n\n如果是调镜头角度，可以用下面这些口语指令：\n- “镜头向上抬90度 / 向下压90度”\n- “镜头向右旋转90度 / 向左旋转90度”\n- “切到侧面视角 / 正面视角 / 俯视视角”\n- “左右镜像 / 上下翻转”\n- “画面顺时针旋转90度 / 逆时针旋转90度”\n- “放大画面 / 缩小画面”\n例如：“画面顺时针旋转90度”。\n\n参考切片如果也想一起开：\n你告诉我：参考类型（分割参考 / 平均脑图）+ 三个切面（矢状/水平/冠状）各自开关。\n例如：“显示平均脑图参考切片：矢状关、水平开、冠状开”。\n\n截图：直接说“帮我截图”。如果你想先调整画面，就先说怎么调，再补一句“帮我截图”。",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+x\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 573,
+    "instruction": "Switch to a different angle, not sure about the exact value.",
+    "target": "To adjust the view, just tell me what you want in plain language. For example:\n- “Switch to a side view.” / “Switch to a front view.” / “Switch to a top-down view.”\n- “Rotate the camera 90° to the right/left.”\n- “Tilt the camera up/down 90°.”\n- “Roll the view clockwise/counterclockwise 90°.”\n- “Mirror the view left↔right.” / “Flip the view vertically.”\n- “Zoom in.” / “Zoom out.”\nReply with one sentence, e.g., “Rotate the camera 90° to the right.”",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"sagittal\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 582,
+    "instruction": "Go to the right view, then show horizontal and coronal reference slices, then just use CEBSIT colors for brain regions, then just color neurons by structure, and then set the background to seagreen, then just take a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+x\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":true,\"coronal\":true}},{\"name\":\"set_brain_region_coloring_scheme\",\"arguments\":{\"scheme\":\"cebsit\"}},{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"structure\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#2E8B57\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+x\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"cebsit\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"structure\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#2E8B57\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 590,
+    "instruction": "麻烦先换到正面视角，再背景颜色设为 浅灰色，然后显示坐标轴，然后把胞体大小调到 7.5，然后截屏",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"-y\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#D3D3D3\"}},{\"name\":\"set_coordinate_axis_visibility\",\"arguments\":{\"visibility\":true}},{\"name\":\"set_neuron_soma_radius_scale\",\"arguments\":{\"scale\":7.5}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+z\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#D3D3D3\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}, {\"name\": \"set_neuron_soma_radius_scale\", \"arguments\": {\"scale\": 7.5}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 595,
+    "instruction": "Switch to the left-side view, and then turn on the coronal reference slice, then change the background color to crimson, and then grab a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"-x\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":false,\"coronal\":true}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#DC143C\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-x\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#DC143C\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 597,
+    "instruction": "Turn on the average_brain_imaging_map reference planes, not sure about the exact value.",
+    "target": "For reference slices, please tell me:\n1) which reference to use: “segmentation” (labels/regions) or “average brain image”\n2) which planes to show/hide: side (sagittal), top (horizontal), front (coronal)\nExample: “Show segmentation reference slices: side on, top off, front on.”",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"average_brain_imaging_map\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 599,
+    "instruction": "Switch to a bottom-up view.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"-z\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 601,
+    "instruction": "Can you display all reference slices?",
+    "target": "[{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":true,\"coronal\":true}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 610,
+    "instruction": "First, display all reference slices, then show the coordinate axes, and finally set the background to green.",
+    "target": "[{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":true,\"coronal\":true}},{\"name\":\"set_coordinate_axis_visibility\",\"arguments\":{\"visibility\":true}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#008000\"}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#00FF00\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 611,
+    "instruction": "Make the background lighter, I forgot the exact setting.",
+    "target": "Background: say “Set the background to white / light gray / gray / dark gray / black”, or provide a hex color like “#FFFFFF”.",
+    "prediction": "[{\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#FFFFFF\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 613,
+    "instruction": "Color neurons by morphology, then use CEBSIT colors for brain regions.",
+    "target": "[{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"structure\"}},{\"name\":\"set_brain_region_coloring_scheme\",\"arguments\":{\"scheme\":\"cebsit\"}}]",
+    "prediction": "",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 614,
+    "instruction": "Just zoom out (full view).",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"zoomFishBody\"}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+x\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 618,
+    "instruction": "First, switch to the back view, then show neurons as backbones, then set soma radius scale to 1, then give each neuron a random color, then use CEBSIT colors for brain regions, and finally save a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+y\"}},{\"name\":\"set_neuron_display_mode\",\"arguments\":{\"mode\":true}},{\"name\":\"set_neuron_soma_radius_scale\",\"arguments\":{\"scale\":1}},{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"random\"}},{\"name\":\"set_brain_region_coloring_scheme\",\"arguments\":{\"scheme\":\"cebsit\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-x\"}}, {\"name\": \"set_neuron_display_mode\", \"arguments\": {\"mode\": true}}, {\"name\": \"set_neuron_soma_radius_scale\", \"arguments\": {\"scale\": 1}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"random\"}}, {\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"cebsit\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 624,
+    "instruction": "想显示参考切片平面，但我搞不清该选分割参考，而且不确定要打开哪几个平面；能帮我写一句可直接用的输入吗？",
+    "target": "开启参考切片时，按下面两步说清楚就可以：\n1）参考类型：**分割参考切片**（标签/分区） 或 **平均脑图参考切片**\n2）切面开关：矢状（侧面） / 水平（俯视） / 冠状（正面） 分别说“打开/关闭”\n例：“显示分割参考切片：水平（俯视）开、冠状（正面）关、矢状（侧面）开”。",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 626,
+    "instruction": "Show reference planes using average_brain_imaging_map, not sure about the exact value.",
+    "target": "For reference slices, please tell me:\n1) which reference to use: “segmentation” (labels/regions) or “average brain image”\n2) which planes to show/hide: side (sagittal), top (horizontal), front (coronal)\nExample: “Show segmentation reference slices: side on, top off, front on.”",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"average_brain_imaging_map\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 627,
+    "instruction": "Hey there, Can I toggle picking modes?",
+    "target": "If you want to click/select things in the scene, tell me which picking mode and whether to turn it on or off:\n- “Enable region picking.” / “Disable region picking.”\n- “Enable neuron picking.” / “Disable neuron picking.”",
+    "prediction": "[{\"name\": \"set_region_picking_mode\", \"arguments\": {\"mode\": true}}, {\"name\": \"set_neuron_picking_mode\", \"arguments\": {\"mode\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 630,
+    "instruction": "Display the horizontal reference plane, and then show the coordinate axes, then just make the background yellow.",
+    "target": "[{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":true,\"coronal\":false}},{\"name\":\"set_coordinate_axis_visibility\",\"arguments\":{\"visibility\":true}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#FFFF00\"}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#FFFF00\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 631,
+    "instruction": "Show another viewpoint, I’m not sure which option to pick for picking.",
+    "target": "To adjust the view, just tell me what you want in plain language. For example:\n- “Switch to a side view.” / “Switch to a front view.” / “Switch to a top-down view.”\n- “Rotate the camera 90° to the right/left.”\n- “Tilt the camera up/down 90°.”\n- “Roll the view clockwise/counterclockwise 90°.”\n- “Mirror the view left↔right.” / “Flip the view vertically.”\n- “Zoom in.” / “Zoom out.”\nReply with one sentence, e.g., “Rotate the camera 90° to the right.”\n\nIf you want to click/select things in the scene, tell me which picking mode and whether to turn it on or off:\n- “Enable region picking.” / “Disable region picking.”\n- “Enable neuron picking.” / “Disable neuron picking.”",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+x\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 633,
+    "instruction": "麻烦先切到俯视，然后只看平均脑图水平切面",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+z\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":true,\"coronal\":false}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": false, \"type\": \"average_brain_imaging_map\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 641,
+    "instruction": "Zoom out to see the whole thing, and then start the demo animation, then take a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"zoomFishBody\"}},{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":true}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 646,
+    "instruction": "麻烦先切到矢状位，然后只开矢状和水平方向的平均脑图参考切面，接着背景颜色设为 亮粉色，然后截个图",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"sagittal\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":true,\"coronal\":false}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#FF69B4\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"sagittal\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": true, \"type\": \"average_brain_imaging_map\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#FFB6C1\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 654,
+    "instruction": "先看全景，然后打开按脑区区分的彩色的参考切面：矢状和水平，然后保存一张截图",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"zoomFishBody\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"segmentation\",\"sagittal\":true,\"horizontal\":true,\"coronal\":false}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+z\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 655,
+    "instruction": "Turn on region picking, and then let me click neurons, then zoom out to see the whole thing.",
+    "target": "[{\"name\":\"set_region_picking_mode\",\"arguments\":{\"mode\":true}},{\"name\":\"set_neuron_picking_mode\",\"arguments\":{\"mode\":true}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"zoomFishBody\"}}]",
+    "prediction": "[{\"name\": \"set_region_picking_mode\", \"arguments\": {\"mode\": true}}, {\"name\": \"set_neuron_picking_mode\", \"arguments\": {\"mode\": true}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 661,
+    "instruction": "Just show the coronal reference slice.",
+    "target": "[{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":false,\"coronal\":true}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 662,
+    "instruction": "Pitch the camera down by 90 degrees, then just display the sagittal reference plane.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"pitch-90\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":false,\"coronal\":false}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"pitch-90\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 666,
+    "instruction": "Toggle the coordinate axis, but I'm not sure which one to pick.",
+    "target": "If you want to click/select things in the scene, tell me which picking mode and whether to turn it on or off:\n- “Enable region picking.” / “Disable region picking.”\n- “Enable neuron picking.” / “Disable neuron picking.”\n\nAxes: say “Show the coordinate axes.” or “Hide the coordinate axes.”",
+    "prediction": "[{\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 673,
+    "instruction": "Look from below, then grab a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"-z\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 674,
+    "instruction": "先逆时针旋转90度，接着把矢状和水平参考切面显示出来，然后背景颜色设为 青色，再截屏",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"roll-90\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":true,\"coronal\":false}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#00FFFF\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"roll-90\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#00FFFF\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 677,
+    "instruction": "Disable mirroring, and then go to the bottom view, then display all segmentation reference slices, then display the coordinate axis, then make the background sienna, then take a screenshot.",
+    "target": "[{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"\"}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"-z\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"segmentation\",\"sagittal\":true,\"horizontal\":true,\"coronal\":true}},{\"name\":\"set_coordinate_axis_visibility\",\"arguments\":{\"visibility\":true}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#A0522D\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"\"}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#A0522D\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 683,
+    "instruction": "Tune the soma size in the viewer.",
+    "target": "To adjust the view, just tell me what you want in plain language. For example:\n- “Switch to a side view.” / “Switch to a front view.” / “Switch to a top-down view.”\n- “Rotate the camera 90° to the right/left.”\n- “Tilt the camera up/down 90°.”\n- “Roll the view clockwise/counterclockwise 90°.”\n- “Mirror the view left↔right.” / “Flip the view vertically.”\n- “Zoom in.” / “Zoom out.”\nReply with one sentence, e.g., “Rotate the camera 90° to the right.”\n\nSoma size: give me a scale from 0 to 10 (1 = default). Example: “Set soma size to 1.5.”",
+    "prediction": "[{\"name\": \"set_neuron_soma_radius_scale\", \"arguments\": {\"scale\": 2}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 687,
+    "instruction": "麻烦先看轴位切片，接着把矢状和冠状参考切面显示出来，然后截屏",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"horizontal\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":false,\"coronal\":true}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"horizontal\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 688,
+    "instruction": "Hello, How do I use the camera and colors, Can I change coloring schemes.",
+    "target": "To adjust the view, just tell me what you want in plain language. For example:\n- “Switch to a side view.” / “Switch to a front view.” / “Switch to a top-down view.”\n- “Rotate the camera 90° to the right/left.”\n- “Tilt the camera up/down 90°.”\n- “Roll the view clockwise/counterclockwise 90°.”\n- “Mirror the view left↔right.” / “Flip the view vertically.”\n- “Zoom in.” / “Zoom out.”\nReply with one sentence, e.g., “Rotate the camera 90° to the right.”\n\nTo change colors, tell me whether you want to color **neurons** or **brain regions**, and the style you prefer:\n- Neurons: “color by brain region / by structure / by mouse line / randomly”\n- Brain regions: “use Allen atlas colors / use the CEBSIT palette / random colors”\nExample: “Color neurons by brain region.”",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+x\"}}, {\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"allen\"}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"region\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 693,
+    "instruction": "麻烦先从下往上看，然后把冠状参考切片打开",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"-z\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":false,\"coronal\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-y\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 698,
+    "instruction": "麻烦先从正面看，接着把神经元简化成线条，然后把 soma 大小设为 1.2，再把神经元随机上色，接着把脑区颜色切到 CEBSIT，最后保存一张截图",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"-y\"}},{\"name\":\"set_neuron_display_mode\",\"arguments\":{\"mode\":true}},{\"name\":\"set_neuron_soma_radius_scale\",\"arguments\":{\"scale\":1.2}},{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"random\"}},{\"name\":\"set_brain_region_coloring_scheme\",\"arguments\":{\"scheme\":\"cebsit\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+z\"}}, {\"name\": \"set_neuron_display_mode\", \"arguments\": {\"mode\": true}}, {\"name\": \"set_neuron_soma_radius_scale\", \"arguments\": {\"scale\": 1.2}}, {\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"random\"}}, {\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"cebsit\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 699,
+    "instruction": "Increase soma size, not sure about the exact value.",
+    "target": "Soma size: give me a scale from 0 to 10 (1 = default). Example: “Set soma size to 1.5.”",
+    "prediction": "[{\"name\": \"set_neuron_soma_radius_scale\", \"arguments\": {\"scale\": 2}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 700,
+    "instruction": "Change the view for this dataset.",
+    "target": "To adjust the view, just tell me what you want in plain language. For example:\n- “Switch to a side view.” / “Switch to a front view.” / “Switch to a top-down view.”\n- “Rotate the camera 90° to the right/left.”\n- “Tilt the camera up/down 90°.”\n- “Roll the view clockwise/counterclockwise 90°.”\n- “Mirror the view left↔right.” / “Flip the view vertically.”\n- “Zoom in.” / “Zoom out.”\nReply with one sentence, e.g., “Rotate the camera 90° to the right.”",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+x\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 701,
+    "instruction": "Color neurons randomly, and then color brain regions with the CEBSIT scheme, and then change the background color to darkgray.",
+    "target": "[{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"random\"}},{\"name\":\"set_brain_region_coloring_scheme\",\"arguments\":{\"scheme\":\"cebsit\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#A9A9A9\"}}]",
+    "prediction": "[{\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"random\"}}, {\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"cebsit\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#a9a9a9\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 706,
+    "instruction": "麻烦先把神经元镜像到右边，再切到后视图，接着把彩色的的水平和冠状参考切面显示出来，再把坐标轴关掉，然后把背景换成黑色，然后保存一张截图",
+    "target": "[{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"right\"}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+y\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"segmentation\",\"sagittal\":false,\"horizontal\":true,\"coronal\":true}},{\"name\":\"set_coordinate_axis_visibility\",\"arguments\":{\"visibility\":false}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#000000\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"right\"}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": false}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#000000\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 708,
+    "instruction": "Rotate the camera left 90 degrees , then turn on the coronal reference slice, then grab a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"yaw-90\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":false,\"horizontal\":false,\"coronal\":true}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"yaw-90\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 713,
+    "instruction": "先把神经元按 mouse line 上色，接着把脑区颜色切到 CEBSIT，然后背景色改成靛蓝色",
+    "target": "[{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"mouseLine\"}},{\"name\":\"set_brain_region_coloring_scheme\",\"arguments\":{\"scheme\":\"cebsit\"}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#4B0082\"}}]",
+    "prediction": "[{\"name\": \"set_neuron_coloring_scheme\", \"arguments\": {\"scheme\": \"mouseLine\"}}, {\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"cebsit\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#000080\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 714,
+    "instruction": "Load sagittal and coronal reference planes, can you ask me what you need?",
+    "target": "For reference slices, please tell me:\n1) which reference to use: “segmentation” (labels/regions) or “average brain image”\n2) which planes to show/hide: side (sagittal), top (horizontal), front (coronal)\nExample: “Show segmentation reference slices: side on, top off, front on.”",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 717,
+    "instruction": "First, look from the back, then run the demo, and finally save a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+y\"}},{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":true}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-x\"}}, {\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 720,
+    "instruction": "Make the soma bigger, I didn't specify the details.",
+    "target": "Soma size: give me a scale from 0 to 10 (1 = default). Example: “Set soma size to 1.5.”",
+    "prediction": "[{\"name\": \"set_neuron_soma_radius_scale\", \"arguments\": {\"scale\": 5}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 724,
+    "instruction": "Switch the camera preset for picking.",
+    "target": "To adjust the view, just tell me what you want in plain language. For example:\n- “Switch to a side view.” / “Switch to a front view.” / “Switch to a top-down view.”\n- “Rotate the camera 90° to the right/left.”\n- “Tilt the camera up/down 90°.”\n- “Roll the view clockwise/counterclockwise 90°.”\n- “Mirror the view left↔right.” / “Flip the view vertically.”\n- “Zoom in.” / “Zoom out.”\nReply with one sentence, e.g., “Rotate the camera 90° to the right.”\n\nIf you want to click/select things in the scene, tell me which picking mode and whether to turn it on or off:\n- “Enable region picking.” / “Disable region picking.”\n- “Enable neuron picking.” / “Disable neuron picking.”",
+    "prediction": "[{\"name\": \"set_region_picking_mode\", \"arguments\": {\"mode\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Zero",
+    "is_correct": false
+  },
+  {
+    "index": 727,
+    "instruction": "First, look from above, then display the coronal segmentation reference plane, then set the background to black, and finally take a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+z\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"segmentation\",\"sagittal\":false,\"horizontal\":false,\"coronal\":true}},{\"name\":\"set_background_color\",\"arguments\":{\"color\":\"#000000\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"+y\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": false, \"sagittal\": false, \"type\": \"segmentation\"}}, {\"name\": \"set_background_color\", \"arguments\": {\"color\": \"#000000\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 733,
+    "instruction": "Mirror neurons to the left side, then just look from the front.",
+    "target": "[{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"left\"}},{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"-y\"}}]",
+    "prediction": "[{\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"left\"}}, {\"name\": \"set_camera\", \"arguments\": {\"camera\": \"coronal\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 738,
+    "instruction": "Rotate the view clockwise 90 degrees, then mirror neurons to the left side, then just show the sagittal reference slice, and then take a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"roll+90\"}},{\"name\":\"set_neuron_mirror_state\",\"arguments\":{\"state\":\"left\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":false,\"coronal\":false}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"roll+90\"}}, {\"name\": \"set_neuron_mirror_state\", \"arguments\": {\"state\": \"left\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 744,
+    "instruction": "First, flip the view horizontally, and finally turn on all reference planes.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"flip-horizontal\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":true,\"coronal\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"flip-horizontal\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 745,
+    "instruction": "Display the sagittal reference plane, please.",
+    "target": "[{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"average_brain_imaging_map\",\"sagittal\":true,\"horizontal\":false,\"coronal\":false}}]",
+    "prediction": "[{\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": false, \"horizontal\": false, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 749,
+    "instruction": "First, zoom out (full view), and finally save a screenshot.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"zoomFishBody\"}},{\"name\":\"take_screenshot\",\"arguments\":{\"do_it\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 752,
+    "instruction": "First, switch to the back view, and finally show sagittal, horizontal, and coronal segmentation reference slices.",
+    "target": "[{\"name\":\"set_camera\",\"arguments\":{\"camera\":\"+y\"}},{\"name\":\"set_reference_planes\",\"arguments\":{\"type\":\"segmentation\",\"sagittal\":true,\"horizontal\":true,\"coronal\":true}}]",
+    "prediction": "[{\"name\": \"set_camera\", \"arguments\": {\"camera\": \"-z\"}}, {\"name\": \"set_reference_planes\", \"arguments\": {\"coronal\": true, \"horizontal\": true, \"sagittal\": true, \"type\": \"segmentation\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Parallel",
+    "is_correct": false
+  },
+  {
+    "index": 764,
+    "instruction": "把来个随机颜色",
+    "target": "[{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"random\"}}]",
+    "prediction": "[{\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"random\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 767,
+    "instruction": "能不能把按 brain region 上色",
+    "target": "[{\"name\":\"set_neuron_coloring_scheme\",\"arguments\":{\"scheme\":\"region\"}}]",
+    "prediction": "[{\"name\": \"set_brain_region_coloring_scheme\", \"arguments\": {\"scheme\": \"allen\"}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 830,
+    "instruction": "给我把轴线放出来，我想截图用",
+    "target": "[{\"name\":\"set_coordinate_axis_visibility\",\"arguments\":{\"visibility\":true}}]",
+    "prediction": "[{\"name\": \"set_coordinate_axis_visibility\", \"arguments\": {\"visibility\": true}}, {\"name\": \"take_screenshot\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 843,
+    "instruction": "Would you play the example animation?",
+    "target": "[{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":false}}]",
+    "prediction": "[{\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 846,
+    "instruction": "Play the example animation for me.",
+    "target": "[{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":false}}]",
+    "prediction": "[{\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  },
+  {
+    "index": 848,
+    "instruction": "Play the example animation. (rephrase 7)",
+    "target": "[{\"name\":\"play_example_animation\",\"arguments\":{\"do_it\":false}}]",
+    "prediction": "[{\"name\": \"play_example_animation\", \"arguments\": {\"do_it\": true}}]",
+    "dataset_type": "Neuroviz",
+    "task_type": "Single",
+    "is_correct": false
+  }
+]

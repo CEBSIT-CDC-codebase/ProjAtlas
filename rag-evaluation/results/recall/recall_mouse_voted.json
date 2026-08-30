@@ -1,0 +1,4862 @@
+[
+  {
+    "question": "How many spinal projection neurons were reconstructed in the study?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of spinal projection neurons innervate exactly 5 brain regions?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the average number of brain areas innervated by an individual spinal projection neuron?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which spinal projection neuron subtype forms the spino-mesencephalic tract?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of spinal projection neurons have axon collaterals in the spinal cord?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "How many thalamic relay neuron subtypes project to the striatum?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many major routes to the cortex were observed among thalamic relay neuron subtypes?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which cortical layers do most VPL and VPM thalamic neurons innervate in the primary somatosensory area?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What thalamic subtypes channel information to the primary and secondary motor areas?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome-defined subtypes of spinal projection neurons were identified?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome-defined subtypes and dendritic morphology-defined clusters were identified for spinal projection neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many spinal projection neurons were reconstructed, and how many projectome-defined subtypes of thalamic relay neurons were identified?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What is the average number of brain areas an individual SPN innervates, and which subtype corresponds to the spino-cerebellar tract?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of SPNs have spinal cord collaterals, and which subtype forms the spino-mesencephalic tract?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Does the number of innervated cortical areas differ between first-order and higher-order thalamic nuclei, and what determines the cortical-layer preference of thalamic relay neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the three projection patterns of PB-projecting SPNs, and what thalamic preferences do subtypes S4 and S10 exhibit?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In how many SPN subtypes were dendritic and axonal arbor lengths correlated, and what are the two broad projection groups of SPNs?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What type of neurons were reconstructed besides spinal projection neurons, and which thalamic subtypes target higher-order cortices via the third route?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many ipsilateral and contralateral parabrachial relay neurons were labeled and reconstructed?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of PB relay neurons send collateral projections to the contralateral parabrachial nucleus?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many subtypes were SCm relay neurons classified into, and what are they named?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the primary projection targets of the SCm_1 subtype?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "Which brain regions are common downstream targets for neurons in most PB relay subtypes?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the total number of central relay neurons mapped in the projectome?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What proportion of relay neurons exhibit ipsilateral projections?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which parabrachial relay neuron subtypes mainly project to the mediodorsal thalamus?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the newly identified SCm subtype, and what areas does it innervate?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many central relay neurons provide input to the MRN?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the likely functional role of the pathways involving SCm_1 and SCm_2?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which PB population is subtype PB_3 found, and what is one of its projection targets?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many of the total central relay neurons project to the MRN?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do ipsilateral PB relay neurons differ from contralateral ones in their downstream innervation, and what could this explain?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What anatomical evidence supports the existence of two parallel spino-SCm-brainstem pathways?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of relay neurons have contralateral-dominant projections, and which subtypes are mainly responsible?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many SPN subtypes strongly project to the SCm, and what behaviors are the target neurons associated with?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What proportion of central relay neurons are bilateral, and what does this imply?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What spinal segments did the projectome mapping focus on?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Who is the lead contact for this study and what is their email address?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Were any new reagents generated in this study?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What mouse strains and ages were used for virus injection, and what sex was included?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "At what rate were viruses injected into target brain areas?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What volume of virus was used for bulk labeling of central relay neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What tracing score threshold was required for neurons to be included in further analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which algorithm was used to compute the similarity matrix for dendritic morphology clustering of spinal projection neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How were ipsilateral and contralateral projecting neurons defined using the preference index?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "To what resolution were the fMOST image datasets resampled for template construction and registration?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What retrograde labeling strategy was used to sparsely label spinal projection neurons, and what limitation could affect the observed proportion of subtypes?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which virus was used for sparse labeling of central relay neurons, and what potential artifact is associated with this virus?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What anatomical reference was used to construct the 3D spinal cord template, and what was the purpose of this template in data analysis?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How is the maximum depth of an axonal edge assigned, and what defines the axonal trunk based on this depth?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What hemispheric projection pattern was reported for SPNs and central relay neurons, and how was it quantified?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How were spinal projection neurons classified, and what complementary molecular information was not determined?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What mouse strain and injection volume were used for bulk retrograde labeling of spinally projecting neurons in the brain?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What imaging technique was used to acquire the brain and spinal cord datasets, and what software was employed for full neuronal morphology reconstruction?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is required for endogenous opioid antinociception according to the study?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the effect of pharmacogenetic suppression of CEA^MOR neurons on persistent hyperalgesia?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which brain regions is high-level MOR expression found?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the known role of the central amygdala nucleus in pain?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What role does the parabrachial nucleus play in chronic pain?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What happens to recovery from CFA-induced hyperalgesia when MORs are genetically deleted in the CEA?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Does re-expressing MORs in the CEA affect nociceptive behaviors, locomotion, or motor coordination?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What is the effect of naloxone infusion into the CEA on mechanical nociceptive threshold in mice that have recovered from CFA-induced hyperalgesia?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What three stereotypical firing patterns do CEA^MOR neurons exhibit?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does CFA-induced persistent hyperalgesia affect the intrinsic excitability of late-firing CEA^MOR neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What experimental evidence demonstrates that MORs in the CEA are essential for endogenous opioid antinociception?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the excitability of CEA^MOR neurons change from the hyperalgesic state to recovery in CFA-induced persistent hyperalgesia?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What evidence indicates that endogenous opioids tonically suppress CEA^MOR neuron activity?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What supports the idea that the CEA-PB pathway is critical for endogenous opioid antinociception?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which subregion of the amygdala are CEA^MOR neurons functionally altered during persistent hyperalgesia?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Why are CEA^MOR neurons considered important for pain modulation?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which subtype of CEA^MOR neurons is predominantly affected by MOR activation?",
+    "type": "multi-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What are the behavioral and electrophysiological effects of naloxone in mice that have recovered from CFA-induced hyperalgesia?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What is the effect of pharmacogenetic inhibition of CEA MOR neurons on CFA-induced persistent hyperalgesia?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What effect did prolonged activation of CEA MOR neurons have on CFA-induced persistent hyperalgesia?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How were CEA MOR neurons ablated in the study?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How did ablation of CEA MOR neurons affect recovery from CFA-induced persistent hyperalgesia?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "How many individual CEA MOR neurons were reconstructed in the single-neuron projectome analysis?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "Which four brain regions receive strong projections from CEA MOR neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the primary projection targets of subtype-1 CEA MOR neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the main projection targets of subtype-2 CEA MOR neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which CEA subregions are the somata of subtype-1 CEA MOR neurons clustered?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What neurotransmitter phenotype are CEA MOR neurons known to have?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What evidence indicates that CEA MOR neuron activity gates CFA-induced persistent hyperalgesia?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How was the CEA-to-PB pathway shown to mediate antinociception?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "How do the projection patterns of subtype-1 and subtype-2 CEA MOR neurons relate to their roles in pain modulation?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the effect of optogenetically suppressing CEA MOR neuron projections to the PAG?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do CEA MOR neurons affect PB neuron activity?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What evidence shows that PB-projecting CEA MOR neurons are distinct from PKC-delta positive neurons in the CEA?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many subtypes of CEA MOR neurons were identified, and what method was used for classification?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which CEA MOR neuron projections were found not to affect CFA-induced persistent hyperalgesia?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What percentage of PB GABAergic neurons exhibited induced IPSCs in response to focal PB photostimulation of MOR+ fibers from the CEA?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What proportion of non-GABAergic neurons in the PB exhibited photostimulation-induced IPSCs from CEAMOR fibers?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the average amplitude of photostimulation-induced IPSCs in PB GABAergic neurons, and how did it compare to non-GABAergic neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What did the short latency of induced IPSCs in PB GABAergic neurons indicate?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How did CFA injection affect pinch-induced responses in PBTacr1 neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What effect did pharmacogenetic suppression of PBTacr1 neurons have on CFA-induced persistent hyperalgesia and locomotion?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the effect of pharmacogenetic activation of CEAMOR neurons on persistent hyperalgesia?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How was endogenous opioid antinociception restored in MOR-null mice?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In what pain-related situation has enhanced release of opioids in the brain been observed?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What function does the right CEA exhibit across multiple pain models?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What synaptic connections form the disinhibitory circuit in the PB that modulates nociception?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What evidence indicates that endogenous opioids in the CEA suppress CEAMOR neuron activity to produce antinociception?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "How was the role of subtype-1 CEAMOR neurons in endogenous opioid antinociception demonstrated?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What changes occurred in CEAMOR neuron activity in the right CEA after CFA-induced hyperalgesia?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Why are PBTacr1 neurons considered crucial for the modulation of nociception in the PB?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What evidence demonstrates that MORs in the CEA are necessary for endogenous opioid antinociception?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What roles does the CEA play in pain modulation and opioid analgesia?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How do the projections of CEAMOR neurons to the PB and PAG differ in their effects on pain?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How many PFC projection neurons were reconstructed in this project?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the total length of all reconstructed axons from these PFC neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many computer programs does the Fast Neurite Tracer (FNT) software package include?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome subtypes were identified among the PFC projection neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which PFC subregions were included in the analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the three main classes of long-range projection neurons in the neocortex?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many transcriptome subtypes were identified from PFC projection neurons using scRNA-seq?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which CT neuron subtype lacks projection to the mediodorsal thalamus (MD) and where does it project instead?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many subdomains were identified in the striatum based on PFC IT neuron terminal arbors?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What algorithm was used to calculate the pairwise dissimilarity of axon morphology among PFC neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do PFC IT neurons organize their projections to the four cortical subnetworks?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the three major classes of projection neurons and how many of each were reconstructed in this dataset?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How was hierarchical organization within PFC established and what evidence supports it?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the soma location of PFC CT neurons relate to their thalamic projection targets?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the three intra-PFC connectivity modules and their functional associations?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do transcriptome markers Nnat and Tpbg correspond to CT neuron projectome subtypes in PL/ORB?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do PFC IT neuron soma locations relate to their striatal projection targets?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What is the relationship between the transcriptome marker Lypd1 and PT neuron projectome subtypes in PL/ORB?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the temperature range for the housing conditions of the mice?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the median quality score of the 600 sampled traced neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many neuron subtypes were identified based on the C-index?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What compression method was applied to the data cubes from fMOST imaging?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What microsyringe pump was used for virus injections?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "How many units was the PFC divided into for unbiased analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the inside diameter of the pipette tip used for virus injection?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What software was used for manual segmentation of brain regions during image registration?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many non-PFC cortical regions were included in the bulk tracing analysis?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "How many clusters were identified in the integrated scRNA-seq analysis and how many were assigned to cortical neuron types?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the FNT software ensure correct tracing in real time and what additional validation step is performed after tracing?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the typical size of a raw EGFP image and how does FNT make this data manageable on a personal computer?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What volume of virus mixture was injected for sparse labeling and what volume was injected in the anterograde tracing experiment?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What clustering method was used to identify neuron subtypes and what algorithm was used to find modules in the intra-PFC connectivity network?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How are PFC input-based striatal subdomains defined and which cortical areas outside PFC were analyzed for their projections to these subdomains?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What structure defines the primary axon of PT neurons and what metric is used to summarize branch-point asymmetry across a neuron?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What method creates the flattened PFC map for soma visualization and how many units were used to partition the PFC for connectivity analysis?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many samples contributed neurite tracings and what was the median quality score of the evaluated traced neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What software was used for image processing and reconstruction of axon morphologies?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many samples were utilized for neurite tracing collection?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What objective guided the choice of sample size in the study?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Were investigators aware of which projection neuron types would be labeled at the injection sites?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How is soma distance computed?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many target brain regions were included in the retro-seq data from Tasic et al. in the anterolateral motor area?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What did the smFISH experiment reveal about Npnt+ neurons in SCm-projecting cells?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which IT subtypes exhibit highly symmetric projections to bilateral agranular insular areas?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What does the red arrow indicate in the comparison figures between single-neuron projectomes and bulk labeling experiments?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many times were retrograde labeling experiments in SCm and PCG repeated for validation?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What process ensures the quality of traced neurons before they are used in the analysis?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many neuron subtypes were identified, and what was the sampling goal regarding neuron classes?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How were the mutually exclusive projections in ACA validated, and how many times were the experiments repeated?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What measures were taken to reduce bias in data collection?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How is the consensus neuron model generated for each neuron subtype, and what is the pattern of axon conservation?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the two steps of image registration, and how was the registration validated?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Were there significant morphological differences among IT, PT, and CT neurons, and what are their power law exponents for axon length versus branch points?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What software was used for axon morphology reconstruction, and what specific tools were used to build the consensus neuron model?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What is the total number of single-neuron projectomes reconstructed for the mouse cortex?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many mice were used to collect the whole-brain image data?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What is the average volume of the cortical columns used for connectivity analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many cortico-cortical connectivity modules were obtained?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many single neurons were reconstructed specifically in this study using Fast Neurite Tracer?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of IT neurons in the primary visual area (VISp) project to only a single visual target?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What does the higher participation coefficient of the prefrontal module indicate?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which IT neuron types more frequently use feedback projection patterns?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How is the primary visual area subdivided according to the new submodular organization?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How are the somata of VISp neurons with the same projection patterns organized?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What mouse lines were used to label neurons and what imaging technology captured the whole-brain data?",
+    "type": "multi-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "How many cortical columns were defined and what connectivity modules did they reveal?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome subtypes were identified and which neuron type is not uniquely labeled by existing Cre lines?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What submodular structures exist within the visual cortex and what projection patterns do VISp neurons exhibit?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many laminar termination patterns were identified and what did the hierarchy map reveal about the auditory area?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the proportion of FB neurons vary across cortical layers and what surprising FF/FB pattern was observed in VISa neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What unique cortical projection property do PT neurons exhibit, and how were the six major neuron classes defined?",
+    "type": "multi-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What is the relationship between the nine Cre lines and transcriptomic subtypes, and how are the somata of projectome subtypes distributed?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What percentage of PT neurons project to the basal ganglia?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the main basal ganglia targets of IT neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many subdivisions were identified in the globus pallidus external segment (GPe)?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many subdivisions of the subthalamic nucleus (STN) were identified?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many subdomains were parcellated in the thalamic reticular nucleus (RT)?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Across which cortical areas are RT-projecting CT neurons distributed?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many PT neuron subtypes were characterized in the whole mouse cortex?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What relationship was observed between structural connectivity and calcium dynamics across cortical columns?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the density of parvalbumin neurons relate to the cortical hierarchy score?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does peak-to-trough duration of action potentials vary along the cortical hierarchy?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do IT and PT neurons differ in their contributions to the striatal projection?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What evidence shows that the hyper-direct pathway is formed by specific PT neuron projections?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do the single-neuron-based subdivisions of SNr and striatum compare with previously identified parcellations?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do cortico-thalamic projections to the thalamic reticular nucleus differ between PT and CT neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do PT neuron subtypes in motor and visual areas exhibit distinct projection patterns?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What molecular and electrophysiological correlates of the cortical hierarchy were identified?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What evidence supports the conservation of cortico-basal ganglia projection organization across species?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What pathways allow direct cortical influence over basal ganglia output?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What advantage do single-neuron projectomes have over population-level viral tracing in whole-brain mapping?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many cortico-cortical modules were identified by the network analysis of single-neuron projectomes?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which cortical areas were assigned to the sensorimotor module in the single-neuron projectome results?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What limitation does the sparse sampling strategy impose on the detection of cortical neuron subtypes?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How did single-neuron reconstruction affect the traditional feedforward/feedback dichotomy?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which types of neurons were found to project to first-order thalamic nuclei, contradicting the “trans-thalamic” model?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the functional relevance of the projectome subtypes identified in the study?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Where can the reconstructed neuron data be visualized online?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Where can the analysis code and fine-grained subdivisions of brain regions be obtained?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What unexpected diversity did PT neurons exhibit in hyperdirect pathways?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What advantage of single-neuron projectomes allowed the observation that L1 and L6 targeting patterns challenge previous models?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What did the network analysis reveal about cortico-cortical modules and where can the projectome data be accessed?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What did the study find about PT neuron diversity in hyperdirect pathways and what concern exists regarding neuron subtype definitions?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What organization was observed in subcortical targets and what future experiments are needed to understand its functional significance?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What is the overall consistency of cortico-cortical modular structures across methods and what might be missed due to sparse sampling?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What evidence supports a shallow cortical hierarchy in mice and what limitation regarding dataset size could affect this conclusion?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How did single-neuron projectomes refine the understanding of cortical submodules and what remains unknown about their functional relevance?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What finding about PT and CT neurons contradicts the “trans-thalamic” model and what future steps are needed to link projectomes to behavior?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "Why was a flattened map of the whole cortex generated?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many columns were used to subdivide the whole cortex for analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of target columns receiving axon terminals were located in the ipsilateral hemisphere?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What statistical measure was used to assess similarity between cubes when subdividing target regions?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the cube edge length used for parcellating the striatum in the target region subdivision?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many cells did the downloaded imputed MERFISH dataset contain?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How long was each extracted wake-state session in the cortex-wide Ca2+ imaging analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What threshold based on signal standard deviation was used to exclude pixels from functional connectivity analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which R package was used for t-SNE analysis of the single-neuron dissimilarity matrix?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How was the optimal number of projectome subtypes determined during hierarchical clustering?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What dimensionality reduction technique was applied to both the functional and structural connectivity matrices?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What preprocessing steps were applied to the cortex-wide Ca2+ imaging data, and how was functional connectivity subsequently constructed?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How was the quality of single-neuron reconstructions ensured, and how was axonal morphology simplified for clustering?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What criteria led to neuron exclusion during neurite tracing, and what additional criterion applied for the single-neuron hierarchy score analysis?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What manual landmark-based registration methods were used to align single-neuron reconstructions and to align top-view brain images with the Allen CCFv3?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How many genes were in the imputed MERFISH dataset, and what analysis was performed to relate their expression to cortical hierarchy?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What clustering algorithms were used to partition the cortical surface into patches and to detect modules in cortico-cortical connectivity?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How are feedforward and feedback laminar termination patterns classified in the global cortical hierarchy calculation, and what values do FB and FF modes take in the single-neuron hierarchy score?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What percentage of PRV-labeled neurons in the hypothalamus were located in the lateral hypothalamic area?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many LHA neurons were recorded during the single-unit recording across 7 mice walking on a linear track?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Among the 37 speed-correlated LHA neurons, how many were classified as putative glutamatergic?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What happens when LHA Vglut2+ neurons are optogenetically stimulated?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Does optogenetic stimulation of LHA spinal cord-projecting neurons directly initiate locomotion?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which downstream brain regions of LHA projections can initiate locomotion when optogenetically activated?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What proportion of LHA neurons in the long-distance projecting cluster (cluster 4) directly extend axons to the spinal cord?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Where are the cell bodies of spinal-projecting excitatory PnO neurons predominantly located?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What fraction of LHA spinal cord-projecting neurons express Orexin?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the behavioral consequence of selectively depleting PnO-projecting LHA neuron terminals?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Are LHA glutamatergic neurons required for basic locomotor functions?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What behavioral effects are induced by optogenetic stimulation of MSDB-projecting LHA neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What experimental evidence supports the specific involvement of the LHA-PnO pathway in motivated locomotion?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Does the LHA use direct spinal cord projections to drive locomotion?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Can both excitatory and inhibitory LHA neurons initiate locomotion when optogenetically stimulated?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do LHA glutamatergic neurons relay locomotor commands down to the spinal cord?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What evidence links LHA glutamatergic neuron activity to food-seeking locomotion?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How are PRV-labeled hypothalamic neurons distributed within the LHA?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What motor deficit appears in mice 3 days after a thoracic lateral hemisection at T10?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What spontaneous locomotor recovery is observed in the chronic phase after incomplete spinal cord injury?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does PRV labeling from hindlimb muscle change in the brain at the early stage after SCI?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What change occurs in LHA neuronal labeling 8 weeks after spinal cord injury?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Does electrical stimulation of the lateral hypothalamus induce hindlimb muscle contraction in intact mice?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Can electrical LHA stimulation trigger TA muscle activation at 1 week after an incomplete SCI?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the consequence of depleting LHA Vglut2+ neurons on functional recovery after SCI?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does genetic ablation of PnO-projecting LHA neurons affect locomotor recovery after incomplete SCI?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "Does optogenetic stimulation of LHA neurons improve hindlimb locomotion in mice after SCI?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Does activating direct spinal cord-projecting LHA neurons produce locomotion?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Why is the caudal part of the LHA targeted for DBS to improve locomotion without causing anxiety?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What evidence demonstrates that LHA undergoes functional reorganization that contributes to spontaneous recovery after SCI?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the motivational drive encoded by PnO-projecting LHA neurons influence recovery after incomplete SCI?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What is the time course of LHA-DBS effectiveness in a double hemisection SCI model, and what cellular change accompanies the delayed response?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does brain-controlled LHA-DBS avoid the stress responses associated with conventional LHA-DBS?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the BCI-DBS system support long-term locomotor recovery after severe SCI?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the proposed mechanism by which LHA-DBS promotes locomotor recovery, and what histological evidence supports it?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What makes the LHA-PnO pathway more suitable for therapeutic DBS than the LHA-MSDB pathway?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What type of hypothalamic neurons are predominantly involved in hindlimb motor control and required for motivation-driven locomotion?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What pathway is essential for relaying locomotor signals from the hypothalamus to the spinal cord?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What process contributes to spontaneous locomotor recovery after spinal cord injury?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What does optimized LHA DBS acutely enable in paralyzed mice after chronic stagger SCI?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What type of LHA-DBS enhances locomotor recovery after severe SCI?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the lateral hypothalamus identified as in the context of spinal cord injury?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the LHA enhance motivated locomotion without triggering stress responses?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What conditions are linked to dysregulation of the lateral hypothalamus's inhibitory neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How certain is the translation of LHA-DBS findings from mice to humans?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What neuromodulation system was developed to promote functional recovery after SCI?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which LHA neurons are required for motivation-driven locomotion and what brainstem tract do they modulate?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the function of the LHA-PnO-spinal cord pathway and how does it change after SCI?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What has LHA DBS been shown to achieve in mice and why is clinical translation challenging?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What DBS system was developed and what effect does it have on locomotor recovery?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Why is LHA-DBS considered a promising therapy for SCI but also a potential risk for eating disorders?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the role of the LHA in spinal cord injury and what future research direction is suggested for LHA-DBS?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What specific LHA neurons and what pathway constitute the hypothalamic-spinal circuit for locomotion?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What effects have been observed from LHA stimulation in mice and in human patients?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many hypothalamic peptidergic neurons were reconstructed in the dataset?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome-defined neuron types were identified by clustering analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of the reconstructed neurons were marked by broadly expressed neuropeptides?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What spatial resolution did the fMOST imaging achieve for whole-brain scans?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In how many transcriptomically defined hypothalamic subtypes were the 16 neuropeptides found to be enriched?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What fraction of neuropeptide-enriched transcriptomic subtypes expressed only one of the 16 neuropeptides?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which hypothalamic nuclei were midbrain-projecting (Class II) neurons enriched?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which projectome type showed restricted projections to the median eminence and arcuate hypothalamic nucleus?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which neuropeptide was significantly enriched in projectome types 6, 13, 16, and 20?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Approximately what percentage of neuronal somata were located in the HY region of the hypothalamus?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many individual neurons were reconstructed in this study, and into how many projectome-defined types were they classified?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What was the spatial resolution of the fMOST imaging, and what percentage of ipsilateral brain voxels did the traced axon arbors occupy?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "From how many neuropeptide populations were hypothalamic neurons sampled, and which neuropeptides were enriched in midbrain-projecting VMH neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which neuropeptide was enriched in types 6, 13, 16, and 20, and what distinct projection pattern does type 13 exhibit?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What imaging technology was used to capture whole-brain neuron morphology, and to which reference atlas were the traced projections registered?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many neuropeptide populations were studied, and in how many transcriptome-defined hypothalamic subtypes were these neuropeptides enriched?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of hypothalamic peptidergic neurons were classified as midbrain-projecting (Class II), and which hypothalamic nucleus had the highest density of these Class II neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What evidence supports the idea that single hypothalamic axons can coordinate multiple brain targets?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the neuropeptide enrichment and soma distribution of type 2 hypothalamic neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the targets of the bifurcating axon collaterals of Nts-expressing type 2 neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the dorso-ventral topography of Nts+ type 2 projections differ between the SNr and GPe?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Where are Penk-expressing type 4 neurons located and where do they project?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What topographic correspondence is observed for Penk-expressing type 4 neurons between their soma and terminals?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "To which hippocampal region do Adcyap1-expressing type 4 neurons project, and what is the axis of their topographic organization?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many axes does the topographic organization of MBO type 22 neuron projections to the ATN span?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome-defined types were identified among Orexin-expressing neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is a major projection difference between ARH Pomc and Agrp neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which newly defined PAG subdomains are preferentially targeted by ARH Pomc and LHA Orexin neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the single-neuron projectome analysis refine the understanding of Orexin neuron projections compared to previous bulk tracing studies?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What structural basis exists for the functional diversity observed in Orexin neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What evidence supports that ARH Pomc neurons have a stronger projection to the midbrain compared to Agrp neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do hypothalamic neurons co-innervate PAG subdomains, and what is an example of peptidergic-specific targeting within the newly defined subdomains?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the presence or absence of topographic organization in hypothalamic peptidergic projections illustrate pathway-specificity?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What do the simple unbranched axon projections of Oxt type 13/20 neurons and Orexin type δ neurons imply about their functions?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome types were identified among all hypothalamic neurons, and what distinctive projection pattern do type 2 neurons possess?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What does the enrichment of multiple neuropeptides in a single projectome type indicate about hypothalamic circuitry?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of the ipsilateral hypothalamus volume was covered by the intra-hypothalamic projections registered in the dataset?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Into how many cubes of 100 μm size was the hypothalamus divided for the intra-hypothalamic connectivity analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many subnetworks characterized intra-hypothalamic connectivity, and what type of connections were enriched within them?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which known functional networks were associated with modules 5 and 6 of the intra-hypothalamic connectivity?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What type of correspondence was found between projectome-defined and transcriptome-defined hypothalamic neuron types?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Name a neuropeptide that marks a transcriptome-defined type which comprises multiple projectome-defined types.",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What software was developed to trace long-range axon projections in the terabyte-scale imaging datasets?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which standard brain atlas was used for registering the whole-brain imaging data?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is considered a fundamental principle of hypothalamic projections based on the anterograde tracing results?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the voxel resolution of the fMOST microscope during imaging?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What fraction of the contralateral hypothalamus volume was covered by the registered intra-hypothalamic projections, and how many neurons were included in the final projectome analysis?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which community detection algorithm was applied to the intra-hypothalamic cube network, and what general functional advantage do modular subnetworks provide?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How many of the 100 μm hypothalamic cubes contained both neuron and axon projections, and how many intra-hypothalamic modules were identified from the connectivity analysis?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What two types of organizational patterns were characterized for hypothalamic projections in this study?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How many neuropeptides were represented in the whole-brain projectome dataset, and what was a key difference between projectome-defined and transcriptome-defined neuron types?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What were the age and sex of the mice used in the experiments, and what viral technique achieved sparse labeling of specific neuron types?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What voxel resolution was used in fMOST imaging, and which standard brain template was used for data registration?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 0.5,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What prominent feature of hypothalamic peptidergic axons was revealed by anterograde tracing, and which neuropeptide exemplifies transcriptome-defined types that split into multiple projectome types?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the final concentration of the AAVretro-EF1α-nls-mNeoGreen virus used in the injection?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What volume of the diluted virus was injected into the periaqueductal gray (PAG)?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 1.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "How many weeks after injection were the mice perfused for brain collection?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What was the thickness of the coronal brain slices used in the EASI-FISH procedure?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which microscope was used to acquire the FISH images?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What were the pixel dimensions of the acquired images after expansion?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the z-step size used during image acquisition?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What software plugin was used to stitch the 3D image tiles?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What algorithm or tool was used for 3D cell segmentation?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What temperature was used for the mNeoGreen bleaching step?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How were midbrain-projecting neurons labeled and later identified in the EASI-FISH protocol?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What neuropeptides were detected in the first round of HCR RNA-FISH, and what criteria determined a cell as expressing a neuropeptide?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "At what temperature was the mNeoGreen signal bleached, and what pixel resolution was used for image collection?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What automated tool performed 3D cell segmentation, and how was the accuracy of traced neurons ensured?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How were brain slices stored before EASI-FISH, and what enzymatic digestions were applied during the protocol?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the total number of reconstructed projectome neurons, and how many biological replicates were used in the EASI-FISH experiments?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What was the final titer of the injected virus, and how many features were extracted from each mRNA transcript signal?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What light source was used to bleach the mNeoGreen signal, and what emission channels were recorded during imaging?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many PVH OXT neurons were reconstructed?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the projection targets of cluster 1 and cluster 2 PVH OXT neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What molecular markers distinguish C1 and C2 PVH OXT neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What software was used to reconstruct dendritic and axonal morphologies of OXT neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the correlation between projection strength and the number of terminals in reconstructed OXT neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many brain regions were mapped by the axonal fibers of the 264 traced neurons?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What functional capability is suggested by the extension of OXT neuron dendritic arbors outside the PVH?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What independent analysis confirmed the two clusters of PVH OXT neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which cluster of PVH OXT neurons has more primary dendrites?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of OXT neurons were labeled in the samples used for single-neuron projectome analysis?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What are the distinct projection targets and transcriptional markers of the two main PVH OXT neuron clusters?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What whole-brain imaging technology and resolution were used to reconstruct the projectomes of single PVH OXT neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many subtypes were identified within each of the two main PVH OXT neuron clusters?",
+    "type": "multi-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "Why was projection strength used as the metric for classifying OXT neuron projectomes?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What previous study identified differentially expressed genes between magnocellular and parvocellular OXT neurons, and which specific genes were validated as markers for C1 and C2?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do the newly identified C1 and C2 clusters correspond to the classical magnocellular and parvocellular OXT neuron classifications?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How did correlation analysis validate the mutually exclusive projection patterns of C1 and C2 neurons?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What functional role is associated with the ME-projecting cluster 1 PVH OXT neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of C1 neuron axon fibers and terminals are located within hypothalamic regions?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which PVH subdivisions do the dendrites of C1 neurons primarily reside?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the coefficient of determination between the mesoscale projection intensity and single-neuron projection intensity?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What fraction of C2-2 neurons send axons contralaterally?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which C2 subtypes are capable of projecting to the endbrain?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which neuron subtypes project to areas adjacent to the cerebral aqueduct and fourth ventricle?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do the primary dendrites of C2 neurons differ from those of C1 neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many target regions are included in the C2-2 projection target correlation matrix?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Did the study find significant projection pattern differences between virgin female, lactating female, and male mice?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What general functions are performed by brain regions that receive C2-1 axon terminals?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many target regions does the C2-2 subtype have, and how does the proportion of its terminals in the endbrain compare to its axon fibers there?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the size of the C2-1 projection target correlation matrix, and which brain division receives the most abundant innervation from C2-1 neurons?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What are the proposed functions of C2-3 neurons based on their projection patterns, and how do their contralateral projection patterns vary?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Where are the axon fibers and dendrites of C1 neurons predominantly located?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which C2 subtype lacks projections near the lateral and third ventricles, and what are the primary functions of its target regions?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What two lines of evidence confirmed that the reconstructed PVH OXT neurons are representative of the whole population?",
+    "type": "multi-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "Which subtype shows enhanced targeting of cerebral cortex and also exhibits the highest projection intensity to neuromodulator-producing brain regions?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the significance of C2-2 neurons for other OXT neuron-containing brain regions, and what higher-order functions are they proposed to regulate?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many brain regions were identified as covered by PVH OXT neurons in the single-neuron projectome analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the median number of axon terminals for C2 neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of C2 neurons project to MRN?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In sparsely labeled samples, how many ME-projecting neurons had collaterals outside the hypothalamus?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "Which brain regions were found to be proportionally more extensively covered in the single-neuron projectome analysis?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "How do C1 and C2 neurons differ in the number of primary dendrites?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What molecular markers were validated as relatively specific for C1 and C2 neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the simple classification of PVH OXT neurons based on their projectomes?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of all PVH OXT neurons project to the supraoptic nucleus (SO)?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What negative correlation between MRN and ME provides evidence for C2 neurons being parvocellular?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How are magnocellular and parvocellular neurons defined by their projection targets, and how does the MRN target support the parvocellular classification of C2 neurons?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the simple projectome-based classification of PVH OXT neurons, and how are their somata distributed within the PVH?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do the dendrites of C1 and C2 neurons differ in their extension and potential functions?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How many brain regions are covered by PVH OXT neurons, and what does the comparison with zebrafish neural projections suggest?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do C1 and C2 neurons regulate feeding behavior via the tuberal nucleus (TU), and what characterizes the projection pattern of C2-2 neurons?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How do C1 and C2 neurons interact to coordinate neuroendocrine and central regulation?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "How many regions positively correlate with ACB, and what is the specific correlation between ACB and MRN?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What observation in sparsely labeled samples supports the classification of C1 neurons as exclusively ME-projecting?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the titer of the packaged rAAV (Serotype 2/9)?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What dosage of pentobarbital sodium was used to anesthetize mice for stereotaxic injections?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What dilution of primary antibody was used for detecting OXT by immunohistochemistry?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What voxel resolution were fMOST raw images collected at?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many neurons from sample 195037 had their full axonal arbors traced?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which aggregation method minimized within-cluster variance in hierarchical clustering?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What concentration of CTB was injected into the NTS for retrograde labeling?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What ImageJ plugin was used to count labeled cells in immunohistochemistry images?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What was the sectioning thickness for in situ hybridization?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which fixative was used for transcardial perfusion prior to brain sectioning?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What viral construct was created for labeling OXT neurons, and what volume was injected into the PVH for sparse labeling?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How were C1 neurons retrogradely identified, and what registration correction was applied to their axonal projections?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "At what resolution were fMOST images originally acquired, and at what resolution were features extracted for registration to CCFv3?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many reconstructed OXT neurons came from virgin female mice, and how many projectome-based clusters did the full set of reconstructed axons form?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What distance metric measured projectome dissimilarity, and what method reduced the dimensionality of morphological features?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "Which software was used to manually trace axons and dendrites, and which software calculated soma morphological features?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many bulk labeled samples were imaged with fMOST, and how were the boundaries of brain regions delineated for mesoscale analysis?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What type of information did the PI channel provide in fMOST imaging, and what approach assessed the accuracy of image registration?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many single-neuron projectomes were reconstructed in the database?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "Into how many distinct target patterns were the hippocampal neurons initially categorized?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the two primary axon projection pathways from the hippocampus?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Through which structure do cross-hemispheric projections pass?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of dentate gyrus neurons bypass the trisynaptic circuit by sending long-range projections?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In which sublayer are the majority of long-range projecting DG neurons located?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which spatial transcriptomic sequencing method was used to examine gene expression patterns in the hippocampus?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "At which two bregma positions did the CA1 neuronal clusters show abrupt gene expression transitions?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which hippocampal subregion had the simplest axon morphology?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome subtypes send projections to the hypothalamus through the rostral pathway?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Through which pathway do bihemispheric projecting neurons send their axons, and what is their general targeting pattern?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Despite having the simplest axon morphologies, what long-range projection capability do some DG neurons exhibit?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome subtypes were classified and which transcriptomic subclusters correlate with subtypes 39 and 10?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "Along which axis do BA-projecting and mPFC-projecting neurons show opposite soma distributions, and where is each located?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Although group 3 neurons mainly project within the hippocampal formation, what specific cortical and hypothalamic targets do subtype 37 neurons project to?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What database was created and how many projectome subtypes does it classify?",
+    "type": "multi-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "How does the soma distribution of MEC- and LEC-projecting CA1 neurons differ, and what broader principle of hippocampal organization does this reflect?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "From how many mice were the 10,100 reconstructed neurons obtained, and which hippocampal subregions were covered?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What proportion of HIP neuron subtypes send axon collaterals to both hemispheres?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Among bilaterally projecting neurons, what unique behavior is observed in a small subset of CA3 neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Where are bilaterally projecting CA1 neurons predominantly located along the dorsal-ventral axis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How do the axon projection patterns of bilaterally projecting CA3 and CA2 neurons compare in CA1?",
+    "type": "single-evidence",
+    "recall": 0.0,
+    "model_recalls": {
+      "gpt": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "Within SUBr subregions, where are MEC-preferring neurons primarily located?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What target numbers are most abundant for CA1, SUBr, and SUB/ProS neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "According to the lamellar hypothesis, how is the hippocampus organized along its longitudinal axis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the longitudinal span of Schaffer axon arbors differ between dorsal and ventral CA3 neurons?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Where are the Schaffer axon tips from distal CA3 neurons predominantly located within CA1 layers?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What are the average P-D and depth widths of Schaffer axon tip distributions from individual CA3 neurons in CA1?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of bilaterally HIP-projecting neurons originate from CA3, and how do their Schaffer collateral axons orient as they travel from CA3 to CA1?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the primary contralateral projection target of bilaterally projecting CA1 neurons, and how are these cross-hemispheric projections topographically arranged?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What proportion of bilaterally projecting neurons target a single pair of homologous regions, and which type of intra-HPF preferring neurons exhibit the highest collateral indices?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Except for neurons projecting to RHP, what hemispheric bias do bilaterally projecting HIP neurons show, and how does the number of innervated targets relate to soma distribution along the longitudinal axis?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How does the number of multitarget projection neurons change as the number of targets increases, and what transverse topographic relationship is observed for CA1 axonal arbors?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the main orientation of mossy fiber axons, and how do SUB and ProS neurons compare to CA1 and SUBr neurons in terms of target number range?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What percentage of all HIP neurons exhibit contralateral-only projections, and which extra-HPF target region do these rare projections primarily innervate?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What topographic correlation exists between CA3 soma location and Schaffer axon tips along the P-D axis, and where do CA1/SUBr neurons projecting to multiple targets tend to localize along the longitudinal axis?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the total number of single-neuron projectomes that were mapped for the whole hippocampal formation at micrometer resolution?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What are the primary target areas of hippocampal neurons as defined in the projectome analysis?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What is the predominant laterality pattern of hippocampal axon projections to downstream targets?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which thalamic nucleus is described as a rare target receiving substantial contralateral-only hippocampal projections?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Do presubiculum neurons that project bilaterally to the entorhinal cortex send collaterals outside the hippocampal formation?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "In the fMOST imaging pipeline, what were the specific uses of the EGFP and PI channels?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "To which standard reference atlas were the reconstructed hippocampal neurons registered?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How is the projection strength of a hippocampal neuron in a target area represented?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What anatomical axis was used to quantify the soma location of hippocampal neurons along the dorsal-ventral extent?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What clustering resolution was used in the spatial transcriptomic analysis when classifying cell clusters with the FindClusters function?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many single-neuron projectomes were mapped for the mouse hippocampus, and what criteria determined whether a neuron had significant axon arborization in a primary target area?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "How many projectome subtypes were identified in the hippocampal projectome, and what was the initial number of target patterns before clustering?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What whole-brain imaging technique was central to mapping hippocampal single-neuron projectomes, and how was the accuracy of neuronal reconstruction validated?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What was the overall laterality pattern of hippocampal axon projections, and what distinct pattern of bilateral projection did the study reveal for homologous targets?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 0.5
+    }
+  },
+  {
+    "question": "What statistical method was used to correlate transcriptome subclusters with projectome subtypes, and how was somatic location along the hippocampal longitudinal axis quantified?",
+    "type": "multi-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "Which specific hippocampal subfield had a spatial transcriptome map constructed, and what were the dimensions of the spatial bins used for transcript aggregation?",
+    "type": "single-evidence",
+    "recall": 1.0,
+    "model_recalls": {
+      "gpt": 1.0,
+      "claude": 1.0,
+      "gemini": 1.0
+    }
+  },
+  {
+    "question": "What topographic correlation was observed between axonal arbors and soma location, and which formula quantified the selectivity of axon projections between two target areas?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.0
+    }
+  },
+  {
+    "question": "What was a confirmed projection target of GABAergic projection neurons in CA1, and what was a unique collateral feature of presubiculum neurons projecting to the entorhinal cortex?",
+    "type": "multi-evidence",
+    "recall": 0.5,
+    "model_recalls": {
+      "gpt": 0.5,
+      "claude": 0.5,
+      "gemini": 0.5
+    }
+  }
+]

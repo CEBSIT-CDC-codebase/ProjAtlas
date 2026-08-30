@@ -1,0 +1,458 @@
+[
+  {
+    "question": "How many spinal projection neurons were reconstructed in the study?",
+    "answer": "A total of 785 spinal cervical projection neurons were reconstructed.",
+    "type": "single-evidence",
+    "evidences": [
+      "Here, we sparsely labeled and reconstructed the morphology of 785 spinal cervical projection neurons and 1,464 central relay neurons that receive direct spinal inputs."
+    ]
+  },
+  {
+    "question": "What percentage of spinal projection neurons innervate exactly 5 brain regions?",
+    "answer": "32% of spinal projection neurons innervate 5 brain regions.",
+    "type": "single-evidence",
+    "evidences": [
+      "We examined how these brain areas were co-innervated by individual SPNs and found that most SPNs co-innervated 2 or more brain regions, with 32% innervating 5 regions (Figure 1E)."
+    ]
+  },
+  {
+    "question": "What is the average number of brain areas innervated by an individual spinal projection neuron?",
+    "answer": "Individual spinal projection neurons arborize in an average of 15 brain areas.",
+    "type": "single-evidence",
+    "evidences": [
+      "On average, individual SPNs were arborized in 15 brain areas, ranging from 1 to 46 (Figure 1F; see STAR Methods)."
+    ]
+  },
+  {
+    "question": "Which spinal projection neuron subtype forms the spino-mesencephalic tract?",
+    "answer": "Subtype S19 forms the spino-mesencephalic tract, innervating the midbrain including the SCm, inferior colliculus, and PAG.",
+    "type": "single-evidence",
+    "evidences": [
+      "Interestingly, a distinct subtype (S19) exhibited dedicated innervation of the midbrain, forming the spino-mesencephalic tract (Figures 1G, 1P, and S6B), with most neurons co-innervating the SCm, inferior colliculus (IC), and PAG, pointing to a possible direct pathway for recruiting the circuit for defensive behavior."
+    ]
+  },
+  {
+    "question": "What percentage of spinal projection neurons have axon collaterals in the spinal cord?",
+    "answer": "18% of spinal projection neurons possess spinal cord collaterals.",
+    "type": "single-evidence",
+    "evidences": [
+      "Besides the supraspinal projections, we found that 18% of SPNs have collaterals in the spinal cord, categorized as contralateral (mainly in subtypes S9, S16, and S17) or ipsilateral (mainly in subtypes S2, S10, and S11), terminating in the dorsal horn (Figures S6E-S6I)."
+    ]
+  },
+  {
+    "question": "How many thalamic relay neuron subtypes project to the striatum?",
+    "answer": "Four subtypes, TH_4 through TH_7, send collateral projections to the striatum.",
+    "type": "single-evidence",
+    "evidences": [
+      "Among all subtypes, four subtypes (TH_4-TH_7) sent collateral projections to the striatum (Figure S9A and S9H; Video S5)."
+    ]
+  },
+  {
+    "question": "How many major routes to the cortex were observed among thalamic relay neuron subtypes?",
+    "answer": "Three major routes were observed.",
+    "type": "single-evidence",
+    "evidences": [
+      "Among these 7 subtypes, we observed three major routes."
+    ]
+  },
+  {
+    "question": "Which cortical layers do most VPL and VPM thalamic neurons innervate in the primary somatosensory area?",
+    "answer": "They innervate layers L2/3 and L4 of the primary somatosensory area (SSp).",
+    "type": "single-evidence",
+    "evidences": [
+      "For the cortical-layer-specific innervation pattern of thalamic relay neurons, we found that most neurons in the VPL and VPM innervated L2/3 and L4 of the SSp (Figures 3J and S10D), in line with previous findings."
+    ]
+  },
+  {
+    "question": "What thalamic subtypes channel information to the primary and secondary motor areas?",
+    "answer": "Subtypes TH_6 and TH_7 channel information to the primary motor area (MOp) and secondary motor area (MOs).",
+    "type": "single-evidence",
+    "evidences": [
+      "Neurons in subtypes TH_6 and TH_7 channeled information to the primary motor area (MOp) and secondary motor area (MOs) via the second route, with subtype TH_6 also sending projections to the sensory cortices (Figures 3E-3G)."
+    ]
+  },
+  {
+    "question": "How many projectome-defined subtypes of spinal projection neurons were identified?",
+    "answer": "19 projectome-defined subtypes were identified.",
+    "type": "single-evidence",
+    "evidences": [
+      "We have reconstructed mouse cervical spinal projection neurons at single-cell resolution and identified 19 projectome-defined subtypes exhibiting diverse projection patterns."
+    ]
+  },
+  {
+    "question": "How many projectome-defined subtypes and dendritic morphology-defined clusters were identified for spinal projection neurons?",
+    "answer": "There are 19 projectome-defined subtypes and 15 dendritic morphology-defined clusters.",
+    "type": "multi-evidence",
+    "evidences": [
+      "We have reconstructed mouse cervical spinal projection neurons at single-cell resolution and identified 19 projectome-defined subtypes exhibiting diverse projection patterns.",
+      "Taken together, we have constructed the 3D dendritic morphology of SPNs and identified 15 dendritic morphology-defined clusters."
+    ]
+  },
+  {
+    "question": "How many spinal projection neurons were reconstructed, and how many projectome-defined subtypes of thalamic relay neurons were identified?",
+    "answer": "785 spinal projection neurons were reconstructed, and thalamic relay neurons were classified into 7 subtypes.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Here, we sparsely labeled and reconstructed the morphology of 785 spinal cervical projection neurons and 1,464 central relay neurons that receive direct spinal inputs.",
+      "With this method, thalamic relay neurons were classified into 7 projectome-defined subtypes (Figures 3E-3G, S9G, and S9H; Video S4)."
+    ]
+  },
+  {
+    "question": "What is the average number of brain areas an individual SPN innervates, and which subtype corresponds to the spino-cerebellar tract?",
+    "answer": "Individual SPNs arborize in 15 brain areas on average, and subtype S16 corresponds to the spino-cerebellar tract, projecting to the contralateral cerebellar cortex and nuclei.",
+    "type": "multi-evidence",
+    "evidences": [
+      "On average, individual SPNs were arborized in 15 brain areas, ranging from 1 to 46 (Figure 1F; see STAR Methods).",
+      "Subtype 16 projected to the contralateral cerebellar cortex (CBX) and cerebellar nuclei (CBN), corresponding to the spino-cerebellar tract (Figures 1G, 1P, and S6D), likely transmitting proprioceptive information."
+    ]
+  },
+  {
+    "question": "What percentage of SPNs have spinal cord collaterals, and which subtype forms the spino-mesencephalic tract?",
+    "answer": "18% of SPNs possess spinal cord collaterals, and subtype S19 forms the spino-mesencephalic tract, targeting the midbrain.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Besides the supraspinal projections, we found that 18% of SPNs have collaterals in the spinal cord, categorized as contralateral (mainly in subtypes S9, S16, and S17) or ipsilateral (mainly in subtypes S2, S10, and S11), terminating in the dorsal horn (Figures S6E-S6I).",
+      "Interestingly, a distinct subtype (S19) exhibited dedicated innervation of the midbrain, forming the spino-mesencephalic tract (Figures 1G, 1P, and S6B), with most neurons co-innervating the SCm, inferior colliculus (IC), and PAG, pointing to a possible direct pathway for recruiting the circuit for defensive behavior."
+    ]
+  },
+  {
+    "question": "Does the number of innervated cortical areas differ between first-order and higher-order thalamic nuclei, and what determines the cortical-layer preference of thalamic relay neurons?",
+    "answer": "Yes, neurons in higher-order thalamic nuclei innervate more cortical areas; cortical-layer preference depends on both the thalamic soma location and the cortical target.",
+    "type": "multi-evidence",
+    "evidences": [
+      "The number of cortical areas innervated by neurons in higher-order thalamic nuclei was more than that by neurons in first-order thalamic nuclei (Figures S9C and S9D).",
+      "Thus, the cortical-layer preference of thalamic relay neurons depends on both their thalamic soma location and their cortical targets, implicating their differential roles in engaging and regulating local cortical circuits."
+    ]
+  },
+  {
+    "question": "What are the three projection patterns of PB-projecting SPNs, and what thalamic preferences do subtypes S4 and S10 exhibit?",
+    "answer": "PB-projecting SPNs show ipsilateral-only (S14), contralateral-only (S17), and bilateral (S15) patterns; S4 prefers first-order thalamic nuclei (VP, PoT) while S10 prefers higher-order thalamic nuclei (Eth, PO).",
+    "type": "multi-evidence",
+    "evidences": [
+      "For the 8 non-diencephalon-projecting subtypes, we have identified three distinct projection patterns for PB-projecting SPNs, including ipsilateral-only (S14), contralateral-only (S17), and bilateral (S15) patterns (Figures 1G and 1N).",
+      "By contrast, subtypes S4 and S10 exhibited preference for first-order (ventral-posterior complex of the thalamus [VP], posterior triangular thalamic nucleus [PoT]) and higher-order (ethmoid nucleus of the thalamus [Eth], PO) thalamus, respectively (Figures 1G, 1I, and 1J)."
+    ]
+  },
+  {
+    "question": "In how many SPN subtypes were dendritic and axonal arbor lengths correlated, and what are the two broad projection groups of SPNs?",
+    "answer": "Correlations were found in 11 out of 19 subtypes; SPNs are broadly grouped into 11 diencephalon-projecting and 8 non-diencephalon-projecting subtypes.",
+    "type": "multi-evidence",
+    "evidences": [
+      "Importantly, dendritic and axonal arbor length showed correlations in 11 out of 19 subtypes (p < 0.05, Pearson correlation) (Figures S7B and S7C), indicating a coordinated development of dendritic and axonal arbors.",
+      "Based on the innervation strengths (see STAR Methods), SPNs were further classified into 11 diencephalon-projecting subtypes (S1-S11) and 8 non-diencephalon-projecting subtypes (S12-S19) (Figures 1G, 1J, 1N, 1P, and S5A-S5D; Video S1)."
+    ]
+  },
+  {
+    "question": "What type of neurons were reconstructed besides spinal projection neurons, and which thalamic subtypes target higher-order cortices via the third route?",
+    "answer": "Central relay neurons that receive direct spinal inputs were also reconstructed; subtypes TH_4 and TH_5 channel information to higher-order cortices (AI, PL, ORB) via the third route.",
+    "type": "multi-evidence",
+    "evidences": [
+      "We also reconstructed the brain-wide axonal projections of central relay neurons that receive direct spinal inputs at the single-cell resolution.",
+      "Neurons in subtypes TH_4 and TH_5 channeled information to higher-order cortices, including the agranular insular area (AI), prelimbic area (PL), and orbital area (ORB), via the third route (Figures 3E-3G)."
+    ]
+  },
+  {
+    "question": "How many ipsilateral and contralateral parabrachial relay neurons were labeled and reconstructed?",
+    "answer": "A total of 193 ipsilateral (right PB) and 67 contralateral (left PB) neurons were reconstructed.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"We labeled and reconstructed 193 ipsilateral (in right PB) and 67 contralateral (in left PB) PB relay neurons (Figure 4A) and detected dense arborization in the MD, MRN, PAG, LHA, SCm, and CEA (Figure S11A).\""
+    ]
+  },
+  {
+    "question": "What percentage of PB relay neurons send collateral projections to the contralateral parabrachial nucleus?",
+    "answer": "13.8% of PB relay neurons, mostly subtypes PB_1 and PB_5, send collaterals to the contralateral PB.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Notably, $13.8\\%$ of PB relay neurons (mostly subtypes PB_1 and PB_5) sent collateral projections to the contralateral PB (Figures 4H and 4I), suggesting cross-hemispheric interactions among PB relay neurons.\""
+    ]
+  },
+  {
+    "question": "How many subtypes were SCm relay neurons classified into, and what are they named?",
+    "answer": "They were classified into three subtypes: SCm_1, SCm_2, and SCm_3.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Based on their targeting patterns, we classified SCm relay neurons into 3 subtypes (SCm_1, SCm_2, and SCm_3) (Figures 5B-5F, S12A, and S12B).\""
+    ]
+  },
+  {
+    "question": "What are the primary projection targets of the SCm_1 subtype?",
+    "answer": "SCm_1 primarily targets the contralateral subregions of the pontomedullary reticular formation (PMRF) and tegmental reticular nucleus (TRN).",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Subtype SCm_1 primarily targeted contralateral subregions of pontomedullary reticular formation (PMRF) and tegmental reticular nucleus (TRN) (Figures 5B, 5D, S12A, and S12B).\""
+    ]
+  },
+  {
+    "question": "Which brain regions are common downstream targets for neurons in most PB relay subtypes?",
+    "answer": "The MRN, PAG, and pedunculopontine nucleus (PPN) are common downstream targets.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"We found that brain regions MRN, PAG, and pedunculopontine nucleus (PPN) were common downstream targets for neurons in most subtypes (Figure S11C).\""
+    ]
+  },
+  {
+    "question": "What is the total number of central relay neurons mapped in the projectome?",
+    "answer": "A total of 1,464 central relay neurons were mapped.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Together with TH, PB and SCm, we have mapped the single-cell projectome of 1,464 central relay neurons in total (Figure S13A).\""
+    ]
+  },
+  {
+    "question": "What proportion of relay neurons exhibit ipsilateral projections?",
+    "answer": "52.5% of relay neurons exhibit ipsilateral projections.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Most relay neurons exhibited ipsilateral (52.5%) or bilateral (46.0%) projections, with only 1.5% exhibiting contralateral projections (Figure 6D).\""
+    ]
+  },
+  {
+    "question": "Which parabrachial relay neuron subtypes mainly project to the mediodorsal thalamus?",
+    "answer": "Subtypes PB_1 and PB_2 mainly project to the mediodorsal thalamus (MD), via contralateral and ipsilateral routes respectively.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Among these subtypes, PB_1 and PB_2 had major projections in the MD via contralateral and ipsilateral routes, respectively (Figures 4D-4F and S11B).\""
+    ]
+  },
+  {
+    "question": "What is the newly identified SCm subtype, and what areas does it innervate?",
+    "answer": "The new subtype SCm_3 mainly innervates the midbrain and diencephalon, including the MRN, hypothalamic lateral zone (LZ), and medullary reticular nucleus ventral part (LAT).",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Moreover, we have identified a new subtype (SCm_3) that mainly innervates the midbrain and diencephalon, including MRN, hypothalamic lateral zone (LZ), and medullary reticular nucleus, ventral part (LAT) (Figures 5B, 5F, S12A, and S12B).\""
+    ]
+  },
+  {
+    "question": "How many central relay neurons provide input to the MRN?",
+    "answer": "787 out of 1,464 central relay neurons (more than half) provide input to the MRN.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Notably, MRN received inputs from more than half (787/1,464) of central relay neurons, indicating its important role as a hub for ascending pathways.\""
+    ]
+  },
+  {
+    "question": "What is the likely functional role of the pathways involving SCm_1 and SCm_2?",
+    "answer": "SCm_1 corresponds to contralateral brainstem-projecting neurons and SCm_2 to ipsilateral. The two parallel pathways they constitute are speculated to process information associated with orienting and defensive behaviors, respectively.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"We speculate that these two parallel pathways may be involved in processing information associated with orienting and defensive behaviors.\""
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "In which PB population is subtype PB_3 found, and what is one of its projection targets?",
+    "answer": "PB_3 is found exclusively in the ipsilateral PB. It is among the nine relay neuron subtypes that project to the central amygdala (CEA).",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"We further examined the distribution pattern of ipsilateral and contralateral PB relay neurons in distinct subtypes and found that although the percentages of various subtypes in these two populations were comparable, subtype PB_3 was found only in the ipsilateral PB (Figures 4J and S11E).\"",
+      "\"For example, we found 9 subtypes of relay neurons originating from PB (PB_1, PB_3, PB_7), TH (TH_3, TH_4, TH_5), and HY (HY_2, HY_3, HY_5) projected to CEA (Figures 6K and S14B), the critical node for emotional information processing.\""
+    ]
+  },
+  {
+    "question": "How many of the total central relay neurons project to the MRN?",
+    "answer": "Out of 1,464 central relay neurons, 787 project to the MRN.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Notably, MRN received inputs from more than half (787/1,464) of central relay neurons, indicating its important role as a hub for ascending pathways.\""
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "How do ipsilateral PB relay neurons differ from contralateral ones in their downstream innervation, and what could this explain?",
+    "answer": "Ipsilateral PB relay neurons send more projections to the post-piriform transition area and cortical amygdala. This differential innervation could account for hemispheric differences in sensory signal processing via the PB pathway.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Although the whole-brain projection patterns of these two groups were largely comparable, we found that ipsilateral PB relay neurons sent more projections to the post-piriform transition area and cortical amygdala area compared with contralateral PB relay neurons (Figures 4B and 4C).\"",
+      "\"Thus, ipsilateral and contralateral PB relay neurons exhibited different projection patterns, which could account for hemispheric differences in sensory signal processing via the PB relay pathway.\""
+    ]
+  },
+  {
+    "question": "What anatomical evidence supports the existence of two parallel spino-SCm-brainstem pathways?",
+    "answer": "SCm_1 neurons target contralateral pontomedullary reticular formation (PMRF) and tegmental reticular nucleus (TRN). Additionally, spinal projection neurons form non-overlapping clusters that innervate the lateral and medial SCm, matching the soma distributions of SCm_1 and SCm_2.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Subtype SCm_1 primarily targeted contralateral subregions of pontomedullary reticular formation (PMRF) and tegmental reticular nucleus (TRN) (Figures 5B, 5D, S12A, and S12B).\"",
+      "\"By clustering analysis based on SPNs' terminal distribution in these units, we found that SPNs could be classified into three clusters that innervated the lateral, medial, and posterior parts of the SCm in a largely non-overlapping manner (Figures 5H-5J and S12C-S12E).\""
+    ]
+  },
+  {
+    "question": "What percentage of relay neurons have contralateral-dominant projections, and which subtypes are mainly responsible?",
+    "answer": "Only 1.5% of relay neurons are contralateral-dominant, and they mostly belong to subtypes SCm_1, MY_1, and MY_4.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Most relay neurons exhibited ipsilateral (52.5%) or bilateral (46.0%) projections, with only 1.5% exhibiting contralateral projections (Figure 6D).\"",
+      "\"Relay neurons in subtypes SCm_1, MY_1, and MY_4 exhibiting contralateral projection dominance, which primarily innervate the contralateral MY and pons, potentially involved in contralateral motor control.\""
+    ]
+  },
+  {
+    "question": "How many SPN subtypes strongly project to the SCm, and what behaviors are the target neurons associated with?",
+    "answer": "Eleven SPN subtypes strongly project to the SCm. The brainstem-projecting SCm neurons are linked to orienting behavior (contralateral) and defensive behavior (ipsilateral).",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Among all SPN subtypes, 11 subtypes showed strong projection to the SCm (Figure 5M).\"",
+      "\"Early studies have found that the contralateral and ipsilateral brainstem-projecting SCm neurons are involved in orienting and defensive behaviors, respectively.\""
+    ]
+  },
+  {
+    "question": "What proportion of central relay neurons are bilateral, and what does this imply?",
+    "answer": "46.0% of relay neurons are bilateral. They bilaterally innervate multiple brainstem, midbrain, and thalamic regions, enabling extensive bi-hemispheric coordination of sensory information processing.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Most relay neurons exhibited ipsilateral (52.5%) or bilateral (46.0%) projections, with only 1.5% exhibiting contralateral projections (Figure 6D).\"",
+      "\"Additionally, we found that several brain regions in brainstem, midbrain, and TH were bilaterally innervated by individual central relay neurons, indicating extensive bi-hemispheric coordination of sensory information processing.\""
+    ]
+  },
+  {
+    "question": "What spinal segments did the projectome mapping focus on?",
+    "answer": "The mapping focused on the C1-C4 spinal segments.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"First, our projectome mapping was focused on neurons in C1-C4 spinal segments due to imaging constraints.\""
+    ]
+  },
+  {
+    "question": "Who is the lead contact for this study and what is their email address?",
+    "answer": "The lead contact is Yan-Gang Sun, with email yangang.sun@ion.ac.cn.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Requests for further information, resources, and reagents should be directed to and will be fulfilled by the lead contact, Yan-Gang Sun (yangang.sun@ion.ac.cn).\""
+    ]
+  },
+  {
+    "question": "Were any new reagents generated in this study?",
+    "answer": "No, the study did not generate new reagents.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"This study did not generate new reagents.\""
+    ]
+  },
+  {
+    "question": "What mouse strains and ages were used for virus injection, and what sex was included?",
+    "answer": "Wild-type C57BL/6 mice (7 weeks old) and Cre-dependent H2B-GFP mice (8 weeks old) were used; only males were included.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Wild-type C57BL/6 mice (7 weeks old) and Cre-dependent H2B-GFP $^{+/ - }$ (LSL-H2B-GFP $^{+/ - }$ ) mice (8 weeks old) were used for virus injection, only male mice were included in our experiments.\""
+    ]
+  },
+  {
+    "question": "At what rate were viruses injected into target brain areas?",
+    "answer": "The injection rate was approximately 20 nanoliters per minute.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Viruses were injected into target brain areas at the rate of $\\sim 20\\mathrm{nL / min}$ using an air-pressure system (Picospritzer III, Parker) or oil-pressure system (Narishige Scientific Instrument Lab).\""
+    ]
+  },
+  {
+    "question": "What volume of virus was used for bulk labeling of central relay neurons?",
+    "answer": "A volume of 200 nanoliters was injected.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"To examine the distribution pattern of central relay neurons, we injected anterograde trans-synaptic virus AAV2/1-CMV-bGI-CRE-EGFP-pA into the cervical spinal dorsal horn of LSL-H2B-GFP mice at a volume of 200 nL.\""
+    ]
+  },
+  {
+    "question": "What tracing score threshold was required for neurons to be included in further analysis?",
+    "answer": "Neurons needed a tracing score higher than 90 to be included.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"In our tracing process, only neurons with tracing score higher than 90 were included for further analysis.\""
+    ]
+  },
+  {
+    "question": "Which algorithm was used to compute the similarity matrix for dendritic morphology clustering of spinal projection neurons?",
+    "answer": "The NBLAST algorithm was used.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Dendrites of SPNs (except for neurons in L1/2) were hierarchically clustered using Euclidean distance and Ward's linkage based on similarity matrix obtained from NBLAST algorithm.\""
+    ]
+  },
+  {
+    "question": "How were ipsilateral and contralateral projecting neurons defined using the preference index?",
+    "answer": "Ipsilateral projecting neurons had an ipsilateral preference index greater than 0.9, while contralateral projecting neurons had an index less than -0.9.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"Neurons with ipsilateral or contralateral projection are defined as neurons with Ipsilateral preference index $>0.9$ or Ipsilateral preference index $< -0.9$ , respectively.\""
+    ]
+  },
+  {
+    "question": "To what resolution were the fMOST image datasets resampled for template construction and registration?",
+    "answer": "The datasets were resampled to an isotropic 1 micrometer resolution.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"The obtained image datasets were then resampled to isotropic $1\\mu m$ resolution for further template construction and image registration.\""
+    ]
+  },
+  {
+    "question": "What retrograde labeling strategy was used to sparsely label spinal projection neurons, and what limitation could affect the observed proportion of subtypes?",
+    "answer": "SPNs were sparsely labeled by delivering retrograde scAAV2/2Retro-hSyn-Cre-pA into supraspinal target brain regions, and a second virus into the C1-C4 spinal dorsal horn. However, limited sampling or the retrograde labeling approach could cause over- or underrepresentation of some subtypes.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"To achieve sparse labeling of spinal projection neurons (SPNs), we delivered scAAV2/2Retro-hSyn-Cre-pA virus (Taitool Inc., titer: 3 x $10^{9}$ v.g./mL - 3 x $10^{10}$ v.g./mL) into the supraspinal target brain regions.\"",
+      "\"Second, some subtypes could be over- or underrepresented due to the limited sampling of neurons or the retrograde labeling approach.\""
+    ]
+  },
+  {
+    "question": "Which virus was used for sparse labeling of central relay neurons, and what potential artifact is associated with this virus?",
+    "answer": "AAV2/1-CMV-bGI-Cre-EGFP-pA was injected into the spinal dorsal horn, but as an anterograde virus it could cause non-specific labeling of spinally projecting neurons in the brain via retrograde transport.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"To achieve sparse labeling of central relay neurons in the brain, we injected AAV2/1-CMV-bGI-Cre-EGFP-pA virus (Taitool Inc., titer: 1 x $10^{13}$ v.g./mL) into the spinal dorsal horn with the volume of 20-200 nL (according to the projection strengths).\"",
+      "\"Third, although previous studies have shown a high reliability of the anterograde AAV2/1-CMV-Cre viral, some non-specific labeling of spinally projecting neurons in the brain could occur via retrograde transport of this virus.\""
+    ]
+  },
+  {
+    "question": "What anatomical reference was used to construct the 3D spinal cord template, and what was the purpose of this template in data analysis?",
+    "answer": "The template was built by labeling spinal cord structures according to the 2D atlas from Allen Brain, and it was used to map reconstructed SPNs for quantitative analysis of spinal cord data.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"To build a 3D spinal cord template, we manually labeled the anatomical structures of the spinal cord first, including the gray and white matter, distinct laminae of the gray matter and the central canal, according to the 2D atlas from Allen Brain ( in every 100 coronal planes selected from the image sequence at $20~\\mu \\mathrm{m}$ resolution.\"",
+      "\"To quantitatively analyze data in the spinal cord, we mapped the reconstructed SPNs in the 3D spinal cord template.\""
+    ]
+  },
+  {
+    "question": "How is the maximum depth of an axonal edge assigned, and what defines the axonal trunk based on this depth?",
+    "answer": "Maximum depth is assigned by starting with terminal edges at depth 0 and increasing the parent edge depth when its order is higher than the child's; the axonal trunk then consists of edges whose maximum depth exceeds half the neuron's maximum depth or whose maximum path from branch point to terminals exceeds one-tenth of the overall maximum path.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"To determine the maximum depth of each edge, we set the terminal edge as depth 0 and the depth of its parent edge was defined according to its relationship with the children edges with maximum depth.\"",
+      "\"The axonal trunk was defined as the edges with the maximum depth greater than half of maximum depth of the entire neuron, or that with the maximum path from the branch point to all downstream terminal points is longer than one-tenth of the maximum path from root to all the terminals.\""
+    ]
+  },
+  {
+    "question": "What hemispheric projection pattern was reported for SPNs and central relay neurons, and how was it quantified?",
+    "answer": "The study found diverse hemispheric targeting preferences, and these were quantified using the ipsilateral preference index, calculated as (axonal arbor length_{ipsi} - axonal arbor length_{contra}) / (axonal arbor length_{ipsi} + axonal arbor length_{contra}).",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"In summary, we have characterized the diversity in the projection patterns of SPNs and central relay neurons, showing diverse hemispheric targeting preferences as well as extensive converging and diverging connectivity of individual neurons.\"",
+      "\"Then we calculated the ipsilateral or contralateral preference index for each pair of brain areas or for whole brain using the following formula:\""
+    ]
+  },
+  {
+    "question": "How were spinal projection neurons classified, and what complementary molecular information was not determined?",
+    "answer": "SPNs were classified by first dividing them into diencephalon-projecting and non-diencephalon-projecting groups, followed by hierarchical clustering based on innervation strengths; however, their transcriptomic identity was not determined.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"To classify the SPNs, we first divided them into two categories: diencephalon-projecting neurons, which projected to thalamus and hypothalamus, and non-diencephalon-projecting neurons, which did not project to these areas.\"",
+      "\"Finally, the transcriptomic identity of projectome-defined subtypes was not determined.\""
+    ]
+  },
+  {
+    "question": "What mouse strain and injection volume were used for bulk retrograde labeling of spinally projecting neurons in the brain?",
+    "answer": "C57BL/6J mice received a 600 nL injection of retrograde virus into the cervical spinal dorsal horn.",
+    "type": "single-evidence",
+    "evidences": [
+      "\"To examine the distribution patterns of spinally projecting neurons in the brain, we injected retrograde virus scAAV2/2Retro-hSyn-EGFP-NLS-WPRE-pA (Taitool Inc., titer: $6.11 \\times 10^{12}$ v.g./mL) into the cervical spinal dorsal horn of C57BL/6J mice at a volume of 600 nL.\""
+    ],
+    "downgraded": true
+  },
+  {
+    "question": "What imaging technique was used to acquire the brain and spinal cord datasets, and what software was employed for full neuronal morphology reconstruction?",
+    "answer": "Dual-channel fMOST imaging was used to acquire the datasets, and the Fast Neurite Tracer (FNT) software was used for reconstructing full neuronal morphologies.",
+    "type": "multi-evidence",
+    "evidences": [
+      "\"Dual channel fMOST imaging systems were then applied to acquire the image datasets of the whole brain and spinal cord.\"",
+      "\"FNT was used for reconstruction of the full morphology of neurons as described previously.\""
+    ]
+  }
+]

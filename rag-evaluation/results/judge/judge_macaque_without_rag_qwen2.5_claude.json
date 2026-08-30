@@ -1,0 +1,2306 @@
+[
+  {
+    "question": "How many transcriptome-defined cell types were identified in the macaque claustrum through single-nucleus RNA sequencing?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 14 cell types were identified, but the ground truth is 48.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific number (14) that contradicts the ground truth (48), presenting fabricated information as fact."
+  },
+  {
+    "question": "What percentage of claustral glutamatergic cells resemble deep-layer insular neurons?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states approximately 70%, but the ground truth is 86.4% — a significant numerical discrepancy.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific figure (approximately 70%) that contradicts the ground truth of 86.4%, presenting a fabricated statistic with confidence."
+  },
+  {
+    "question": "Where is the macaque claustrum located in relation to the insular cortex?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response correctly places the claustrum in relation to the insular cortex (deep/below it), but adds specific details about the lateral sulcus location that go beyond the ground truth, and misses the key descriptor 'thin telencephalic structure'.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently states the claustrum is 'within the depth of the lateral sulcus', which is a specific anatomical claim not supported by the ground truth and potentially inaccurate for macaque neuroanatomy."
+  },
+  {
+    "question": "What type of neurons are NPY-expressing SST GABAergic cells in the claustrum considered to be?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model says these cells are inhibitory interneurons, but the ground truth specifies they are long-range projecting GABAergic neurons — a fundamentally different classification.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states they are interneurons, which directly contradicts the ground truth that classifies them as long-range projecting neurons. This is a specific false claim presented with confidence."
+  },
+  {
+    "question": "Which genes are mentioned as claustral marker genes that distinguish the macaque claustrum from surrounding structures?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response mentions SATB1 and LHX6 as claustral marker genes, but the ground truth specifies SYNPR, NR4A2, and NTNG2. None of the correct genes are mentioned.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents SATB1 and LHX6 as macaque claustral marker genes with specific descriptions, but these are not the genes identified in the ground truth. These appear to be fabricated or incorrectly attributed claims presented as fact."
+  },
+  {
+    "question": "Injections in which five subcortical structures yielded a significant number of labeled claustral neurons?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response correctly identifies thalamus, amygdala, and hippocampus, but replaces 'putamen' and 'caudate nucleus' (specific structures) with the broader category 'basal ganglia', and adds 'brainstem nuclei' which is not in the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently includes 'brainstem nuclei' as one of the five structures, which is not mentioned in the ground truth and appears to be fabricated. It also conflates putamen and caudate nucleus into 'basal ganglia' while presenting this as an accurate list."
+  },
+  {
+    "question": "In cross-species comparison, which glutamatergic subclass was predominant in macaque and marmoset but only a minority in mouse?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model identifies 'layer 5 pyramidal tract neurons' rather than the correct GNB4 glutamatergic subclass.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific but incorrect answer (layer 5 PTNs) and adds fabricated details about their morphological/physiological properties, contradicting the ground truth which specifies the GNB4 subclass."
+  },
+  {
+    "question": "How many cells were included in the macaque claustrum snRNA-seq analysis after quality control?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific number (227,750 cells) and gave only a vague non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty rather than fabricating a specific number, so no hallucination occurred."
+  },
+  {
+    "question": "What are the names of the four projection-selective zones defined in the macaque claustrum?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model provides completely different zone names (RZ, CZ, CaZ, VZ) rather than the correct PSZ1, PSZ2, PSZ3, PSZ4.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents specific fabricated zone names (rostral zone, central zone, caudal zone, ventral zone) with abbreviations that contradict the ground truth."
+  },
+  {
+    "question": "What developmental origin is suggested for the LAMP5/LHX6 claustral cell types that lack ADARB2 expression?",
+    "type": "single-evidence",
+    "correctness": 1,
+    "correctness_reason": "The response correctly identifies the MGE (medial ganglionic eminence) as the suggested developmental origin, matching the ground truth exactly.",
+    "hallucination": 0,
+    "hallucination_reason": "The additional context about inhibitory interneurons and ventral telencephalon origin is consistent with established neuroscience and does not contradict the ground truth."
+  },
+  {
+    "question": "How many subclasses and cell types were identified from the macaque claustrum snRNA-seq data?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 12 subclasses and over 50 cell types, while the ground truth is 16 subclasses and 48 cell types. Both numbers are wrong.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific but incorrect numbers (12 subclasses, over 50 cell types) that contradict the ground truth (16 subclasses, 48 cell types)."
+  },
+  {
+    "question": "Does the macaque claustrum exhibit a lateralized pattern of connectivity?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response correctly states that the macaque claustrum exhibits lateralized connectivity, but mischaracterizes the nature of the lateralization. The ground truth specifies an ipsilateral bias (each claustrum connects more strongly to the ipsilateral cortex), while the model vaguely describes 'differences between left and right claustra' without capturing the ipsilateral/contralateral asymmetry.",
+    "hallucination": 1,
+    "hallucination_reason": "The model claims each side shows 'distinct patterns of neural links to various brain regions' suggesting left-right functional differences, which is not what the ground truth describes. It also invents a connection to 'functional asymmetries in the brain' not supported by the ground truth. The characterization of lateralization as differences between the two claustra rather than ipsilateral projection bias is a fabricated specific claim."
+  },
+  {
+    "question": "What does the predominant glutamatergic subclass in the macaque claustrum correspond to in the insula?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response fails to mention the GNB4 subclass or the L5/6 intratelencephalic Car3 cells in the insula, which are the specific details required by the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The response invents a generic description about 'pyramidal neurons' integrating 'sensory and cognitive information' with false confidence, contradicting the specific ground truth about GNB4 subclass corresponding to L5/6 intratelencephalic Car3 cells."
+  },
+  {
+    "question": "Is the macaque claustrum more transcriptomically similar to the insula or the amygdala?",
+    "type": "single-evidence",
+    "correctness": 1,
+    "correctness_reason": "The response correctly identifies that the macaque claustrum is more transcriptomically similar to the insula than to the amygdala, matching the ground truth.",
+    "hallucination": 0,
+    "hallucination_reason": "The additional claims about functional and evolutionary relationships are plausible general neuroscience context, not specific fabricated statistics or contradictory facts."
+  },
+  {
+    "question": "How does the gene expression of the RBC compare to that of the claustrum proper?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response interprets 'RBC' as red blood cells rather than the Retroinsular Belt Complex (RBC), a brain region. The ground truth discusses gene expression differences between two brain regions, mentioning specific genes like CPLX3, CABP7, and SULF1. The model's answer is entirely off-topic.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently describes RBCs as lacking nuclei and not supporting transcription, which is irrelevant and misleading given the context. It invents a biological framing that contradicts the actual subject matter (a brain region comparison), presenting false specifics with confidence."
+  },
+  {
+    "question": "What experimental methods and marker genes were used to delineate the boundary between the RBC and the claustrum?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention any of the specific methods or markers from the ground truth: immunostaining for Crym, RNAscope analysis, CPLX3, or TTN. The answer is generic and does not address the actual experimental approach used.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents specific but fabricated marker genes (calbindin, parvalbumin, GAD67, Emx1, Tbr1) and methods (neuroanatomical tracing, microarray/RNA-seq) as if they were used for this purpose, contradicting the ground truth which specifies Crym, CPLX3, TTN, immunostaining, and RNAscope."
+  },
+  {
+    "question": "Which projection-selective zones contain neurons projecting to the hippocampal-entorhinal cortical circuit versus the motor cortical areas?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention PSZ3 or PSZ4 at all, and describes completely different brain regions (medial septum, diagonal band of Broca, basal ganglia, substantia nigra, globus pallidus) rather than the correct projection-selective zones.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents specific brain regions (medial septum, diagonal band of Broca, substantia nigra, globus pallidus) as the locations of these projection-selective zones, which contradicts the ground truth and appears to be fabricated information stated with confidence."
+  },
+  {
+    "question": "What is the suggested identity of the region bordering ventromedial claustrum (RBC)?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model's response identifies RBC as the endopiriform nucleus, which contradicts the ground truth that RBC is analogous to the claustrum shell or subplate in mouse and is not considered a component of the macaque claustrum.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates a specific identity (endopiriform nucleus) and describes it as part of the extended amygdala with specific functional claims, none of which align with the ground truth answer."
+  },
+  {
+    "question": "Which ipsilateral cortical areas provide only weak inputs to the macaque claustrum?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "Correctly identifies V1 as providing weak inputs, but substitutes M1 (primary motor cortex) for area 1 (somatosensory), missing a key detail from the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "Confidently claims M1 (primary motor cortex) provides weak inputs to the claustrum, which contradicts the ground truth that specifies area 1 (somatosensory cortex), not M1."
+  },
+  {
+    "question": "What is the nature of the connectivity between the macaque claustrum and visual areas V1 and area 1?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response describes reciprocal/bidirectional connections, which directly contradicts the ground truth that connectivity is largely unidirectional (claustrum sends robust projections but receives only weak inputs).",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific claims about 'reciprocal connections' and 'bidirectional communication' that contradict the ground truth, and adds unsupported specifics about glutamatergic neurons facilitating bidirectional communication in this context."
+  },
+  {
+    "question": "Does the macaque claustrum show a preference for ipsilateral or contralateral cortical inputs?",
+    "type": "single-evidence",
+    "correctness": 1,
+    "correctness_reason": "The response correctly identifies the ipsilateral preference for cortical inputs to the macaque claustrum, matching the ground truth.",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information; the response accurately reflects the ground truth without introducing false specifics."
+  },
+  {
+    "question": "How many ipsilateral subcortical nuclei receive projections from the intra-claustrum injections, and which structures are the most strongly labeled?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response fails to mention the specific count of 100 ipsilateral subcortical nuclei and does not identify the amygdala as one of the most strongly labeled structures, which is a key part of the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The response invents specific structures (medial geniculate nucleus, lateral pulvinar, putamen, globus pallidus) as the most strongly labeled, which contradicts the ground truth that identifies the amygdala and thalamus (generally) as most strongly labeled."
+  },
+  {
+    "question": "From which subcortical structures does the C4 claustral injection site receive inputs?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response fails to identify the specific subcortical structures (VPLo, VPLc, VPM of the thalamus) and incorrectly implies inputs come from basal ganglia and brainstem nuclei, which contradicts the ground truth stating inputs come exclusively from the thalamus.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates inputs from basal ganglia and brainstem nuclei with apparent confidence, when the ground truth states the C4 site receives inputs exclusively from specific thalamic nuclei."
+  },
+  {
+    "question": "Which ipsilateral subcortical nuclei are labeled by the C5 injection?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response describes spinal cord nuclei (dorsal horn, intermediolateral cell column, ventral horn motor neurons) which are completely different from the ground truth answer of olfactory nucleus and hippocampus. The model fails to identify the correct ipsilateral subcortical nuclei.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents specific but incorrect nuclei (dorsal horn laminae I-V, intermediolateral cell column, ventral horn motor neurons) as potentially labeled by the C5 injection, which directly contradicts the ground truth answer of olfactory nucleus and hippocampus. These are fabricated specifics stated with confidence."
+  },
+  {
+    "question": "In which projection-specific zone (PSZ) are the claustral neurons labeled by the C4 injection predominantly located?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "Correctly identifies PSZ4 as the predominant location, but omits the key detail that more than 99% of C4-labeled neurons reside there.",
+    "hallucination": 1,
+    "hallucination_reason": "The response adds a specific claim that PSZ4 is 'associated with the somatosensory cortex,' which is not stated in the ground truth and appears to be fabricated information."
+  },
+  {
+    "question": "Do macaque/mouse-conserved GLUT/GNB4 cell types exhibit preferential projection targets?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model says 'yes' when the ground truth is explicitly 'no' — conserved GLUT/GNB4 cell types do NOT show preferential projection targets.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates specific claims about projection targets (cortical layers, subcortical structures) with confidence, directly contradicting the ground truth."
+  },
+  {
+    "question": "How do the transcriptomic profiles of the claustrum, RBC, and insula compare?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response correctly captures that the transcriptomic profiles are distinct/different from one another, which matches the ground truth. However, it adds extensive detail about specific gene categories and functions that go beyond what the ground truth states.",
+    "hallucination": 1,
+    "hallucination_reason": "The response invents specific claims about each region's transcriptome (e.g., claustrum expressing genes for 'synaptic function and neural connectivity,' RBCs focusing on 'hemoglobin synthesis and cell membrane stability,' insula expressing genes for 'neural plasticity and emotional regulation') that are stated with confidence but are not supported by the ground truth and represent fabricated specifics."
+  },
+  {
+    "question": "To which brain regions do RBC neurons project?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not address the correct brain regions (amygdala, entorhinal cortex, prefrontal area POLE, area 25, anterior insula, hippocampus, STPr) and instead provides generic information about reticular formation projections.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates an interpretation of 'RBC neurons' as 'reticular binding complex' neurons and confidently states projections to thalamus, hypothalamus, and cerebral cortex, which contradicts the ground truth and is not supported by the actual context."
+  },
+  {
+    "question": "How does contralateral cortical input to the claustrum compare between macaques and rodents?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gets the comparison backwards. The ground truth states macaques have weaker contralateral inputs (ipsilateral bias), while rodents can have stronger contralateral inputs for some areas. The model claims macaques have more extensive contralateral connections and rodents have less extensive ones, which is the opposite of the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states macaques have 'more extensive and complex' contralateral inputs and rodents have 'less extensive contralateral connections' — specific claims that directly contradict the ground truth, which says macaques show ipsilateral bias while rodents can have stronger contralateral inputs for motor and cingulate cortices."
+  },
+  {
+    "question": "What are the cortical and subcortical connection preferences of the C3 claustral injection site?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic information about claustrum connectivity without addressing the specific C3 site's distinguishing features: higher density projections to higher visual areas, fewer projections to prefrontal cortex, and stronger inputs from posterior thalamic nuclei (pulvinar, medial geniculate, lateral geniculate).",
+    "hallucination": 1,
+    "hallucination_reason": "The response states C3 connects with prefrontal cortex as a notable target, which directly contradicts the ground truth that C3 has fewer projections to prefrontal cortex compared to other sites. It also fabricates specific claims about connectivity patterns with confidence without any basis in the ground truth."
+  },
+  {
+    "question": "What are the cortical targets and subcortical inputs of the C4 claustral injection site?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response correctly identifies motor cortex and somatosensory cortex as cortical targets, and thalamus as a subcortical input, which partially aligns with the ground truth. However, it adds incorrect cortical targets (visual, auditory cortices, prefrontal cortex) and incorrect subcortical inputs (basal ganglia, brainstem nuclei) that are not mentioned in the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific claims not supported by the ground truth: it states C4 projects to visual and auditory cortices and prefrontal cortex, and receives subcortical inputs from basal ganglia and brainstem nuclei. The ground truth specifies only motor/somatosensory cortical targets and exclusively thalamic inputs (VPLo, VPLc, VPM)."
+  },
+  {
+    "question": "What are the projection targets and subcortical inputs of the C5 claustral injection site?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response provides generic claustrum connectivity information rather than specific C5 site projections. It misses the specific targets (ENTO, POLE, ventral temporal and prefrontal cortices) and the specific subcortical inputs (olfactory nucleus, hippocampus) mentioned in the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently lists specific projection targets (primary sensory cortices, motor cortex, parietal cortex) and subcortical inputs (thalamus, basal ganglia, brainstem nuclei like locus coeruleus and raphe nuclei) that contradict or are not supported by the ground truth for the C5 site specifically. These appear to be fabricated specifics presented with confidence."
+  },
+  {
+    "question": "What two key features characterize intra-claustrum connectivity in the macaque?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not capture the ground truth features: rostral-to-caudal axis connectivity and regional specificity with domains avoiding connections. Instead it describes 'dense reciprocal connections' and 'modality-specific organization', which are different concepts.",
+    "hallucination": 1,
+    "hallucination_reason": "The response presents specific claims about 'dense reciprocal connections between claustral neurons' and 'modality-specific organization' as characteristics of intra-claustrum connectivity, which contradict or are not supported by the ground truth and appear fabricated."
+  },
+  {
+    "question": "How do intra-claustrum connectivity patterns relate to the transcriptomically distinct projection-specific zones (PSZs)?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response is too vague and generic, failing to capture the specific details from the ground truth: that C1-C3 injections label neurons in PSZ1, C4 labels PSZ4, and that PSZs have distinct transcriptomic profiles due to different glutamatergic cell-type compositions.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and general but does not fabricate specific claims that contradict the ground truth. It makes plausible but unverified statements without inventing specific facts."
+  },
+  {
+    "question": "Which macaque-specific cell types are enriched in the dorsal claustrum and what are their projection targets?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention GNB4 cell types (GLUT/GNB4/4 and GLUT/GNB4/5) or their specific projection targets (motor cortex and putamen). It describes generic interneuron types and incorrect projection targets.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently states specific but fabricated claims: parvalbumin-positive interneurons and calbindin-positive neurons being enriched in the dorsal claustrum, projecting to primary sensory cortices and higher-order association cortices. These specifics contradict the ground truth and appear to be invented."
+  },
+  {
+    "question": "Which macaque-specific cell types are enriched in the ventral claustrum and what are their projection targets?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention GLUT/GNB4/2 or GLUT/GNB4/7 cell types, nor their projection targets of entorhinal cortex and hippocampus. The answer is entirely different from the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific claims about parvalbumin-positive interneurons and calbindin-positive neurons being enriched in the ventral claustrum, and invents projection targets (V1, MT, inferior temporal cortex) that contradict the ground truth projection targets of entorhinal cortex and hippocampus."
+  },
+  {
+    "question": "Who is the lead contact for resources and reagents?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not identify Zhiming Shen or provide the specific contact information. It gives a generic answer about who typically serves as lead contact.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and generic rather than fabricating specific incorrect claims. It does not contradict the ground truth with invented specifics."
+  },
+  {
+    "question": "Are the materials used for snRNA-seq and Stereo-seq commercially available?",
+    "type": "single-evidence",
+    "correctness": 1,
+    "correctness_reason": "The response correctly confirms that materials for both snRNA-seq and Stereo-seq are commercially available, matching the ground truth.",
+    "hallucination": 0,
+    "hallucination_reason": "The additional details provided (10x Genomics for snRNA-seq, BGI for Stereo-seq) are accurate and consistent with known facts, not fabricated."
+  },
+  {
+    "question": "What is the accession number for the raw data?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific accession number (CNP0005571) from the CNGB Nucleotide Sequence Archive, instead asking for clarification.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty and asked for clarification rather than fabricating an accession number."
+  },
+  {
+    "question": "What is the URL for the processed data?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific URL for the processed data, instead asking for clarification.",
+    "hallucination": 0,
+    "hallucination_reason": "The model did not fabricate any information; it simply admitted it didn't have the specific URL and asked for more context."
+  },
+  {
+    "question": "What types of data are available through the macaque digital brain website?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention the specific data types in the ground truth: whole-brain connectivity and single-cell spatial transcriptomic data.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently claims specific data types (3D reconstructions, histological sections, atlases integrating different modalities) that are not supported by the ground truth and appear fabricated."
+  },
+  {
+    "question": "Which public snRNA-seq datasets are listed in the resource availability?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not identify the specific datasets (Human hippocampus GEO: GSE160189 and macaque cortex) and instead gives generic repository information.",
+    "hallucination": 0,
+    "hallucination_reason": "The response admits uncertainty and provides general information rather than fabricating specific dataset details."
+  },
+  {
+    "question": "How was the data analysis conducted according to the resource availability?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response provides a generic explanation about data analysis methods rather than addressing the specific ground truth answer, which states that data analysis followed standard methods as detailed in the STAR Methods.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific details about neuroscience context, mentions specific tools (Excel, R), and describes resource-dependent analysis approaches that are not supported by the ground truth and are presented with false confidence."
+  },
+  {
+    "question": "Who are the co-inventors of Stereo-seq technology?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response names Jian Xu and Xiaowei Zhuang as co-inventors, which does not match the ground truth of L. Liu and X.X.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently names specific individuals (Jian Xu, Xiaowei Zhuang) as co-inventors that contradict the ground truth answer."
+  },
+  {
+    "question": "What is the intellectual property status of Stereo-seq?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response correctly identifies BGI as the IP holder and mentions patents, but describes them as held patents rather than pending patents, missing the key detail that the patents are pending (not yet granted).",
+    "hallucination": 1,
+    "hallucination_reason": "The response states BGI 'holds patents' as if they are granted, when the ground truth specifies they are pending patents. It also introduces specific claims about licensing requirements and regional variation that are not in the ground truth and may be fabricated."
+  },
+  {
+    "question": "Where can the supplemental information be found?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives a generic description of where supplemental information is typically found but does not provide the specific URL (https://doi.org/10.1016/j.cell.2025.02.037) from the ground truth.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and generic but does not fabricate specific false claims. It accurately describes the general concept of supplemental information without inventing specific details."
+  },
+  {
+    "question": "How can one access the raw data and who should be contacted for further information?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic advice about accessing neuroscience data and does not mention the specific repository (CNGB Nucleotide Sequence Archive), accession number (CNP0005571), or the lead contact (Zhiming Shen at zmshen@ion.ac.cn).",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and generic rather than specific, so it doesn't fabricate information — it just fails to provide the correct specific details."
+  },
+  {
+    "question": "What resources are available to enable replication of the experimental procedures?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic information about replication resources rather than answering the specific question about the paper's materials and data availability (commercially available materials, CNGB archive accession CNP0005571).",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and generic rather than specific to the paper, but does not fabricate claims that contradict the ground truth. It simply fails to address the actual question."
+  },
+  {
+    "question": "Who invented Stereo-seq and where can the raw data be found?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not identify the specific co-inventors (L. Liu and X.X.) and does not mention the correct data repository (CNGB Nucleotide Sequence Archive, accession CNP0005571).",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently states the raw data are found in GEO or ENA, which contradicts the ground truth that specifies CNGB Nucleotide Sequence Archive under accession CNP0005571. These are specific fabricated claims presented with confidence."
+  },
+  {
+    "question": "What is the publication date and where can supplemental material be accessed?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the publication date or the URL for supplemental material, instead asking for clarification.",
+    "hallucination": 0,
+    "hallucination_reason": "The model did not fabricate any information; it simply admitted it lacked context to answer."
+  },
+  {
+    "question": "Where can detailed experimental methods and additional supplemental data be found?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives a generic answer about where supplemental data is typically found, but does not mention the specific DOI (https://doi.org/10.1016/j.cell.2025.02.037) or that detailed methods are in the online version of the paper, as stated in the ground truth.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and generic but does not fabricate specific claims that contradict the ground truth. It simply avoids giving the specific answer rather than inventing false details."
+  },
+  {
+    "question": "Are the experimental materials proprietary, and what analysis methods were employed?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not answer the question — it gives a generic, non-committal answer instead of stating that all materials are commercially available and analysis followed standard STAR Methods.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and non-committal rather than fabricating specific claims. It doesn't contradict the ground truth with invented specifics, just fails to provide the correct answer."
+  },
+  {
+    "question": "Who should be contacted about resources and what is the patent status of Stereo-seq?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention the lead contact Zhiming Shen at zmshen@ion.ac.cn, nor does it correctly state that patents are pending (instead claims they are already patented by BGI).",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates that Stereo-seq has been patented by BGI and directs users to BGI, neither of which matches the ground truth. The actual contact is Zhiming Shen at a specific email, and the patents are pending, not granted."
+  },
+  {
+    "question": "What consortium supported the study and what is the accession number for the raw data?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not answer the question at all, instead asking for clarification.",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information was presented; the model simply declined to answer without inventing any facts."
+  },
+  {
+    "question": "What is the approval number for the animal protocol used in this study?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the approval number ION-2019011 and instead gave a generic non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty rather than fabricating information."
+  },
+  {
+    "question": "How many male cynomolgus monkeys were used for Stereo-seq of the claustrum?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the answer (two male monkeys) and instead admitted uncertainty.",
+    "hallucination": 0,
+    "hallucination_reason": "The model did not fabricate any information; it simply stated it didn't know and asked for more context."
+  },
+  {
+    "question": "What strain and age are the male mice used for snRNA-seq of the claustrum?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response mentions C57BL/6J which is close to the correct C57/bl strain, and includes 8-12 weeks in the age range which covers the correct 11 weeks, but it's vague and hedged rather than giving the specific answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The response admits uncertainty and provides ranges rather than fabricating specific false details. The strain mentioned (C57BL/6J) is consistent with C57/bl and no clearly fabricated claims are made."
+  },
+  {
+    "question": "How many coronal sections were collected from macaque #1 for Stereo-seq?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the correct answer (44 coronal sections) and instead admitted uncertainty.",
+    "hallucination": 0,
+    "hallucination_reason": "The model did not fabricate any specific claims; it appropriately admitted it didn't have the information."
+  },
+  {
+    "question": "How long is the methanol fixation step for tissue sections on the Stereo-seq chip at -20°C?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 10 minutes, but the correct duration is 30 minutes.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific but incorrect duration (10 minutes) that contradicts the ground truth (30 minutes)."
+  },
+  {
+    "question": "How long is the reverse transcription step in the Stereo-seq protocol?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 1-2 hours, but the ground truth is 3 hours at 42°C. The answer is incorrect.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific duration (1-2 hours) that contradicts the ground truth (3 hours), presenting fabricated specifics with confidence."
+  },
+  {
+    "question": "What enzyme is used for treating cDNA-containing chips in Stereo-seq?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response mentions T4 DNA ligase, which is incorrect. The ground truth specifies Exonuclease I (NEB, M0293L) used for 16 hours at 55°C.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states T4 DNA ligase is used for ligating barcoded adapters, which contradicts the ground truth that specifies Exonuclease I for treating cDNA-containing chips."
+  },
+  {
+    "question": "What amount of cDNA per sample is used for tagmentation in Stereo-seq library preparation?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 1-10 ng, but the ground truth is 100 ng — off by an order of magnitude.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific range (1-10 ng) that contradicts the ground truth of 100 ng, presenting fabricated specifics with confidence."
+  },
+  {
+    "question": "What system is used to prepare snRNA-seq libraries?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention the DNBelab C Series High-throughput Single-cell System (BGI-research) at all, which is the specific system identified in the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents specific but fabricated claims about the system used (Illumina or NEB commercial kits, generic reverse transcriptase/PCR workflow) that contradict the ground truth answer identifying the DNBelab C Series system from BGI-research."
+  },
+  {
+    "question": "What is the p-value threshold for determining preferred cell type distribution in the claustrum?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 0.05 as the threshold, but the ground truth specifies 0.001 or lower.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states 0.05 as the p-value threshold, which directly contradicts the ground truth of 0.001, presenting a fabricated specific value as fact."
+  },
+  {
+    "question": "What temperature is used for the initial tissue incubation on the Stereo-seq chip, and what temperature is used for the tagmentation step in library preparation?",
+    "type": "multi-evidence",
+    "correctness": 1,
+    "correctness_reason": "Both temperatures match the ground truth exactly: 37°C for initial tissue incubation and 55°C for tagmentation.",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information; the stated temperatures align with the ground truth."
+  },
+  {
+    "question": "How many macaques provided insular cortex for snRNA-seq, and at what depths is the macaque claustrum segmented for snRNA-seq?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the specific answer (four macaques, 1-2 mm depths) and instead gives a vague non-answer claiming it cannot know without a specific study.",
+    "hallucination": 0,
+    "hallucination_reason": "The model does not fabricate specific facts; it hedges with ranges and admits uncertainty rather than confidently stating incorrect specifics."
+  },
+  {
+    "question": "How are single cells segmented in Stereo-seq images, and what algorithm assigns cell types to them?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention mask R-CNN or Spatial-ID, which are the specific methods stated in the ground truth. Instead it describes generic alternatives.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently states specific algorithms (watershed, U-Net, k-NN, SVM) as being used in Stereo-seq cell segmentation and type assignment, which contradict the ground truth methods (mask R-CNN and Spatial-ID)."
+  },
+  {
+    "question": "What marker genes identify the RBC subregion, and what antibody is used to mark the RBC loci in immunohistochemistry?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model's response lists Pax6 and Emx2 as marker genes and Pax6 antibody for IHC, which are all incorrect. The ground truth specifies DEn, CPLX3, CABP7, SULF1 as marker genes and anti-Crym antibody for IHC.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents specific but fabricated claims — Pax6 and Emx2 as marker genes and anti-Pax6 antibody for IHC — that directly contradict the ground truth without any admission of uncertainty."
+  },
+  {
+    "question": "What survival period is allowed after tracer injection, and what thickness are the sections used for IHC staining?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model gives generic ranges (hours to weeks; 5-10 µm) that do not match the specific ground truth values of 11-13 days survival and 40-µm sections.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific but incorrect values (5-10 µm sections) that contradict the ground truth, presenting fabricated specifics as factual."
+  },
+  {
+    "question": "What is the temperature for reverse transcription in Stereo-seq, and what is the hybridization temperature for RNAscope probes?",
+    "type": "multi-evidence",
+    "correctness": 1,
+    "correctness_reason": "Both temperatures match the ground truth exactly: 42°C for Stereo-seq reverse transcription and 40°C for RNAscope hybridization.",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information; the response accurately states both temperatures consistent with the ground truth."
+  },
+  {
+    "question": "How are the captured mRNAs converted for image registration, and how are spatial positions normalized for distribution analysis?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response describes general spatial transcriptomics workflows but completely misses the specific answers: converting mRNAs into 16-bit images using UMI counts as pixel values, and normalizing spatial positions by solving the heat equation.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents specific but fabricated details about the methods used (affine transformations, non-linear registration, spatial barcodes for image registration) that contradict the ground truth answers about 16-bit image conversion with UMI counts and heat equation normalization."
+  },
+  {
+    "question": "What tracers were used for retrograde labeling, and what primary antibodies were used for IHC staining?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic examples rather than the specific tracers (FastBlue, CTB-Alexa Fluor, Diamedino Yellow) and specific antibodies (anti-NeuN, anti-Crym) used in the study. Only CTB and NeuN partially overlap.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently states specific tracers (Fluoro-Gold, DiI) and antibodies (GFAP, Iba1) that are not mentioned in the ground truth and were not used in the study, presenting fabricated specifics as if answering the actual question."
+  },
+  {
+    "question": "What MRI sequence and parameters were used to acquire T1w structural images?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic/typical parameters rather than the specific parameters from the ground truth (0.5 mm isotropic resolution, TE 2.8 ms, TR 2200 ms, FA 9 degrees, 4 averages). It fails to answer the specific question.",
+    "hallucination": 1,
+    "hallucination_reason": "The response presents specific parameter ranges (TR 1900-2500 ms, TE 2.14-4.38 ms, TI 900-1100 ms, FA 8-15 degrees, 1 mm slice thickness) with confidence as if they are correct for this study, but these contradict the ground truth values (e.g., 0.5 mm resolution vs 1 mm, TR 2200 ms). These are fabricated specifics stated confidently."
+  },
+  {
+    "question": "What metric indicates stronger connections in the study?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention FLN (fraction of labeled neurons) at all, which is the specific metric referenced in the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents specific metrics (correlation coefficients, coherence values, synchrony) as the answer, none of which match the ground truth FLN metric. These are fabricated specifics stated with confidence that contradict the actual answer."
+  },
+  {
+    "question": "What software was used to transform NIfTI-1 data into a smooth 3D model of the claustrum?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not mention 3D Slicer, which is the correct answer. It lists FSL, SPM, and FreeSurfer instead.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents specific software tools (FSL, SPM, FreeSurfer) and specific features (SUSAN, recon-all) as answers to the question, none of which match the ground truth of 3D Slicer. These are fabricated specifics stated with confidence."
+  },
+  {
+    "question": "How many clear clusters were identified from the distribution zone similarity matrix?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the answer (four clusters) and instead gave a generic non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty rather than fabricating specific claims, so no hallucination occurred."
+  },
+  {
+    "question": "What genome reference and alignment software were used for snRNA-seq read mapping?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic examples rather than the specific genome reference (Macaca fascicularis v5.0.91) and specific software version (STAR v2.5.3) asked about.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently states GRCh38 or GRCm39 as the reference genome, which contradicts the ground truth (Macaca fascicularis). These are fabricated specifics presented with confidence."
+  },
+  {
+    "question": "How many high-quality snRNA-seq libraries were retained for analysis?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not provide the specific answer (55 libraries) and instead gives a generic non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The response admits uncertainty rather than fabricating specific claims, so no hallucination occurred."
+  },
+  {
+    "question": "What were the eight major cell types identified from the unsupervised clustering of snRNA-seq data?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response lists generic brain cell types rather than the specific eight types identified in the study. It misses DRD2+ inhibitory neurons, fails to distinguish excitatory from inhibitory neurons properly, and includes fabricated types (pericytes, ependymal cells, choroid plexus epithelial cells) not in the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents specific cell types (pericytes, ependymal cells, choroid plexus epithelial cells) that are not in the ground truth answer and appear to be fabricated for this specific study's results."
+  },
+  {
+    "question": "How many nuclei were ultimately retained for downstream analysis after quality filtering?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific answer (227,750 nuclei) and instead gave a generic non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty rather than fabricating a specific number, so no hallucination occurred."
+  },
+  {
+    "question": "Which normalization function was applied to the snRNA-seq count data during initial processing?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not mention SCTransform at all, which is the correct answer. It describes generic normalization methods (TPM, CPM, DESeq2 size factors) that are not the answer to this specific question.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents specific normalization methods (TPM, CPM, DESeq2) as answers to this question, none of which match the ground truth (SCTransform). These are fabricated specifics presented with confidence that contradict the correct answer."
+  },
+  {
+    "question": "What dropout rate was used during training of the Siamese neural network for claustrum registration?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the specific dropout rate of 0.25 used in the study, instead giving a vague range and deflecting to external sources.",
+    "hallucination": 0,
+    "hallucination_reason": "The model does not fabricate specific claims; it acknowledges uncertainty and provides a general range without asserting false specifics."
+  },
+  {
+    "question": "What image resolutions were used for down-sampling in claustrum segmentation and for populating the grid matrix in distribution zone determination?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the specific resolutions (13 mm/pixel and 65 mm/pixel) from the ground truth, instead giving generic examples that are incorrect.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific resolution values (25 μm, 50 μm, 100 μm) as 'typical' without basis, which contradict the ground truth values and are fabricated specifics presented with confidence."
+  },
+  {
+    "question": "What normalization methods were used for the initial snRNA-seq processing and for the subsequent iterative clustering of the seven major cell classes?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response fails to identify the specific normalization methods (SCTransform for initial processing and LogNormalize with scale factor 10,000 for iterative clustering). It only provides generic possibilities without naming the correct methods.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and hedged with phrases like 'typically used' and 'might involve', avoiding specific false claims. It does not confidently assert incorrect facts."
+  },
+  {
+    "question": "How many major cell types were initially categorized, and how many clusters were ultimately identified?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention 8 major cell types or 48 clusters. It gives entirely different numbers (2 major types, 100+ clusters).",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific but fabricated claims: 2 major cell types and 100+ clusters, neither of which matches the ground truth of 8 major types and 48 clusters."
+  },
+  {
+    "question": "What deep learning models were used for claustrum segmentation and for cross-animal registration?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention nnUNet or a convolutional Siamese neural network, which are the specific models used according to the ground truth. Instead it gives generic answers about U-Net variants and VoxelMorph.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents specific models (VoxelMorph for cross-animal registration) that contradict the ground truth (Siamese neural network), and fabricates a general answer rather than acknowledging uncertainty about the specific study."
+  },
+  {
+    "question": "How many training epochs were used for the registration network, and how many trees were set for the random forest model?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific numbers (2000 epochs, 500 trees) from the ground truth, instead giving a generic non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty rather than fabricating specific numbers, so no hallucination occurred."
+  },
+  {
+    "question": "What threshold was used to extract contours in distribution zone determination, and what probability threshold was applied to discard nuclei in the random forest classification?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the correct thresholds (0.05 for contour extraction and 0.9 for random forest classification). It gives generic information and an incorrect default value of 0.5 for the probability threshold.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states 0.5 as a 'common default value' for the probability threshold, which contradicts the ground truth value of 0.9. This is a specific fabricated claim presented with confidence."
+  },
+  {
+    "question": "How many manually segmented sections were used for initial claustrum segmentation training, and how many coronal sections were outlined for distribution zone determination?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "Both numbers are wrong: ground truth says 20 sections for training and 42 coronal sections, but the model states 150 and 30 respectively.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific numbers (150 and 30) that directly contradict the ground truth values (20 and 42), presenting fabricated statistics as facts."
+  },
+  {
+    "question": "How many channels did the MRI coil and the fluorescence microscope have, respectively?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The model gives a range that happens to include the correct answers (8-channel MRI coil, 4-channel fluorescence microscope), but doesn't provide the specific values from the ground truth. It acknowledges uncertainty rather than giving definitive answers.",
+    "hallucination": 0,
+    "hallucination_reason": "The model doesn't fabricate specific claims - it provides ranges and explicitly states uncertainty, which is appropriate given it doesn't have the specific context."
+  },
+  {
+    "question": "How many cells were identified from the mouse claustrum in the snRNA-seq analysis?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the correct answer of 234,986 cells and instead gives a vague non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admits uncertainty and does not fabricate specific numbers, though it does mention 'several thousand cells' as a typical range which is an underestimate, it's framed as a general statement rather than a confident specific claim."
+  },
+  {
+    "question": "Into how many clusters was the marmoset data partitioned?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the correct answer of 38 clusters, instead deflecting without giving any specific number.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty rather than fabricating a specific number, so no hallucination occurred."
+  },
+  {
+    "question": "Which package and function were used to select highly variable genes for cross-species integration?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model response identifies Seurat/FindVariableFeatures, while the ground truth specifies scrattch.hicat/select_markers — completely different package and function.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents specific but incorrect claims (Seurat package and FindVariableFeatures function) that contradict the ground truth, presenting fabricated specifics as fact."
+  },
+  {
+    "question": "What resolution was used in the FindClusters function for the integrated analysis?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the correct answer (resolution of 3) and instead said the information was not provided in the query.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty and did not fabricate specific claims, though it gave a generic explanation about the resolution parameter."
+  },
+  {
+    "question": "What is the minimum max overlap score for a macaque cluster to be classified as conserved with mouse?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model gives 50% as the threshold, while the ground truth is 0.3 (30%). The answer is incorrect.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific threshold of 50% which contradicts the ground truth value of 0.3, presenting a fabricated specific claim with confidence."
+  },
+  {
+    "question": "What were the p_val_adj and avg_log2FC thresholds for identifying differentially expressed genes between conserved and macaque-specific clusters?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The p_val_adj threshold of 0.05 is correct, but the avg_log2FC threshold is stated as 1 rather than the correct 0.5.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states avg_log2FC threshold of 1 as 'typical', which contradicts the ground truth value of 0.5, presenting a fabricated specific value with confidence."
+  },
+  {
+    "question": "What UMI-to-gene count ratio threshold was used for filtering PSZ libraries?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the specific threshold (>1.2) and instead gives a generic range of 10-20 UMIs per gene, failing to answer the question.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a fabricated threshold range of '10-20 UMIs per gene' which contradicts the ground truth value of >1.2 and is presented as a specific fact rather than an admission of uncertainty."
+  },
+  {
+    "question": "Which R function was used to perform differential gene expression analysis across PSZ regions?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not identify the correct function (SeuratWrappers::RunPrestoAll) and instead listed generic alternatives.",
+    "hallucination": 0,
+    "hallucination_reason": "The model acknowledged uncertainty and did not fabricate specific claims about the study in question."
+  },
+  {
+    "question": "How many major classes are in the cell-type classification hierarchy?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The ground truth states 3 major classes, but the model response says 2 major classes.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states there are 'generally two major classes' (excitatory and inhibitory neurons), which contradicts the ground truth of 3 major classes. This is a specific false claim presented with confidence."
+  },
+  {
+    "question": "Which brain region has glutamatergic transcriptomes most similar to those of the claustrum?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model says 'cortex' but the ground truth is 'insula'. While the insula is part of the cortex broadly, the answer is not specific enough and doesn't match the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states 'the cortex' as the answer with specific claims about shared gene expression profiles, which contradicts the ground truth answer of 'the insula'."
+  },
+  {
+    "question": "How many clusters were identified in the marmoset and macaque claustrum snRNA-seq data?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 12 clusters, while the ground truth specifies 38 clusters for marmoset and 48 for macaque — completely wrong numbers.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific number (12 clusters) that contradicts the ground truth and appears fabricated."
+  },
+  {
+    "question": "What were the per-cluster sampling sizes for marmoset and mouse in the two separate downsampling procedures?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific per-cluster sampling sizes, instead asking for clarification.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty and did not fabricate any specific numbers or claims."
+  },
+  {
+    "question": "What cell filtering criteria and differential gene expression thresholds were applied in the PSZ analysis?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not provide the specific thresholds from the ground truth (median gene count >300, mitochondrial content <5%, UMI-to-gene ratio >1.2, auc >0.5, avg_log2FC >0.5, pct >0.2). It only gives generic examples and admits uncertainty.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and hedged, explicitly noting that exact criteria vary. It does not fabricate specific numbers that contradict the ground truth; it simply fails to provide the correct specifics."
+  },
+  {
+    "question": "What integration approaches were used for the initial supervised cross-species integration and for the GNB4 subclasses integration?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response completely misses the actual methods used (Seurat's SCTransform workflow and Harmony's RunHarmony function) and provides generic speculation instead.",
+    "hallucination": 1,
+    "hallucination_reason": "The response invents specific claims about SVMs, random forests, neural networks, clustering algorithms, and network analysis being used — none of which are mentioned in the ground truth. These are presented with confidence as likely methods but contradict the actual approaches used."
+  },
+  {
+    "question": "How many retrogradely labeled neurons were analyzed after tracer injections in the prefrontal cortex and visual cortex?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific numbers (220 and 582) from the ground truth, instead giving a vague non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty and did not fabricate specific statistics, instead acknowledging it cannot answer without a specific study reference."
+  },
+  {
+    "question": "How many subclasses were annotated in mice and marmosets, and how many cell types are in the overall classification?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 75 subclasses and ~130 cell types, both of which contradict the ground truth of 16 subclasses and 48 cell types.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents specific numbers (75 subclasses, ~130 cell types) that are clearly fabricated and contradict the ground truth figures."
+  },
+  {
+    "question": "What differential expression thresholds and statistical methods were used in the macaque conserved vs specific comparison and in the GNB4 cell type comparison?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not provide the specific thresholds or methods used in these comparisons. It gives generic information about common approaches rather than the actual methods (FindAllMarkers with p_val_adj <0.05, auc >0.5, avg_log2FC >0.5, pct >0.2; and Wilcox test with Bonferroni correction for GNB4).",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents specific but incorrect details - it mentions DESeq2/EdgeR (not used), TMM normalization, Benjamini-Hochberg FDR correction, and |LFC| > 1 threshold. The actual methods were FindAllMarkers with Wilcox test and Bonferroni correction, and the actual thresholds differed. These fabricated specifics contradict the ground truth."
+  },
+  {
+    "question": "What were the maximum numbers of cells sampled per macaque subclass or cluster in the two cross-species analyses?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific numbers (2,000 cells per macaque subclass and 1,200 cells per macaque cluster) and instead gave a vague non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty and did not fabricate specific numbers, just gave a general range and deferred to consulting the actual papers."
+  },
+  {
+    "question": "How many transcriptome-defined cortical cell types does the macaque cortex atlas include?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response captures that there are over 200 transcriptome-defined cell types, which is directionally correct but imprecise — the actual number is 264, not just 'over 200'.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague rather than fabricating specific incorrect numbers. Saying 'over 200' is technically consistent with 264 and does not contradict the ground truth with a false specific claim."
+  },
+  {
+    "question": "What are the five prominent marker genes used to annotate GABAergic neuron subclasses?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "Only 2 of 5 genes match the ground truth (Somatostatin/SST and Parvalbumin/PV). The response omits LAMP5, VIP, and RELN, and substitutes NPY and CCK instead.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents NPY and CCK as prominent marker genes for GABAergic neuron subclass annotation, which contradicts the ground truth that lists LAMP5, VIP, and RELN as the correct markers."
+  },
+  {
+    "question": "Which cortical region had the highest cell density?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "Correctly identifies V1 as the region with highest cell density, but omits the specific density value of approximately 1500 cells per µm².",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information; the response is vague about specifics but does not contradict the ground truth or invent false claims."
+  },
+  {
+    "question": "What was the average number of genes detected per cell in the stereo-seq analysis?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific answer of 458 genes per cell, instead giving a vague range and deflecting to external sources.",
+    "hallucination": 0,
+    "hallucination_reason": "The model did not fabricate specific statistics; it acknowledged uncertainty and gave a general range rather than inventing a precise figure."
+  },
+  {
+    "question": "What are the three major cell classes at level 1 of the transcriptomic taxonomy?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response captures the correct concepts (excitatory=glutamatergic, inhibitory=GABAergic, non-neuronal) but uses different terminology than the ground truth, which specifically uses 'glutamatergic' and 'GABAergic' as the class names.",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information — excitatory neurons correspond to glutamatergic and inhibitory neurons correspond to GABAergic, so the mapping is accurate even if the terminology differs. The additional detail about glial cell subtypes is factually correct."
+  },
+  {
+    "question": "How many cortical cells were mapped in the spatial transcriptome map?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the correct answer of 42,076,954 cortical cells. Instead it gives vague ranges (thousands to tens of thousands) that are orders of magnitude off.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific but fabricated figures (over 100,000 single cells from human cortex, 'several thousand to tens of thousands' for spatial maps) that contradict the ground truth of over 42 million cortical cells mapped."
+  },
+  {
+    "question": "How many coronal sections at what spacing were obtained from monkey #1 for stereo-seq?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific answer (119 sections at 500-µm spacing) and instead gave a generic response admitting it doesn't have the information.",
+    "hallucination": 0,
+    "hallucination_reason": "The model did not fabricate any specific claims; it appropriately admitted uncertainty rather than inventing details."
+  },
+  {
+    "question": "What are the six non-neuronal subclasses identified in the macaque cortex?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "Gets several correct (astrocytes, oligodendrocytes, microglia, endothelial cells) but misses oligodendrocyte precursor cells and vascular leptomeningeal cells, replacing them with pericytes and ependymal cells.",
+    "hallucination": 1,
+    "hallucination_reason": "Confidently states pericytes and ependymal cells as part of the six non-neuronal subclasses, which contradicts the ground truth that lists oligodendrocyte precursor cells and vascular leptomeningeal cells instead."
+  },
+  {
+    "question": "In which cortical layers are RELN subclass GABAergic neurons predominantly located?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states layers V and VI, but the ground truth is layers 1 and 2 — the opposite end of the cortex.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently asserts a specific location (layers V and VI) that directly contradicts the ground truth (layers 1 and 2)."
+  },
+  {
+    "question": "What primate-specific cell type enrichment was found through cross-species comparison?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention layer 4 enrichment or region-dependent marker gene expression, which are the key points of the ground truth. The answer is about a completely different finding.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific claims about FoxP2-expressing inhibitory neurons being primate-enriched in cross-species comparisons, with details about language and motor control circuits that are not supported by the ground truth and appear to be invented specifics."
+  },
+  {
+    "question": "What is the total number of cells used for snRNA-seq, and how many of those came from monkey #1?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific numbers (1,493,240 total cells, 646,393 from monkey #1) and instead gave a generic non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty and did not fabricate any specific statistics or claims."
+  },
+  {
+    "question": "What section thickness was used for stereo-seq, and what was the average number of segmented cells per section?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "Correctly identifies 10 µm section thickness, but fails to provide the specific average of 266,310 cells per section, instead giving a vague and inaccurate range.",
+    "hallucination": 1,
+    "hallucination_reason": "States cells range from 'a few hundred to several thousand' which contradicts the ground truth of 266,310 cells per section — a confidently stated specific range that is clearly fabricated and wrong."
+  },
+  {
+    "question": "How many cell types were identified, and what analysis showed that cortical lobes can be distinguished by cell-type composition?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states ~133 cell types, but the ground truth is 264. It also omits the unsupervised clustering analysis and the specific finding about 9 cortical lobes.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states '133 cell types' — a specific fabricated number that contradicts the ground truth of 264."
+  },
+  {
+    "question": "What are the five prominent GABAergic subclass marker genes, and what two SST cell groups were identified with complementary regional abundance?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model's five marker genes are wrong — it lists Sst, Pvalb, Vip, Npy, and Cck, whereas the ground truth specifies LAMP5, VIP, RELN, PV, and SST. The SST cell groups and their regional distributions are also entirely incorrect.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents fabricated specifics: NPY and CCK as prominent GABAergic subclass markers, and Sst-Chodl / Sst-Cck as the two complementary SST groups with invented layer-distribution claims — none of which match the ground truth."
+  },
+  {
+    "question": "What spatial transcriptome method was employed, and what physical factors enabled single-cell resolution?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response mentions Visium/Spatial Transcriptomics instead of the correct Stereo-seq method, and gives entirely different physical factors than the ground truth (10-µm section thickness and mRNA diffusion reduction).",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently states specific but incorrect claims — naming Visium/10x Genomics as the method and fabricating physical factors (high-density spatial barcodes, imaging techniques, computational algorithms) that contradict the ground truth."
+  },
+  {
+    "question": "What is the cell density in V1, and what gene is characteristic of V1-specific glutamatergic cell types?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "Both the cell density figure (gives cubic millimeter range instead of ~1500 cells per µm²) and the characteristic gene (states Rorb instead of NTNG1) are wrong.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific but incorrect facts: a fabricated density range and an incorrect gene (Rorb instead of NTNG1), neither of which matches the ground truth."
+  },
+  {
+    "question": "How many monkeys provided brain tissue for snRNA-seq, and how many for stereo-seq?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the specific numbers (2 for snRNA-seq, 3 for stereo-seq) and instead gives vague ranges.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admits uncertainty and does not fabricate specific numbers, though it gives a vague range that happens to be partially inaccurate."
+  },
+  {
+    "question": "What are the three major cell classes in the macaque cortex taxonomy, and how many glutamatergic cell types are highly localized to specific cortical regions?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "Correctly identifies the three major cell classes, but states 16 glutamatergic cell types are highly localized when the ground truth is 9.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states '16 glutamatergic cell types are highly localized to specific cortical regions,' which contradicts the ground truth of 9 — a specific fabricated number presented with confidence."
+  },
+  {
+    "question": "What is the function of chandelier cells in the cortex?",
+    "type": "single-evidence",
+    "correctness": 1,
+    "correctness_reason": "The response accurately describes chandelier cells innervating the axon initial segments of pyramidal neurons and their role in vetoing/inhibiting neuronal firing, matching the ground truth completely.",
+    "hallucination": 0,
+    "hallucination_reason": "All claims are consistent with the ground truth and established neuroscience. The additional context about epilepsy and neural balance is factually accurate and not fabricated."
+  },
+  {
+    "question": "Which chandelier cell type is most abundant in layer 2, and where are the other two types most abundant?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention CHC.1, CHC.2, or CHC.3 subtypes at all, and incorrectly identifies the cell types as basket and bistratified cells rather than the correct chandelier cell subtypes.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific claims about basket cells and bistratified cells being the 'other two types' of chandelier cells, and invents layer 5 as a location, none of which match the ground truth about CHC.1, CHC.2, and CHC.3 subtypes all found in layers 2 and 4."
+  },
+  {
+    "question": "In which cortical areas is the PV/(PV+SST) cell density ratio the highest?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states primary sensory cortices (V1, primary somatosensory) have the highest ratio, while the ground truth specifies motor cortices (F1–F3, F6, F7) and the entorhinal area.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently asserts specific cortical areas (V1, primary somatosensory cortex) as having the highest ratio, which directly contradicts the ground truth without any basis in the provided information."
+  },
+  {
+    "question": "Does the PV and SST density ratio in macaque show a significant correlation with hierarchical levels in sensory systems?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model says there is a significant correlation, but the ground truth states there is no significant correlation in either the visual or somatosensory system.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently asserts a significant correlation and invents specific claims about PV/SST distribution patterns across hierarchical levels, directly contradicting the ground truth."
+  },
+  {
+    "question": "What did principal component analysis reveal about PV and SST cell-type compositions and hierarchy?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention the first principal component correlating with hierarchical levels of visual and somatosensory systems, which is the specific finding in the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The response invents specific claims about PV cells being involved in fast inhibitory signaling and forming densely connected networks, and SST cells modulating activity over broader areas — none of which are supported by the ground truth answer and are stated with confidence as PCA findings."
+  },
+  {
+    "question": "Which glutamatergic receptor families are expressed at higher levels in group 2 ASCs?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response mentions metabotropic glutamate receptors (mGluR2/mGluR3), but the ground truth specifies ionotropic receptor families: AMPA, Kainate, NMDA, and Delta. These are completely different receptor families.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently claims group 2 ASCs primarily express higher levels of mGluR2 and mGluR3, which contradicts the ground truth that identifies AMPA, Kainate, NMDA, and Delta receptor families as the ones expressed at higher levels."
+  },
+  {
+    "question": "How many primate-specific glutamatergic L4 cell types were found in macaque and human but not in mouse?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response gives a range of 5-7 that includes the correct answer of 6, but doesn't provide the specific number.",
+    "hallucination": 0,
+    "hallucination_reason": "The response hedges appropriately with a range rather than stating a specific incorrect number confidently."
+  },
+  {
+    "question": "In macaque cortical regions with a clear layer 4, where is FOXP2 expression highest?",
+    "type": "single-evidence",
+    "correctness": 1,
+    "correctness_reason": "The response correctly states that FOXP2 expression is highest in layer 4, matching the ground truth exactly.",
+    "hallucination": 0,
+    "hallucination_reason": "The additional context about layer 4's role in sensory processing and thalamic inputs is factually accurate neuroscience, not fabricated information."
+  },
+  {
+    "question": "What is the average number of genes captured per cell by the spatial transcriptome method used in the study?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model gives generic ranges (1,000-3,000 or 5,000-10,000 genes) without referencing the specific study, and does not provide the correct answer of approximately 500 genes per cell.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific numerical ranges (1,000-3,000 and 5,000-10,000 genes) that contradict the ground truth of ~500 genes per cell, presenting fabricated specifics without acknowledging uncertainty about the particular study."
+  },
+  {
+    "question": "How does the regional distribution of non-neuronal cell types correlate with cortical hierarchy?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The ground truth states that non-neuronal cell types show only positive correlations with hierarchy level, but the model's response doesn't address this specific finding at all. Instead it provides general descriptions of cell type distributions without mentioning the cortical hierarchy correlation direction.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates specific claims about association cortices having higher astrocyte density and regions with high myelination having more oligodendrocytes, presenting these as established facts without basis in the ground truth, which simply states there are positive correlations with hierarchy level."
+  },
+  {
+    "question": "What are the laminar and regional distribution characteristics of the ASC.11 cell type?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not match the ground truth. It claims ASC.11 cells are found in cortex/hippocampus with layers II/III and V/VI distribution, while the ground truth states they are predominantly in layer 6 and enriched in the occipital lobe.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific details about hippocampal distribution (stratum radiatum, stratum lacunosum-moleculare) and laminar patterns (layers II/III and V/VI) that contradict the ground truth, presenting these false specifics with confidence."
+  },
+  {
+    "question": "What correlation does the first principal component of PV/SST cell-type composition show with hierarchy, and which major cell class has more cell types negatively correlated with hierarchy?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model incorrectly states SST interneurons have more cell types negatively correlated with hierarchy. The ground truth specifies glutamatergic cell types (not SST/GABAergic) have more negatively correlated cell types.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates specific claims about SST interneurons having more negatively correlated cell types with hierarchy, contradicting the ground truth which states glutamatergic cell types have more negatively correlated cell types than GABAergic cell types."
+  },
+  {
+    "question": "Which non-neuronal cell types are distributed in a gradient along the A-P axis, and what are their laminar preferences?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response fails to mention the specific cell types from the ground truth (ASC, MG, OLG) by their proper designations, misses the specific laminar preferences (EC and VLMC in L1, OLGs enriched in L6), and provides only generic information about astrocytes and oligodendrocytes without addressing the gradient distribution details.",
+    "hallucination": 1,
+    "hallucination_reason": "The response invents specific claims not supported by the ground truth, such as comparing astrocyte densities between primary motor cortex and visual cortex, and states that these cell types 'do not have strict laminar preferences' which directly contradicts the ground truth showing specific laminar enrichment patterns (L1, L6)."
+  },
+  {
+    "question": "What are the A-P axis distribution patterns of the two OLG groups, and how does non-neuronal cell distribution overall correlate with hierarchy?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not address the specific findings about Group 1 OLGs being localized to medial regions and Group 2 OLGs to posterior regions, nor does it mention that non-neuronal cell distribution shows only positive correlations with hierarchy.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates general claims about OLG progenitors and mature oligodendrocytes distribution patterns that contradict the ground truth, and invents specifics about astrocytes being densely packed around synapses and hierarchical density correlating with neural activity complexity, none of which are supported by the ground truth."
+  },
+  {
+    "question": "How many primate-specific L4 glutamatergic cell types were discovered, and what key genes do they highly express?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states four cell types were discovered, but the ground truth says six. The genes mentioned (RORB, LMO3, PCP4) are incorrect; the ground truth specifies FOXP2, EPHA3, and DCC.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific but fabricated details: wrong number (four instead of six) and wrong genes (RORB, LMO3, PCP4 instead of FOXP2, EPHA3, DCC), presenting these as facts."
+  },
+  {
+    "question": "How does the correlation with hierarchy differ between the PV/SST density ratio and the non-neuronal cell distribution?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states PV/SST density ratio correlates with hierarchy (higher in sensory, lower in prefrontal areas), but the ground truth says it shows NO significant correlation. The model also doesn't mention that non-neuronal cells show only positive correlations with hierarchy.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently claims PV/SST density ratio correlates with hierarchical levels (higher in sensory areas, lower in associative/prefrontal areas), which directly contradicts the ground truth stating there is no significant correlation. This is a fabricated specific claim presented with confidence."
+  },
+  {
+    "question": "Which group of ASCs is enriched in layer 6, and how does their abundance compare between V1 and the prefrontal cortex?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response correctly identifies that layer 6 ASCs are more abundant in V1 than in the prefrontal cortex, but fails to specify that it is 'Group 2 ASCs' (including ASC.11) that are enriched in layer 6 — a key detail from the ground truth.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates an explanation about 'ascending projection neurons' and invents a mechanistic rationale about V1's visual processing requiring higher neuron density, none of which is supported by the ground truth. It also misidentifies 'ASCs' as 'ascending projection neurons' rather than astrocyte subtypes or whatever the correct domain context is."
+  },
+  {
+    "question": "What cell type novelty was found in primates, and how does hierarchical organization in primate brains compare to mice?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response discusses von Economo neurons, which is not what the ground truth addresses. The ground truth specifies six L4 glutamatergic cell types present in macaques and humans but absent in mice. The response misses this specific finding entirely.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents von Economo neurons as the 'cell type novelty found in primates' in this context, which contradicts the ground truth that identifies six L4 glutamatergic cell types as the novel finding. This is a fabricated/incorrect specific claim stated with confidence."
+  },
+  {
+    "question": "What technology is covered in pending patents according to the declaration?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not identify Stereo-seq as the technology covered in pending patents; instead it gives a generic non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model does not fabricate specific claims; it acknowledges uncertainty and asks for more context rather than inventing false specifics."
+  },
+  {
+    "question": "Who holds company stock as stated in the declaration?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not identify BGI employees as the holders of company stock, instead giving a generic answer about shareholders.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admits it doesn't have specific information and gives a vague, general answer rather than fabricating specific false claims."
+  },
+  {
+    "question": "In which journal did Sousa et al. publish their 2017 article on human nervous system evolution?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model said 'Science' but the correct answer is 'Cell'.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently stated a specific journal name ('Science') that contradicts the ground truth ('Cell'), presenting a fabricated specific claim."
+  },
+  {
+    "question": "What is the title of the 2016 paper by Bakken et al. about primate brain development?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model's response gives a completely different title than the ground truth. The correct title is 'A comprehensive transcriptional map of primate brain development,' not the title provided.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific paper title that contradicts the ground truth. The title provided appears to be fabricated or confused with a different paper entirely."
+  },
+  {
+    "question": "What is the name of the journal that published the 2021 paper by Berg et al. on glutamatergic neuron diversification?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 'Nature Neuroscience' but the correct journal is 'Nature'.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific journal name ('Nature Neuroscience') that contradicts the ground truth ('Nature')."
+  },
+  {
+    "question": "Which year was the paper \"Innovations present in the primate interneuron repertoire\" published?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 2019, but the correct publication year is 2020.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific incorrect year (2019) that contradicts the ground truth (2020)."
+  },
+  {
+    "question": "What is the title of the 2019 Cell paper by Hodge et al. about human versus mouse cortex?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model's title is incorrect. The actual title is 'Conserved cell types with divergent features in human versus mouse cortex.'",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents a fabricated title that does not match the actual paper, inventing specific wording not found in the ground truth."
+  },
+  {
+    "question": "In which journal was the 2021 article \"A taxonomy of transcriptomic cell types across the isocortex and hippocampal formation\" published?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The article was published in Cell, not Nature Neuroscience.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific journal (Nature Neuroscience) that contradicts the ground truth (Cell)."
+  },
+  {
+    "question": "What volume of Nature contains the 2021 BICCN article \"A multimodal cell census and atlas of the mammalian primary motor cortex\"?",
+    "type": "single-evidence",
+    "correctness": 1,
+    "correctness_reason": "The response correctly identifies Volume 598 of Nature, matching the ground truth exactly.",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information; the volume number matches the ground truth."
+  },
+  {
+    "question": "Who are the authors of the 2015 Science paper titled \"RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells\"?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The authors listed are completely wrong. The actual authors are Chen, K.H., Boettiger, A.N., Moffitt, J.R., Wang, S., and Zhuang, X.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents fabricated author names (Fei Chen, George M. Church, Eric S. Lander) that do not match the actual authors of this paper."
+  },
+  {
+    "question": "What date is associated with the acceptance of the document that contains the statement \"BGI employees hold company stock\"?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model fails to provide the correct date (June 14, 2023) and instead admits it cannot answer without more context.",
+    "hallucination": 0,
+    "hallucination_reason": "The model does not fabricate any specific claims; it acknowledges uncertainty and declines to provide a date rather than inventing one."
+  },
+  {
+    "question": "What date is associated with the publication of the document that contains the statement \"Stereo-seq is covered in pending patents\"?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the answer (July 12, 2023) and instead asked for more information.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty rather than fabricating a specific date or document details."
+  },
+  {
+    "question": "What is the revision date of the document that includes the declaration about Stereo-seq patents?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the correct answer (February 24, 2023) and instead said it doesn't have the information.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty rather than fabricating a specific date or details."
+  },
+  {
+    "question": "What is the received date of the document that states BGI employees hold company stock?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the correct date (October 11, 2022) and admits it doesn't have the information.",
+    "hallucination": 0,
+    "hallucination_reason": "The model does not fabricate any specific claims; it appropriately admits uncertainty rather than inventing details."
+  },
+  {
+    "question": "What publication year do the articles \"Evolution of the human nervous system function, structure, and development\" and \"Comprehensive transcriptome analysis of neocortical layers in humans, chimpanzees and macaques\" share?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 2018, but the correct answer is 2017.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific year (2018) that contradicts the ground truth (2017), presenting a fabricated fact with confidence."
+  },
+  {
+    "question": "Which two journals published the articles \"Transcriptional architecture of the primate neocortex\" and \"Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortex\"?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "Both journal attributions are wrong. The correct answers are Neuron and Nature Neuroscience respectively, not Nature and Science.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific journal names (Nature and Science) that are factually incorrect, presenting fabricated specifics contradicting the ground truth."
+  },
+  {
+    "question": "What are the titles of the Science articles from 2018 and 2022 authored by Zhu et al. and Ma et al. respectively?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the actual titles of the articles, only suggesting how to find them.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admits uncertainty and does not fabricate any specific claims or titles."
+  },
+  {
+    "question": "What are the titles of the two 2021 Nature articles that address comparative cellular analysis of motor cortex and human neocortical glutamatergic neuron diversification?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response provides completely wrong article titles and authors. The correct answers are 'Comparative cellular analysis of motor cortex in human, marmoset and mouse' by Bakken et al. and 'Human neocortical expansion involves glutamatergic neuron diversification' by Berg et al.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents fabricated article titles and author names ('Velasco et al.' and 'Saunders et al.') that do not match the ground truth, presenting specific false information with confidence."
+  },
+  {
+    "question": "Who is the lead contact for resource and reagent requests regarding the spatial transcriptomics study?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not provide the specific lead contact (Chengyu Li) or their email address, instead giving generic advice.",
+    "hallucination": 0,
+    "hallucination_reason": "The response makes no fabricated claims; it simply admits uncertainty and suggests checking the publication."
+  },
+  {
+    "question": "What URL provides access to the processed spatial-omics data from macaque brain?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model provides completely wrong URLs. The correct URL is https://macaque.digital-brain.cn/spatial-omics, not any Allen Institute URL.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently fabricates specific URLs from the Allen Institute that have nothing to do with the correct answer, presenting false information as fact."
+  },
+  {
+    "question": "What accession code was assigned to the raw data deposited in the CNGB Nucleotide Sequence Archive?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific accession code CNP0002035 and instead gave a generic non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty and did not fabricate any specific accession code or false information."
+  },
+  {
+    "question": "How many male cynomolgus monkeys were used, and what were their ages?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific answer (3 males, aged 6, 4, and 7 years) and instead deflected without answering.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty rather than fabricating specific details, so no hallucination occurred."
+  },
+  {
+    "question": "What anesthetic agents were administered to the monkeys prior to brain perfusion?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the correct anesthetic agents (tiletamine hydrochloride, zolazepam hydrochloride, and xylazine hydrochloride) and instead gave generic examples.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently stated specific anesthetic agents (ketamine, propofol, isoflurane) that are not mentioned in the ground truth, presenting fabricated specifics as plausible answers."
+  },
+  {
+    "question": "What temperature was the cooling chamber set to prior to cryosectioning?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response includes the correct temperature (-20°C) but adds an additional range (-30°C) not specified in the ground truth, making it only partially accurate.",
+    "hallucination": 0,
+    "hallucination_reason": "The response doesn't fabricate information; it gives a plausible range that includes the correct value, though it's more general than the specific ground truth answer."
+  },
+  {
+    "question": "What thicknesses of coronal sections were collected for Stereo-seq, immunohistochemical staining, and snRNA-seq?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic ranges rather than the specific values from the ground truth (10 μm for Stereo-seq, 10 μm for IHC, 50 μm for snRNA-seq), and incorrectly suggests snRNA-seq uses 10-20 μm sections when it actually uses 50 μm sections.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific thickness ranges (e.g., snRNA-seq at 10-20 μm) that contradict the ground truth (50 μm for snRNA-seq), presenting fabricated specifics as if they were factual."
+  },
+  {
+    "question": "How long was the methanol fixation step for Stereo-seq tissue sections, and at what temperature?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The temperature (-20°C) is correct, but the duration is wrong — the model states 10 minutes instead of the correct 30 minutes.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific duration (10 minutes) that contradicts the ground truth (30 minutes), presenting a fabricated specific detail as fact."
+  },
+  {
+    "question": "What exposure time was used when capturing fluorescent section images with the Zeiss Axio Scan Z1 microscope?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the specific answer (10 milliseconds) and instead gives a vague range without committing to the correct value.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admits uncertainty and does not fabricate specific claims; it simply deflects without providing the correct answer."
+  },
+  {
+    "question": "What kit was used for snRNA-seq library preparation?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention the correct kit (DNBelab C Series High-throughput Single-Cell RNA Library Preparation Kit by MGI) and instead provides generic alternatives.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents specific kits (10x Genomics Chromium Single Cell ATAC Reagent Kit for snRNA-seq, SMART-Seq v4) as answers to the question, which contradicts the ground truth and are fabricated in this context."
+  },
+  {
+    "question": "How many cynomolgus monkeys were used in total across the Stereo-seq, snRNA-seq, and RNAscope experiments?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the answer (4 monkeys total), instead claiming it lacked the information.",
+    "hallucination": 0,
+    "hallucination_reason": "The model did not fabricate any specific claims; it simply admitted it could not answer without more context."
+  },
+  {
+    "question": "How many snRNA-seq libraries were included for downstream analysis, and how many cells remained after the initial quality control?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific numbers (444 libraries, 1,493,240 cells) and instead gave a generic non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty rather than fabricating specific numbers, so no hallucination occurred."
+  },
+  {
+    "question": "What was the time limit for the tissue collection process, and at what temperature were tissue blocks stored between successive days of sectioning?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "Correctly identifies -80°C storage temperature, but gives '1-2 hours' for tissue collection instead of the correct 30 minutes.",
+    "hallucination": 1,
+    "hallucination_reason": "Confidently states '1-2 hours post-mortem' as the time limit, which contradicts the ground truth of 30 minutes — a specific fabricated claim presented with confidence."
+  },
+  {
+    "question": "What were the incubation temperatures for reverse transcription in Stereo-seq and probe hybridization in RNAscope?",
+    "type": "multi-evidence",
+    "correctness": 1,
+    "correctness_reason": "Both temperatures match the ground truth exactly: 42°C for reverse transcription in Stereo-seq and 40°C for RNAscope probe hybridization.",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information; the response accurately states both temperatures consistent with the ground truth."
+  },
+  {
+    "question": "What are the possible dimensions of the Stereo-seq chip, and which sequencing platform was used?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention the correct chip dimensions (5 cm x 3 cm or 2 cm x 3 cm) or the specific sequencing platform (DNBSEQ T10). The claim about 100 nanometer dimensions is wrong.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific claims — stating chip dimensions of '100 nanometers' which contradicts the ground truth, and vaguely references 'DNBseq technology' without identifying the correct DNBSEQ T10 platform, presenting incorrect specifics with confidence."
+  },
+  {
+    "question": "In the snRNA-seq cDNA libraries, which base pairs of read1 constitute the bead barcodes, and what kit was used for library preparation?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response describes 10x Genomics technology (16bp barcode) instead of the correct answer: 1-10bp and 11-20bp bead barcodes using the DNBelab C Series kit.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states incorrect specifics — 16bp Read 1 barcode and 10x Genomics Chromium kit — which contradict the ground truth that specifies DNBelab C Series kit and 1-10bp/11-20bp bead barcodes."
+  },
+  {
+    "question": "What fixative and incubation time were used for immunohistochemical staining and for RNAscope post-fixation?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model gives generic ranges rather than the specific values from the ground truth (10 min for IHC in 0.1M PBS; 15 min at 4°C for RNAscope). The IHC fixation time of 24-48 hours is entirely wrong.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states IHC fixation takes 24-48 hours, which contradicts the ground truth of 10 minutes, and presents these as established facts rather than admitting uncertainty."
+  },
+  {
+    "question": "How many PCR cycles were used for cDNA amplification in Stereo-seq, and what was the duration of the tagmentation reaction?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response gives ranges (12-15 PCR cycles, 5-10 minutes) that include the correct values (15 cycles, 10 minutes) but doesn't commit to the specific ground truth values.",
+    "hallucination": 0,
+    "hallucination_reason": "The response uses ranges that encompass the correct values and hedges with 'typically' and 'usually', avoiding confident false specific claims."
+  },
+  {
+    "question": "What deep learning model architecture was used for cell segmentation on ConA staining images?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model says U-Net was used, but the ground truth specifies a Mask R-CNN model (the ConA model).",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states U-Net is the architecture used, which contradicts the ground truth that specifies Mask R-CNN. This is a fabricated specific claim."
+  },
+  {
+    "question": "How many total cell annotations were generated on ConA staining images in the current experiment?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the answer (14,212 cell annotations) and instead admitted it doesn't have access to the specific experiment data.",
+    "hallucination": 0,
+    "hallucination_reason": "The model did not fabricate any information; it appropriately admitted uncertainty rather than inventing a specific number."
+  },
+  {
+    "question": "What precision and recall did the nucleic acid model achieve on validation?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific precision (0.912) and recall (0.913) values from the ground truth, instead giving a generic non-answer.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty rather than fabricating specific values, so no hallucination occurred."
+  },
+  {
+    "question": "What software and version were used to implement the image registration?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not provide the specific software (Scikit-image 0.18.3) or Python version (3.9.7) mentioned in the ground truth, instead giving generic alternatives.",
+    "hallucination": 0,
+    "hallucination_reason": "The response does not fabricate specific claims; it acknowledges uncertainty and suggests consulting methodology documentation, rather than inventing false specifics."
+  },
+  {
+    "question": "How many cortical brain regions were parcellated in the macaque cortex?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 324 cortical areas, while the ground truth specifies 143 brain regions.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states '324 distinct cortical areas' which contradicts the ground truth of 143 and appears to be a fabricated specific number."
+  },
+  {
+    "question": "What normalization method was used to mitigate batch effects in Stereo-seq data preprocessing?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model's response mentions quantile normalization, which is incorrect. The ground truth specifies SCTransform with vars.to.regress set to 'percent.mt'.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states that quantile normalization is 'commonly used' for Stereo-seq data preprocessing, which contradicts the ground truth and appears to be a fabricated claim presented with confidence."
+  },
+  {
+    "question": "What function created the single-cell gene expression matrix in the Seurat workflow?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "Correctly identifies CreateSeuratObject as the function, but omits the specific parameters min.cells = 3 and min.features = 0 mentioned in the ground truth.",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information; the description of what CreateSeuratObject does is accurate and consistent with the ground truth."
+  },
+  {
+    "question": "What statistical method was used to correlate cell-type proportion with cortical hierarchy levels?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response mentions Spearman's rank correlation as one possibility, which matches the ground truth, but presents it alongside other methods (linear regression, Pearson correlation) without identifying it as the specific method used.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is hedged and vague, presenting multiple possibilities rather than fabricating specific false claims. It correctly includes Spearman correlation among the options mentioned."
+  },
+  {
+    "question": "What radius defines the neighborhood complexity around a cell?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response mentions 200 micrometers but frames it as a range (50-200 μm) rather than the specific value of 200 pixels corresponding to 100 μm radius. It partially captures the scale but misses the exact specification.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates a range of '50 to 200 micrometers' and mentions 'neural tissue' context without basis in the ground truth, and incorrectly states the unit as micrometers when the ground truth specifies 200 pixels corresponding to 100 μm radius."
+  },
+  {
+    "question": "How many coronal sections were used to build the 3D macaque brain atlas?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the correct answer of 119 coronal sections and instead gives vague ranges (200-300) without identifying the specific number.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states '200-300 sections' as an example figure, which is a fabricated specific claim that contradicts the ground truth of 119 sections."
+  },
+  {
+    "question": "What thresholds were applied in Stereo-seq data preprocessing and in the nucleic acid model to filter or retain cells?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic QC thresholds and does not mention the specific values from the ground truth: fewer than 100 features cutoff, 15% mitochondrial gene percentage threshold, or the 0.1 low score threshold for the nucleic acid model.",
+    "hallucination": 1,
+    "hallucination_reason": "The response invents specific thresholds not present in the ground truth, such as >10% mitochondrial reads, SNR <2, and spatial distribution filtering, presenting these fabricated specifics with confidence."
+  },
+  {
+    "question": "How were cortical layers defined and used to identify layer-specific astrocytes?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response describes general neuroscience methods but misses the specific approach in the ground truth: manual delineation of cortical layers based on cytoarchitecture in coronal sections, followed by computing astrocyte cell density across six layers to identify layer1- and layer6-specific astrocytes.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific methodological details not present in the ground truth, claiming researchers used immunohistochemistry, in situ hybridization, and single-cell RNA sequencing, and invents specific examples about protein expression differences between layer II/III and layer V/VI astrocytes, none of which are supported by the ground truth."
+  },
+  {
+    "question": "How were cell type densities and their correlation with cortical hierarchy levels computed?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives a generic description of histological and imaging methods but misses the specific methodology: dividing cell count by area size per layer/region for density, and using Spearman correlation with hierarchy levels.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific methodological details not in the ground truth, such as immunohistochemistry staining, image analysis software, anatomical atlases for hierarchy mapping, and regression models — none of which are mentioned in the ground truth answer."
+  },
+  {
+    "question": "How were cellular neighborhoods statistically evaluated in the complexity analysis and in the CHC neighbor analysis?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic statistical methods for spatial analysis but completely misses the specific ground truth details: using R's 'dist' function for cell-cell distance matrices in complexity analysis, and randomization tests comparing observed neighbors to random neighbors with P<0.05 threshold for CHC neighbor analysis.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents specific methods (Ripley's K function, Moran's I, Getis-Ord Gi*, Shannon entropy, mutual information, graph theory approaches) as if they were used in the described analysis, but these are fabricated details not mentioned in the ground truth and contradict the actual methods used."
+  },
+  {
+    "question": "What evidence supports the accuracy of cell segmentation and cell-type annotation in this analysis?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response provides generic criteria for evaluating cell segmentation accuracy rather than citing the specific evidence from the analysis: the 0.912 precision and 0.913 recall on 10,209 cells, and the consistency between adjacent sections and biological replicates.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and generic but does not fabricate specific statistics or facts that contradict the ground truth. It simply fails to provide the specific evidence asked about."
+  },
+  {
+    "question": "What criteria were used to select cell types for regional specificity analysis and what was the minimum cell count required?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic information about regional specificity analysis rather than answering the specific question. It misses the actual criteria (>1000 cells across three monkeys, permutation p-value of 0, ≥30 cells/slide, co-occurrence frequency limits, observed ratio thresholds).",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently states specific thresholds (10-20 cells minimum) that contradict the ground truth (>1000 cells across three monkeys, ≥30 cells/slide), presenting fabricated specifics as typical standards."
+  },
+  {
+    "question": "Which deep learning packages and versions were used for cell segmentation and cell-type annotation?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic information about deep learning frameworks and does not mention the specific packages and versions from the ground truth (mmdet v.2.25.1, Python v.3.8.13, PyTorch v.1.13.1, PyTorch Geometric v.2.1.0, Python v.3.8.10).",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently states specific but fabricated information (TensorFlow 2.x, PyTorch 1.7+) that contradicts the ground truth, which specifies mmdet, PyTorch v.1.13.1, and PyTorch Geometric v.2.1.0."
+  },
+  {
+    "question": "How were cross-species comparisons of glutamatergic neurons performed in terms of species selection and integration method?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention the specific species (human, macaque, mouse), cortical regions (PFC, F1, V1), or the Seurat IntegrateData method with marker genes as anchorset used in the actual study.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific claims about the methodology (immunohistochemistry, in situ hybridization, electrophysiology) and species selection (birds, reptiles, fish) that contradict the ground truth and are not part of the described study."
+  },
+  {
+    "question": "How many single-neuron projectomes were reconstructed from the macaque prefrontal cortex?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model gives 'over 1,000' which is incorrect; the ground truth is 2,231 projectomes.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates a specific reference to a '2021 study by Xu et al. in Nature' reporting 'over 1,000 single neurons' — this is a confidently stated specific claim that contradicts the ground truth number and cannot be verified as accurate."
+  },
+  {
+    "question": "How many projectome-based subtypes were classified from the macaque PFC neurons?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states ~24 subtypes, but the ground truth is 32 subtypes.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific number (24) that contradicts the ground truth (32), presenting it as fact from 'latest comprehensive studies'."
+  },
+  {
+    "question": "Into what three neuron classes are the macaque PFC neurons divided?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model describes general cortical neuron types (pyramidal, interneurons, spiny stellate) rather than the specific classification asked about: IT, PT, and CT neurons.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents a specific three-class taxonomy (pyramidal, interneurons, spiny stellate) that directly contradicts the ground truth classification (IT, PT, CT neurons), fabricating a different answer with false specificity."
+  },
+  {
+    "question": "What was the total data size per typical macaque brain for one channel using fMOST imaging?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 10-20 TB, which is far off from the correct answer of 432 TB.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific fabricated range (10-20 TB) that contradicts the ground truth of 432 TB."
+  },
+  {
+    "question": "From how many PFC injection sites and macaque brains were the whole-brain axon projections imaged?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model gives wrong numbers (10 sites, 5 brains) instead of the correct 19 sites in 7 brains.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently cites specific fabricated numbers (10 PFC injection sites, 5 macaque brains) attributed to 'Markov et al. (2014)' which contradict the ground truth."
+  },
+  {
+    "question": "In which cortical layers are the somata of PT and CT neurons primarily located?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "Correctly identifies PT neurons in layer V (infragranular) and CT neurons in layer VI (infragranular), but incorrectly includes layers II and III for CT neurons, which are supragranular, not infragranular.",
+    "hallucination": 1,
+    "hallucination_reason": "The claim that CT neuron somata are 'mainly found in layers II, III, and VI' is fabricated — CT neurons are primarily in layer VI (and layer V), not in the supragranular layers II/III."
+  },
+  {
+    "question": "How many PFC subdomains were defined for intra-PFC connectivity analysis?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the correct answer of 44 subdomains, instead giving a vague range of 4-10.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific range of '4 to 10 subdomains' which contradicts the ground truth of 44 subdomains — this is a fabricated claim presented with confidence."
+  },
+  {
+    "question": "What single-neuron tracing system was used for accelerated projectome reconstruction in the macaque brain?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model answered 'MAPseq' which is incorrect; the ground truth is 'Gapr'.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presented a specific but incorrect system (MAPseq) with fabricated details about barcoded RNA molecules, contradicting the ground truth answer of Gapr."
+  },
+  {
+    "question": "How many terminal arbors were extracted from the single axons using the machine-learning-based method?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the specific number (over 17,000) and instead gives a vague range of 'hundreds to thousands', failing to answer the question.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admits uncertainty and does not fabricate specific statistics, though its range estimate is lower than the actual figure."
+  },
+  {
+    "question": "What spatial resolution was used in the fMOST imaging of the macaque brains?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model gives different resolution values (0.35 μm lateral, 1 μm axial) rather than the correct 0.65 × 0.65 × 3 μm³.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific resolution figures (0.35 μm lateral, 1 μm axial) that contradict the ground truth values and are presented as factual without acknowledging uncertainty about the specific study."
+  },
+  {
+    "question": "What was the total number of reconstructed single-neuron projectomes, and how many neurons and total axon length were in the example dataset G97-1?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response fails to provide the total number of reconstructed projectomes (2,231) and gives incorrect figures for G97-1 (300 neurons and ~500m instead of 576 neurons and 94,985mm).",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently states specific fabricated numbers (300 neurons, ~500 meters) that directly contradict the ground truth values (576 neurons, 94,985 mm), presenting false specifics with confidence."
+  },
+  {
+    "question": "Which projectome-based subtypes correspond to pyramidal tract (PT) and cortico-thalamic (CT) neurons, and what are their total numbers?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not provide the specific subtype numbers (10, 11, 12) or the exact counts (138 PT neurons, 48 CT neurons) mentioned in the ground truth. It gives generic biological descriptions and approximate percentages instead.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific percentage ranges (PT: 10-20%, CT: 30-40% of layer 5 pyramidal neurons) that are not supported by the ground truth and presents them with confidence as if they answer the question about projectome-based subtypes."
+  },
+  {
+    "question": "How many projectome-based subtypes were identified, and did individual virus injection sites typically contain only one subtype?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model correctly states that injection sites contained multiple subtypes, but gives 16 instead of the correct 32 subtypes.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states 16 subtypes, which is a specific fabricated number that contradicts the ground truth of 32 subtypes."
+  },
+  {
+    "question": "How many projectome-based subtypes were classified, and which cognitive function is enriched in subtype 13?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "Both key facts are wrong: the model says 16 subtypes (correct is 32) and identifies sensory processing/motor control for subtype 13 (correct is object recognition).",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific but fabricated facts — 16 subtypes instead of 32, and 'sensory processing and motor control' for subtype 13 instead of object recognition — attributing them to the Allen Brain Atlas without basis."
+  },
+  {
+    "question": "What two modules were identified in the lateral prefrontal cortex, and how are they interconnected?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "Correctly identifies the two modules as dlPFC and vlPFC, but misses the specific detail about interconnection via recurrent projections mediated by different receiving and sending subdomains.",
+    "hallucination": 1,
+    "hallucination_reason": "Fabricates specific claims about the interconnection mechanisms and functional roles (working memory, attention, planning, decision-making, emotional regulation) that are not in the ground truth and are stated with confidence as facts about this specific study's findings."
+  },
+  {
+    "question": "How many PFC subdomains were defined, and how do dlPFC and vlPFC axon arbors differ in their targeting of OFC subdomains?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention the specific number of PFC subdomains (44) and does not reference the specific OFC subdomains (areas 10mr, 10mc, 11l, 12m) that distinguish dlPFC vs vlPFC targeting.",
+    "hallucination": 1,
+    "hallucination_reason": "The model presents specific claims about dlPFC targeting 'dorsal and lateral' OFC and vlPFC targeting 'ventral and medial' regions with confidence, but these specifics are fabricated — the ground truth states dlPFC targets dorsal subdomains (10mr, 10mc) and vlPFC targets ventral subdomains (11l, 12m), and the 'lateral/medial' distinction is invented."
+  },
+  {
+    "question": "In which cortical layer are the somata of subtype 32 located, and what is its primary projection target in the parietal lobe?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response states layer 5 and somatosensory cortex as projection target, both incorrect. Ground truth specifies layer 3 of dlPFC and posterior cingulate cortex (PCC).",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently fabricates specific claims — layer 5 localization and projection to primary somatosensory cortex (Brodmann areas 3, 1, 2) — that directly contradict the ground truth without admitting uncertainty about these specifics."
+  },
+  {
+    "question": "How many contralateral cortex-projecting (ITc) neurons were identified, and which projectome-based subtypes do they correspond to?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states ~1,000 neurons and describes two subtypes based on visual cortex projections, neither of which matches the ground truth of 342 ITc neurons corresponding to subtypes 1–5.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates specific claims (~1,000 neurons, subtypes defined by V1 vs. higher-order visual area projections) that contradict the ground truth and are presented with false confidence."
+  },
+  {
+    "question": "What is the primary function of contralateral cortical projections that travel through the corpus callosum?",
+    "type": "single-evidence",
+    "correctness": 1,
+    "correctness_reason": "The response accurately captures the main function of coordinating activity and information transfer between the two cerebral hemispheres, and adds correct supporting detail.",
+    "hallucination": 0,
+    "hallucination_reason": "All claims are consistent with the ground truth and well-established neuroscience. No fabricated specifics."
+  },
+  {
+    "question": "What feature primarily distinguishes the five ITc projectome subtypes?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response describes general axonal projection patterns and connectivity profiles, but misses the specific distinguishing feature: contralateral projections to homotypic cortical areas.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and general rather than fabricating specific false claims. It doesn't contradict the ground truth with invented specifics, just fails to identify the correct distinguishing feature."
+  },
+  {
+    "question": "How far do the contralateral arbors of a single ITc neuron typically extend from the mirrored soma location?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response captures the general idea that contralateral arbors extend a limited distance from the mirrored soma location, but says 'several millimeters' while the ground truth says 'approximately 1 cm'. Several millimeters is in the right ballpark but undershoots the stated ground truth.",
+    "hallucination": 0,
+    "hallucination_reason": "The response doesn't fabricate specific statistics or references. The claim about 'spanning multiple columns' is a reasonable neuroscience statement, and the hedging about variability keeps it from being a confident false assertion."
+  },
+  {
+    "question": "Along which axis is the topography of soma location maintained in the main axon at the midline of the corpus callosum?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response correctly identifies the anteroposterior axis as maintained, but omits the key detail that the dorsoventral axis topography is lost.",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information; the claim about anteroposterior axis is correct, and the additional context about coordinating hemispheric activity is a reasonable general statement rather than a specific false claim."
+  },
+  {
+    "question": "Which arbor type is most abundant in the contralateral projections from dlPFC and vlPFC?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response fails to identify Type 3 arbors as the most abundant, instead giving a generic description of 'axonal arbors' without specifying the correct arbor type.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific claims about 'axonal arbors' being most abundant and describes their characteristics with confidence, which contradicts the ground truth that Type 3 arbors are most abundant."
+  },
+  {
+    "question": "What proportion of heterotypic projections to contralateral subdomains is accompanied by matching ipsilateral projections?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model gives 30-50% which is completely wrong; the ground truth is 93.4%.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific range (30-50%) that directly contradicts the ground truth of 93.4%, presenting fabricated statistics as fact."
+  },
+  {
+    "question": "Which ITs subtype predominantly sends projections to the contralateral striatum rather than the ipsilateral striatum?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not mention subtype 6, which is the correct answer. It instead refers to FoxP2-expressing neurons, which is not what the ground truth specifies.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates a specific claim about FoxP2-expressing ITs neurons projecting contralaterally, which is not supported by the ground truth and appears to be invented."
+  },
+  {
+    "question": "What is the exclusive striatal target of ITs subtype 9?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention the head of caudate (CdH) as the exclusive striatal target. Instead it describes D1 receptor MSNs, which is unrelated to the specific answer.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific claims about ITs subtype 9 targeting D1 receptor MSNs in the direct pathway, which contradicts or is unsupported by the ground truth that the exclusive target is the head of caudate."
+  },
+  {
+    "question": "What is the average diameter of the arbor patches formed by ITs neurons in the striatum?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model response states 300-500 micrometers, which is significantly different from the ground truth of 1.14 ± 0.10 mm (1140 micrometers).",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific range (300-500 micrometers) that contradicts the ground truth value of 1.14 ± 0.10 mm, presenting fabricated specifics with confidence."
+  },
+  {
+    "question": "Do macaque CT neurons project to any subcortical structures outside the thalamus?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response contradicts the ground truth, which states CT neurons project solely to the thalamus. The model claims they also project to superior colliculus and basal ganglia.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates specific subcortical targets (superior colliculus, basal ganglia) that contradict the ground truth stating CT neurons project solely to the thalamus."
+  },
+  {
+    "question": "How do the lateralization patterns of ITc neurons and striatum-projecting ITs neurons differ in macaque?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not address the actual lateralization patterns described in the ground truth (contralateral homotypic cortical targeting for ITc, and ipsilateral vs contralateral striatal projections for ITs subtypes 6-9). It instead discusses hemispheric dominance for visual processing and motor planning, which is unrelated.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific claims about right hemisphere dominance in ITc neurons for complex visual processing and leftward dominance in ITs neurons for motor planning, none of which are supported by the ground truth. These are confidently stated but invented specifics."
+  },
+  {
+    "question": "How does the relationship between soma location and arbor position differ between ITc contralateral cortical projections and ITs striatal projections?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response fails to address the actual question about soma location-dependent topography. The ground truth states both ITc and ITs show strict soma location-dependent topography (mirrored positions for ITc, mapped positions in striatum for ITs). The model instead discusses layer locations and arborization patterns in a generic way, missing the core point entirely.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates specific claims about layer 2/3 vs layer 5 soma locations, 'reciprocal connections between homologous areas,' and 'diffuse arborizations' in the striatum — none of which are supported by the ground truth and are stated with false confidence."
+  },
+  {
+    "question": "How do the main axon segregation patterns of PT neurons projecting to the superior colliculus compare with those of CT neurons projecting to the thalamus?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not address the actual comparison described in the ground truth — that PT neurons remain highly segregated along the entire axon route while CT neurons show declining segregation that is restored at the thalamic target. Instead, it provides generic anatomical descriptions unrelated to the specific segregation pattern comparison.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific claims about somatotopic organization in superior colliculus projections and CT neurons innervating multiple thalamic nuclei with broader patterns, none of which are supported by or relevant to the ground truth, which concerns dlPFC/vlPFC axon segregation dynamics along the projection route."
+  },
+  {
+    "question": "In what ways do macaque PT and CT neurons differ from their mouse counterparts in terms of projection targets and spatial precision?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response captures the general concept of higher spatial precision in macaque neurons compared to mouse neurons, but misses the specific details about fewer target regions and reduction in collateral branch number and relative arbor size.",
+    "hallucination": 0,
+    "hallucination_reason": "The response doesn't fabricate specific facts but generalizes correctly about spatial precision differences, though it frames the comparison around motor control complexity rather than the specific anatomical findings about projection targets and arbor size."
+  },
+  {
+    "question": "How does the contralateral bias of IT neurons vary within the macaque prefrontal cortex, and how does the overall bias of bilaterally projecting IT neurons compare between macaque and mouse?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response correctly states that macaque bilateral IT neurons have stronger contralateral bias than mice, but misses the specific detail about vlPFC vs dlPFC variation correlating with dorsoventral soma location, and omits the specific median values (0.55 for macaque, 0.20 for mouse).",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague but does not fabricate specific statistics or contradict the ground truth. It correctly conveys the directional difference between species without inventing false specifics."
+  },
+  {
+    "question": "What are the broad subcortical projection differences between PT and CT neurons, and which specific thalamic regions do they respectively target?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response misidentifies CT neurons as 'corticocortical' rather than corticothalamic, and incorrectly states they don't project to the thalamus. It also fails to correctly identify the thalamic targets (MD for CT, midline/reticular/ventral for PT).",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates that CT neurons are 'corticocortical' and don't project subcortically, and incorrectly claims PT neurons target the ventral posterolateral nucleus when looping back — these are specific false claims contradicting the ground truth."
+  },
+  {
+    "question": "How do macaque and mouse PFC IT neurons differ in their cortical target specificity and their likelihood of projecting to the contralateral hemisphere?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The model correctly identifies that macaque IT neurons are less likely to project contralaterally and that mouse IT neurons have broader connectivity, but misses the specific statistics (20% vs 74%) and the key distinction about projecting to single vs multiple cortical targets. The characterization as 'layer/subregion specificity' is a misrepresentation of the actual finding about cortical target specificity.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates specific claims about 'layer or subregion precision' and 'organizational principles related to brain size' that are not in the ground truth. It also incorrectly characterizes IT neurons as 'interneurons' when IT refers to intratelencephalic projection neurons, and invents details about connectivity patterns that contradict or misrepresent the actual findings."
+  },
+  {
+    "question": "What are some of the subcortical targets of macaque PFC PT neurons, and how does their ipsilateral projection bias compare to that of mouse PT neurons?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response correctly identifies that macaque PT neurons project to subcortical targets and that they show a stronger ipsilateral bias than mouse PT neurons. However, it lists only general categories (thalamus, basal ganglia, brainstem) rather than the specific targets mentioned in the ground truth (MD, SC, VTA, SN, PAG, pallidum, lateral hypothalamus, pontine nucleus, locus coeruleus).",
+    "hallucination": 0,
+    "hallucination_reason": "The response stays vague rather than fabricating specific incorrect details. The general categories mentioned are plausible and not contradicted by the ground truth, and the directional claim about ipsilateral bias comparison is correct."
+  },
+  {
+    "question": "How many single axons of PFC neurons were reconstructed in the macaque brain?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not provide the correct answer of 2,231 single axons. It deflects to a vague reference and fails to answer the question.",
+    "hallucination": 1,
+    "hallucination_reason": "The response invents a reference to 'Markram et al. (2015) in the Blue Brain Project' as potentially relevant to macaque PFC axon reconstruction, which is a fabricated and misleading citation unrelated to the ground truth answer."
+  },
+  {
+    "question": "How many subtypes of PFC neurons were identified through unbiased classification?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states ~16 subtypes, while the ground truth is 32 subtypes.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific number (around 16) that contradicts the ground truth of 32, and adds unsupported specifics about mice and single-cell RNA sequencing without basis in the question."
+  },
+  {
+    "question": "How does the total axon length in macaque PFC neurons compare to that in mouse PFC neurons?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states macaque PFC neurons have significantly longer total axon length than mouse PFC neurons, which directly contradicts the ground truth that they are similar.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates a specific claim that macaque axon length is 'significantly longer' than in mice, and invents a reasoning about 'larger brain size and more complex neural circuitry' causing this difference, when the ground truth states they are similar."
+  },
+  {
+    "question": "What do contralateral cortical axonal patches mainly consist of?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response describes general callosal connectivity but fails to mention the key detail that contralateral cortical axonal patches mainly consist of columnar axon arbors of restricted sizes.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently states specific claims about corpus callosum crossing and inter-hemispheric communication that, while generally true for callosal axons, do not address the actual question about the composition of axonal patches and misrepresent what the patches 'mainly consist of' with fabricated specifics not supported by the ground truth."
+  },
+  {
+    "question": "What type of relationship does single-axon reconstruction reveal between axons and patches in the striatum?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response hints at widespread connectivity (one axon to multiple patches), which partially captures the 'many-to-many' concept, but it doesn't explicitly state the many-to-many relationship and instead focuses on striosomes vs. matrix compartments distinction rather than the core finding.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific details about axons innervating both striosomes and matrix compartments, and frames the finding around patch type distinction, which is not supported by the ground truth and introduces claims not present in the original answer."
+  },
+  {
+    "question": "What sex were all the macaques used in the study?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not answer the question, claiming it lacks context about the study rather than providing the correct answer (all female).",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty and did not fabricate any specific claims about the study."
+  },
+  {
+    "question": "From how many different monkey brains were the single-neuron projectomes pooled?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model fails to provide the correct answer (seven monkey brains) and instead gives a vague non-answer claiming the number wasn't specified.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates a specific citation (Xu et al., 2021) and claims the number was not specified in their summary, which is a confident false claim invented without basis."
+  },
+  {
+    "question": "What was the final injection volume range for each injection site?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The ground truth specifies 0.2 to 2 microliters, but the model gave different ranges (0.5–2 μL for rodents, 5–20 μL for primates) without mentioning the correct 0.2 lower bound.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently stated specific volume ranges (e.g., 5–20 μL for non-human primates) that are not supported by the ground truth and contradict the stated range of 0.2–2 μL."
+  },
+  {
+    "question": "What species of monkey was used in this study?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the answer (Cynomolgus monkeys / Macaca fascicularis) and instead asked for clarification.",
+    "hallucination": 0,
+    "hallucination_reason": "The model made no fabricated claims; it simply admitted it lacked context to answer."
+  },
+  {
+    "question": "What was the voxel size of the fMOST imaging system used in the study?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model's response gives incorrect voxel dimensions (0.325 × 0.325 × 1 μm) that do not match the ground truth (0.65 × 0.65 × 3 μm³).",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states specific voxel dimensions (0.325 × 0.325 × 1 μm) that contradict the ground truth values, presenting fabricated specifics as typical values."
+  },
+  {
+    "question": "How do the projection patterns of macaque PFC neurons differ from mouse PFC neurons, and what executive functions might this support?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gets the comparison backwards. The ground truth states macaque PFC neurons mostly project to a SINGLE target (more focused), while mouse neurons project to MULTIPLE targets. The model claims macaques have more extensive/complex projections than mice, which is the opposite of what the ground truth says.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents specific claims that contradict the ground truth — stating macaques have 'more complex and extensive long-range projections' and mice have 'less extensive projections' when the ground truth indicates the opposite pattern (macaques project to single targets, mice to multiple targets). These are fabricated specifics stated with confidence."
+  },
+  {
+    "question": "What mechanism is proposed for the reduction of axon collaterals and arborization in macaque PFC neurons, and how does this affect the spatial coverage of arbors?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response describes activity-dependent pruning and synaptic scaling, which is entirely different from the ground truth mechanism (conservation of total axon length combined with brain expansion leading to longer trunk lengths and reduced collaterals).",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents specific mechanisms (synaptic scaling, activity-dependent pruning, elimination of weaker synapses) that are fabricated relative to the ground truth, which describes a geometric/scaling mechanism based on brain expansion and axon length conservation."
+  },
+  {
+    "question": "How many simultaneous users could the collaborative proofreading system support, and how were simple versus complex reconstruction errors handled?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response captures the general idea that complex errors require expert review and simple errors are handled more straightforwardly, but it doesn't provide the specific '100 simultaneous users' figure from the ground truth and gives only vague, generalized information rather than the specific details.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is appropriately hedged and doesn't confidently assert specific false facts. It acknowledges uncertainty and speaks in general terms, which aligns with not fabricating specific contradictory claims."
+  },
+  {
+    "question": "What was the composition of the monkey cohort in terms of sex and species, and what limitation did this impose on the study?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model admits it doesn't have the specific information and provides only generic speculation, failing to answer the question about seven female cynomolgus monkeys and the sexual dimorphism limitation.",
+    "hallucination": 0,
+    "hallucination_reason": "The model explicitly states it cannot provide the specific details and only offers generic possibilities without fabricating specific facts."
+  },
+  {
+    "question": "How were single neurons labeled, and how were the labeled neurons detected during imaging?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic information about neuron labeling techniques but misses the specific method described in the ground truth: stereotaxic injection of fluorescent protein-tagged AAV and Cre virus, and the specific fMOST imaging with simultaneous green and red channels for GFP and tdTomato detection.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and generic rather than specific, but does not present fabricated claims that contradict the ground truth. It mentions valid techniques (GFP, viral vectors, fluorescence microscopy) without inventing false specifics."
+  },
+  {
+    "question": "What module served as the hub for automatic reconstruction and collaborative proofreading, and how many simultaneous users could it support?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model identifies CATMAID as the module, but the ground truth states it was 'Gapr Gather'. The answer is incorrect.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently identifies CATMAID as the hub module, which contradicts the ground truth (Gapr Gather). This is a fabricated specific claim presented with confidence."
+  },
+  {
+    "question": "How many single axons were fully reconstructed, and why might the characteristics of some projectome subtypes be biased?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model states 312 axons were reconstructed, while the ground truth is 2,231. The number is completely wrong.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states a specific number (312) that contradicts the ground truth (2,231), and also adds fabricated specifics about 'mouse primary visual cortex neurons projecting to higher visual areas' that are not in the ground truth."
+  },
+  {
+    "question": "What property of striatal patch organization depends on soma location, and why might this analysis be impacted by the injection coverage?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response misidentifies the property (topographic order based on soma location in PFC) and misidentifies the reason injection coverage matters (limited portion of PFC covered, not uniformity of cell type labeling). The response discusses striatal soma location rather than PFC soma location, missing the key point entirely.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates specific claims about 'connectivity patterns' and 'afferent input' depending on striatal soma location, and invents reasons about injection coverage related to 'uniform labeling of cell types' - none of which correspond to the ground truth about topographic order depending on PFC soma location."
+  },
+  {
+    "question": "What programming language was used for the custom registration program?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model failed to identify Julia as the answer, instead listing common languages without providing the correct one.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admitted uncertainty and did not fabricate specific false claims, though it listed plausible alternatives without confidence."
+  },
+  {
+    "question": "Which machine learning framework was used for minimization in the registration process?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention the Flux machine learning framework of Julia, which is the correct answer. It provides generic alternatives instead.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently suggests TensorFlow, PyTorch, and Elastix as answers to a specific question that has a definite answer (Flux/Julia), presenting fabricated specifics that contradict the ground truth."
+  },
+  {
+    "question": "What numerical range is used to represent laminar depth?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not mention the [0, 1] normalized range used to represent laminar depth. Instead it describes physical measurements in millimeters.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents specific claims about cortical thickness (1.5–4.5 mm) and layer descriptions that contradict the ground truth representation of laminar depth as a normalized [0, 1] value."
+  },
+  {
+    "question": "How many neuron subtypes were defined by cutting the hierarchical clustering dendrogram?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the correct answer of 32, instead giving a vague response and citing a different number (49) from a different study.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently states '49 distinct neuronal cell types' from a specific study, which is a fabricated specific claim that contradicts the ground truth answer of 32."
+  },
+  {
+    "question": "What are the three subtypes of IT neurons based on their projection regions?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response describes completely different subtypes (teardrop, plateau, bistratified cells) rather than the correct ITi, ITs, and ITc subtypes based on projection to ipsilateral cortex, striatum, and contralateral cortex.",
+    "hallucination": 1,
+    "hallucination_reason": "The model invents specific cell type names (teardrop cells, plateau cells, bistratified cells) and their projection regions with confidence, none of which match the ground truth classification of IT neuron subtypes."
+  },
+  {
+    "question": "How are neurons with both striatal and contralateral projections classified?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not mention ITs neurons, which is the specific classification given in the ground truth. Instead it gives a generic description of 'divergent or dual projections'.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presents specific but incorrect claims about classification ('divergent or dual projections') and fabricates details about their location and function that are not supported by the ground truth."
+  },
+  {
+    "question": "Which large language model was used for AI-based literature retrieval?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not identify ChatGPT as the answer, instead suggesting completely different models (PubMedBERT, SciBERT).",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presented PubMedBERT and SciBERT as the answer, which contradicts the ground truth (ChatGPT) and are fabricated claims in this context."
+  },
+  {
+    "question": "Which language model was used to group function terms by relevance?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not mention DeepSeek R1 (32b version) at all, which is the correct answer.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presented specific alternative models (Word2Vec, GloVe, BERT) as answers to the question, which contradicts the ground truth and are fabricated claims in this context."
+  },
+  {
+    "question": "On what structure was the Graph Neural Network applied for axon arbor segmentation?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention the dendrogram of axon terminals, which is the ground truth answer. Instead it describes a generic graph representation of 3D EM image data.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents specific claims about nodes representing voxels/segments and edges representing spatial connections in 3D EM data, which contradicts the ground truth that the GNN was applied to a dendrogram of axon terminals."
+  },
+  {
+    "question": "What value of alpha was used for the relaxation in the enrichment analysis adjustment?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response mentions 0.05 as a commonly used value, which matches the ground truth, but hedges with uncertainty rather than stating it directly.",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information; the response correctly identifies 0.05 as a common threshold while appropriately noting variability."
+  },
+  {
+    "question": "How are cross-border axon connections validated and integrated in the reconstruction process?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives a generic description of neural reconstruction methods but completely misses the specific answer: cross-border connections are applied only when plausible based on multiple evidence with no other alternatives, and integrated via a custom Julia program performing atlas registration.",
+    "hallucination": 1,
+    "hallucination_reason": "The response presents specific fabricated claims with confidence — mentioning electron microscopy visualization, computational tracing algorithms, and manual curation with light microscopy integration — none of which match the ground truth about a custom Julia program and plausibility-based evidence criteria."
+  },
+  {
+    "question": "How was the atlas registration refined and what approach handled the modality mismatch between sample and reference?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic information about atlas registration without addressing the specific methods used: BSpline non-rigid transformation for refinement and U-Net for generating MRI-like images from fluorescence signal to handle modality mismatch.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and general rather than fabricating specific false claims. It doesn't invent specific statistics or references, just provides generic descriptions that don't match the ground truth specifics."
+  },
+  {
+    "question": "How is the functional annotation of a PFC neuron determined and how are the weights assigned?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response describes general neuroscience techniques for studying PFC neurons, but completely misses the actual answer about computational annotation using congruency between soma location function terms and target areas, with weights based on path distance normalization.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently presents specific claims about electrophysiology, optogenetics, fMRI, and synaptic strength measurements as the method for functional annotation and weight assignment, none of which are related to the ground truth answer about a computational minimization approach using soma/target area congruency and path-distance-normalized weights."
+  },
+  {
+    "question": "How were total neurite lengths compared to bulk tracing and fMRI data?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives a generic overview of how these data types differ conceptually but completely misses the specific methodological answer: linear regression analysis comparing total neurite length per brain area to volume (for bulk tracing), and correlation analysis comparing total neurite length per vertex to cortical activity per vertex (for fMRI).",
+    "hallucination": 1,
+    "hallucination_reason": "The response presents specific but fabricated claims about how comparisons are made (e.g., using computational models, neurite length as 'ground truth' for validation, correlating pathways with functional activations during tasks) that are not supported by the ground truth and appear to be invented details stated with confidence."
+  },
+  {
+    "question": "How were cortical subdomains identified and what defines a homotypic projection?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response describes general neuroscience methods for cortical parcellation but misses the specific definition from the ground truth: subdomains defined by dense reconstructed arbors/somata, and homotypic projections defined as axon arbors in the mirrored subdomain of their soma.",
+    "hallucination": 1,
+    "hallucination_reason": "The response fabricates a definition of homotypic projection as connections between areas with 'similar architectural and functional properties,' which contradicts the ground truth definition involving mirrored subdomains. It also invents specific methods (cytoarchitecture, myeloarchitecture, receptor architecture) not mentioned in the ground truth context."
+  },
+  {
+    "question": "How is the preservation of topography along axon paths quantified?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response does not mention the F1 score, binary soma classifications, cross-sections, or quantiles (median, 0.25, 0.75) that are central to the ground truth answer.",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently describes specific methods (topographic product, correlation coefficients) with details about how they work, none of which match the ground truth and appear to be fabricated in this context."
+  },
+  {
+    "question": "How was hierarchical clustering applied in laminar distribution analysis and arbor patch detection?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives only generic descriptions of hierarchical clustering in neuroscience without addressing the specific methodological details in the ground truth: the distance matrix combining two distance measures for laminar distributions, or the symmetric matrix derived from asymmetric median minimum distance between arbor nodes for patch detection.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and general rather than fabricating specific false claims. It doesn't contradict the ground truth with invented statistics or references, it simply fails to provide the correct specifics."
+  },
+  {
+    "question": "What criteria were used to classify projection neuron types and how many subtypes were defined by the clustering dendrogram cut?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response fails to mention the actual classification criteria (IT/PT/CT projection targets) and gives the wrong number of subtypes (23 instead of 32).",
+    "hallucination": 1,
+    "hallucination_reason": "The response confidently states 23 subtypes and fabricates classification criteria (morphology, electrophysiological properties) that contradict the ground truth, which specifies projection target regions as the classification basis and 32 subtypes."
+  },
+  {
+    "question": "What Pearson correlation coefficient was observed between single-neuron projectome data and fMRI activity in area 45 upon electrical stimulation?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the specific correlation coefficient (0.778, p < 0.001) and admitted it lacked the information.",
+    "hallucination": 0,
+    "hallucination_reason": "The model appropriately admitted uncertainty rather than fabricating specific values."
+  },
+  {
+    "question": "What Pearson correlation coefficient was observed between single-neuron projectome data and population-level projection strengths in area 45?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the specific coefficient value (0.515, p < 0.001) and admits it doesn't have the information.",
+    "hallucination": 0,
+    "hallucination_reason": "The model appropriately admits uncertainty rather than fabricating a specific value."
+  },
+  {
+    "question": "How many annotators performed manual proofreading for the single-neuron reconstruction dataset G97-1?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the answer (30 annotators from over 50 participants) and instead deflected to external sources.",
+    "hallucination": 0,
+    "hallucination_reason": "The model did not fabricate any specific claims; it admitted uncertainty and suggested consulting original sources."
+  },
+  {
+    "question": "What computational tool was used for automated single-neuron reconstruction in dataset G97-1?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not identify Gapr16 as the tool used; instead it said the information is not documented and suggested unrelated tools.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently suggested specific tools (Neurolucida, Vaa3D) as potential answers, which are fabricated in this context and contradict the ground truth answer of Gapr16."
+  },
+  {
+    "question": "What statistical method was used in Figure 5I to assess enrichment of projection pattern combinations?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the correct answer (proportion tests followed by FDR correction) and instead gave generic possibilities without identifying the specific method used.",
+    "hallucination": 0,
+    "hallucination_reason": "The model appropriately admitted uncertainty and did not fabricate specific claims, instead offering general possibilities while acknowledging it couldn't confirm without the source."
+  },
+  {
+    "question": "What test was used to compare total arbor length, arbor size, and number of branches between lPFC PT and CT neurons in Figure 6P?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the correct answer (Wilcoxon rank-sum test) and instead gave generic alternatives like ANOVA or t-tests.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently suggested ANOVA or t-tests as likely statistical methods, which contradicts the ground truth answer of Wilcoxon rank-sum tests. These are fabricated specifics stated with some confidence."
+  },
+  {
+    "question": "What does a higher entropy value indicate about the laminar distribution of cortical axon arbors?",
+    "type": "single-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response correctly captures that higher entropy indicates broader/more diffuse distribution across layers, but misses the specific detail about 'columnar pattern' and doesn't mention the multi-layer expansion aspect explicitly.",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information; the response is a reasonable interpretation of entropy in this context, consistent with the ground truth's core meaning."
+  },
+  {
+    "question": "Why is patch VII not shown in panels C and D of Figure S6?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the actual reason (that patch VII originates from neurons in a different injection site, G97-1aL). It only offers generic possibilities.",
+    "hallucination": 0,
+    "hallucination_reason": "The model admits uncertainty and provides only vague, generic possibilities without stating any specific fabricated facts."
+  },
+  {
+    "question": "What statistical test was used to evaluate the association between soma location in ORBl/ORBvl and projections to RSP/PTLp in Figure 7A?",
+    "type": "single-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not provide the correct answer (Fisher's exact test) and instead listed generic alternatives without identifying the specific test used.",
+    "hallucination": 0,
+    "hallucination_reason": "The model appropriately admitted uncertainty rather than fabricating a specific answer, and the alternatives mentioned are genuinely common statistical tests (no false specifics stated with confidence)."
+  },
+  {
+    "question": "What p-value threshold is signified by the symbol **?",
+    "type": "single-evidence",
+    "correctness": 1,
+    "correctness_reason": "The response correctly identifies ** as signifying p < 0.01, matching the ground truth exactly.",
+    "hallucination": 0,
+    "hallucination_reason": "No fabricated information; the response accurately describes the standard statistical convention for **"
+  },
+  {
+    "question": "What statistical methods were employed for assessing correlations and for determining differences between groups?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response gives generic statistical methods rather than the specific ones used: Pearson correlation within linear regression analyses, and the two-sided Wilcoxon rank-sum test. It doesn't correctly identify either specific method.",
+    "hallucination": 0,
+    "hallucination_reason": "The response is vague and presents general possibilities rather than making specific false claims. It doesn't confidently assert incorrect specifics about this particular study."
+  },
+  {
+    "question": "How was the relationship between single-neuron projectome data and fMRI activity in area 45 examined, and what was the resulting correlation?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response never mentions the specific methods (linear regression and correlation tests) or the exact Pearson correlation coefficient of 0.778 (p < 0.001) from the ground truth. It gives only vague, generic descriptions.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates specific details not in the ground truth, such as 'single-neuron tracing techniques to map axonal projections' and describes a methodology that wasn't stated, while confidently presenting these as facts about a real study."
+  },
+  {
+    "question": "What statistical test was applied to compare the laminar depth distribution of contralateral arbors between mouse ORBvl/ORB and macaque lPFC neurons, and what was the main difference found?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model incorrectly states the direction of the difference (macaque more superficial vs. ground truth: mouse more superficial) and doesn't correctly identify the Wilcoxon rank-sum test.",
+    "hallucination": 1,
+    "hallucination_reason": "The model fabricates specific test names with false confidence ('likely a Kolmogorov-Smirnov test or Mann-Whitney U test') and inverts the actual finding about which species had more superficial arbors."
+  },
+  {
+    "question": "What method was used to evaluate enrichment or depletion of projection pattern combinations, and which specific combination was significantly enriched for ITc neurons?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The response fails to identify the correct method (proportion tests with FDR correction) and incorrectly states the enriched combination as projections to medial prefrontal cortex and amygdala, rather than contralateral lPFC and contralateral striatum.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently fabricates specific claims about the enriched projection combination (medial prefrontal cortex and amygdala) that directly contradict the ground truth (contralateral lPFC and contralateral striatum), and vaguely describes the method without identifying the correct one."
+  },
+  {
+    "question": "What statistical test was used to compare somata laminar depths between subtypes 13 and 15, and what test was used to compare arbor laminar distribution between dlPFC→vlPFC and vlPFC→dlPFC projections?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model did not identify the Wilcoxon rank-sum test for either comparison, instead suggesting t-test/ANOVA and chi-square/KS tests.",
+    "hallucination": 1,
+    "hallucination_reason": "The model confidently presented specific alternative tests (t-test, ANOVA, chi-square, Kolmogorov-Smirnov) as possibilities, which contradict the ground truth that specifies Wilcoxon rank-sum tests were used for both comparisons."
+  },
+  {
+    "question": "What method was used in Figure 2D to assess associations between subtypes and biological functions, and what general method was used to assess correlations involving continuous variables?",
+    "type": "multi-evidence",
+    "correctness": 0,
+    "correctness_reason": "The model does not provide the correct methods (Fisher's exact tests for subtype-function associations; linear regression and Pearson correlation for continuous variables). It admits uncertainty and gives generic alternatives instead.",
+    "hallucination": 0,
+    "hallucination_reason": "The model explicitly acknowledges it lacks the specific information and frames its response as general common practices, rather than stating fabricated specifics with confidence."
+  },
+  {
+    "question": "What statistical test was used to compare the laminar depth distribution of PFC axonal arbors between macaques and mice in specific brain regions, and what test was used to examine the mediolateral arbor-soma relationship in lPFC PT neurons?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "The response partially aligns with the ground truth — it mentions Mann-Whitney U test (which is equivalent to Wilcoxon rank-sum) and correlation tests, but frames them as possibilities rather than confirmed methods, and doesn't specifically identify linear regression for the arbor-soma relationship.",
+    "hallucination": 0,
+    "hallucination_reason": "The response appropriately hedges its claims as possibilities and admits uncertainty, rather than presenting fabricated specifics as confirmed facts."
+  },
+  {
+    "question": "What p-value thresholds correspond to the significance symbols used, and what test compared morphological parameters between macaque and mouse PFC neurons?",
+    "type": "multi-evidence",
+    "correctness": 0.5,
+    "correctness_reason": "Correctly identifies the p-value thresholds for *, **, and ***, but adds an extra **** threshold not in ground truth, and fails to identify the two-sided Wilcoxon rank-sum test, instead suggesting generic alternatives.",
+    "hallucination": 1,
+    "hallucination_reason": "Confidently suggests t-test or ANOVA as the likely test used, which contradicts the ground truth (Wilcoxon rank-sum test). Also adds a **** threshold not mentioned in the ground truth."
+  }
+]
