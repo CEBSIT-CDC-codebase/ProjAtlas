@@ -74,5 +74,3 @@ Citation will be added upon publication.
 
 [Brain Science Data Center](https://www.braindatacenter.cn/), Center for Excellence in
 Brain Science and Intelligence Technology (CEBSIT), Chinese Academy of Sciences.
-
-ProjAtlas is part of the [Digital Brain](https://www.digital-brain.cn/) platform.
