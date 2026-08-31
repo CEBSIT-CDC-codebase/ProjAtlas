@@ -42,7 +42,7 @@ and an **experiment-produces-asset** relationship. They are not the same thing:
   - `rag-evaluation` benchmarks the RAG pipeline (retrieval + generation) used by the
     paper interpretation agent, and documents how to build the same HippoRAG2 knowledge
     base that `multi-agent-framework` loads at startup (see
-    [`multi-agent-framework/readme.md`](multi-agent-framework/readme.md#data)).
+    [`multi-agent-framework/README.md`](multi-agent-framework/README.md#data)).
   - `function-calling` trains and evaluates the fine-tuned model used by the neuron
     selection and brain visualization agents; the resulting model weights (see
     [`function-calling/README.md`](function-calling/README.md#fine-tuned-model-weights))
