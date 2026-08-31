@@ -7,6 +7,9 @@ ProjAtlas integrates atlas-registered single-neuron projectomes from mouse and m
 brains and supports literature interpretation, data querying, interactive visualization,
 and quantitative analysis through natural-language interaction.
 
+**Platform:** <https://digital-brain.cn/ProjAtlas> &nbsp;·&nbsp;
+**Developed by:** [Brain Science Data Center, CAS](https://www.braindatacenter.cn/)
+
 ## Repository Structure
 
 ```
@@ -62,3 +65,20 @@ Apache-2.0 license).
 ## Citation
 
 Citation will be added upon publication.
+
+## Developed By
+
+<p>
+  <a href="https://www.braindatacenter.cn/">
+    <img src="assets/cdc-logo.png" alt="Brain Science Data Center, CAS" height="72">
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.ion.ac.cn/">
+    <img src="assets/cebsit-logo.png" alt="CEBSIT, CAS" height="72">
+  </a>
+</p>
+
+[Brain Science Data Center](https://www.braindatacenter.cn/), Center for Excellence in
+Brain Science and Intelligence Technology (CEBSIT), Chinese Academy of Sciences.
+
+ProjAtlas is part of the [Digital Brain](https://www.digital-brain.cn/) platform.
