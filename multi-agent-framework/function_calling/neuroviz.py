@@ -85,7 +85,7 @@ def get_neuroviz_functions():
                 "properties": {
                     "type": {
                         "type": "string",
-                        "enum": ["segmentation", "average_brain_imageing_map"],
+                        "enum": ["segmentation", "average_brain_imaging_map"],
                         "description": 'which type reference planes to load into viewport.',
                     },
                     "sagittal": {
