@@ -44,8 +44,9 @@ and an **experiment-produces-asset** relationship. They are not the same thing:
     base that `multi-agent-framework` loads at startup (see
     [`multi-agent-framework/README.md`](multi-agent-framework/README.md#data)).
   - `function-calling` trains and evaluates the fine-tuned model used by the neuron
-    selection and brain visualization agents; the resulting model weights (see
-    [`function-calling/README.md`](function-calling/README.md#fine-tuned-model-weights))
+    selection and brain visualization agents; the resulting LoRA adapter weights, published
+    at [zhang-manyi/ProjAtlas-xLAM2-8B-FunctionCalling-lora](https://huggingface.co/zhang-manyi/ProjAtlas-xLAM2-8B-FunctionCalling-lora)
+    (see [`function-calling/README.md`](function-calling/README.md#fine-tuned-model-weights)),
     are what `multi-agent-framework` calls out to via `FUNCTION_CALLING_MODEL` in its
     `.env`.
 

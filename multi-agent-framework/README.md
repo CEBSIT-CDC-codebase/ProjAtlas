@@ -31,9 +31,11 @@ cp .env.example .env
 ```
 
 `FUNCTION_CALLING_MODEL` in `.env` points to the fine-tuned model used by the neuron
-selection and brain visualization agents. This model must be deployed separately (e.g.
-via vLLM) and reachable at the endpoint configured by `BASE_URL`/`API_KEY`. The model
-weights and deployment instructions are in
+selection and brain visualization agents. The LoRA adapter is published on Hugging Face at
+[zhang-manyi/ProjAtlas-xLAM2-8B-FunctionCalling-lora](https://huggingface.co/zhang-manyi/ProjAtlas-xLAM2-8B-FunctionCalling-lora)
+(applied on top of [Salesforce/Llama-xLAM-2-8b-fc-r](https://huggingface.co/Salesforce/Llama-xLAM-2-8b-fc-r)).
+This model must be deployed separately (e.g. via vLLM) and reachable at the endpoint
+configured by `BASE_URL`/`API_KEY`. Weights, licensing, and deployment instructions are in
 [`../function-calling/README.md`](../function-calling/README.md#fine-tuned-model-weights).
 
 ## Data

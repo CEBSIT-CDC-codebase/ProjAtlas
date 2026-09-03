@@ -6,9 +6,16 @@ visualization agents (see paper Methods: "Function calling model training and ev
 
 We fine-tune [Salesforce xLAM-2-8b-fc-r](https://huggingface.co/Salesforce/Llama-xLAM-2-8b-fc-r) with LoRA supervised fine-tuning (SFT) on a domain-specific neuroscience tool-use dataset. The resulting model significantly improves function-calling accuracy across three neuroscience visualization tools (Mouse, Macaque, Neuroviz) and three task types (Zero, Single, Parallel).
 
-The fine-tuned LoRA adapter weights are published separately on Hugging Face (see
-"Fine-Tuned Model Weights" below); this repository contains the training/evaluation code,
-the dataset, and the raw evaluation outputs used to produce the paper's Table 3.
+The fine-tuned LoRA adapter weights are published separately on Hugging Face at
+**[zhang-manyi/ProjAtlas-xLAM2-8B-FunctionCalling-lora](https://huggingface.co/zhang-manyi/ProjAtlas-xLAM2-8B-FunctionCalling-lora)**:
+
+```bash
+huggingface-cli download zhang-manyi/ProjAtlas-xLAM2-8B-FunctionCalling-lora --local-dir ./saves/xlam-8b/lora/sft
+```
+
+See ["Fine-Tuned Model Weights"](#fine-tuned-model-weights) below for licensing and scope
+notes. This repository contains the training/evaluation code, the dataset, and the raw
+evaluation outputs used to produce the paper's Table 3.
 
 ## Results
 
@@ -148,7 +155,8 @@ PYTHONPATH=. CUDA_VISIBLE_DEVICES=0 python function-calling/eval_custom.py \
 
 ### 2. Fine-tuned model (LoRA) — requires LLaMA-Factory
 
-See "Fine-Tuned Model Weights" below to obtain the LoRA adapter, then:
+Download the LoRA adapter as shown at the top of this README (or see
+["Fine-Tuned Model Weights"](#fine-tuned-model-weights)), then:
 
 ```bash
 # Run from LLaMA-Factory root directory
